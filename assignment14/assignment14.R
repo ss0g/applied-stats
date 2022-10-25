@@ -36,7 +36,7 @@ bc2
 
 sp1 <- ggplot(data = mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
-  scale_fill_discrete(name = "Number of cylinders")
+  scale_fill_discrete(name = "Number of cylinders") +
   labs(
     x = "Weight (1000lbs)",
     y = "MPG",
