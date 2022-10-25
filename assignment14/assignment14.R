@@ -22,7 +22,7 @@ sp1
 
 lm_sp2 <- lm(mtcars$qsec~mtcars$hp/mtcars$wt)
 
-
+# this histogram is useful to see the distribution of power to weight ratio
 sp2 <- ggplot(data = mtcars, aes(x = hp / wt)) +
   geom_histogram(binwidth = 10)
 sp2
