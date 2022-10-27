@@ -53,3 +53,14 @@ hg1 <- ggplot(data = mtcars, aes(x = hp / wt)) +
     title = "Distribution of power to weight ratio"
   )
 hg1
+
+sm1 <- ggplot(data = mtcars, aes(x = hp / wt, y = qsec, color = disp * 0.0163871)) +
+  geom_point() +
+  geom_smooth() +
+  scale_color_continuous(name = "Displacement (L)") +
+  labs(
+    x = "Power to weight ratio (hp/1000lb)",
+    y = "Quarter mile time (s)",
+    title = "Quarter mile time vs power to weight ratio"
+  )
+sm1
