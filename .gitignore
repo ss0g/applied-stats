@@ -1,6 +1,7 @@
 .lintr
 nfl.xlsx
 *.png
+/wdgen/*
 
 # History files
 .Rhistory
