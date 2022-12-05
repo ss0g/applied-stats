@@ -841,8 +841,11 @@ summ <- summary(lmfinal)
 fstatistic <- unname(summ$fstatistic[1])
 dfnum <- unname(summ$fstatistic[2])
 dfdenom <- unname(summ$fstatistic[3])
+rsq <- summ$r.squared
+rsqadj <- summ$adj.r.squared
 
 sprintf("F-statistic: %.6f on %d and %d DF, p-value: %.30f", fstatistic, dfnum, dfdenom, pf(fstatistic, dfnum, dfdenom, lower.tail =  FALSE))
+sprintf("R-squared: %.6f, R-squared(adjusted): %.6f", rsq, rsqadj)
 
 end_time <- Sys.time()
 sprintf("Total time to run: %.3f seconds", difftime(end_time, start_time, units = "secs"))
