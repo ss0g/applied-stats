@@ -1240,6 +1240,45 @@ lm69 <- function() {
   )
 }
 
+lm70 <- function() {
+  return(
+    lm(
+      sqrtpop ~
+        explicit_True +
+        danceability +
+        speechiness +
+        mode +
+        track_genre_breakbeat +
+        track_genre_grindcore +
+        track_genre_honky.tonk +
+        track_genre_kids +
+        track_genre_pop +
+        track_genre_tango,
+      data = data_rel_10
+    )
+  )
+}
+
+lm71 <- function() {
+  return(
+    lm(
+      sqrtpop ~
+        explicit_True +
+        danceability +
+        speechiness +
+        mode +
+        track_genre_breakbeat +
+        track_genre_grindcore +
+        track_genre_honky.tonk +
+        track_genre_kids +
+        track_genre_pop +
+        track_genre_tango +
+        danceability : speechiness,
+      data = data_rel_10
+    )
+  )
+}
+
 get_final_model <- function() {
-  return(lm69())
+  return(lm70())
 }

@@ -167,7 +167,6 @@ sprintf("R-squared: %.6f, R-squared(adjusted): %.6f", rsq, rsqadj)
 source("plots.R")
 
 test_plot()
-pairs()
 bar_plot_genre()
 bar_plot_genre_sorted()
 bar_plot_key()
@@ -176,12 +175,6 @@ scatter_plot_matrix_popularity()
 
 ggsave(filename = "bar_plot_genre_sorted.svg", plot = bar_plot_genre_sorted(), device = "svg", width = 8, height = 4, units = "in")
 ggsave(filename = "scatter_plot_matrix_popularity.svg", plot = scatter_plot_matrix_popularity(), device = "svg", width = 8, height = 2, units = "in")
-
-chisq_gof_res <- chisq.test(mean_pops$popularity)
-print(chisq_gof_res)
-
-chisq_ind_res <- chisq.test(mean_pops_expl$popularity)
-print(chisq_ind_res)
 
 genre_aov <- aov(popularity ~ track_genre, data = data)
 explicit_ttest <- t.test(popularity ~ explicit, data = data)
