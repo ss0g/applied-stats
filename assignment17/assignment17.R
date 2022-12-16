@@ -172,6 +172,7 @@ bar_plot_genre_sorted()
 bar_plot_key()
 `?_plot_key`()
 scatter_plot_matrix_popularity()
+density_plot_popularity()
 
 ggsave(filename = "bar_plot_genre_sorted.svg", plot = bar_plot_genre_sorted(), device = "svg", width = 8, height = 4, units = "in")
 ggsave(filename = "scatter_plot_matrix_popularity.svg", plot = scatter_plot_matrix_popularity(), device = "svg", width = 8, height = 2, units = "in")

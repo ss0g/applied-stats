@@ -144,3 +144,16 @@ scatter_plot_matrix_popularity <- function() {
   )
 }
 
+density_plot_popularity <- function() {
+  return(
+    ggplot(data, aes(popularity)) +
+      geom_density(color = col_spgreen, fill = col_spgreen) +
+      labs(
+        x = "Popularity",
+        y = "Density",
+        title = "Distribution of Popularity"
+      ) +
+      plot_theme()
+  )
+}
+
