@@ -1,0 +1,422 @@
+---
+title: "Assignment #18"
+author: "Troy Edwards"
+date: "2023-01-06"
+output: pdf_document
+fontsize: 12pt
+documentclass: article
+geometry:
+  margin=1in
+---
+
+# Task #1
+
+*Construct and describe graphical displays of your choice which easily compares the
+distributions of the differences in body length, waveform duration, and waveform
+amplitude of the chosen vs. rejected males. What differences, if any, do you see in these
+distributions? You should end up with three different comparisons, or six separate
+graphs. Please include titles, labels, and colors. When discussing differences in
+distributions, make sure you state in context differences in center, shape and spread of
+the distributions using comparative language. Make sure you are using calculated
+statistics in your contextual descriptions.*
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(GGally)
+library(dplyr)
+
+fishdata_raw <- read.csv("./fishdata.csv")
+
+fishdata <- data.frame(fishdata_raw)
+colnames(fishdata) <- fishdata[1,]
+colnames(fishdata)[1] <- "Trial.Num"
+fishdata <- fishdata[-1,]
+rownames(fishdata) <- 1:nrow(fishdata)
+fishdata <- apply(fishdata, MARGIN = c(1, 2), as.numeric)
+fishdata <- data.frame(fishdata)
+
+fishdata_chosen <- fishdata[,c(1:4)]
+colnames(fishdata_chosen)[2:4] <- c("BodLen", "Duration", "Amplitude")
+fishdata_chosen$Chosen <- rep(factor(1), each = nrow(fishdata_chosen))
+
+fishdata_rejected <- fishdata[,c(1, 5:7)]
+colnames(fishdata_rejected)[2:4] <- c("BodLen", "Duration", "Amplitude")
+fishdata_rejected$Chosen <- rep(factor(0), each = nrow(fishdata_rejected))
+
+fishdata_split <- rbind(fishdata_chosen, fishdata_rejected)
+rownames(fishdata_split) <- 1:nrow(fishdata_split)
+```
+
+```{r plot_defs, include=FALSE}
+BodLen_comparison_density_plot <- function() {
+  return(
+    ggplot(fishdata, aes()) +
+      geom_density(aes(x = R.BodLen, fill = "Rejected")) +
+      geom_density(aes(x = C.BodLen, fill = "Chosen")) +
+      scale_fill_manual(values = c("Chosen" = "#8888ff88", "Rejected" = "#ff888888")) +
+      labs(
+        x = "Body Length (cm)",
+        y = "Density",
+        fill = "Legend",
+        title = "Comparison of Body Length of Chosen and Rejected Fish"
+      ) +
+      theme(
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank()
+      )
+  )
+}
+
+Duration_comparison_density_plot <- function() {
+  return(
+    ggplot(fishdata, aes()) +
+      geom_density(aes(x = R.Duration, fill = "Rejected")) +
+      geom_density(aes(x = C.Duration, fill = "Chosen")) +
+      scale_fill_manual(values = c("Chosen" = "#8888ff88", "Rejected" = "#ff888888")) +
+      labs(
+        x = "Duration (ms)",
+        y = "Density",
+        fill = "Legend",
+        title = "Comparison of EOD Duration of Chosen and Rejected Fish"
+      ) +
+      theme(
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank()
+      )
+  )
+}
+
+Amplitude_comparison_density_plot <- function() {
+  return(
+    ggplot(fishdata, aes()) +
+      geom_density(aes(x = R.Amplitude, fill = "Rejected")) +
+      geom_density(aes(x = C.Amplitude, fill = "Chosen")) +
+      scale_fill_manual(values = c("Chosen" = "#8888ff88", "Rejected" = "#ff888888")) +
+      labs(
+        x = "Amplitude (mV)",
+        y = "Density",
+        fill = "Legend",
+        title = "Comparison of EOD Amplitude of Chosen and Rejected Fish"
+      ) +
+      theme(
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank()
+      )
+  )
+}
+```
+
+```{r plot_bodlen_comp, echo=FALSE, out.height="4in", out.width="6in"}
+BodLen_comparison_density_plot()
+```
+
+```{r plot_duration_comp, echo=FALSE, out.height="4in", out.width="6in"}
+Duration_comparison_density_plot()
+```
+
+```{r plot_amplitude_comp, echo=FALSE, out.height="4in", out.width="6in"}
+Amplitude_comparison_density_plot()
+```
+
+# Task #2
+
+*Which, if any, of the above characteristic comparisons between the chosen and not
+chosen mates are statistically significant? Include hypotheses, test statistic values, and
+p-values only. Then summarize your findings in a paragraph.*
+
+## Body Length
+
+```{r bodlen_ttest, include=FALSE}
+t.test(fishdata$C.BodLen - fishdata$R.BodLen)
+```
+
+
+\begin{center}
+Let $\mu_d =$ the true mean difference between the body lengths of the fish in each trial
+\\
+$H_0: \mu_{d} = 0$ \\
+$H_a: \mu_{d} \neq 0$ \\ 
+$t = 1.905$ \\
+$p = 0.06749$
+\end{center}
+
+## Duration
+
+```{r duration_ttest, include=FALSE}
+t.test(fishdata$C.Duration - fishdata$R.Duration)
+```
+
+\begin{center}
+Let $\mu_d =$ the true mean difference between the EOD durations of the fish in each
+trial \\
+$H_0: \mu_{d} = 0$ \\
+$H_a: \mu_{d} \neq 0$ \\
+$t = 1.6043$ \\
+$p = 0.1203$
+\end{center}
+
+## Amplitude
+
+```{r amplitude_ttest, include=FALSE}
+t.test(fishdata$C.Amplitude - fishdata$R.Amplitude)
+```
+
+\begin{center}
+Let $\mu_d =$ the true mean difference between the EOD amplitudes of the fish in each
+trial \\
+$H_0: \mu_{d} = 0$ \\
+$H_a: \mu_{d} \neq 0$ \\
+$t = 1.0498$ \\
+$p = 0.3031$
+\end{center}
+
+## Conclusion
+
+Unfortunately, none of the differences were statistically significant at the 0.05 level. 
+The most significant of the three variables here is the body length, with a p-value of
+0.06749. Duration and amplitude had p-values of 0.1203 and 0.3031, respectively. The test
+that I ran was a matched pairs difference of means t-test. 
+<!-- TODO: expand this paragraph -->
+
+\pagebreak
+
+# Task #3
+
+*It is also possible that the female may be considering combinations of characteristics.
+For example, some combination of body length and EOD duration may be particularly
+attractive to the female. We are NOT going to run a multiple regression analysis (this
+time), but rather for each pair of characteristics (body length vs EOD duration, body
+length vs EOD amplitude, and EOD duration vs EOD amplitude) compare the chosen
+and rejected males using scatterplots of these pairs of variables as well as regression
+techniques. Include summary statistics of your linear regression models. (This means
+you will have three comparisons and six scatterplots/regression models.)
+To aid you as you compare and share your findings, results and conclusions with your
+peers and supervisor (me), make sure you use standardized scatterplots. Set up your
+scatterplots using these criteria:*
+
+- *Put body length on the horizontal axis; when comparing the two EOD
+measurements, put EOD duration on the horizontal axis. (Pay attention to this,
+and how it influences how you run a regression using R code.)*
+- *Use a scale of 14 to 30 cm for the body lengths; a scale of 1.0 to 2.5 ms for EOD
+duration; and a scale of 1 to 10 mV for amplitude.*
+
+*What differences, if any, do you see in your bivariate analysis of these pairs of
+variables?*
+
+*We recognize that differences between the chosen and the rejected males that we may
+detect -- either those that are obvious by inspection or more subtle differences we would
+detect with our statistical hypothesis tests -- may or may not correspond to differences
+the female pintail knifefish may detect or even care about. But, for the sake of this
+assessment, let us suppose that the female pintail can detect every difference that we
+can notice.*
+
+\pagebreak
+
+```{r regres_duration_vs_bodlen, include=FALSE}
+regres_dvb_c <- lm(
+  Duration ~ BodLen,
+  data = fishdata_chosen
+)
+
+regres_dvb_r <- lm(
+  Duration ~ BodLen,
+  data = fishdata_rejected
+)
+
+summary(regres_dvb_c)
+summary(regres_dvb_r)
+```
+
+## EOD Duration as a Function of Body Length
+
+### Graph
+
+```{r plot_duration_vs_bodlen, echo=FALSE, out.height="4in", out.width="6in"}
+ggplot(fishdata_split, aes(BodLen, Duration)) +
+  geom_point(aes(color = Chosen)) +
+  geom_abline(aes(color = "1", slope = 0.02421, intercept = 1.11736)) +
+  geom_abline(aes(color = "0", slope = 0.03319, intercept = 0.87955)) +
+  scale_color_manual(
+    values = c("1" = "#8888ffff", "0" = "#ff8888ff"),
+    labels = c("Chosen", "Rejected")
+  ) +
+  scale_x_continuous(limits = c(14, 30)) +
+  scale_y_continuous(limits = c(1, 2.5)) +
+  labs(
+    x = "Body Length (cm)",
+    y = "EOD Duration (ms)",
+    color = "Legend",
+    title = "EOD Duration vs Body Length"
+  )
+```
+
+### Chosen
+
+\[\widehat{Duration} = 1.11736 + 0.02421 (BodLen)\]
+\[r^2 = 0.11, \ r^2(adj) = 0.07574\]
+
+### Rejected
+
+\[\widehat{Duration} = 0.87955 + 0.03319 (BodLen)\]
+\[r^2 = 0.2409, \ r^2(adj)=0.2117\]
+
+\pagebreak
+
+```{r regres_amplitude_vs_bodlen, include=FALSE}
+regres_avb_c <- lm(
+  Amplitude ~ BodLen,
+  data = fishdata_chosen
+)
+
+regres_avb_r <- lm(
+  Amplitude ~ BodLen,
+  data = fishdata_rejected
+)
+
+summary(regres_avb_c)
+summary(regres_avb_r)
+```
+
+## EOD Amplitude as a Function of Body Length
+
+### Graph
+
+```{r plot_amplitude_vs_bodlen, echo=FALSE, out.height="4in", out.width="6in"}
+ggplot(fishdata_split, aes(BodLen, Amplitude)) +
+  geom_point(aes(color = Chosen)) +
+  geom_abline(aes(color = "1", slope = 0.30844, intercept = -1.27921)) +
+  geom_abline(aes(color = "0", slope = 0.43495, intercept = -3.70646)) +
+  scale_color_manual(
+    values = c("1" = "#8888ffff", "0" = "#ff8888ff"),
+    labels = c("Chosen", "Rejected")
+  ) +
+  scale_x_continuous(limits = c(14, 30)) +
+  scale_y_continuous(limits = c(1, 10)) +
+  labs(
+    x = "Body Length (cm)",
+    y = "EOD Amplitude (mV)",
+    color = "Legend",
+    title = "EOD Amplitude vs Body Length"
+  )
+```
+
+### Chosen
+
+\[\widehat{Amplitude} = -1.27921 + 0.30844 (BodLen)\]
+\[r^2 = 0.4976, \ r^2(adj) = 0.4782\]
+
+### Rejected
+
+\[\widehat{Amplitude} = -3.70646 + 0.43495 (BodLen)\]
+\[r^2 = 0.6569, \ r^2(adj) = 0.6437\]
+
+\pagebreak
+
+```{r regres_amplitude_vs_duration, include=FALSE}
+regres_avd_c <- lm(
+  Amplitude ~ Duration,
+  data = fishdata_chosen
+)
+
+regres_avd_r <- lm(
+  Amplitude ~ Duration,
+  data = fishdata_rejected
+)
+
+summary(regres_avd_c)
+summary(regres_avd_r)
+```
+
+## EOD Amplitude as a Function of EOD Duration
+
+### Graph
+
+```{r plot_amplitude_vs_duration, echo=FALSE, out.height="4in", out.width="6in"}
+ggplot(fishdata_split, aes(Duration, Amplitude)) +
+  geom_point(aes(color = Chosen)) +
+  geom_abline(aes(color = "1", slope = 1.1621, intercept = 4.1968)) +
+  geom_abline(aes(color = "0", slope = 3.8100, intercept = -0.8657)) +
+  scale_color_manual(
+    values = c("1" = "#8888ffff", "0" = "#ff8888ff"),
+    labels = c("Chosen", "Rejected")
+  ) +
+  scale_x_continuous(limits = c(1, 2.5)) +
+  scale_y_continuous(limits = c(1, 10)) +
+  labs(
+    x = "EOD Duration (ms)",
+    y = "EOD Amplitude (mV)",
+    color = "Legend",
+    title = "EOD Amplitude vs EOD Duration"
+  )
+```
+
+### Chosen
+
+\[\widehat{Amplitude} = 4.1968 + 1.1621 (Duration)\]
+\[r^2 = 0.02088, \ r^2(adj) = -0.01678\]
+
+### Rejected
+
+\[\widehat{Amplitude} = -0.8657 + 3.8100 (Duration)\]
+\[r^2 = 0.2305, \ r^2(adj) = 0.2009\]
+
+\pagebreak
+
+## Conclusion
+
+One difference I noticed was that, typically, the chosen males have less correlation
+between the variables than the rejected males. This could indicate that there is some
+other characteristic that differentiates the chosen males from the rejected ones. This is
+because the lower $r^2$ value means that less of the variation in the predicted variable
+is explained by the predictor variable, which indicates that something else is explaining
+the variation. Another thing that I noticed was that body length seemed to be a good
+predictor of both EOD amplitude and EOD duration. This indicates that body length could
+be a good predictor of whether a fish gets chosen or not because it likely has an effect
+on the other two variables.
+<!-- TODO: make this better -->
+
+# Task #4
+
+*Consider the characteristics you have compared above (referencing problems 1, 2, and 3).
+What single characteristic difference between chosen and rejected males do you feel is
+‘most different’ or ‘most easily detected’? Why do you feel this characteristic, more
+than the others, separates the rejected and chosen males?*
+
+I think that body length is the most different characteristic. This is because the fish
+that was selected in each trial was almost always the one with the greater body length.
+If you look at the graph in Task #1 comparing the body lengths of chosen and rejected
+males, you can see that, in general, the body length of chosen fish is greater than that
+of rejected fish. More evidence for this claim can be found in Task #2, where of the 3
+t-tests conducted, the one comparing body length for chosen and rejected males had the
+greatest $t$-value and the lowest $p$-value. Finally, in Task #3, the linear regression
+models using body length as a predictor had higher $r^2$ values than the one that did
+not. This indicates that body length has an influence on the other two variables as well,
+which means that the higher body length typical of the chosen males would result in more
+extreme (in this case, greater) values for the EOD duration and EOD amplitude, which
+would make a fish even more likely to be chosen in the experiment. 
+
+# Task #5
+
+*What is the explanatory variable in this experiment? What must we assume happened in the
+experimental design described above? From the results of your analysis above, do you feel
+a conclusion that body length ‘causes’ the female mate selection is justified? Why or why
+not? Please be thorough in your response.*
+
+The explanatory variable in this experiment was body length. As explained in Task #4,
+body length's influence on the other variables means that it has a greater effect on
+whether a fish gets chosen or not. Because of this, the males with a greater body length
+still got chosen far more often than the ones with a shorter body length, even though the
+experiment was set up so that the females could not see the males until it was time to
+choose, which means that the choice was mostly directly influenced by the EOD attributes
+(i.e. duration and amplitude). However, in Task #2, it was shown that the difference in
+body length between the chosen and rejected males was the most significant. In Task #3,
+it was shown that body length was a good predictor of the EOD attributes. Using these two
+facts, we can deduce that body length's influence on duration and amplitude "carried
+over" to being an influence on the female's choice. Based on this analysis, I believe
+that it is reasonable to conclude that a change in body length would cause a change in
+the likelihood that the fish is chosen. Since it is an experiment, the results indicate
+causation rather than just correlation. 
+<!-- TODO: expand -->
