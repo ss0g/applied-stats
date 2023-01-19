@@ -20,6 +20,8 @@ distributions, make sure you state in context differences in center, shape and s
 the distributions using comparative language. Make sure you are using calculated
 statistics in your contextual descriptions.*
 
+## Graphs
+
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(GGally)
@@ -34,6 +36,10 @@ fishdata <- fishdata[-1,]
 rownames(fishdata) <- 1:nrow(fishdata)
 fishdata <- apply(fishdata, MARGIN = c(1, 2), as.numeric)
 fishdata <- data.frame(fishdata)
+
+fishdata$D.BodLen = fishdata$C.BodLen - fishdata$R.BodLen
+fishdata$D.Duration = fishdata$C.Duration - fishdata$R.Duration
+fishdata$D.Amplitude = fishdata$C.Amplitude - fishdata$R.Amplitude
 
 fishdata_chosen <- fishdata[,c(1:4)]
 colnames(fishdata_chosen)[2:4] <- c("BodLen", "Duration", "Amplitude")
@@ -109,17 +115,54 @@ Amplitude_comparison_density_plot <- function() {
 }
 ```
 
-```{r plot_bodlen_comp, echo=FALSE, out.height="4in", out.width="6in"}
+```{r plot_bodlen_comp, echo=FALSE, out.height="4in", out.width="6.5in"}
 BodLen_comparison_density_plot()
 ```
 
-```{r plot_duration_comp, echo=FALSE, out.height="4in", out.width="6in"}
+```{r plot_duration_comp, echo=FALSE, out.height="4in", out.width="6.5in"}
 Duration_comparison_density_plot()
 ```
 
-```{r plot_amplitude_comp, echo=FALSE, out.height="4in", out.width="6in"}
+```{r plot_amplitude_comp, echo=FALSE, out.height="4in", out.width="6.5in"}
 Amplitude_comparison_density_plot()
 ```
+
+## Analysis
+
+### Body Length
+
+It appears as though the chosen fish typically have a greater body length than the
+rejected fish. The center of the distribution of body lengths of the chosen fish is
+greater than the center of the distribution of body length of rejected fish (
+$median = 23$ vs. $median = 19.25$). The two distributions appear to have the same shape,
+but mirrored. The distribution of body length is left-skewed for chosen fish, but
+right-skewed for rejected fish. They both have their own mode, and then another, smaller
+peak closer to the mode of the other distribution. I believe that this is caused by the
+design of the experiment, where the two fish in each trial had body lengths that differed
+by at least 4cm. The two peaks in each distribution correspond to the average body
+lengths of the longer and shorter fish. The smaller peaks correspond to when the smaller
+fish gets chosen or the larger fish gets rejected. The two distributions have very
+similar spreads ($IQR = 5.25$ for chosen vs. $IQR = 5.5$ for rejected). 
+
+### EOD Duration
+
+The centers of the distributions of EOD duration for the chosen and rejected fish have
+almost the same center ($median = 1.620$ for chosen vs. $median = 1.546$ for rejected).
+They both have a positive skew, and the skew is more extreme for the rejected fish than
+for the chosen fish. The spread of the distribution of the EOD duration for the chosen
+fish is greater than the spread for the rejected fish ($IQR = 0.345$ for chosen vs.
+$IQR = 0.303$ for rejected). 
+
+### EOD Amplitude
+
+The center of the distribution of EOD amplitude is greater for chosen fish than it is for
+rejected fish ($median = 5.985$ for chosen vs. $median = 4.3$ for rejected). As with body
+length, they have a similar shape, but mirrored, with the distribution for chosen fish
+being negatively skewed and the distribution for rejected fish being positively skewed.
+The distribution for chosen fish has a slightly greater spread than the distribution for
+rejected fish ($IQR = 2.243$ for chosen vs. $IQR = 2.657$ for rejected). 
+
+\pagebreak
 
 # Task #2
 
@@ -128,9 +171,10 @@ chosen mates are statistically significant? Include hypotheses, test statistic v
 p-values only. Then summarize your findings in a paragraph.*
 
 ## Body Length
+<!-- TODO: make these tests 1-tailed -->
 
 ```{r bodlen_ttest, include=FALSE}
-t.test(fishdata$C.BodLen - fishdata$R.BodLen)
+t.test(fishdata$C.BodLen - fishdata$R.BodLen, alternative = "g")
 ```
 
 
@@ -138,48 +182,47 @@ t.test(fishdata$C.BodLen - fishdata$R.BodLen)
 Let $\mu_d =$ the true mean difference between the body lengths of the fish in each trial
 \\
 $H_0: \mu_{d} = 0$ \\
-$H_a: \mu_{d} \neq 0$ \\ 
+$H_a: \mu_{d} > 0$ \\ 
 $t = 1.905$ \\
-$p = 0.06749$
+$p = 0.03374$
 \end{center}
 
 ## Duration
 
 ```{r duration_ttest, include=FALSE}
-t.test(fishdata$C.Duration - fishdata$R.Duration)
+t.test(fishdata$C.Duration - fishdata$R.Duration, alternative = "g")
 ```
 
 \begin{center}
 Let $\mu_d =$ the true mean difference between the EOD durations of the fish in each
 trial \\
 $H_0: \mu_{d} = 0$ \\
-$H_a: \mu_{d} \neq 0$ \\
+$H_a: \mu_{d} > 0$ \\
 $t = 1.6043$ \\
-$p = 0.1203$
+$p = 0.06014$
 \end{center}
 
 ## Amplitude
 
 ```{r amplitude_ttest, include=FALSE}
-t.test(fishdata$C.Amplitude - fishdata$R.Amplitude)
+t.test(fishdata$C.Amplitude - fishdata$R.Amplitude, alternative = "g")
 ```
 
 \begin{center}
 Let $\mu_d =$ the true mean difference between the EOD amplitudes of the fish in each
 trial \\
 $H_0: \mu_{d} = 0$ \\
-$H_a: \mu_{d} \neq 0$ \\
+$H_a: \mu_{d} > 0$ \\
 $t = 1.0498$ \\
-$p = 0.3031$
+$p = 0.1516$
 \end{center}
 
 ## Conclusion
 
-Unfortunately, none of the differences were statistically significant at the 0.05 level. 
-The most significant of the three variables here is the body length, with a p-value of
-0.06749. Duration and amplitude had p-values of 0.1203 and 0.3031, respectively. The test
-that I ran was a matched pairs difference of means t-test. 
-<!-- TODO: expand this paragraph -->
+Only the difference in body length was statistically significant at the 0.05 level, with
+a $p$-value of 0.03374. The differences for EOD duration and EOD amplitude had $p$-values
+of 0.06014 and 0.1516, respectively. The test that I ran was a matched pairs difference
+of means t-test. 
 
 \pagebreak
 
@@ -234,7 +277,7 @@ summary(regres_dvb_r)
 
 ### Graph
 
-```{r plot_duration_vs_bodlen, echo=FALSE, out.height="4in", out.width="6in"}
+```{r plot_duration_vs_bodlen, echo=FALSE, out.height="4in", out.width="6.5in"}
 ggplot(fishdata_split, aes(BodLen, Duration)) +
   geom_point(aes(color = Chosen)) +
   geom_abline(aes(color = "1", slope = 0.02421, intercept = 1.11736)) +
@@ -284,7 +327,7 @@ summary(regres_avb_r)
 
 ### Graph
 
-```{r plot_amplitude_vs_bodlen, echo=FALSE, out.height="4in", out.width="6in"}
+```{r plot_amplitude_vs_bodlen, echo=FALSE, out.height="4in", out.width="6.5in"}
 ggplot(fishdata_split, aes(BodLen, Amplitude)) +
   geom_point(aes(color = Chosen)) +
   geom_abline(aes(color = "1", slope = 0.30844, intercept = -1.27921)) +
@@ -334,7 +377,7 @@ summary(regres_avd_r)
 
 ### Graph
 
-```{r plot_amplitude_vs_duration, echo=FALSE, out.height="4in", out.width="6in"}
+```{r plot_amplitude_vs_duration, echo=FALSE, out.height="4in", out.width="6.5in"}
 ggplot(fishdata_split, aes(Duration, Amplitude)) +
   geom_point(aes(color = Chosen)) +
   geom_abline(aes(color = "1", slope = 1.1621, intercept = 4.1968)) +
