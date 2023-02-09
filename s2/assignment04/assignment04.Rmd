@@ -40,13 +40,3 @@ ggplot(snake_data, aes(Lat.Index)) +
     y = "Count"
   )
 ```
-
-\begin{center}
-Let $\mu_L =$ the true mean laterality index for cottonmouth snakes \\
-$H_0: \mu_L = 0.5$ (i.e. coiling behavior is symmetric) \\
-$H_a: \mu_L \neq 0.5$ (i.e. coiling behavior is asymmetric) \\
-$\alpha: 0.05$ \\
-Test: one-sample difference of means t-test \\
-
-
-\end{center}
