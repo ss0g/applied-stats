@@ -1,0 +1,42 @@
+---
+title: "Are Snakes Left-handed?"
+author: "Troy Edwards"
+date: "2023-02-16"
+output: pdf_document
+fontsize: 12pt
+documentclass: article
+geometry:
+  margin=1in
+---
+
+```{r setup, include=FALSE}
+setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\assignment04")
+
+library(ggplot2)
+library(GGally)
+library(dplyr)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+
+snake_data <- read.csv("data.csv")
+```
+
+# 1)
+
+*Do these creatures in general exhibit asymmetric coiling behavior? (Include a
+graphical display and an inference test to answer this question.)*
+
+```{r q1, echo=FALSE}
+ggplot(snake_data, aes(Lat.Index)) +
+  geom_histogram(aes(fill = ifelse(Lat.Index > 0.5, "Left", "Right")), bins = 24) +
+  scale_x_continuous(limits = c(0.35, 0.65)) +
+  scale_fill_manual(
+    name = "Coiling direction tendency",
+    values = setNames(c('#ff8888ff', '#8888ffff'), c("Left", "Right"))
+  ) +
+  labs(
+    title = "Distribution of laterality index",
+    x = "Laterality index",
+    y = "Count"
+  )
+```
