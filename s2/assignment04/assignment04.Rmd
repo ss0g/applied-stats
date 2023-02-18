@@ -19,14 +19,17 @@ library(dplyr)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
 
 snake_data <- read.csv("data.csv")
+snake_data$Cat.Pair <- paste0(substr(snake_data$Age, 1, 1), substr(snake_data$Gender, 1, 1))
 ```
 
-# 1)
+# Question 1
 
 *Do these creatures in general exhibit asymmetric coiling behavior? (Include a
 graphical display and an inference test to answer this question.)*
 
-```{r q1, echo=FALSE}
+## Graph
+
+```{r q1g, echo=FALSE}
 ggplot(snake_data, aes(Lat.Index)) +
   geom_histogram(aes(fill = ifelse(Lat.Index > 0.5, "Left", "Right")), bins = 24) +
   scale_x_continuous(limits = c(0.35, 0.65)) +
@@ -39,4 +42,318 @@ ggplot(snake_data, aes(Lat.Index)) +
     x = "Laterality index",
     y = "Count"
   )
+```
+
+## Inference Test
+
+```{r q1t, include=FALSE}
+mean(snake_data$Lat.Index)
+sd(snake_data$Lat.Index)
+t.test(snake_data$Lat.Index, mu = 0.5, alternative = "two.sided")
+```
+
+\begin{center}
+Let $\mu =$ the true mean laterality index of cottonmouth snakes \\
+$H_0: \mu = 0.5$ \\
+$H_a: \mu \neq 0.5$ \\
+$\alpha = 0.05$ \\
+Test: 1-sample mean t-test \\
+\end{center}
+
+### Checks
+
+Normal: Central limit theorem, $n = 36 \geq 30$  
+Random: Reasonable to assume that SRS was used  
+10%: Reasonable to assume that $n \leq 0.1N$
+
+### Calculations
+
+\begin{center}
+$t = \frac{\bar{x} - \mu}{\sqrt{\frac{s^2}{n}}} = \frac{0.5184 - 0.5}{\sqrt{\frac{0.0566^2}{36}}} = 1.9468$ \\
+$p = P(t > 1.9468) = 0.0596$ (with $df = 35$)
+\end{center}
+
+### Conclusion
+
+Since our $p$-value (0.0596) is greater than $\alpha$ (0.05), we fail to reject
+our null hypothesis that cottonmouth snakes generally exhibit symmetric
+coiling behavior. Therefore, we do not have sufficient evidence to support the
+alternative hypothesis that cottonmouth snakes exhibit asymmetric coiling
+behavior. 
+
+\pagebreak
+
+# Question 2
+
+*Which individual category (or combination of categories) of snake best
+exhibits/predicts asymmetric coiling behavior? (Explore different linear and
+multiple regression models. Chose the best fit. Include supporting
+documentation as to why you chose the model you did. No need to run an
+inference test.)*
+
+## Models
+
+### Gender
+
+```{r q2reg1, echo=TRUE}
+regres1 <- lm(Lat.Index ~ factor(Gender), data = snake_data)
+summary(regres1)
+```
+
+### Age
+
+```{r q2reg2, echo=TRUE}
+regres2 <- lm(Lat.Index ~ factor(Age), data = snake_data)
+summary(regres2)
+```
+
+### Gender:Age
+
+```{r q2reg3, echo=TRUE}
+regres3 <- lm(Lat.Index ~ factor(Gender) : factor(Age), data = snake_data)
+summary(regres3)
+```
+
+## Conclusion
+
+It appears that a combination of age and gender is the best way to predict a
+snake's asymmetric coiling behavior. The model using both age and gender had an
+$r^2$ value of 0.4154 and an $r^2(adj)$ value of 0.3605. The model using only
+gender and the one using only age had $r^2$ values of 0.105 and 0.2405,
+respectively, and $r^2(adj)$ values of 0.07871 and 0.2181, respectively. 
+
+# Question 3
+
+*Do adults differ from juveniles in their asymmetric coiling behavior? Also, do
+males differ from females in their asymmetric coiling behavior? (Two separate
+inference tests are needed to answer this prompt.)*
+
+## Adults vs. Juveniles
+
+\begin{center}
+Let $\mu_a$ represent the true mean laterality index of adult cottonmouth snakes \\
+Let $\mu_j$ represent the true mean laterality index of juvenile cottonmouth snakes \\
+$H_0: \mu_a = \mu_j$ \\
+$H_a: \mu_a \neq \mu_j$ \\
+$\alpha = 0.05$ \\
+Test: 2-sample difference of means t-test \\
+\end{center}
+
+### Checks
+
+Normal: $n_a = 18 < 30$ and $n_j = 18 < 30$, normal probability plots required
+
+```{r q3qqp1, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Age == "Adult",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample",
+    title = "Normal Q-Q plot of laterality index of adult cottonmouth snakes"
+  )
+```
+
+```{r q3qqp2, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Age == "Juvenile",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample",
+    title = "Normal Q-Q plot of laterality index of juvenile cottonmouth snakes"
+  )
+```
+
+Since both Q-Q plots appear relatively linear, we will proceed with the test.  
+Random: reasonable to assume SRS was used  
+10%: reasonable to assume that $n_a \leq 0.1N_a$ and $n_j \leq 0.1N_j$
+
+### Calculations
+
+```{r q3t1, include=FALSE}
+sd(snake_data[snake_data$Age == "Adult",]$Lat.Index)
+sd(snake_data[snake_data$Age == "Juvenile",]$Lat.Index)
+t.test(Lat.Index ~ Age, data = snake_data)
+```
+
+\begin{center}
+$t = \frac{(\bar{x_a} - \bar{x_j}) - (\mu_a - \mu_j)}{\sqrt{\frac{s_a^2}{n_a} + \frac{s_j^2}{n_j}}}
+= \frac{(0.5457 - 0.4910) - (0)}{\sqrt{\frac{0.0589^2}{18} + \frac{0.0392^2}{18}}} = 3.2808$ \\
+$p = P(t > 3.2808) = 0.002657$ with $df = 29.568$
+\end{center}
+
+### Conclusion
+
+Since our $p$-value (0.002657) is less than $\alpha$ (0.05), we reject the null
+hypothesis that the true mean laterality indices of adult and juvenile
+cottonmouth snakes are equal. Therefore, we have sufficient evidence to
+support the alternative hypothesis that adults and juveniles have different
+mean laterality indices. 
+
+## Males vs. Females
+
+\begin{center}
+Let $\mu_m$ represent the true mean laterality index of male cottonmouth snakes \\
+Let $\mu_f$ represent the true mean laterality index of female cottonmouth snakes \\
+$H_0: \mu_m = \mu_f$
+$H_a: \mu_m \neq \mu_f$
+$\alpha = 0.05$
+Test: 2-sample difference of means t-test
+\end{center}
+
+### Checks
+
+Normal: $n_m = 18 < 30$ and $n_f = 18 < 30$, normal probability plots required
+
+```{r q3qqp3, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Gender == "Male",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample", 
+    title = "Normal Q-Q plot of laterality index of male cottonmouth snakes"
+  )
+```
+
+```{r q3qqp4, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Gender == "Female",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample", 
+    title = "Normal Q-Q plot of laterality index of female cottonmouth snakes"
+  )
+```
+Since both Q-Q plots appear relatively linear, we will proceed with the test.  
+Random: reasonable to assume SRS was used  
+10%: reasonable to assume that $n_m \leq 0.1N_m$ and $n_f \leq 0.1N_f$
+
+### Calculations
+
+```{r q3t2, include=FALSE}
+sd(snake_data[snake_data$Gender == "Male",]$Lat.Index)
+sd(snake_data[snake_data$Gender == "Female",]$Lat.Index)
+t.test(Lat.Index ~ Gender, data = snake_data)
+```
+
+\begin{center}
+$t = \frac{(\bar{x_m} - \bar{x_f}) - (\mu_m - \mu_f)}{\sqrt{\frac{s_m^2}{n_m} + \frac{s_f^2}{n_f}}}
+= \frac{(0.5003 - 0.534) - (0)}{\sqrt{\frac{0.0456^2}{18} + \frac{0.618^2}{18}}} = 1.9975$ \\
+$p = P(t > 1.9975) = 0.05453$ w/ $df = 31.278$
+\end{center}
+
+### Conclusion
+
+Since our $p$-value (0.05453) is greater than $\alpha$ (0.05), we fail to
+reject the null hypothesis that the true mean laterality indices of male and
+female cottonmouth snakes are different. Therefore, we do not have significant
+evidence to support the alternative hypothesis that the true mean laterality
+indices of male and female cottonmouth snakes are not equal. 
+
+## Conclusion
+
+In conclusion, juveniles differ from adults in their coiling behavior, while
+males do not differ from females. 
+
+# Question 4
+
+*Is there a difference in mean coiling laterality index per each categorical
+pairing of snake? (AF, JF, AM, JM) (Well, if you have been paying attention
+during the new learning from Semester II, this question should be easy for you
+to answer. State hypotheses, show all work with your calculations, confirm your
+calculations with an ANOVA summary table using R which you will copy and paste
+into your narrative/document, and write a conclusion.)*
+
+## Inference test
+
+\begin{center}
+Let $\mu_{af}$, $\mu_{jf}$, $\mu_{am}$, and $\mu_{jm}$ represent the true mean
+laterality indices of adult female, juvenile female, adult male, and juvenile
+male cottonmouth snakes, respectively \\
+$H_0: \mu_{af} = \mu_{jf} = \mu_{am} = \mu_{jm}$ \\
+$H_a: H_0$ is false (i.e. at least one of the means is different from the
+others) \\
+$\alpha = 0.05$ \\
+Test: One-Way ANOVA
+\end{center}
+
+### Checks
+
+All populations approximately normal: 
+
+```{r q4qqp1, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Age == "Adult" & snake_data$Gender == "Female",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample",
+    title = "Normal Q-Q plot of laterality index for adult female cottonmouth snakes"
+  )
+```
+
+```{r q4qqp2, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Age == "Juvenile" & snake_data$Gender == "Female",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample",
+    title = "Normal Q-Q plot of laterality index for juvenile female cottonmouth snakes"
+  )
+```
+
+```{r q4qqp3, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Age == "Adult" & snake_data$Gender == "Male",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample",
+    title = "Normal Q-Q plot of laterality index for adult male cottonmouth snakes"
+  )
+```
+
+```{r q4qqp4, echo=FALSE, fig.height=unit(2.25, "in"), fig.width=unit(6.5, "in")}
+ggplot(data = snake_data[snake_data$Age == "Juvenile" & snake_data$Gender == "Male",], aes(sample = Lat.Index)) +
+  geom_qq() +
+  labs(
+    x = "Theoretical",
+    y = "Sample",
+    title = "Normal Q-Q plot of laterality index for juvenile male cottonmouth snakes"
+  )
+```
+
+Since the normal Q-Q plots are all approximately linear, we will proceed with the test.  
+Standard deviations approximately equal: largest standard deviation is no more than twice the smallest  
+$s_{smallest} = 0.014 < 2s_{largest} = 2 \times 0.062$
+Check failed, proceeding with caution anyways  
+Random: reasonable to assume SRS was used
+
+### Calculations
+
+```{r q4t, include=FALSE}
+sd(snake_data[snake_data$Age == "Adult" & snake_data$Gender == "Female",]$Lat.Index)
+sd(snake_data[snake_data$Age == "Juvenile" & snake_data$Gender == "Female",]$Lat.Index)
+sd(snake_data[snake_data$Age == "Adult" & snake_data$Gender == "Male",]$Lat.Index)
+sd(snake_data[snake_data$Age == "Juvenile" & snake_data$Gender == "Male",]$Lat.Index)
+aov(Lat.Index ~ Cat.Pair, data = snake_data)
+anova(aov(Lat.Index ~ Cat.Pair, data = snake_data))
+```
+
+\begin{center}
+$SSTr = \sum{n_k(\bar{x}_k - \bar{\bar{x}})^2} = 0.0466$ \\
+$SSE = \sum{(n_k - 1)s_k^2} = 0.0655$ \\
+$MSTr = \frac{SSTr}{k - 1} = \frac{0.0466}{4 - 1} = 0.0155$ \\
+$MSE = \frac{SSE}{N - k} = \frac{0.0655}{36 - 4} = 0.0020$ \\
+$F = \frac{MSTr}{MSE} = \frac{0.0155}{0.0020} = 7.5781$ \\
+$p = P(F > 7.5781) = 0.0005767$ w/ $df = \frac{3}{32}$
+\end{center}
+
+### Conclusion
+
+Since our $p$-value (0.0005767) is less than $\alpha$ (0.05), we reject our
+null hypothesis that all of the true means are different. Therefore, we have
+enough evidence to support the alternative hypothesis that at least one of the
+true means is different from the others. 
+
+## ANOVA table
+```{r q4at1, echo=FALSE}
+anova(aov(Lat.Index ~ Cat.Pair, data = snake_data))
 ```
