@@ -1,0 +1,150 @@
+---
+title: "IHME Researcher Assessment Responses"
+author: "Troy Edwards"
+date: "2023-03-01"
+output: pdf_document
+fontsize: 12pt
+documentclass: article
+geometry:
+  margin=1in
+---
+
+```{r setup, include=FALSE}
+setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\assignment05")
+
+library(ggplot2)
+library(GGally)
+library(dplyr)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+# Question 1.1
+
+```{r q1.1}
+smoking_data <- read.csv("./data.csv")
+```
+
+# Question 1.2
+
+```{r q1.2}
+printf <- function(...) {
+  print(sprintf(...))
+}
+
+male_data <- smoking_data[smoking_data$sex == "male",]
+female_data <- smoking_data[smoking_data$sex == "female",]
+
+printf(
+  "Smoking prevalence (male): mean = %.3f, sd = %.3f",
+  mean(male_data$smoke),
+  sd(male_data$smoke)
+)
+printf(
+  "Smoking prevalence (female): mean = %.3f, sd = %.3f",
+  mean(female_data$smoke),
+  sd(female_data$smoke)
+)
+printf(
+  "Overweight prevalence (male): mean = %.3f, sd = %.3f",
+  mean(male_data$overweight),
+  sd(male_data$overweight)
+)
+printf(
+  "Overweight prevalence (female): mean = %.3f, sd = %.3f",
+  mean(female_data$overweight),
+  sd(female_data$overweight)
+)
+```
+
+# Question 1.3
+
+```{r q1.3, fig.dim=c(6.5, 3)}
+ggplot(smoking_data, aes(smoke, overweight)) +
+  geom_point(aes(color = smoking_data$sex, shape = smoking_data$location)) +
+  scale_color_manual(
+    name = "Gender",
+    values = c("male" = "#8888ffff", "female" = "#ff88ffff")
+  ) +
+  scale_shape_manual(
+    name = "Country",
+    values = c("CHN" = 15, "GBR" = 16, "MEX" = 17)
+  ) +
+  labs(
+    x = "Smoking Prevalence",
+    y = "Overweight Prevalence",
+    title = "Overweight Rrevalence vs. Smoking Prevalence"
+  )
+```
+
+# Question 1.4
+
+```{r q1.4}
+printf("r = %.3f", cor(smoking_data$smoke, smoking_data$overweight))
+```
+
+# Question 1.5
+
+```{r q1.5}
+summary(
+  lm(
+    overweight ~ smoke,
+    data = smoking_data
+  )
+)
+```
+
+# Question 1.6
+
+The $r^2$ value of -0.305 indicates that there is a moderate negative linear
+correlation between smoking prevalence and overweight prevalence.
+
+# Question 1.7
+
+\begin{center}
+$\widehat{overweight} = 0.61214 - 0.40945(smoking)$
+\end{center}
+
+```{r q1.7, fig.dim=c(6.5, 3)}
+ggplot(smoking_data, aes(smoke, overweight)) +
+  geom_point() +
+  geom_smooth(method = lm) +
+  labs(
+    x = "Smoking Prevalence",
+    y = "Overweight Prevalence",
+    title = "Overweight Prevalence vs. Smoking Prevalence"
+  )
+```
+
+# Question 1.8
+
+No, we cannot conclude that reduction in smoking causes overweight because you
+cannot conclude causation from an observational study.
+
+# Question 1.9
+
+```{r q1.9, fig.dim=c(6.5, 4)}
+ggplot(smoking_data, aes(smoke, overweight)) +
+  geom_point(aes(color = age, shape = sex)) +
+  labs(
+    x = "Smoking Prevalence",
+    y = "Overweight Prevalence",
+    title = "Overweight Prevalence vs. Smoking Prevalence"
+  )
+```
+
+One interesting thing is that each little "curve" represented by a group of
+points is comprised entirely of 1 age group, 1 gender, and 1 country. 
+
+# Question 2
+
+1. In general, smoking prevalence appears to have decreased in most countries.
+
+2. For women, countries with less prevalence in 1980 appeared to have more
+extreme rates of change, both up and down.
+
+3. Men tend to smoke much more than women. 
+
+# Question 3
+
+I would try to come up with a model to predict decrease in smoking prevalence. 

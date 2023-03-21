@@ -1,0 +1,86 @@
+---
+title: "#8 Intro to Logistic Regression"
+author: "Troy Edwards"
+date: "2023-03-15"
+output: pdf_document
+fontsize: 12pt
+documentclass: article
+geometry:
+  margin=1in
+---
+
+```{r setup, message = FALSE, warning = FALSE, include = FALSE}
+setwd("C:/Users/tntje/work/school/applied-stats/s2/assignment08")
+library(ggplot2)
+library(dplyr)
+```
+
+
+# 1
+
+*Import data.*
+
+```{r q1}
+donner <- read.csv("./donner.csv")
+```
+
+# 2
+
+*Fit a linear regression model using age to predict survival probability.*
+
+```{r q2}
+regres1 <- lm(survived ~ age, data = donner)
+summary(regres1)
+```
+
+# 3
+
+*State regression equation.*
+
+$\widehat{survived} = 0.869232 - 0.013358(age)$
+
+# 4
+
+*Check conditions/create a residual plot.*
+
+```{r q4, fig.dim=c(6.5, 4), message=FALSE, warning=FALSE}
+ggplot(donner, aes(predict(regres1), resid(regres1))) +
+  geom_point() +
+  labs(
+    x = "Predicted Values",
+    y = "Residuals",
+    title = "Residuals vs. Predicted Values"
+  )
+```
+
+# 5
+
+*Construct a scatter plot to model your equation with the data included.*
+
+```{r q5, fig.dim=c(6.5, 4), message=FALSE, warning=FALSE}
+ggplot(donner, aes(age, survived)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(
+    x = "Age",
+    y = "Survived",
+    title = "Survived vs. Age"
+  )
+```
+
+# 6
+
+*Predict the survival probability of a 72 year old.*
+```{r q6, message=FALSE, warning=FALSE}
+predict(regres1, newdata = data.frame(age = 72))
+```
+
+# 7
+
+*Interpret.*
+
+Since the predicted probability (-0.0926) is below 0, we can conclude that the
+probability of a 72 year old surviving is 0. I think that for the model to make
+sense, predicted values have to be clamped to the interval $[0, 1]$ such that
+any value greater than 1 would be interpreted as 1 and any value less than 0
+would be interpreted as 0. 
