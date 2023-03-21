@@ -1,0 +1,63 @@
+---
+title: "Logistic Regression Notes"
+author: "Troy Edwards"
+date: "2023-03-16"
+output: pdf_document
+fontsize: 12pt
+documentclass: article
+geometry:
+  margin=1in
+---
+
+```{r include=FALSE}
+setwd("C:/Users/tntje/work/school/applied-stats/s2/logistic_regression_notes")
+library(ggplot2)
+library(GGally)
+library(dplyr)
+```
+
+
+Response: Categorical & binary (success or fail)  
+Predictors: Quantitative or categorical  
+The odds of something happening, given probability $p$, are:  
+
+\begin{center}
+$odds = \frac{p}{1 - p}$ \\
+\end{center}
+
+Example: 
+
+\begin{center}
+$P(making \ free \ throw) = 0.8$ \\
+$odds = \frac{0.8}{0.2} = 4$ \\
+\end{center}
+
+The transformation from $p$ to $ln(odds)$ is called the logistic or logit
+transformation. 
+
+\begin{center}
+$ln(\frac{p}{1 - p}) = \beta_0 + \beta_1 x$ \\
+$\frac{p}{1 - p} = e^{\beta_0 + \beta_1 x}$ \\
+$p = (1 - p) e^{\beta_0 + \beta_1 x} = e^{\beta_0 + \beta_1 x} - pe^{\beta_0 + \beta_1 x}$ \\
+$p + pe^{\beta_0 \beta_1 x} = e^{\beta_0 + \beta_1 x}$ \\
+$p (1 + e^{\beta_0 + \beta_1 x}) = e^{\beta_0 + \beta_1 x}$ \\
+$p = \frac{e^{\beta_0 + \beta_1 x}}{1 + e^{\beta_0 + \beta_1 x}}$ \\
+\end{center}
+
+```{r}
+donner <- read.csv("donner.csv")
+regres1 <- glm(survived ~ age, data = donner, family = binomial("logit"))
+summary(regres1)
+```
+
+\begin{center}
+$\widehat{odds} = e^{1.81852 - 0.06647 age}$ \\
+$\hat{p} = \frac{e^{1.81852 - 0.06647 age}}{1 + e^{1.81852 - 0.06647 age}}$ \\
+\end{center}
+
+```{r}
+ggplot(donner, aes(age, survived)) +
+  geom_point() +
+  geom_smooth(method = "glm", method.args = list(family = binomial("logit")), se = F)
+```
+

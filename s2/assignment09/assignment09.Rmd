@@ -1,0 +1,241 @@
+---
+title: "#9 Logistic Regression: First-Year GPA"
+author: "Troy Edwards"
+date: "2023-03-26"
+output: pdf_document
+fontsize: 12pt
+documentclass: article
+geometry:
+  margin=1in
+---
+
+```{r setup, include=F}
+setwd("C:/Users/tntje/work/school/applied-stats/s2/assignment09")
+library(ggplot2)
+gpa <- read.csv("FirstYearGPA.csv")
+gpa <- na.omit(gpa)
+gpa$Male <- factor(gpa$Male)
+gpa$FirstGen <- factor(gpa$FirstGen)
+gpa$White <- factor(gpa$White)
+```
+
+# a)
+
+$$H_0: \mu_0 = \mu_1$$
+$$H_a: \mu_0 \neq \mu_1$$
+$$\alpha = 0.05$$
+$$\text{Test: 2-sample difference in means t-test}$$
+
+Random: assume data was collected using simple random sample  
+Normal: $n_0 = 194 \geq 30$, $n_1 = 25 \ngeq 30$, CLT fails, proceeding with caution  
+Independent: reasonable to assume that $n \leq 0.1N$  
+
+```{r qa}
+t.test(GPA ~ FirstGen, data = gpa)
+```
+
+$$t = \frac{\bar{x}_0 - \bar{x}_1 - (\mu_0 - \mu_1)}{\sqrt{\frac{s_0^2}{n_0} + \frac{s_1^2}{n_1}}}$$
+
+Since our p-value (0.02017) is less than $\alpha$ (0.05), we reject our null
+hypothesis that the true mean GPA for first-generation college students is
+equal to that of non-first-generation college students. Therefore, we have
+enough evidence to conclude that the true mean GPAs for these two groups are
+not equal. 
+
+# b)
+
+```{r qb}
+regres01 <- lm(GPA ~ FirstGen, data = gpa)
+summary(regres01)
+```
+
+# TODO
+
+# c)
+
+```{r qc}
+regres02 <- glm(FirstGen ~ GPA, data = gpa, family = binomial("logit"))
+summary(regres02)
+```
+
+# \textcolor{red}{TODO}
+
+# d)
+
+```{r qd, include=FALSE}
+predict.glm(regres02, newdata = list(GPA = 4.0), type = "response")
+predict.glm(regres02, newdata = list(GPA = 1.035642), type = "response")
+predict.glm(regres02, newdata = list(GPA = 0.3679345), type = "response")
+```
+
+## Part 1
+
+$$ P(FirstGen | GPA = 4.0) = \frac{e^{1.0751 - 1.0381(4.0)}}{1 + e^{1.0751 - 1.0381(4.0)}} = 0.04405638 $$
+
+## Part 2
+
+$$ ln \left( \frac{0.5}{1 - 0.5} \right) = 1.0751 - 1.0381(GPA) $$
+$$ 1.0381(GPA) = 1.0751 - ln \left( \frac{0.5}{1 - 0.5} \right) $$
+$$ GPA = \frac{1.0751 - ln \left( \frac{0.5}{1 - 0.5} \right)}{1.0381} $$
+$$ GPA = \frac{1.0751 - 0}{1.0381} $$
+$$ GPA = 1.035642 $$
+
+## Part 3
+
+$$ ln(2) = 1.0751 - 1.0381(GPA) $$
+$$ 1.0381(GPA) = 1.0751 - ln(2) $$
+$$ GPA = \frac{1.0751 - ln(2)}{1.0381} $$
+$$ GPA = 0.3679345 $$
+
+# e)
+
+```{r qe, include=FALSE}
+regres03 <- lm(
+  GPA ~
+    HSGPA +
+    SATV +
+    SATM +
+    Male +
+    FirstGen +
+    White,
+  data = gpa
+)
+summary(regres03)
+
+regres04 <- lm(
+  GPA ~
+    HSGPA,
+  data = gpa
+)
+summary(regres04)
+
+regres05 <- lm(
+  GPA ~
+    HSGPA *
+    FirstGen,
+  data = gpa
+)
+summary(regres05)
+
+regres06 <- lm(
+  GPA ~
+    HSGPA *
+    SATV *
+    SATM *
+    Male *
+    FirstGen *
+    White,
+  data = gpa
+)
+summary(regres06)
+
+regres07 <- lm(
+  GPA ~
+    SATV,
+  data = gpa
+)
+summary(regres07)
+
+regres08 <- lm(
+  GPA ~
+    SATM,
+  data = gpa
+)
+summary(regres08)
+
+regres09 <- lm(
+  GPA ~
+    Male,
+  data = gpa
+)
+summary(regres09)
+
+regres10 <- lm(
+  GPA ~
+    FirstGen,
+  data = gpa
+)
+summary(regres10)
+
+regres11 <- lm(
+  GPA ~
+    White,
+  data = gpa
+)
+summary(regres11)
+
+regres12 <- lm(
+  GPA ~
+    HSGPA *
+    White,
+  data = gpa
+)
+summary(regres12)
+
+regres13 <- lm(
+  GPA ~
+    HSGPA *
+    FirstGen *
+    White,
+  data = gpa
+)
+summary(regres13)
+
+regres14 <- lm(
+  GPA ~
+    HSGPA *
+    FirstGen +
+    White +
+    HSGPA :
+    White,
+  data = gpa
+)
+summary(regres14)
+
+regres15 <- lm(
+  GPA ~
+    HSGPA +
+    SATV *
+    FirstGen +
+    White,
+  data = gpa
+)
+summary(regres15)
+
+regres16 <- lm(
+  GPA ~
+    HSGPA +
+    SATV :
+    ifelse(FirstGen == 1, 1, 0) +
+    White,
+  data = gpa
+)
+summary(regres16)
+
+regres17 <- lm(
+  GPA ~
+    HSGPA +
+    White,
+  data = gpa
+)
+summary(regres17)
+```
+
+\begin{tabular}{ | p{3.5in} | c | c | c | c | }
+\hline
+Model & $R^2(adj)$ & $S_e$ & $F$ & $p$ \\
+\hline
+$\widehat{GPA} = 1.17985 + 0.55501(HSGPA)$ & $0.196$ & 0.4174 & $54.15$ & $3.783 \times 10^{-12}$ \\
+\hline
+$\widehat{GPA} = 1.160826 + 0.569504(HSGPA) - 0.284592(FirstGen) + 0.003677(HSGPA)(FirstGen)$ & $0.2235$ & $0.4102$ & $21.91$ & $2.018 \times 10^{-12}$ \\
+\hline
+$\widehat{GPA} = 2.0684133 + 0.0016986(SATV)$ & $0.08842$ & $0.4444$ & $22.15$ & $4.499 \times 10^{-6}$ \\
+\hline
+$\widehat{GPA} = 0.2459 + 0.7593(HSGPA) + 1.3010(White) - 0.2923(HSGPA)(White)$ & $0.2684$ & $0.3981$ & $27.65$ & $2.647 \times 10^{-15}$ \\
+\hline
+$\widehat{GPA} = 0.99579 + 0.54004(HSGPA) + 0.29842(White)$ & $0.2613$ & $0.4001$ & $39.56$ & $2.303 \times 10^{-15}$ \\
+\hline
+\end{tabular}
+
+*Note: I did test more models with more predictors but they were too big to put
+in the table.*
