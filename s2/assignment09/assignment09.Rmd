@@ -104,7 +104,9 @@ $$p = P(|t| \geq |-2.335|) = 0.02044 \text{ on } 217 \text{ df}$$
 
 Since our p-value (0.02044) is less than $\alpha$ (0.05), we reject our null
 hypothesis that the true slope equals 0. Therefore, we have enough evidence to
-support the alternative hypothesis that the true slope does not equal 0. 
+support the alternative hypothesis that the true slope does not equal 0. The
+slope of $-0.22867$ indicates that the direction of the relationship is
+negative.
 
 # c)
 
@@ -119,7 +121,8 @@ Since our p-value (0.023) is less than $\alpha$ (0.05), we reject our null
 hypothesis that the true slope of the relationship between the logit
 transformation of the predicted probability of being a first-generation student
 and the GPA of the student is 0. Therefore, we have enough evidence to conclude
-that the true slope is not 0. 
+that the true slope is not 0. This conclusion is consistent with those from
+parts a) and b). 
 
 # d)
 
