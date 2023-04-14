@@ -1,0 +1,440 @@
+---
+title: "Assignment #11"
+author: "Troy Edwards"
+date: "2023-04-11"
+output: pdf_document
+header-includes:
+    \usepackage{amsmath}
+    \allowdisplaybreaks
+fontsize: 12pt
+documentclass: article
+geometry:
+    margin=1in
+---
+
+```{r setup, include=F}
+setwd("C:/Users/tntje/work/school/applied-stats/s2/assignment11")
+
+library(ggplot2)
+library(dplyr)
+library(stringr)
+library(knitr)
+library(kableExtra)
+library(pivottabler)
+library(rlang)
+library(purrr)
+
+raw_data <- read.csv("titanic.csv")
+```
+
+# Question 1
+
+*Calculate the conditional probability that a person survives given their sex and passenger-class: (You will have to
+find a creative way to summarize the data using either Rstudio or Excel. Google search 'pivot table', this is how I
+would summarize my data using Excel data sheets. Answer in fractions AND decimals.)*
+
+```{r pt, results="asis", echo=T, comment=""}
+pt_data <- raw_data[order(raw_data$Sex, decreasing = TRUE),]
+pt_data$Survived <- ifelse(pt_data$Survived == 1, "Survived", "Died")
+pt_data$Sex <- lapply(pt_data$Sex, str_to_title)
+pt_data[pt_data$Pclass == 1,]$Pclass <- "1st class"
+pt_data[pt_data$Pclass == 2,]$Pclass <- "2nd class"
+pt_data[pt_data$Pclass == 3,]$Pclass <- "3rd class"
+
+pt <- PivotTable$new()
+pt$addData(pt_data)
+pt$addColumnDataGroups("Survived", caption = "{value}", dataSortOrder = "desc")
+pt$addRowDataGroups("Pclass", caption = "{value}")
+pt$addRowDataGroups("Sex")
+pt$defineCalculation(calculationName = "Total", summariseExpression = "n()")
+cat(pt$getLatex())
+```
+
+\begin{alignat*}{2}
+P(\text{Survived} \ | \ \text{Female}) &= \frac{233}{314} &= 0.7420482 \\
+P(\text{Survived} \ | \ \text{Male}) &= \frac{109}{573} &= 0.1902269 \\
+P(\text{Survived} \ | \ \text{1st Class}) &= \frac{136}{216} &= 0.6296296 \\
+P(\text{Survived} \ | \ \text{2nd Class}) &= \frac{87}{184} &= 0.4728261 \\
+P(\text{Survived} \ | \ \text{3rd Class}) &= \frac{119}{487} &= 0.2443532 \\
+P(\text{Survived} \ | \ \text{Female} \land \text{1st Class}) &= \frac{91}{94} &= 0.9680851 \\
+P(\text{Survived} \ | \ \text{Female} \land \text{2nd Class}) &= \frac{70}{76} &= 0.9210526 \\
+P(\text{Survived} \ | \ \text{Female} \land \text{3rd Class}) &= \frac{72}{144} &= 0.5000000 \\
+P(\text{Survived} \ | \ \text{Male} \land \text{1st Class}) &= \frac{45}{122} &= 0.3688525 \\
+P(\text{Survived} \ | \ \text{Male} \land \text{2nd Class}) &= \frac{17}{108} &= 0.1574074 \\
+P(\text{Survived} \ | \ \text{Male} \land \text{3rd Class}) &= \frac{47}{343} &= 0.1370262
+\end{alignat*}
+
+# Question 2
+
+*How much did people pay to be on the ship? Let X = the random variable of cost for ticket, calculate the expectation
+of fare conditioned on passenger-class.*
+
+```{r q2, include=F}
+titanic <- raw_data
+
+printf <- function(...) {
+    print(sprintf(...))
+}
+
+printf("Mean fare for 1st class passengers: $%.2f", mean(titanic[titanic$Pclass == 1,]$Fare))
+printf("Mean fare for 2nd class passengers: $%.2f", mean(titanic[titanic$Pclass == 2,]$Fare))
+printf("Mean fare for 3rd class passengers: $%.2f", mean(titanic[titanic$Pclass == 3,]$Fare))
+```
+
+\begin{align*}
+E(X \ | \ \text{1st Class}) &= \$84.15 \\
+E(X \ | \ \text{2nd Class}) &= \$20.66 \\
+E(X \ | \ \text{3rd Class}) &= \$13.71
+\end{align*}
+
+# Question 4
+
+*Create a plot (a stacked bar chart for example, but you can choose anything) to compare passenger survival
+numbers/percentages per gender. Write a few sentences summarizing what you can conclude from your display only. You
+might want to have your graphs displaying relative frequencies instead of raw counts.*
+
+```{r q4, echo=T, fig.dim=c(6.5, 3.5)}
+ggplot(titanic, aes(Sex)) +
+    geom_bar(
+        aes(fill = ifelse(Survived == 1, "Survived", "Died")),
+        position = "fill"
+    ) +
+    coord_flip() +
+    scale_y_continuous(labels = scales::percent) +
+    scale_fill_manual(
+        name = "Survived",
+        values = setNames(
+            c("#ff888888", "#8888ff88"),
+            c("Died", "Survived")
+        )
+    ) +
+    labs(
+        x = "Sex",
+        y = "Proportion",
+        title = "Proportion of Survivors by Sex"
+    )
+```
+
+# Question 5
+
+*Create a plot (a comparative boxplot for example, but feel free to be creative) to compare age distributions of those
+who survived and those who did not. Write a few sentences summarizing what you can conclude from your display only.*
+
+```{r q5, echo=T, fig.dim=c(6.5, 3.5)}
+ggplot(titanic, aes(Age)) +
+    geom_density(aes(fill = ifelse(Survived == 1, "Survived", "Died"))) +
+    scale_fill_manual(
+        name = "Survived",
+        values = setNames(
+            c("#ff888888", "#8888ff88"),
+            c("Died", "Survived")
+        )
+    ) +
+    labs(
+        x = "Age",
+        title = "Distribution of Age for Survivors and Non-Survivors"
+    ) +
+    theme(
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank()
+    )
+```
+
+The distributions are somewhat similar in shape, but there are a lot more old non-survivors and a lot more young
+survivors.
+
+# Question 6
+
+*Create a plot (a comparative bar chart for example, once again there are many options) to compare survival
+numbers/percentages versus non-survival numbers per ticket class. Write a few sentences summarizing what you can
+conclude from your display only.*
+
+```{r q6, echo=T, fig.dim=c(6.5, 3.5)}
+ggplot(titanic, aes(Pclass)) +
+    geom_bar(
+        aes(fill = ifelse(Survived == 1, "Survived", "Died")),
+        position = "fill"
+    ) +
+    coord_flip() +
+    scale_y_continuous(labels = scales::percent) +
+    scale_fill_manual(
+        name = "Survived",
+        values = setNames(
+            c("#ff888888", "#8888ff88"),
+            c("Died", "Survived")
+        )
+    ) +
+    labs(
+        x = "Passenger Class",
+        y = "Proportion",
+        title = "Proportion of Survivors by Sex"
+    )
+```
+
+The chart shows that the passengers in more prestigious passenger classes had a higher probability of surviving than
+those in less prestigious passenger classes.
+
+# Question 7
+
+*Fit a logistic model using age to predict survival. Is there a statistically significant relationship between these
+two variables? If so, in what direction is the relationship? Interpret the magnitude of the relationship in context.*
+
+```{r q7, echo=T}
+regres01 <- glm(
+    Survived ~ Age,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres01)
+```
+
+\[
+P(\text{Survived}) = \frac{e^u}{1 + e^u} \text{ where } u = -0.209189 - 0.008774(\text{Age})
+\]
+
+The relationship is not statistically significant at the 0.05 level since $p = 0.0761 > \alpha = 0.05$. Since
+$\beta_1 = -0.008774$, we can conclude that for every 1 year increase in age, the *odds* of survival are multiplied by
+$e^{-0.008774}$. 
+
+# Question 8
+
+*Using your model, what is the probability that a passenger aged 48 survived the Titanic? What about a 14 year old? 78
+year old? 5 year old?*
+
+```{r q8, echo=T}
+create_predict_logreg_function <- function(model) {
+    function(x) {
+        (function(u) {
+            exp(u) / (1 + exp(u))
+        })(
+            summary(model)$coefficients[1, 1] +
+            summary(model)$coefficients[2, 1] * x
+        )
+    }
+}
+
+predict_regres01 <- create_predict_logreg_function(regres01)
+
+printf("48: %.7f", predict_regres01(48))
+printf("14: %.7f", predict_regres01(14))
+printf("78: %.7f", predict_regres01(78))
+printf("5: %.7f", predict_regres01(5))
+```
+
+\begin{align*}
+P(\text{Survived} \ | \ \text{Age} = 48) &= 0.3474294 \\
+P(\text{Survived} \ | \ \text{Age} = 14) &= 0.4177468 \\
+P(\text{Survived} \ | \ \text{Age} = 78) &= 0.2903699 \\
+P(\text{Survived} \ | \ \text{Age} = 5) &= 0.4370703 \\
+\end{align*}
+
+# Question 9
+
+*Fit a logistic model using gender to predict survival. Is there a statistically significant relationship between these
+two variables? If so, in what direction is the relationship? Interpret the magnitude of the relationship in context.*
+
+```{r q9, echo=T}
+regres02 <- glm(
+    Survived ~ Sex,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres02)
+```
+
+\[
+P(\text{Survived}) = \frac{e^u}{1 + e^u} \text{ where } u = 1.0566 - 2.5051(\text{Male})
+\]
+
+The relationship between these variables is significant at the 0.05 level because
+$p = 9.9476 \times 10^{-51} < \alpha = 0.05$. The direction of the relationship is negative. Since $\beta_1 = -2.5051$,
+we can conclude that the *odds* of a male surviving are $e^{-2.5051}$ times the odds of a female surviving. 
+
+# Question 10
+
+*Using your model, what is the probability that a female survived the titanic? How does this compare to your answer in
+question 1)?*
+
+```{r q10, echo=T}
+predict_regres02 <- create_predict_logreg_function(regres02)
+
+printf("female: %.7f", predict_regres02(0))
+```
+
+\[
+P(\text{Survived} \ | \ \text{Female}) = 0.7420382
+\]
+
+This answer is almost exactly equal to my answer from question 1). The error is only 0.00001.
+
+# Question 11
+
+*Fit a logistic model using class to predict survival. Is there a statistically significant relationship between these
+two variables? If so, in what direction is the relationship? Interpret the magnitude of the relationship in context.*
+
+```{r q11, echo=T}
+regres03 <- glm(
+    Survived ~ Pclass,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres03)
+```
+
+\[
+P(\text{Survived}) = \frac{e^u}{1 + e^u} \text{ where } u = 1.43907 - 0.84423(\text{Class})
+\]
+
+The relationship beteen these two variables is significant at the 0.05 level because
+$p = 3.57423 \times 10^{-22} < \alpha = 0.05$. The direction of the relationship is negative. Since
+$\beta_1 = -0.84423$, we can conclude that the odds of survival are multiplied by $e^{-0.84423}$ for every numeric
+increase in class (i.e. 1st $\rightarrow$ 2nd, 2nd $\rightarrow$ 3rd).
+
+# Question 12
+
+```{r q12, echo=T}
+predict_regres03 <- create_predict_logreg_function(regres03)
+
+printf("1st: %.7f", predict_regres03(1))
+printf("3rd: %.7f", predict_regres03(3))
+```
+
+\begin{align*}
+P(\text{Survived} \ | \ \text{1st Class}) = 0.6444743 \\
+P(\text{Survived} \ | \ \text{3rd Class}) = 0.2509373 \\
+\end{align*}
+
+These answers were pretty close to what I got in question 1).
+
+# Question 13
+
+*Using the variables gender, class and age, explore a logistic regression model that applies all three variables. You
+may also look at interactive terms. After you find the best model, use it to predict the survival probabilities of:*
+
+a) *A female, 1st class passenger, 58 years old.*
+b) *A male, 3rd class passenger, 34 years old.*
+c) *A male, 2nd class passenger, 44 years old.*
+d) *A female, 3rd class passenger, 12 years old.*
+
+*(Show your chosen equation, justification on why you chose it, and your work answering parts a-d above. You can
+justify it using a table showing your progression on finding the best model.)*
+
+```{r q13, echo=T}
+regres04 <- glm(
+    Survived ~
+        Age +
+        Sex +
+        Pclass,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres04)
+
+regres05 <- glm(
+    Survived ~
+        Age *
+        Sex *
+        Pclass,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres05)
+
+regres06 <- glm(
+    Survived ~
+        Age +
+        Sex +
+        Pclass +
+        Sex : Pclass,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres06)
+
+regres07 <- glm(
+    Survived ~
+        Age +
+        Sex +
+        Pclass +
+        Age : Sex +
+        Sex : Pclass,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres07)
+
+regres08 <- glm(
+    Survived ~
+        Age +
+        Sex +
+        Pclass +
+        Age : Sex +
+        Sex : Pclass +
+        Age : Pclass,
+    data = titanic,
+    family = binomial("logit")
+)
+summary(regres08)
+```
+
+\begin{tabular}{ | p{5.5in} | c | }
+\hline
+Model & AIC \\
+\hline
+$P(\text{Survived}) = 4.8785 - 0.0344(\text{Age}) - 2.5892(\text{Male}) - 1.2305(\text{Class})$ & 809.6127 \\
+\hline
+$P(\text{Survived}) = 5.5923 - 0.0204(\text{Age}) - 3.9848(\text{Male}) - 1.7114(\text{Class}) - 0.0502(\text{Age} \times \text{Male}) - 0.0131(\text{Age} \times \text{Class}) + 0.9740(\text{Male} \times \text{Class}) + 0.0043(\text{Age} \times \text{Male} \times \text{Class})$ & 788.0208 \\
+\hline
+$P(\text{Survived}) = 7.7418 - 0.0355(\text{Age}) - 6.0872(\text{Male}) - 2.3054(\text{Class}) + 1.3972(\text{Male} \times \text{Class})$ & 787.0783 \\
+\hline
+$P(\text{Survived}) = 6.7255 - 0.0153(\text{Age}) - 4.5726(\text{Male}) - 2.1160(\text{Class}) - 0.0311(\text{Age} \times \text{Male}) + 1.1213(\text{Male} \times \text{Class})$ & 785.0504 \\
+\hline
+$P(\text{Survived}) = 5.8912 + 0.0107(\text{Age}) - 4.3288(\text{Male}) - 1.8183(\text{Class}) - 0.0391(\text{Age} \times \text{Male}) + 1.1023(\text{Male} \times \text{Class}) -0.0095(\text{Age} \times \text{Class})$ & 786.0496 \\
+\hline
+\end{tabular}
+
+The model I chose was:
+
+\[
+\begin{split}
+P(\text{Survived}) = 6.7255 - 0.0153(\text{Age}) - 4.5726(\text{Male}) - 2.1160(\text{Class}) - 0.0311(\text{Age} \times \text{Male}) + \\
+1.1213(\text{Male} \times \text{Class})
+\end{split}
+\]
+
+I chose this model because it had the highest AIC of all the models I tested.
+
+```{r q13p2, echo=T}
+create_predict_multiple_logreg_function <- function(model) {
+    function(df) {
+        predict.glm(model, newdata = df, type = "response")
+    }
+}
+
+predict_regres07 <- create_predict_multiple_logreg_function(regres07)
+
+printf(
+    "(F, 1, 58): %.7f",
+    predict_regres07(data.frame(Sex = "female", Pclass = 1, Age = 58))
+)
+printf(
+    "(M, 3, 34): %.7f",
+    predict_regres07(data.frame(Sex = "male", Pclass = 3, Age = 34))
+)
+printf(
+    "(M, 2, 44): %.7f",
+    predict_regres07(data.frame(Sex = "male", Pclass = 2, Age = 44))
+)
+printf(
+    "(F, 3, 12): %.7f",
+    predict_regres07(data.frame(Sex = "female", Pclass = 3, Age = 12))
+)
+```
+
+\begin{align*}
+P(\text{Survived} \ | \ \text{Female} \land \text{Class} = 1 \land \text{Age} = 58) &= 0.9763794 \\
+P(\text{Survived} \ | \ \text{Male} \land \text{Class} = 3 \land \text{Age} = 34) &= 0.0824994 \\
+P(\text{Survived} \ | \ \text{Male} \land \text{Class} = 2 \land \text{Age} = 44) &= 0.1326055 \\
+P(\text{Survived} \ | \ \text{Female} \land \text{Class} = 3 \land \text{Age} = 12) &= 0.5483137 \\
+\end{align*}

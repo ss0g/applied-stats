@@ -1,0 +1,12 @@
+Count of Survived,,Survived,,
+Pclass,Sex,0,1,Grand Total
+1,female,3,91,94
+,male,77,45,122
+1 Total,,80,136,216
+2,female,6,70,76
+,male,91,17,108
+2 Total,,97,87,184
+3,female,72,72,144
+,male,296,47,343
+3 Total,,368,119,487
+Grand Total,,545,342,887
