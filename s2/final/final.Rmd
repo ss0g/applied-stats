@@ -146,8 +146,11 @@ To analyze the effect of consistency on a robot's success, I will perform two in
 \subsubsection{Team budget}
 
 It is easy to see why a team's budget can affect its success. A higher budget can allow for a more complex robot with
-more expensive features such as a swerve drive. \textbf{TODO}
-<!-- TODO -->
+more expensive features such as a swerve drive.
+<!-- TODO: add more content here -->
+
+To analyze the effect of budget on a robot's success, I will create a linear model using budget to predict win rate and
+perform a $t$-test for slope to see if the relationship is significant. 
 
 \subsubsection{Team size}
 <!-- TODO -->
