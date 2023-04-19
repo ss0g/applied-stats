@@ -1,0 +1,71 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+
+\title{Honors Applied Statistics Final Project Proposal}
+\author{Troy Edwards}
+\date{2023--04--14}
+
+\begin{document}
+
+\maketitle
+
+\section{Research question}
+
+The question that I seek to answer with my research is: ``What factors influence an FRC team's success?'' I chose this
+question because I myself am on an FRC team and I am interested to see what factors influence success to try to improve
+my own team's success.
+
+\section{Related literature}
+
+There is not much work that has already been done on this topic. I managed to find 2 papers: ``An Analysis of the
+Success of FRC Robotics Teams'' by Max Tepermeister and ``An Overview and Analysis of Statistics used to Rate FIRST
+Robotics Teams'' by William Gardner. The first one is not a paper that I would consider ``scholarly'' because it is a
+high-schooler's final project for AP Statistics, but the second one appears formal and well-organized. However,
+Gardner's paper is not fully on-topic, as it analyzes metrics used to rate FRC teams. The information presented is
+still relevant, just not directly applicable. Tepermeister's objective was similar to mine. Tepermeister mainly
+analyzed the effects of the age, size, and budget of a team on its success. Tepermeister found that none of these
+factors have a significant effect on success. 
+
+\section{Gaps in current research}
+
+Tepermeister's research only analyzed a few factors, and was more of a general analysis and did not address performance
+in specific games, where robot design can have a huge influence on performance. I seek to build on Tepermeister's
+research with similar analysis, along with new research analyzing teams' capabilities in robot design in the recent FRC
+games RAPID REACT (2022) and CHARGED UP (2023). Gardner's research only analyzed the effectiveness of various
+techniques and metrics used to rate FRC teams and measure their performance. I can use Gardner's research to decide
+what methods to use to measure success. 
+
+\section{Data sources}
+
+I plan to use Evan Kuykendall's 2023 scouting data (not publicly available to my knowledge) and Jake Benjamin's 2022
+scouting data (also not publicly available to my knowledge). I also plan to use data from The Blue Alliance,
+Statbotics, and the FRC Events API.\@ 
+
+\section{Research methods}
+
+I plan to take a random sample of 30 teams from the Pacific Northwest district for each year that I analyze. I will use
+teams from the Pacific Northwest for a more in-depth analysis because the data that I have access to is much more
+in-depth and easy to use for this region. I will, however, also do an analysis of 60 randomly selected teams globally
+to see if there is any difference in what makes them successful. This will also allow me to use country as a variable
+to predict success.
+
+\section{Predictive models and inference tests}
+
+I plan to do use the same process to analyze both RAPID REACT and CHARGED UP for the Pacific Northwest and for the
+entire world.\@ This process includes 3 main steps:
+\begin{enumerate}
+    \item Create a multiple linear regression model to predict a team's OPR (Offensive Power Rating) for the season.
+    \item Create a multiple logistic regression model to predict the probability of a specific team winning in any 
+    given match.
+    \item Run ANOVA tests to determine whether various robot features have a significant effect on a robot's success.
+\end{enumerate}
+
+\section{Expected challenges}
+
+I am expecting that there will be a couple of teams in the Pacific Northwest that will not have been included in the
+scouting data because they were not at the events where the data was gathered. Another challenge is that data from The
+Blue Alliance and the FRC Events API is only about the entire alliance, not specific teams. Every match in every FRC
+game is a 3 vs. 3, which will make it more difficult to analyze specific teams, but will also let me use data about
+alliance members and opponents to predict whether a team will win a match or not. 
+
+\end{document}

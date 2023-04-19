@@ -1,0 +1,170 @@
+---
+title: "Analysis of the Various Factors Influencing the Success of FRC Teams"
+author: "Troy Edwards"
+date: "2023--06--16"
+output:
+    pdf_document:
+        number_sections: True
+header_includes:
+    \usepackage{amsmath}
+    \allowdisplaybreaks
+fontsize: 12pt
+documentclass: article
+geometry:
+    margin=1in
+---
+
+```{r setup, include=F}
+setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\final")
+
+library(tidyverse)
+library(ggplot2)
+library(pivottabler)
+
+dotenv::load_dot_env()
+
+token <- Sys.getenv()["TOKEN"]
+```
+
+\tableofcontents
+
+\begin{abstract}
+\textbf{TODO}
+\end{abstract}
+
+\section{Introduction}
+
+FIRST Robotics Competition is a robotics competition in which teams of high schoolers build robots to compete in a game
+that is different every year. FIRST is the organization that runs these competitions, and the acronym FIRST stands for
+"For the Inspiration and Recognition of Science and Technology." Each year, FIRST reveals a new game in which alliances
+of 3 industrial-size robots compete against each other on a field to complete various tasks. Teams have limited time
+after "Kickoff" (the game reveal) to design, build, wire, and program their robot to perform the tasks required for the
+game. For example, in this year's game, CHARGED UP, robots must travel across the field to the Substation Area to pick
+up one game piece (a cube or a cone) at a time and then travel back to their alliance's Grid and deposit the pieces
+onto Nodes. 
+
+There are many factors that could have an effect on a team's success. These include general things about the team, such
+as the team's age, its budget, and its size, and also things about their robot in a specific season, such as drivetrain
+type and scoring capability. The goal of this research is to determine which of these factors have the greatest effect
+on a team's success. 
+
+<!-- TODO -->
+\textbf{TODO: ADD MORE CONTENT HERE} 
+
+\section{Method}
+
+\subsection{Analysis of individual factors}
+
+I plan to analyze whether several factors have a significant influence on a team's success. \textbf{TODO: ADD MORE HERE (HOW IS SUCCESS MEASURED?)}
+
+\subsubsection{Drivetrain}
+
+A robot's drivetrain can have a huge influence on how successful it is. FRC games are typically quite fast-paced, so a
+better drivetrain can make a huge difference. For most games, the playing field is quite flat, with few obstacles to
+overcome. This is true of both RAPID REACT and CHARGED UP. In games with few obstacles, teams will typically use some
+sort of "normal" drivetrain (i.e. one without huge wheels or anything like that). The three main types of drivetrain
+typically found in FRC are:
+\begin{enumerate}
+    \item Differential
+    \item Mecanum
+    \item Swerve
+\end{enumerate}
+A differential drive has normal wheels on the left and right sides of the robot. A Mecanum drive uses Mecanum wheels,
+which are special wheels with diagonal rollers mounted around the circumference. A robot with a mecanum drivetrain can
+drive forwards and backwards, similar to a differential drivetrain, but it can also drive sideways by driving specific
+wheels in specific directions. A swerve drive is another type of drivetrain that can drive in any direction, but unlike
+the Mecanum drivetrain, the swerve drive achieves this by using two motors for each wheel: one to drive the wheel, and
+another to steer the wheel. This allows each wheel to be steered independently of the others, which allows for complex
+maneuvers.
+
+<!-- TODO: maybe a picture of a mecanum wheel and/or a swerve module here? -->
+
+These can be grouped into two categories, namely holonomic (Mecanum and swerve) and non-holonomic (differential). The
+difference between these two categories is that while a non-holonomic drivetrain constrains a robot to only move
+forwards and backwards such that it must turn to change its direction of motion, a holonomic drivetrain is free of
+these constraints. 
+
+A differential drive is usually the cheapest, since it requires no special parts. The next cheapest of these three is
+the Mecanum drive because you only need the 4 wheels and a motor for each. However, one major drawback of a Mecanum
+drivetrain is that the wheels are more prone to slipping. This means that a robot with a Mecanum drivetrain has a lower
+maximum acceleration before the wheels start to slip. It also means that in FRC, a robot with a Mecanum drivetrain is
+very easy to play defense against because a robot with a differential drive or a swerve drive can easily shove it
+it around. Finally, the most expensive, but also the most effective is the swerve drive. The swerve drive combines the
+lack of slip (and by extension, pushing power) of a differential drivetrain with the flexibility of a holonomic
+drivetrain. The main drawback of swerve drive is that it can at times be prohibitively expensive, with a single swerve
+module typically costing upwards of $300 not even including the motors. This is because they are very complex, with
+lots of gears and custom machined parts. 
+
+To analyze the effect of drivetrain on a team's success, I will perform two inference tests: 
+\begin{enumerate}
+    \item A two sample difference of means $t$-test to compare the success of teams using holonomic and non-holonomic
+    drivetrains
+    \item A one-way ANOVA test to see if the difference in success is any greater if Mecanum and Swerve are not grouped
+    together
+\end{enumerate}
+
+\subsubsection{Scoring capability}
+
+A robot's scoring capability can have a very direct effect on its success. If a robot can only score in locations that
+give low amounts of points, such as the LOWER HUB in RAPID REACT or the HYBRID NODES in CHARGED UP. Robots that are
+able to score in locations that give higher amounts of points are obviously going to score more points than robots that
+can't in almost every situation. From what I've seen, robots built by "good" teams tend to have this capability. 
+
+Also, in CHARGED UP, some teams can only score cubes or cones. Many teams can do both, but teams that can only do one
+could potentially be at a disadvantage. 
+
+In the event of a specific robot being a chassis bot (i.e. only a drivetrain, can't score any pieces), the scoring
+capability will be NA.
+
+To analyze the effect of scoring capability I will do a different set of inference tests for RAPID REACT and for
+CHARGED UP:
+\begin{enumerate}
+    \item For RAPID REACT, I will do a 2-sample difference of means $t$-test to compare robots that score low against
+    robots that score high.
+    \item For CHARGED UP, I will do a one-way ANOVA test to see if there is a difference in the success of robots that
+    can only score in the HYBRID NODES, robots that can score in the MIDDLE NODES, and robots that can score in the
+    HIGH NODES. I will also do a 2-sample difference of means $t$-test to compare the success of robots that can only
+    score one type of game piece against that of those that can score both types. 
+\end{enumerate}
+<!-- TODO: possibly reformat above? -->
+
+\subsubsection{Consistency}
+
+A common characteristic of robots that people would consider "good" is consistency. These robots tend to perform very
+consistently throughout an event and throughout the season, with the main source of inconsistency being an improvement
+in the skill of the driver. This will only be analyzed for the Pacific Northwest because the scouting data is the only
+data source detailing the performance of individual robots.
+
+To analyze the effect of consistency on a robot's success, I will perform two inference tests:
+\begin{enumerate}
+    \item A $\chi^2$ goodness of fit test to see if the robot's points scored remain uniform across all of its matches
+    \item A $t$-test for slope to see if there is a consistent increase or decrease in score over time
+\end{enumerate}
+
+<!-- TODO: need to add more robot-related factors here for the RAPID REACT and CHARGED UP sections -->
+
+\subsubsection{Team budget}
+
+It is easy to see why a team's budget can affect its success. A higher budget can allow for a more complex robot with
+more expensive features such as a swerve drive. \textbf{TODO}
+<!-- TODO -->
+
+\subsubsection{Team size}
+<!-- TODO -->
+
+\subsubsection{Team age}
+<!-- TODO -->
+
+\subsection{Models to predict a team's probability of winning a specific match}
+<!-- TODO -->
+
+\subsection{Data collection and sources}
+<!-- TODO -->
+
+\section{Findings}
+
+\section{Analysis}
+
+\section{Conclusion}
+
+\section{Bibliography}
