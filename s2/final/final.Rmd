@@ -23,7 +23,8 @@ library(pivottabler)
 
 dotenv::load_dot_env()
 
-token <- Sys.getenv()["TOKEN"]
+frc_events_api_token <- Sys.getenv()["FRC_TOKEN"]
+tba_api_token <- Sys.getenv()["TBA_TOKEN"]
 ```
 
 \tableofcontents
@@ -53,9 +54,10 @@ on a team's success.
 
 \section{Method}
 
-\subsection{Analysis of individual factors}
+\subsection{Analysis of individual variables}
 
-I plan to analyze whether several factors have a significant influence on a team's success. \textbf{TODO: ADD MORE HERE (HOW IS SUCCESS MEASURED?)}
+I plan to analyze whether several variables have a significant influence on a team's success. \textbf{TODO: ADD MORE HERE (HOW IS SUCCESS MEASURED?)}
+<!-- TODO -->
 
 \subsubsection{Drivetrain}
 
@@ -135,11 +137,9 @@ consistently throughout an event and throughout the season, with the main source
 in the skill of the driver. This will only be analyzed for the Pacific Northwest because the scouting data is the only
 data source detailing the performance of individual robots.
 
-To analyze the effect of consistency on a robot's success, I will perform two inference tests:
-\begin{enumerate}
-    \item A $\chi^2$ goodness of fit test to see if the robot's points scored remain uniform across all of its matches
-    \item A $t$-test for slope to see if there is a consistent increase or decrease in score over time
-\end{enumerate}
+To analyze the effect of consistency on a robot's success, I will calculate the standard deviation of the change in
+score between consecutive matches for all of a robot's matches. Then, I will create a linear model using that standard
+deviation to predict win rate and perform a $t$-test for slope to see if the relationship is significant. 
 
 <!-- TODO: need to add more robot-related factors here for the RAPID REACT and CHARGED UP sections -->
 
@@ -149,20 +149,48 @@ It is easy to see why a team's budget can affect its success. A higher budget ca
 more expensive features such as a swerve drive.
 <!-- TODO: add more content here -->
 
-To analyze the effect of budget on a robot's success, I will create a linear model using budget to predict win rate and
+To analyze the effect of budget on a robot's success, I will create a model using budget to predict win rate and
 perform a $t$-test for slope to see if the relationship is significant. 
 
 \subsubsection{Team size}
-<!-- TODO -->
+
+A team's size can also have a huge effect on its success. A larger team means that more work can get done, which means
+that the robot can be more complex and advanced. This will likely be correlated with some of the other variables, so it
+may not be included in the final model to avoid multicollinearity. 
+<!-- TODO: decide if this will be in final model -->
+
+To analyze the effect of a team's size on its success, I will create a model using team size to predict win rate and
+perform a $t$-test for slope to see if the relationship is significant. 
 
 \subsubsection{Team age}
-<!-- TODO -->
+An older team will likely have more advanced techniques and manufacturing processes at its disposal, while a younger
+team will typically not have these things. Team number is a good proxy to team age because the team numbers are
+assigned sequentially. This variable will also likely be correlated with many of the other variables, so it may not be
+included in the final model.
+<!-- TODO: decide if this will be in final model -->
 
-\subsection{Models to predict a team's probability of winning a specific match}
-<!-- TODO -->
+To analyze the effect of a team's age on its success, I will create a model using team age to predict win rate and
+perform a $t$-test for slope to see if the relationship is significant.
+
+\subsection{Predictive models}
+
+After analyzing individual variables, I will create two models:
+\begin{enumerate}
+    \item A multiple linear regression model using a combination of the above variables to predict a team's overall win
+    rate
+    \item A multiple logistic regression model using a combination of the above variables and various metrics from a
+    robot's allies and opponents to predict whether a robot will win a specific match
+\end{enumerate}
 
 \subsection{Data collection and sources}
-<!-- TODO -->
+
+My data will come from three main sources:
+\begin{enumerate}
+    \item Evan Kuykendall's 2023 scouting data from Glacier Peak, Auburn, and the Pacific Northwest District
+    Championship
+    \item Jake Benjamin's 2022 scouting data from Auburn and the Pacific Northwest District Championship
+    \item The Blue Alliance
+\end{enumerate}
 
 \section{Findings}
 

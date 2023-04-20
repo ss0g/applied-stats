@@ -1,0 +1,28 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{blindtext}
+\graphicspath{{images/}}
+
+\title{Sweave Test}
+\author{Troy Edwards}
+\date{2023-04-19}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\blindtext
+
+<<echo=F, fig.dim=c(6.5, 4)>>=
+library(ggplot2)
+
+ggplot(mtcars, aes(disp, hp)) + geom_point()
+@
+
+\blindtext
+
+\end{document}
