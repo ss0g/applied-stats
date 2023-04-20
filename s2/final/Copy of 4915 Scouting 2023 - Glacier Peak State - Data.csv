@@ -1,0 +1,673 @@
+Submission Date,First Name Last Initial,Assigned Position,Team Number you're scouting,Match #,Mobility?,Top Cones,Middle Cones,Bottom Cones,Top Cubes,Middle Cubes,Bottom Cubes,End of Auto Status,Top Cones 2,Middle Cones 2,Bottom Cones 2,Top Cubes 2,Middle Cubes 2,Bottom Cubes 2,Approximate time spent Defending,"If they defended, how effective was their defense?",Endgame Status,Number of Links your Alliance Scored,Did your alliance score at least 3 game pieces in its Coopertition Grid?,Points Lost to Penalties by Your Team's Alliance,Were any Serious Penalties Issued because of your robot's actions?,Comment on Robot/Team/Match Conditions,How well did the robot fulfill its potential?,How would you rate their driving?,Submission ID,,Team Number,Mobility,A. Cone,A. Cube,A. Charge,Auto Points,T. Cone,T. Cube,Teleop Points,Endgame Points,Total w/o Links,Links,Total w/ Links,E. Charge,Charge,Auto Cone #,Auto Cube #,Auto Top #,Auto Middle #,Auto Bottom #,Teleop Cube #,Teleop Cone #,Teleop Top #,Teleop Middle #,Teleop Bottom #,Cone #,Cube #,Top #,Middle #,Bottom #,Defense Time,>=15 Defending,Defense Stars,Robot Stars,Driver Stars
+2023-03-04 11:27:43,Emily R,Bottom Right,4089,1,Yes,0,0,1,0,0,0,Engaged,0,0,0,0,0,0,0,,Engaged,0,No,0,,Stopped and restarted a fair amount. Fairly reckless driving,2,2,5537672633412836641,,4089,3,3,0,12,15,0,0,0,10,28,0,28,10,22,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,FALSE,,2,2
+2023-03-04 11:29:03,Val D,Top Right,4682,1,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,60,4,Not Parked,0,Yes,44,,"Seemed like they were stuck at the latter half of tele op
+Stopped moving after that point",3,4,5537673432518346454,,4682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,1,4,3,4
+2023-03-04 11:29:14,Joyce Michalczuk,Bottom Left,2910,1,Yes,1,0,0,0,0,0,Engaged,4,0,0,0,0,0,10,4,Docked,0,Yes,44,,"Very accurate with cones, fast driving.",4,5,5537673544528440147,,2910,3,6,0,12,18,20,0,20,6,47,0,47,6,18,1,0,1,0,0,0,4,4,0,0,5,0,5,0,0,10,FALSE,4,4,5
+2023-03-04 11:30:14,Alexa D,Middle Right,4915,1,Yes,0,0,1,0,0,0,Not Docked,0,0,0,0,2,0,10,,Engaged,1,Yes,5,,,4,4,5537674145423886477,,4915,3,3,0,0,3,0,6,6,10,22,5,27,10,10,1,0,0,0,1,2,0,0,2,0,1,2,0,2,1,10,FALSE,,4,4
+2023-03-04 11:31:11,Audrey B,Middle Left,3268,1,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,"died right after auto, got punched out of community mid way by another robot",,,5537674714526571098,,3268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 11:36:11,Emily r,Bottom Right,9036,2,Yes,0,0,0,0,0,1,Not Docked,0,0,0,0,0,0,0,,Engaged,0,No,0,,,1,1,5537677713416223950,,9036,3,0,3,0,3,0,0,0,10,16,0,16,10,10,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,FALSE,,1,1
+2023-03-04 11:37:51,Alexa D,Middle Right,3049,2,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,110,3,Docked,0,No,0,,Not sure about penalties,3,3,5537678715422596493,,3049,0,0,0,0,0,0,0,0,6,6,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110,1,3,3,3
+2023-03-04 11:38:43,joyce m,Bottom Left,2412,2,Yes,0,0,0,0,0,0,Engaged,3,0,0,0,0,0,0,,Parked,0,No,5,,dropped a few cones,4,3,5537679234525211903,,2412,3,0,0,12,12,15,0,15,2,32,0,32,0,12,0,0,0,0,0,0,3,3,0,0,3,0,3,0,0,0,FALSE,,4,3
+2023-03-04 11:38:44,Audrey B,Middle Left,1899,2,No,0,0,0,0,0,0,Not Docked,0,0,1,0,0,4,0,,Docked,2,Yes,0,,,3,2,5537679244527053010,,1899,0,0,0,0,0,2,8,10,6,16,10,26,6,6,0,0,0,0,0,4,1,0,0,5,1,4,0,0,5,0,FALSE,,3,2
+2023-03-04 11:52:26,Audrey Benson,Middle Left,949,3,Yes,0,1,0,0,0,0,Not Docked,0,1,0,0,0,0,5,2,Engaged,0,No,34,,,2,2,5537687464522468118,,949,3,4,0,0,4,3,0,3,10,20,0,20,10,10,1,0,0,1,0,0,1,0,1,0,2,0,0,2,0,5,FALSE,2,2,2
+2023-03-04 11:52:41,joyce m,Bottom Left,1778,3,Yes,0,1,0,0,0,0,Not Docked,0,1,0,0,0,0,10,3,Engaged,0,Yes,24,,"Bad at handling cones, weird movement, only just barely engaged and team wasn't able to engage because the robot was causing problems. Took up too much room and kept sliding.",3,3,5537687614529716523,,1778,3,4,0,0,4,3,0,3,10,20,0,20,10,10,1,0,0,1,0,0,1,0,1,0,2,0,0,2,0,10,FALSE,3,3,3
+2023-03-04 11:52:59,Emily r,Bottom Right,8248,3,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,3,5,5,Not Parked,1,Yes,12,,"Defended well, very slow, only went for cubes on bottom, when trying to drop cubes they would bounce back- not much accuracy",2,3,5537687793415217749,,8248,3,0,0,0,0,0,6,6,0,9,5,14,0,0,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,5,FALSE,5,2,3
+2023-03-04 12:08:07,Alexa D,Middle Right,2097,4,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,No movement - did nothing,,,5537696875423721969,,2097,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 12:08:34,Joyce M,Bottom Left,4131,4,Yes,1,0,0,0,0,0,Not Docked,1,2,0,1,1,0,0,,Engaged,0,Yes,0,,good,4,5,5537697144527976025,,4131,3,6,0,0,6,11,8,19,10,38,0,38,10,10,1,0,1,0,0,2,3,2,3,0,4,2,3,3,0,0,FALSE,,4,5
+2023-03-04 12:08:47,Audrey B,Middle Left,2930,4,Yes,1,0,0,0,0,0,Engaged,1,2,0,1,1,0,0,,Engaged,4,Yes,0,,,4,5,5537697274523766967,,2930,3,6,0,12,18,11,8,19,10,50,20,70,10,22,1,0,1,0,0,2,3,2,3,0,4,2,3,3,0,0,FALSE,,4,5
+2023-03-04 12:10:21,Emily r,Bottom Right,4681,4,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,3,,"Almost never moved arm, did not move from starting position, looked as if their claw would not release the cone",1,1,5537698213412774586,,4681,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 12:17:13,Alexa D,Middle Right,2522,5,Yes,0,0,0,0,0,0,Docked,0,0,3,1,0,0,10,3,Engaged,0,Yes,0,,"Robot mobility sort of slow but scored lots of low cones, loose grip on game pieces, some dropped",4,3,5537702335427183016,,2522,3,0,0,8,8,6,5,11,10,32,0,32,10,18,0,0,0,0,0,1,3,1,0,3,3,1,1,0,3,10,FALSE,3,4,3
+2023-03-04 12:17:17,Audrey B,Middle Left,2976,5,Yes,1,0,0,0,0,0,Not Docked,0,0,0,0,0,1,0,,Engaged,2,Yes,0,,,3,2,5537702374525544147,,2976,3,6,0,0,6,0,2,2,10,21,10,31,10,10,1,0,1,0,0,1,0,0,0,1,1,1,1,0,1,0,FALSE,,3,2
+2023-03-04 12:17:53,Emily r,Bottom Right,4173,5,Yes,0,0,0,0,0,1,Not Docked,0,0,0,0,1,1,0,,Engaged,0,Yes,0,,"Hard time picking up cubes, could not pick up cone from shelf, relatively slow, hard time scoring above bottom",3,2,5537702733412712775,,4173,3,0,3,0,3,0,5,5,10,21,0,21,10,10,0,1,0,0,1,2,0,0,1,1,0,3,0,1,2,0,FALSE,,3,2
+2023-03-04 12:17:55,Joyce M,Bottom Left,488,5,Yes,0,0,0,0,0,0,Docked,0,0,1,0,0,3,5,4,Engaged,0,Yes,0,,"Only scored low cubes and cones, and only did one cone. Had an arm attached, so it should have been able to lift and couldn't.",3,4,5537702754523792899,,488,3,0,0,8,8,2,6,8,10,29,0,29,10,18,0,0,0,0,0,3,1,0,0,4,1,3,0,0,4,5,FALSE,4,3,4
+2023-03-04 12:24:25,Alexa D,Middle Right,4512,6,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,110,4,Not Parked,0,Yes,0,,,3,4,5537706655424123680,,4512,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,110,1,4,3,4
+2023-03-04 12:24:35,Joyce M,Bottom Left,1899,6,No,0,0,0,0,0,0,Not Docked,0,0,1,0,0,2,15,3,Docked,0,Yes,5,,Robot was very unstable. Almost fell over twice. Also just scooted cubes along and defended.,2,3,5537706754522484091,,1899,0,0,0,0,0,2,4,6,6,12,0,12,6,6,0,0,0,0,0,2,1,0,0,3,1,2,0,0,3,15,1,3,2,3
+2023-03-04 12:24:54,Emily r,Bottom Right,2147,6,Yes,0,1,0,0,0,0,Engaged,0,2,0,0,1,0,0,,Engaged,0,Yes,0,,"Had trouble at one point, but very maneuverable and fast, could score cones consistently",4,4,5537706943417059082,,2147,3,4,0,12,16,6,3,9,10,38,0,38,10,22,1,0,0,1,0,1,2,0,3,0,3,1,0,4,0,0,FALSE,,4,4
+2023-03-04 12:25:43,Audrey B,Middle Left,2928,6,Yes,0,0,0,1,0,0,Not Docked,2,0,0,0,0,0,0,,Docked,2,Yes,5,,"unstable elevator like thing for cones
+launched a cube during auto but only",3,2,5537707134527641540,,2928,3,0,6,0,6,10,0,10,6,25,10,35,6,6,0,1,1,0,0,0,2,2,0,0,2,1,3,0,0,0,FALSE,,3,2
+2023-03-04 12:26:39,Audrey B,Middle Left,2928,6,Yes,0,0,0,1,0,0,Not Docked,2,0,0,0,0,0,0,,Docked,2,Yes,5,,"unstable elevator like thing for cones
+launched a cube during auto but only",3,2,5537707990429331587,,2928,3,0,6,0,6,10,0,10,6,25,10,35,6,6,0,1,1,0,0,0,2,2,0,0,2,1,3,0,0,0,FALSE,,3,2
+2023-03-04 12:35:50,Audrey B,Middle Left,8248,7,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,1,Yes,5,,did not move,,,5537713500427682759,,8248,0,0,0,0,0,0,0,0,2,2,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 12:35:51,Joyce M,Bottom Left,4980,7,Yes,0,0,0,0,1,0,Docked,0,0,0,0,0,0,0,,Not Parked,0,Yes,5,,Robot fell over in first 10 seconds of tele-op.,1,1,5537713514527065216,,4980,3,0,4,8,12,0,0,0,0,15,0,15,0,8,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,FALSE,,1,1
+2023-03-04 12:36:26,Alexa D,Middle Right,5941,7,No,0,0,0,0,0,0,Docked,0,0,0,0,2,0,40,3,Engaged,0,No,2,,"Robot had no arm, just hit things with bumpers",2,3,5537713865422481405,,5941,0,0,0,8,8,0,6,6,10,24,0,24,10,18,0,0,0,0,0,2,0,0,2,0,0,2,0,2,0,40,1,3,2,3
+2023-03-04 12:37:12,Emily r,Bottom Right,4915,7,No,0,0,0,0,0,0,Not Docked,0,0,0,2,0,0,0,,Engaged,0,Yes,2,,"Arm was not working, no moving in auto to avoid penalties, scored cubes well, other team got twelve extra points for engaging at endgame since two robot were inoperable",3,2,5537714323412815994,,4915,0,0,0,0,0,0,10,10,10,20,0,20,10,10,0,0,0,0,0,2,0,2,0,0,0,2,2,0,0,0,FALSE,,3,2
+2023-03-04 12:41:32,Joyce M,Bottom Left,1778,8,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,Yes,0,,Robot was dead since the beginning of the match.,1,1,5537716924524516650,,1778,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 12:41:49,Audrey B,Middle Left,1318,8,Yes,0,0,0,1,0,0,Engaged,0,0,0,0,1,1,0,,Engaged,1,Yes,0,,,4,2,5537717090425523839,,1318,3,0,6,12,18,0,5,5,10,36,5,41,10,22,0,1,1,0,0,2,0,0,1,1,0,3,1,1,1,0,FALSE,,4,2
+2023-03-04 12:42:52,Alexa D,Middle Right,2976,8,No,0,0,0,0,0,0,Not Docked,0,0,1,1,0,0,15,3,Engaged,0,Yes,1,,Robot dropped a lot of pieces but could reach high shelves,3,3,5537717725424804578,,2976,0,0,0,0,0,2,5,7,10,17,0,17,10,10,0,0,0,0,0,1,1,1,0,1,1,1,1,0,1,15,1,3,3,3
+2023-03-04 12:43:26,Emily r,Bottom Right,3049,8,Yes,0,0,0,0,0,1,Not Docked,2,0,0,0,0,0,0,,Parked,0,Yes,,,Scored pretty consistently and reached top nodes well,4,4,5537718063413940229,,3049,3,0,3,0,3,10,0,10,2,18,0,18,0,0,0,1,0,0,1,0,2,2,0,0,2,1,2,0,1,0,FALSE,,4,4
+2023-03-04 12:54:58,Audrey B,Middle Left,2980,9,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,1,No,0,,didn't move,,,5537724980422907275,,2980,0,0,0,0,0,0,0,0,2,2,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 12:55:00,Alexa D,Middle Right,9036,9,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,"Auto moved, drive controls did not so no movement in teleop",1,1,5537725005424966575,,9036,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 12:55:17,Emily r,Bottom Right,2097,9,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,"Did not move the entire match. Signal lights were not on, only one blue alliance robot moved",1,1,5537725173418440402,,2097,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 12:58:49,Joyce M,Bottom Left,4681,9,Yes,0,1,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,Yes,0,,Spent almost a minute and a half trying to pick up a cube. Unsure if they actually scored any points.,2,2,5537727294524574265,,4681,3,4,0,0,4,0,0,0,10,17,0,17,10,10,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,FALSE,,2,2
+2023-03-04 13:00:45,Joyce M,Bottom Left,949,10,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,Yes,0,,Battery flew out of robot when it stopped moving. Only moved out of community and didn't do anything w/ charge station and cones/cubes.,1,1,5537728454526438308,,949,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 13:03:08,Audrey B,Middle Left,4911,10,Yes,0,0,1,0,0,0,Engaged,0,2,0,0,0,0,0,,Engaged,0,Yes,5,,knocked over 5 cones and couldn't flip any,3,1,5537729870422809560,,4911,3,3,0,12,15,6,0,6,10,34,0,34,10,22,1,0,0,0,1,0,2,0,2,0,3,0,0,2,1,0,FALSE,,3,1
+2023-03-04 13:03:32,Alexa D,Middle Right,2928,10,Yes,0,0,0,1,0,0,Not Docked,0,0,0,0,0,0,0,,Docked,0,Yes,3,,"Robot top heavy, kept tipping and unable to get pieces off ground",2,2,5537730125421811245,,2928,3,0,6,0,6,0,0,0,6,15,0,15,6,6,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,FALSE,,2,2
+2023-03-04 13:05:12,Emily r,Bottom Right,3681,10,No,0,0,0,0,0,0,Not Docked,0,0,1,1,0,0,0,,Not Parked,0,Yes,0,,"Moved very little and had hard time scoring, slow",2,2,5537731123413372193,,3681,0,0,0,0,0,2,5,7,0,7,0,7,0,0,0,0,0,0,0,1,1,1,0,1,1,1,1,0,1,0,FALSE,,2,2
+2023-03-04 13:09:37,Calvin C,Bottom Right,2412,11,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,Yes,0,,,2,3,5537733772321798921,,2412,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,2,3
+2023-03-04 13:09:45,Alexa D,Top Right,2147,11,Yes,0,1,0,0,0,0,Engaged,0,1,3,0,0,1,5,3,Parked,0,Yes,0,,"Pretty good scorer, fast across the field, arm could not reach middle and top rows to score",4,4,5537733855422479360,,2147,3,4,0,12,16,9,2,11,2,32,0,32,0,12,1,0,0,1,0,1,4,0,1,4,5,1,0,2,4,5,FALSE,3,4,4
+2023-03-04 13:10:18,Will H,Middle Right,7627,11,Yes,0,0,0,1,0,0,Not Docked,2,0,0,0,1,0,5,4,Engaged,0,Yes,0,,,3,4,5537734174525254615,,7627,3,0,6,0,6,10,3,13,10,32,0,32,10,10,0,1,1,0,0,1,2,2,1,0,2,2,3,1,0,5,FALSE,4,3,4
+2023-03-04 13:10:22,Josh M,Middle Left,2903,11,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,20,2,Parked,0,No,0,,Robot barely moved and wasn’t able to move its arm. Never even touched a game piece,1,1,5537734221272674487,,2903,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,1,2,1,1
+2023-03-04 13:27:08,Evan K,Bottom Left,5588,11,Yes,0,0,0,0,0,0,Not Docked,0,0,0,2,1,0,0,,Engaged,0,No,0,,"felt very sluggish
+messed up auto",3,3,5537744284917102061,,5588,3,0,0,0,0,0,13,13,10,26,0,26,10,10,0,0,0,0,0,3,0,2,1,0,0,3,2,1,0,0,FALSE,,3,3
+2023-03-04 14:05:43,Audrey B,Top Right,488,12,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,Yes,0,,,,,5537767434525820650,,488,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 14:07:47,Josh M,Middle Left,9036,12,Yes,0,0,0,0,0,1,Not Docked,0,1,0,0,1,0,15,3,Engaged,1,Yes,0,,"Pretty good arm idea, but struggles with cones",3,3,5537768678819893471,,9036,3,0,3,0,3,3,3,6,10,22,5,27,10,10,0,1,0,0,1,1,1,0,2,0,1,2,0,2,1,15,1,3,3,3
+2023-03-04 14:14:30,Logan P,Top Left,2976,13,Yes,0,0,1,0,0,0,Not Docked,1,0,0,0,1,0,5,2,Docked,0,No,0,,Malfunctioning auton and malfunctioning grabber. Seemingly good potential for improvement however.,1,3,5537772703956292335,,2976,3,3,0,0,3,5,3,8,6,20,0,20,6,6,1,0,0,0,1,1,1,1,1,0,2,1,1,1,1,5,FALSE,2,1,3
+2023-03-04 14:15:41,Audrey B,Middle Right,1318,13,Yes,0,0,0,0,0,0,Engaged,2,0,0,1,0,0,10,4,Engaged,2,Yes,10,,best on alliance this time,4,4,5537773404523992782,,1318,3,0,0,12,12,10,5,15,10,40,10,50,10,22,0,0,0,0,0,1,2,3,0,0,2,1,3,0,0,10,FALSE,4,4,4
+2023-03-04 14:15:41,Calvin C,Bottom Right,3681,13,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,Yes,10,,,1,1,5537773412329877666,,3681,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 14:15:45,Josh M,Middle Left,4911,13,Yes,0,0,1,0,0,0,Engaged,0,1,1,0,0,0,0,,Engaged,0,No,10,,"Fairly good robot, although they began engaging with a full minute left",3,3,5537773458815107378,,4911,3,3,0,12,15,5,0,5,10,33,0,33,10,22,1,0,0,0,1,0,2,0,1,1,3,0,0,1,2,0,FALSE,,3,3
+2023-03-04 14:21:39,Calvin C,Bottom Right,4512,14,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,3,0,3,Not Parked,0,Yes,12,,,3,4,5537776992327712860,,4512,3,0,0,0,0,0,11,11,0,14,0,14,0,0,0,0,0,0,0,4,0,1,0,3,0,4,1,0,3,0,FALSE,,3,4
+2023-03-04 14:22:14,Will Hansen,Middle Right,4089,14,Yes,0,0,0,0,0,0,Engaged,0,0,0,0,0,0,120,3,Not Parked,0,No,12,,"Robot did not attempt to obtain cones or cubes to score, despite having a full arm and grabber",2,2,5537777344524773936,,4089,3,0,0,12,12,0,0,0,0,15,0,15,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,1,3,2,2
+2023-03-04 14:22:17,Judah m,Top Right,2928,14,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,40,3,Engaged,0,No,0,,Intake broke early game,2,2,5537777370222559216,,2928,3,0,0,0,0,0,0,0,10,13,0,13,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,3,2,2
+2023-03-04 14:28:49,Calvin C,Bottom Right,1899,15,No,0,0,0,0,0,0,Not Docked,0,0,0,1,1,1,0,,Engaged,0,Yes,0,,,4,3,5537781292322365966,,1899,0,0,0,0,0,0,10,10,10,20,0,20,10,10,0,0,0,0,0,3,0,1,1,1,0,3,1,1,1,0,FALSE,,4,3
+2023-03-04 14:29:07,Will H,Middle Right,3826,15,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,1,0,,Engaged,0,Yes,0,,Had grabber but only placed in pieces by pushing them into bottom nodes,2,3,5537781474522495066,,3826,3,0,0,0,0,2,2,4,10,17,0,17,10,10,0,0,0,0,0,1,1,0,0,2,1,1,0,0,2,0,FALSE,,2,3
+2023-03-04 14:29:17,Josh M,Middle Left,7627,15,Yes,0,0,0,1,0,0,Engaged,3,0,0,0,0,0,0,,Engaged,1,No,0,,"Slow but consistent, autonomous was absolutely perfect. Didn’t move any cubes besides the autonomous phase",5,4,5537781578814742412,,7627,3,0,6,12,18,15,0,15,10,46,5,51,10,22,0,1,1,0,0,0,3,3,0,0,3,1,4,0,0,0,FALSE,,5,4
+2023-03-04 14:30:11,Josh M,Middle Left,2522,14,Yes,0,0,0,0,0,0,Not Docked,2,1,0,1,0,0,0,,Engaged,0,Yes,12,,"Great robot, autonomous was extremely good with only a small issue when putting the cone down on the top layer",4,4,5537782118813755632,,2522,3,0,0,0,0,13,5,18,10,31,0,31,10,10,0,0,0,0,0,1,3,3,1,0,3,1,3,1,0,0,FALSE,,4,4
+2023-03-04 14:31:02,Judah M,Top Right,4682,15,No,0,0,0,0,0,0,Not Docked,1,0,0,0,1,0,0,,Engaged,0,No,0,,First 3 robot engagement,3,2,5537782620226650007,,4682,0,0,0,0,0,5,3,8,10,18,0,18,10,10,0,0,0,0,0,1,1,1,1,0,1,1,1,1,0,0,FALSE,,3,2
+2023-03-04 14:36:07,Calvin C,Bottom Right,3268,16,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,0,,Not Parked,0,Yes,0,,,2,2,5537785672325392329,,3268,0,0,0,0,0,0,2,2,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,FALSE,,2,2
+2023-03-04 14:36:18,Judah M,Top Right,6350,16,No,0,0,0,0,0,0,Not Docked,0,0,0,2,0,0,0,,Parked,0,No,0,,Slow,1,1,5537785770228361823,,6350,0,0,0,0,0,0,10,10,2,12,0,12,0,0,0,0,0,0,0,2,0,2,0,0,0,2,2,0,0,0,FALSE,,1,1
+2023-03-04 14:36:19,Josh M,Middle Left,4915,16,No,0,0,0,0,0,0,Not Docked,0,0,0,0,1,0,0,,Engaged,0,No,0,,,3,3,5537785798813330110,,4915,0,0,0,0,0,0,3,3,10,13,0,13,10,10,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,FALSE,,3,3
+2023-03-04 14:36:37,Will H,Middle Right,2412,16,Yes,0,0,0,0,0,0,Engaged,2,0,0,0,0,0,5,3,Docked,0,No,0,,Had trouble with claw on upper cone nodes,4,4,5537785964525299760,,2412,3,0,0,12,12,10,0,10,6,31,0,31,6,18,0,0,0,0,0,0,2,2,0,0,2,0,2,0,0,5,FALSE,3,4,4
+2023-03-04 14:43:37,Judah M,Top Right,4173,17,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,Intake couldn’t hold on to the game pieces,1,2,5537790170222158415,,4173,3,0,0,0,0,0,0,0,2,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,2
+2023-03-04 14:44:18,Calvin C,Bottom Right,4681,17,Yes,0,1,0,0,0,0,Not Docked,0,0,0,0,1,1,0,,Docked,0,Yes,5,,,2,2,5537790572324179339,,4681,3,4,0,0,4,0,5,5,6,18,0,18,6,6,1,0,0,1,0,2,0,0,1,1,1,2,0,2,1,0,FALSE,,2,2
+2023-03-04 14:44:37,Will H,Middle Right,949,17,Yes,0,1,0,0,0,0,Not Docked,0,1,1,0,0,0,0,,Parked,0,No,0,,,4,3,5537790774527205103,,949,3,4,0,0,4,5,0,5,2,14,0,14,0,0,1,0,0,1,0,0,2,0,1,1,3,0,0,2,1,0,FALSE,,4,3
+2023-03-04 14:45:52,Josh M,Middle Left,2097,17,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,5,,Robot was not on the field and never played,,,5537791528812561914,,2097,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 14:51:13,Calvin C,Bottom Right,2980,18,Yes,1,0,0,0,0,0,Not Docked,0,0,2,0,0,1,0,,Parked,0,Yes,0,,,2,3,5537794732322304620,,2980,3,6,0,0,6,4,2,6,2,17,0,17,0,0,1,0,1,0,0,1,2,0,0,3,3,1,1,0,3,0,FALSE,,2,3
+2023-03-04 14:51:33,Will H,Middle Right,4131,18,Yes,1,0,0,0,0,0,Not Docked,3,0,1,1,0,0,0,,Parked,0,Yes,0,,Super long arm,4,3,5537794934521515976,,4131,3,6,0,0,6,17,5,22,2,33,0,33,0,0,1,0,1,0,0,1,4,4,0,1,5,1,5,0,1,0,FALSE,,4,3
+2023-03-04 14:51:35,Josh M,Middle Left,7627,18,Yes,0,0,0,1,0,0,Engaged,0,0,0,0,0,0,90,5,Engaged,3,Yes,0,,"Arm stopped working after autonomous, but they played good defense to compensate",3,5,5537794958815717107,,7627,3,0,6,12,18,0,0,0,10,31,15,46,10,22,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,90,1,5,3,5
+2023-03-04 14:58:36,Judah M,Top Right,2930,19,Yes,1,0,0,0,0,0,Not Docked,1,1,0,3,0,0,10,4,Engaged,0,Yes,0,,,4,4,5537799160223985214,,2930,3,6,0,0,6,8,15,23,10,42,0,42,10,10,1,0,1,0,0,3,2,4,1,0,3,3,5,1,0,10,FALSE,4,4,4
+2023-03-04 14:59:21,Will H,Middle Right,4911,19,No,0,0,0,0,0,0,Engaged,0,0,3,0,0,0,0,,Engaged,0,Yes,5,,Only can grab cones but holds them very securely,3,4,5537799614529992284,,4911,0,0,0,12,12,6,0,6,10,28,0,28,10,22,0,0,0,0,0,0,3,0,0,3,3,0,0,0,3,0,FALSE,,3,4
+2023-03-04 14:59:22,Calvin C,Bottom Right,3268,19,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,Yes,5,,,2,2,5537799622327159444,,3268,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,2,2
+2023-03-04 15:00:24,Josh M,Middle Left,4682,19,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,50,3,Parked,0,No,5,,Robot didn’t work very well. Arm couldn’t move and couldn’t rotate chassis quickly if at all,2,3,5537800248815373508,,4682,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,1,3,2,3
+2023-03-04 15:06:18,Judah M,Top Right,4915,20,No,0,0,0,0,0,0,Not Docked,0,0,0,2,0,2,0,,Engaged,0,Yes,0,,,3,3,5537803780224568226,,4915,0,0,0,0,0,0,14,14,10,24,0,24,10,10,0,0,0,0,0,4,0,2,0,2,0,4,2,0,2,0,FALSE,,3,3
+2023-03-04 15:07:33,Will H,Middle Right,1318,20,No,0,0,0,1,0,0,Engaged,4,0,0,0,0,0,0,,Engaged,0,Yes,0,,Very good top row cone action,5,3,5537804524523166471,,1318,0,0,6,12,18,20,0,20,10,48,0,48,10,22,0,1,1,0,0,0,4,4,0,0,4,1,5,0,0,0,FALSE,,5,3
+2023-03-04 15:07:41,Calvin C,Bottom Right,4915,20,No,0,0,1,0,0,0,Not Docked,0,0,0,2,0,2,0,,Engaged,0,Yes,0,,Best team #1,5,5,5537804612325428056,,4915,0,3,0,0,3,0,14,14,10,27,0,27,10,10,1,0,0,0,1,4,0,2,0,2,1,4,2,0,3,0,FALSE,,5,5
+2023-03-04 15:08:14,Val d,Top Right,3826,2,Yes,0,0,0,0,0,0,Not Docked,0,0,2,0,0,1,75,3,Docked,0,Yes,0,,,4,3,5537804943315354726,,3826,3,0,0,0,0,4,2,6,6,15,0,15,6,6,0,0,0,0,0,1,2,0,0,3,2,1,0,0,3,75,1,3,4,3
+2023-03-04 15:08:14,Val d,Top Right,2980,3,No,0,0,0,0,0,0,Not Docked,0,0,0,1,0,2,0,,Not Parked,0,Yes,12,,"It was really slow and fell over at the end
+High center of mass so easy to accidentally tip it seems
+Arm didn't seem to work",2,2,5537804943317687871,,2980,0,0,0,0,0,0,9,9,0,9,0,9,0,0,0,0,0,0,0,3,0,1,0,2,0,3,1,0,2,0,FALSE,,2,2
+2023-03-04 15:08:14,Val d,Top Right,2980,3,No,0,0,0,0,0,0,Not Docked,0,0,0,1,0,2,0,,Not Parked,0,Yes,12,,"It was really slow and fell over at the end
+High center of mass so easy to accidentally tip it seems
+Arm didn't seem to work",2,2,5537804943318121657,,2980,0,0,0,0,0,0,9,9,0,9,0,9,0,0,0,0,0,0,0,3,0,1,0,2,0,3,1,0,2,0,FALSE,,2,2
+2023-03-04 15:08:20,Val d,Top Right,6350,5,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,0,,Parked,0,Yes,0,,The grabber seemed to not really be effective at holding anything and they didn't seem to have any autonomous,2,2,5537804993313648594,,6350,0,0,0,0,0,0,2,2,2,4,0,4,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,FALSE,,2,2
+2023-03-04 15:08:20,Val d,Top Right,4681,4,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,0,0,,Parked,0,Yes,0,,"Their robots were having some serious technical issues, I think it was disabled a good amount of time",1,1,5537805003318983720,,4681,3,0,0,0,0,2,0,2,2,7,0,7,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,FALSE,,1,1
+2023-03-04 15:08:21,Val d,Top Right,4512,6,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,100,3,Not Parked,0,Yes,0,,"Throwback wasn't trying to score points it was mostly focused on defending what you did relatively well
+I let the Jack in the bot robot take the opportunity to grab count and pubs",3,3,5537805013317448357,,4512,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,1,3,3,3
+2023-03-04 15:08:21,Val d,Top Right,3826,7,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,4,0,,Parked,0,Yes,5,,,3,3,5537805013312999165,,3826,3,0,0,0,0,2,8,10,2,15,0,15,0,0,0,0,0,0,0,4,1,0,0,5,1,4,0,0,5,0,FALSE,,3,3
+2023-03-04 15:08:21,Val d,Top Right,3049,8,No,0,0,0,0,0,0,Not Docked,2,1,0,0,0,0,0,,Parked,2,Yes,10,,No autonomous it seems,4,4,5537805013312384329,,3049,0,0,0,0,0,13,0,13,2,15,10,25,0,0,0,0,0,0,0,0,3,2,1,0,3,0,2,1,0,0,FALSE,,4,4
+2023-03-04 15:08:21,Val d,Top Right,2097,9,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,Yes,0,,They didn't seem to be moving at all,1,1,5537805013312876133,,2097,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 15:08:22,Josh M,Middle Left,3681,20,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,Robot did nothing all match,,,5537805028818623703,,3681,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 15:08:22,Val d,Top Right,3681,10,No,0,0,0,0,0,0,Not Docked,0,0,1,0,1,0,0,,Not Parked,0,Yes,5,,,2,3,5537805023317906535,,3681,0,0,0,0,0,2,3,5,0,5,0,5,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,FALSE,,2,3
+2023-03-04 15:16:48,Val d,Bottom Left,8248,21,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,3,0,,Engaged,0,Yes,0,,"It seemed it primarily focused on bottom cubes, 
+It did have an auto but it didn't score any points that I could see",4,4,5537810086156906366,,8248,3,0,0,0,0,0,6,6,10,19,0,19,10,10,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,FALSE,,4,4
+2023-03-04 15:17:00,Daniel M,Middle Left,8248,21,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,30,3,Engaged,2,Yes,5,,,4,4,5537810201217956614,,8248,3,0,0,0,0,0,2,2,10,15,10,25,10,10,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,30,1,3,4,4
+2023-03-04 15:17:11,Zack H,Middle Right,1899,21,No,0,0,0,0,0,0,Not Docked,0,0,0,2,1,1,0,,Engaged,0,Yes,5,,"Seems to be a cube-only bot. Picked up most cubes from floor, but very very slowly. Can score all levels.",4,3,5537810302959188075,,1899,0,0,0,0,0,0,15,15,10,25,0,25,10,10,0,0,0,0,0,4,0,2,1,1,0,4,2,1,1,0,FALSE,,4,3
+2023-03-04 15:21:54,Daniel M,Middle Left,2147,22,No,0,0,0,0,0,0,Engaged,0,1,0,0,1,1,0,,Engaged,3,Yes,10,,,5,5,5537813141211925189,,2147,0,0,0,12,12,3,5,8,10,30,15,45,10,22,0,0,0,0,0,2,1,0,2,1,1,2,0,2,1,0,FALSE,,5,5
+2023-03-04 15:23:16,Zack H,Middle Right,5588,32,No,0,0,0,0,0,0,Not Docked,0,0,0,3,0,0,0,,Engaged,0,No,10,,"Flimsy polycarb arm. It could hold cubes, but seemed floppy and hard to align. There was a point in the match where it seemed to penetrate another robots frame perimeter, but I'm not sure.",2,3,5537813962953304008,,5588,0,0,0,0,0,0,15,15,10,25,0,25,10,10,0,0,0,0,0,3,0,3,0,0,0,3,3,0,0,0,FALSE,,2,3
+2023-03-04 15:25:13,Ethan B,Middle Right,2910,24,Yes,9,0,0,0,4,0,Not Docked,0,0,0,0,0,0,15,5,Engaged,0,Yes,0,,"Very fast and small robot, very quick at picking up objects. Great driver",4,5,5537815132316537363,,2910,3,54,16,0,70,0,0,0,10,83,0,83,10,10,9,4,9,4,0,0,0,0,0,0,9,4,9,4,0,15,1,5,4,5
+2023-03-04 15:30:43,Felix M,Bottom Right,6350,23,No,0,0,0,0,0,0,Engaged,0,0,0,0,0,0,5,2,Engaged,1,No,0,,,1,1,5537818432554242684,,6350,0,0,0,12,12,0,0,0,10,22,5,27,10,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,FALSE,2,1,1
+2023-03-04 15:31:53,Daniel M,Middle Left,5941,23,Yes,0,0,0,0,0,0,Not Docked,0,0,2,0,0,2,35,3,Engaged,2,Yes,0,,,5,5,5537819121211229686,,5941,3,0,0,0,0,4,4,8,10,21,10,31,10,10,0,0,0,0,0,2,2,0,0,4,2,2,0,0,4,35,1,3,5,5
+2023-03-04 15:37:12,Felix M,Bottom Right,488,24,No,0,0,0,0,0,0,Not Docked,0,0,0,0,1,4,0,1,Not Parked,0,Yes,0,,,4,4,5537822322552583739,,488,0,0,0,0,0,0,11,11,0,11,0,11,0,0,0,0,0,0,0,5,0,0,1,4,0,5,0,1,4,0,FALSE,,4,4
+2023-03-04 15:38:23,Daniel M,Middle Left,4980,24,Yes,0,0,0,0,0,0,Not Docked,0,4,0,0,0,0,0,,Docked,3,Yes,5,,,4,3,5537823031213734466,,4980,3,0,0,0,0,12,0,12,6,21,15,36,6,6,0,0,0,0,0,0,4,0,4,0,4,0,0,4,0,0,FALSE,,4,3
+2023-03-04 15:40:09,Ethan B,Middle Right,2910,24,Yes,2,5,1,1,3,1,Not Docked,0,0,0,0,0,0,15,5,Docked,3,Yes,0,,"Very fast and small robot, very quick at picking up objects. Great driver. A lot of potential,  they almost won.",4,5,5537824092316622973,,2910,3,35,21,0,56,0,0,0,6,65,15,80,6,6,8,5,3,8,2,0,0,0,0,0,8,5,3,8,2,15,1,5,4,5
+2023-03-04 15:45:25,Daniel M,Middle Left,2522,25,Yes,0,0,1,0,0,1,Not Docked,0,2,1,1,1,0,0,,Engaged,1,No,0,,,4,4,5537827251212309654,,2522,3,3,3,0,6,8,8,16,10,35,5,40,10,10,1,1,0,0,2,2,3,1,3,1,4,3,1,3,3,0,FALSE,,4,4
+2023-03-04 15:50:13,Felix M,Bottom Right,3826,25,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,2,2,20,,Engaged,0,Yes,0,,Defender,,,5537830130121961460,,3826,3,0,0,0,0,0,10,10,10,23,0,23,10,10,0,0,0,0,0,4,0,0,2,2,0,4,0,2,2,20,1,,,
+2023-03-04 15:50:13,Felix M,Bottom Right,5588,26,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,Didn’t move entire match,,,5537830130128697816,,5588,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 15:50:58,Daniel M,Middle Left,4089,26,No,0,0,0,0,0,0,Not Docked,0,0,0,0,2,0,0,,Engaged,0,No,0,,,3,3,5537830581219734415,,4089,0,0,0,0,0,0,6,6,10,16,0,16,10,10,0,0,0,0,0,2,0,0,2,0,0,2,0,2,0,0,FALSE,,3,3
+2023-03-04 15:57:33,Felix M,Bottom Right,9036,28,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,3,Parked,0,No,0,,,3,4,5537834535122442198,,9036,3,0,0,0,0,0,0,0,2,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,4
+2023-03-04 15:58:11,Daniel M,Middle Left,3681,27,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,1,No,0,,,1,1,5537834911219348908,,3681,0,0,0,0,0,0,0,0,2,2,5,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 16:01:14,Val d,Bottom Left,3268,26,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,0,,Parked,0,Yes,0,,Is robot couldn't seem to be able to move. My guess is there's a technical problem of some kind,2,1,5537836741452666619,,3268,0,0,0,0,0,0,2,2,2,4,0,4,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,FALSE,,2,1
+2023-03-04 16:07:37,Daniel M,Middle Left,6350,28,No,0,0,0,0,0,0,Not Docked,0,0,0,0,1,0,0,,Parked,0,No,15,,,1,1,5537840571212271809,,6350,0,0,0,0,0,0,3,3,2,5,0,5,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,FALSE,,1,1
+2023-03-04 16:13:26,Daniel M,Middle Left,4131,29,Yes,1,0,0,0,0,0,Not Docked,2,0,1,1,0,0,0,,Docked,1,Yes,5,,,3,3,5537844061214724185,,4131,3,6,0,0,6,12,5,17,6,32,5,37,6,6,1,0,1,0,0,1,3,3,0,1,4,1,4,0,1,0,FALSE,,3,3
+2023-03-04 16:14:12,Val d,Bottom Left,2930,23,Yes,1,0,0,0,0,0,Engaged,1,0,0,2,0,0,0,,Engaged,0,Yes,0,,What are driving was good There was some issues with other teams being in their way,4,4,5537844513119859745,,2930,3,6,0,12,18,5,10,15,10,46,0,46,10,22,1,0,1,0,0,2,1,3,0,0,2,2,4,0,0,0,FALSE,,4,4
+2023-03-04 16:15:39,Evan K,Bottom Left,4682,12,No,0,0,0,0,0,0,Not Docked,0,0,0,0,1,2,5,3,Engaged,0,Yes,0,,scored very little,3,4,5537845394124846824,,4682,0,0,0,0,0,0,7,7,10,17,0,17,10,10,0,0,0,0,0,3,0,0,1,2,0,3,0,1,2,5,FALSE,3,3,4
+2023-03-04 16:15:39,Evan K,Bottom Left,2910,13,Yes,1,0,0,1,1,0,Not Docked,5,0,0,1,0,0,0,,Not Parked,0,No,10,,very clean 5/5 stars,5,5,5537845394126852157,,2910,3,6,10,0,16,25,5,30,0,49,0,49,0,0,1,2,2,1,0,1,5,6,0,0,6,3,8,1,0,0,FALSE,,5,5
+2023-03-04 16:15:40,Evan K,Bottom Left,8248,14,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,5,2,Engaged,0,No,12,,"i assume output didn't work, also they like compressed/popped a cube",2,3,5537845404125389565,,8248,0,0,0,0,0,0,2,2,10,12,0,12,10,10,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,5,FALSE,2,2,3
+2023-03-04 16:15:40,Evan K,Bottom Left,2980,15,No,0,0,0,0,0,1,Not Docked,0,0,1,0,0,0,0,,Parked,0,No,0,,spent like 30-45 seconds trying to get a cone from the human player only to drop it after 2 seconds and just pushed it all the way,2,2,5537845404121930200,,2980,0,0,3,0,3,2,0,2,2,7,0,7,0,0,0,1,0,0,1,0,1,0,0,1,1,1,0,0,2,0,FALSE,,2,2
+2023-03-04 16:15:41,Evan K,Bottom Left,2903,16,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,grabber looked broken,2,3,5537845414123969615,,2903,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,2,3
+2023-03-04 16:15:44,Evan K,Bottom Left,5588,17,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,5,,after auto robot just slowly drifted towards other alliance; got disabled,1,1,5537845444128025024,,5588,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 16:15:44,Evan K,Bottom Left,4980,18,Yes,0,1,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,spent 45 seconds with their arm fully up and then fell over,1,1,5537845444122395303,,4980,3,4,0,0,4,0,0,0,0,7,0,7,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,FALSE,,1,1
+2023-03-04 16:15:45,Evan K,Bottom Left,2412,19,Yes,0,0,0,0,0,0,Engaged,2,0,0,1,0,0,0,,Not Parked,0,No,5,,eh,4,4,5537845454128560487,,2412,3,0,0,12,12,10,5,15,0,30,0,30,0,12,0,0,0,0,0,1,2,3,0,0,2,1,3,0,0,0,FALSE,,4,4
+2023-03-04 16:15:45,Evan K,Bottom Left,9036,20,No,0,0,0,0,0,1,Not Docked,0,0,0,0,1,0,5,3,Docked,0,No,0,,"dropped a cube in tele, auto got caught on charge station",3,4,5537845454123725982,,9036,0,0,3,0,3,0,3,3,6,12,0,12,6,6,0,1,0,0,1,1,0,0,1,0,0,2,0,1,1,5,FALSE,3,3,4
+2023-03-04 16:15:45,Evan K,Top Right,2097,21,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,looked dazed,1,1,5537845454129881732,,2097,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 16:15:46,Evan K,Top Right,4089,22,No,0,0,1,0,0,0,Not Docked,0,0,0,0,0,1,0,,Parked,0,No,10,,struggled to get a cube,2,3,5537845464127907293,,4089,0,3,0,0,3,0,2,2,2,7,0,7,0,0,1,0,0,0,1,1,0,0,0,1,1,1,0,0,2,0,FALSE,,2,3
+2023-03-04 16:15:46,Evan K,Top Right,2980,23,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,did not move really at all,1,1,5537845464123357443,,2980,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 16:15:46,Evan K,Top Right,2903,24,No,0,0,0,0,0,0,Not Docked,0,0,0,2,0,0,0,,Not Parked,0,No,0,,"got stuck on top row for ~15 seconds, knocked a cube off of middle row",1,2,5537845464123231223,,2903,0,0,0,0,0,0,10,10,0,10,0,10,0,0,0,0,0,0,0,2,0,2,0,0,0,2,2,0,0,0,FALSE,,1,2
+2023-03-04 16:15:47,Evan K,Top Right,7627,25,No,0,0,0,1,0,0,Engaged,2,0,0,1,0,0,0,,Engaged,0,No,5,,pretty clean,5,4,5537845474125895642,,7627,0,0,6,12,18,10,5,15,10,43,0,43,10,22,0,1,1,0,0,1,2,3,0,0,2,2,4,0,0,0,FALSE,,5,4
+2023-03-04 16:15:47,Evan K,Top Right,2147,26,Yes,0,0,1,0,0,0,Engaged,0,1,0,0,1,2,0,,Engaged,0,No,0,,missed a mid cone and it fell to the bottom where a cone already was,4,4,5537845474128834029,,2147,3,3,0,12,15,3,7,10,10,38,0,38,10,22,1,0,0,0,1,3,1,0,2,2,2,3,0,2,3,0,FALSE,,4,4
+2023-03-04 16:15:48,Evan K,Top Right,8248,27,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,0,,Not Parked,0,No,0,,"failed to dock in auto, not that good",2,2,5537845484127910290,,8248,3,0,0,0,0,0,2,2,0,5,0,5,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,FALSE,,2,2
+2023-03-04 16:15:48,Evan K,Top Right,5941,28,Yes,0,0,0,0,0,0,Not Docked,0,0,4,0,0,0,0,,Engaged,0,No,5,,"chassis bot, played very well",5,4,5537845484128551404,,5941,3,0,0,0,0,8,0,8,10,21,0,21,10,10,0,0,0,0,0,0,4,0,0,4,4,0,0,0,4,0,FALSE,,5,4
+2023-03-04 16:15:48,Evan K,Top Right,4980,29,Yes,0,1,0,0,0,0,Not Docked,0,1,1,0,0,0,0,,Parked,0,No,0,,dropped a few cones,4,4,5537845484123933303,,4980,3,4,0,0,4,5,0,5,2,14,0,14,0,0,1,0,0,1,0,0,2,0,1,1,3,0,0,2,1,0,FALSE,,4,4
+2023-03-04 16:30:16,Val d,Bottom Left,4915,27,No,0,0,1,0,0,0,Engaged,0,0,0,1,0,2,0,,Engaged,0,Yes,0,,You know I really think that team 4915 is an amazing robot to have in our alliance,5,5,5537854160222188987,,4915,0,3,0,12,15,0,9,9,10,34,0,34,10,22,1,0,0,0,1,3,0,1,0,2,1,3,1,0,3,0,FALSE,,5,5
+2023-03-04 16:30:17,Val d,Bottom Left,2412,24,Yes,0,0,0,0,0,0,Engaged,1,2,0,0,0,0,0,,Docked,0,Yes,5,,During the game they primarily focused on cone pickups,4,4,5537854170229911418,,2412,3,0,0,12,12,11,0,11,6,32,0,32,6,18,0,0,0,0,0,0,3,1,2,0,3,0,1,2,0,0,FALSE,,4,4
+2023-03-04 16:30:33,Val d,Bottom Left,4512,25,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,120,4,Not Parked,0,Yes,3,,Definitely a defense focus bot,5,4,5537854330223485604,,4512,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,1,4,5,4
+2023-03-04 16:30:33,Val d,Bottom Left,4173,22,Yes,0,0,0,0,0,1,Not Docked,0,0,1,0,1,1,0,,Engaged,0,Yes,10,,"Doro out a hard time grabbing things
+The arm doesn't seem to have an extender so it takes a while to adjust to get in the right position to grab something",3,4,5537854330221333540,,4173,3,0,3,0,3,2,5,7,10,23,0,23,10,10,0,1,0,0,1,2,1,0,1,2,1,3,0,1,3,0,FALSE,,3,4
+2023-03-04 16:30:33,Val d,Bottom Left,2097,28,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,3,,,2,2,5537854330227845353,,2097,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,2,2
+2023-03-04 16:30:36,Val d,Bottom Left,3268,29,No,0,0,0,0,0,0,Not Docked,0,0,1,0,0,2,0,,Docked,0,Yes,5,,Dad some trap picking up objects,3,3,5537854360222870075,,3268,0,0,0,0,0,2,4,6,6,12,0,12,6,6,0,0,0,0,0,2,1,0,0,3,1,2,0,0,3,0,FALSE,,3,3
+2023-03-04 16:36:53,Daniel M,Middle Left,9036,30,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,1,1,0,,Engaged,2,Yes,0,,,3,3,5537858131213486816,,9036,3,0,0,0,0,0,5,5,10,18,10,28,10,10,0,0,0,0,0,2,0,0,1,1,0,2,0,1,1,0,FALSE,,3,3
+2023-03-04 16:43:47,Evan K,Top Right,7627,30,No,0,0,0,1,0,0,Engaged,4,0,0,1,0,0,0,,Parked,0,No,0,,played well,4,4,5537862278657397144,,7627,0,0,6,12,18,20,5,25,2,45,0,45,0,12,0,1,1,0,0,1,4,5,0,0,4,2,6,0,0,0,FALSE,,4,4
+2023-03-04 16:45:13,Audrey B,Bottom Right,8248,31,No,0,0,1,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,,,,5537863134525012049,,8248,0,3,0,0,3,0,0,0,0,3,0,3,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,FALSE,,,
+2023-03-04 16:46:14,Gavin maddie,Top Right,5941,31,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,Yes,0,,Robot not present,,,5537863740329979275,,5941,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 16:48:55,Emily r,Top Left,4911,31,Yes,0,0,0,0,0,0,Engaged,0,0,3,0,0,1,0,,Engaged,0,Yes,,,"Moved fast and was very efficient, balanced quickly",5,5,5537865353412457886,,4911,3,0,0,12,12,6,2,8,10,33,0,33,10,22,0,0,0,0,0,1,3,0,0,4,3,1,0,0,4,0,FALSE,,5,5
+2023-03-04 16:50:40,Val d,Bottom Left,2522,30,Yes,0,0,1,0,0,0,Not Docked,0,1,0,1,1,0,0,,Engaged,0,Yes,0,,"It might be inefficient to have this robot pick stuff up from the substations 
+It did well at placing things on the grid and grabbing stuff from the ground",4,4,5537866402144210732,,2522,3,3,0,0,3,3,8,11,10,27,0,27,10,10,1,0,0,0,1,2,1,1,2,0,2,2,1,2,1,0,FALSE,,4,4
+2023-03-04 16:52:29,Judah M,Bottom Left,3681,32,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,1,Parked,0,No,0,,Didn’t move at all,1,1,5537867494527658208,,3681,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 16:54:06,Gavin maddie,Top Right,6350,32,No,0,0,0,0,0,0,Not Docked,0,0,1,0,0,1,0,,Parked,3,No,0,,Didn't seem to be functional,1,2,5537868460324938195,,6350,0,0,0,0,0,2,2,4,2,6,15,21,0,0,0,0,0,0,0,1,1,0,0,2,1,1,0,0,2,0,FALSE,,1,2
+2023-03-04 16:54:17,Ethan B,Middle Right,5588,32,Yes,0,0,0,0,0,0,Not Docked,0,0,0,2,1,0,0,,Engaged,0,Yes,0,,,4,3,5537868572311493929,,5588,3,0,0,0,0,0,13,13,10,26,0,26,10,10,0,0,0,0,0,3,0,2,1,0,0,3,2,1,0,0,FALSE,,4,3
+2023-03-04 16:54:27,Emily r,Top Left,2980,32,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,Yes,0,,Did not move,1,1,5537868673413176279,,2980,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 16:55:13,Audrey B,Bottom Right,1318,32,Yes,0,0,0,1,0,0,Engaged,5,0,0,0,0,0,0,,Engaged,1,Yes,0,,,4,4,5537869134524669474,,1318,3,0,6,12,18,25,0,25,10,56,5,61,10,22,0,1,1,0,0,0,5,5,0,0,5,1,6,0,0,0,FALSE,,4,4
+2023-03-04 17:01:20,Gavin Maddie,Top Right,3049,33,No,0,0,1,0,0,0,Not Docked,0,0,4,0,0,0,0,,Parked,4,Yes,0,,Nonfunctional arm,3,2,5537872800327181599,,3049,0,3,0,0,3,8,0,8,2,13,20,33,0,0,1,0,0,0,1,0,4,0,0,4,5,0,0,0,5,0,FALSE,,3,2
+2023-03-04 17:01:33,Audrey B,Bottom Right,2910,33,Yes,1,0,0,1,0,0,Not Docked,5,1,0,0,0,0,0,,Engaged,4,Yes,0,,,5,5,5537872934524167248,,2910,3,6,6,0,12,28,0,28,10,53,20,73,10,10,1,1,2,0,0,0,6,5,1,0,7,1,7,1,0,0,FALSE,,5,5
+2023-03-04 17:01:41,Judah M,Bottom Left,2097,33,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,0,1,Not Parked,0,No,0,,,1,1,5537873014523422250,,2097,0,0,0,0,0,0,2,2,0,2,0,2,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,FALSE,,1,1
+2023-03-04 17:02:11,Emily r,Top Left,949,33,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,1,0,,Not Parked,0,Yes,0,,"Consistent but slow, only scored low",2,3,5537873313414800847,,949,3,0,0,0,0,2,2,4,0,7,0,7,0,0,0,0,0,0,0,1,1,0,0,2,1,1,0,0,2,0,FALSE,,2,3
+2023-03-04 17:02:55,Ethan B,Middle Right,2910,33,Yes,0,0,0,1,0,0,Not Docked,5,1,0,0,0,0,0,,Engaged,0,Yes,0,,,5,5,5537873756844441459,,2910,3,0,6,0,6,28,0,28,10,47,0,47,10,10,0,1,1,0,0,0,6,5,1,0,6,1,6,1,0,0,FALSE,,5,5
+2023-03-04 17:06:50,Gavin M,Top Right,4681,34,Yes,0,1,0,0,0,0,Not Docked,0,1,0,0,0,0,0,,Parked,0,No,0,,Disabled,,,5537876100321349621,,4681,3,4,0,0,4,3,0,3,2,12,0,12,0,0,1,0,0,1,0,0,1,0,1,0,2,0,0,2,0,0,FALSE,,,
+2023-03-04 17:07:28,Audrey B,Bottom Right,2928,34,No,0,0,0,1,0,0,Not Docked,0,0,1,0,0,0,0,,Engaged,0,No,5,,,3,2,5537876484524494696,,2928,0,0,6,0,6,2,0,2,10,18,0,18,10,10,0,1,1,0,0,0,1,0,0,1,1,1,1,0,1,0,FALSE,,3,2
+2023-03-04 17:07:43,Judah M,Bottom Left,2976,34,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,30,3,Engaged,0,Yes,0,,,1,2,5537876634526805604,,2976,3,0,0,0,0,0,0,0,10,13,0,13,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,1,3,1,2
+2023-03-04 17:08:41,Ethan B,Middle Right,2903,34,No,0,0,0,0,0,0,Not Docked,0,0,0,1,0,0,0,,Engaged,0,No,5,,,2,1,5537877212522777534,,2903,0,0,0,0,0,0,5,5,10,15,0,15,10,10,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,FALSE,,2,1
+2023-03-04 17:14:14,Judah M,Bottom Left,1899,35,Yes,0,0,0,0,0,0,Not Docked,0,0,0,2,0,0,0,1,Engaged,1,Yes,0,,,2,2,5537880544524622948,,1899,3,0,0,0,0,0,10,10,10,23,5,28,10,10,0,0,0,0,0,2,0,2,0,0,0,2,2,0,0,0,FALSE,,2,2
+2023-03-04 17:14:20,Gavin M,Top Right,2522,35,Yes,0,0,1,0,0,0,Docked,0,1,1,1,1,0,0,,Docked,3,Yes,0,,Double triple dock,4,3,5537880600326767261,,2522,3,3,0,8,11,5,8,13,6,33,15,48,6,14,1,0,0,0,1,2,2,1,2,1,3,2,1,2,2,0,FALSE,,4,3
+2023-03-04 17:14:39,Ethan B,Middle Right,488,35,Yes,0,0,0,1,0,0,Not Docked,0,0,0,0,0,4,0,,Engaged,0,Yes,0,,,4,3,5537880792941811859,,488,3,0,6,0,6,0,8,8,10,27,0,27,10,10,0,1,1,0,0,4,0,0,0,4,0,5,1,0,4,0,FALSE,,4,3
+2023-03-04 17:21:00,Judah M,Bottom Left,4089,36,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,0,0,1,Not Parked,0,Yes,0,,Got stuck on the cage,1,2,5537884604522764270,,4089,3,0,0,0,0,0,5,5,0,8,0,8,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,FALSE,,1,2
+2023-03-04 17:22:21,Ethan B,Middle Right,4131,36,Yes,1,0,0,0,0,0,Not Docked,3,0,0,2,0,0,0,,Not Parked,0,Yes,0,,,5,4,5537885412714495997,,4131,3,6,0,0,6,15,10,25,0,34,0,34,0,0,1,0,1,0,0,2,3,5,0,0,4,2,6,0,0,0,FALSE,,5,4
+2023-03-04 17:22:24,Gavin M,Top Right,4512,36,Yes,0,0,1,0,0,0,Not Docked,0,0,0,0,0,3,60,4,Docked,2,Yes,0,,Non function arm BUT fantastic chassis to chassis defense and stole game pieces from other team by putting them in community,2,4,5537885440328702950,,4512,3,3,0,0,3,0,6,6,6,18,10,28,6,6,1,0,0,0,1,3,0,0,0,3,1,3,0,0,4,60,1,4,2,4
+2023-03-04 17:22:27,Audrey B,Bottom Right,3268,35,No,0,0,0,0,0,0,Not Docked,0,0,1,0,0,0,0,,Engaged,2,Yes,0,,arm broke and stopped them from moving well,1,2,5537885474525159666,,3268,0,0,0,0,0,2,0,2,10,12,10,22,10,10,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,FALSE,,1,2
+2023-03-04 17:22:27,Audrey B,Bottom Right,4131,36,Yes,1,0,0,0,0,0,Not Docked,3,0,0,2,0,0,0,,Parked,2,Yes,0,,,4,3,5537885474527821785,,4131,3,6,0,0,6,15,10,25,2,36,10,46,0,0,1,0,1,0,0,2,3,5,0,0,4,2,6,0,0,0,FALSE,,4,3
+2023-03-04 17:28:57,Gavin M,Top Right,9036,37,No,0,0,0,0,0,0,Not Docked,0,2,0,0,0,0,0,,Parked,4,No,0,,Really sub par driving/coordination,2,1,5537889370322705389,,9036,0,0,0,0,0,6,0,6,2,8,20,28,0,0,0,0,0,0,0,0,2,0,2,0,2,0,0,2,0,0,FALSE,,2,1
+2023-03-04 17:28:57,Judah M,Bottom Left,3681,37,No,0,0,0,0,0,0,Not Docked,0,0,0,2,2,0,0,1,Engaged,0,No,0,,,1,1,5537889374526356388,,3681,0,0,0,0,0,0,16,16,10,26,0,26,10,10,0,0,0,0,0,4,0,2,2,0,0,4,2,2,0,0,FALSE,,1,1
+2023-03-04 17:29:13,Audrey B,Bottom Right,2930,37,Yes,1,0,0,0,0,0,Not Docked,1,0,0,1,0,0,0,,Engaged,4,Yes,0,,,4,3,5537889534523838069,,2930,3,6,0,0,6,5,5,10,10,29,20,49,10,10,1,0,1,0,0,1,1,2,0,0,2,1,3,0,0,0,FALSE,,4,3
+2023-03-04 17:29:57,Ethan B,Middle Right,2910,37,Yes,1,0,0,0,0,0,Engaged,4,2,0,1,1,1,0,,Engaged,0,Yes,0,,They scored 129 points,5,5,5537889971223071267,,2910,3,6,0,12,18,26,10,36,10,67,0,67,10,22,1,0,1,0,0,3,6,5,3,1,7,3,6,3,1,0,FALSE,,5,5
+2023-03-04 17:36:00,Gavin M,Top Right,949,38,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,1,No,0,,Didn't do anything except engage,1,1,5537893600329239694,,949,3,0,0,0,0,0,0,0,10,13,5,18,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 17:37:03,Audrey B,Bottom Right,3049,38,No,1,0,0,0,0,0,Not Docked,0,1,0,0,1,0,0,,Parked,0,No,5,,,3,2,5537894234527229865,,3049,0,6,0,0,6,3,3,6,2,14,0,14,0,0,1,0,1,0,0,1,1,0,2,0,2,1,1,2,0,0,FALSE,,3,2
+2023-03-04 17:37:16,Ethan B,Middle Right,3049,38,Yes,1,0,0,0,0,0,Not Docked,0,0,0,0,1,0,0,,Parked,0,No,5,,,2,3,5537894361227801562,,3049,3,6,0,0,6,0,3,3,2,14,0,14,0,0,1,0,1,0,0,1,0,0,1,0,1,1,1,1,0,0,FALSE,,2,3
+2023-03-04 17:37:17,Zack H,Middle Right,4131,25,Yes,1,0,0,0,0,0,Not Docked,2,0,1,1,0,1,0,,Parked,0,No,0,,"Dropped 3 cones on its way across the field. It likely would've scored one more top cone during endgame, but it was blocked by a red alliance bot.",3,3,5537894376957876167,,4131,3,6,0,0,6,12,7,19,2,30,0,30,0,0,1,0,1,0,0,2,3,3,0,2,4,2,4,0,2,0,FALSE,,3,3
+2023-03-04 17:37:17,Zack H,Middle Right,2910,24,Yes,1,0,0,1,0,0,Engaged,3,4,0,0,1,0,0,4,Docked,0,Yes,5,,"Auto is cracked. Tele-op has extremely fast cycle time. Focused mostly on cones. It tried to help another robot get up onto the charge station during endgame, but didn't end up getting it balanced.",4,5,5537894376953347385,,2910,3,6,6,12,24,27,3,30,6,63,0,63,6,18,1,1,2,0,0,1,7,3,5,0,8,2,5,5,0,0,FALSE,,4,5
+2023-03-04 17:37:18,Zack H,Middle Right,4089,30,No,0,0,0,0,0,0,Not Docked,0,1,0,0,0,0,0,,Engaged,0,No,0,,Struggled with getting a cone from the single substation,2,3,5537894386953159954,,4089,0,0,0,0,0,3,0,3,10,13,0,13,10,10,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,FALSE,,2,3
+2023-03-04 17:37:24,Ethan B,Middle Right,3049,38,Yes,1,0,0,0,0,0,Not Docked,0,0,0,0,1,0,0,,Parked,0,No,5,,,2,3,5537894449547237022,,3049,3,6,0,0,6,0,3,3,2,14,0,14,0,0,1,0,1,0,0,1,0,0,1,0,1,1,1,1,0,0,FALSE,,2,3
+2023-03-04 17:37:31,Judah M,Bottom Left,2976,38,No,0,0,0,0,0,0,Not Docked,0,0,2,0,0,2,10,3,Engaged,1,No,5,,,2,2,5537894504526252560,,2976,0,0,0,0,0,4,4,8,10,18,5,23,10,10,0,0,0,0,0,2,2,0,0,4,2,2,0,0,4,10,FALSE,3,2,2
+2023-03-04 17:43:19,Gavin M,Top Right,4681,39,Yes,0,0,1,0,0,0,Not Docked,0,0,1,0,0,1,0,,Parked,1,No,0,,,1,1,5537897980323430122,,4681,3,3,0,0,3,2,2,4,2,12,5,17,0,0,1,0,0,0,1,1,1,0,0,2,2,1,0,0,3,0,FALSE,,1,1
+2023-03-04 17:45:09,Ethan B,Middle Right,2412,39,Yes,0,0,0,0,0,0,Not Docked,3,0,0,1,0,0,0,,Engaged,0,Yes,0,,Broke a ramp clean off,4,3,5537899091211150505,,2412,3,0,0,0,0,15,5,20,10,33,0,33,10,10,0,0,0,0,0,1,3,4,0,0,3,1,4,0,0,0,FALSE,,4,3
+2023-03-04 17:57:44,Gavin M,Top Right,4911,40,No,0,0,1,0,0,0,Docked,0,3,1,0,0,0,0,,Engaged,0,Yes,0,,Issue with grabbwr,3,3,5537906640327216185,,4911,0,3,0,8,11,11,0,11,10,32,0,32,10,18,1,0,0,0,1,0,4,0,3,1,5,0,0,3,2,0,FALSE,,3,3
+2023-03-04 17:58:03,Judah,Bottom Left,4173,40,Yes,0,0,0,1,0,0,Not Docked,3,1,0,0,0,0,0,1,Engaged,3,Yes,0,,,4,3,5537906834526769852,,4173,3,0,6,0,6,18,0,18,10,37,15,52,10,10,0,1,1,0,0,0,4,3,1,0,4,1,4,1,0,0,FALSE,,4,3
+2023-03-04 17:58:17,Ethan B,Middle Right,4911,40,Yes,0,0,1,0,0,0,Not Docked,0,3,1,0,0,0,0,,Engaged,0,Yes,0,,Collided with us multiple times.,3,2,5537906977854392093,,4911,3,3,0,0,3,11,0,11,10,27,0,27,10,10,1,0,0,0,1,0,4,0,3,1,5,0,0,3,2,0,FALSE,,3,2
+2023-03-04 17:58:57,Audrey B,Bottom Right,4915,40,No,0,0,1,0,0,0,Not Docked,0,0,0,0,0,2,20,3,Engaged,1,Yes,0,,almost flipped a robot,4,3,5537907374527176460,,4915,0,3,0,0,3,0,4,4,10,17,5,22,10,10,1,0,0,0,1,2,0,0,0,2,1,2,0,0,3,20,1,3,4,3
+2023-03-04 18:19:58,Aubrey W,Top Right,2910,41,Yes,0,0,0,1,0,0,Engaged,5,2,0,0,0,0,0,,Engaged,3,Yes,0,,,5,5,5537919983104097037,,2910,3,0,6,12,18,31,0,31,10,62,15,77,10,22,0,1,1,0,0,0,7,5,2,0,7,1,6,2,0,0,FALSE,,5,5
+2023-03-04 18:21:31,Josh M,Top Left,8248,41,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,No robot.,,,5537920918814008859,,8248,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 18:22:57,5941,Middle Right,5941,41,Yes,0,0,0,0,,0,Engaged,0,0,0,2,0,0,0,,Not Parked,0,Yes,0,,2 cubes and quit,2,3,5537921774526729342,,5941,3,0,0,12,12,0,10,10,0,25,0,25,0,12,0,0,0,0,0,2,0,2,0,0,0,2,2,0,0,0,FALSE,,2,3
+2023-03-04 18:23:03,Zack H,Bottom Left,3049,41,No,1,0,0,0,0,0,Not Docked,0,0,2,1,0,0,0,,Not Parked,0,No,0,,,,,5537921656955081714,,3049,0,6,0,0,6,4,5,9,0,15,0,15,0,0,1,0,1,0,0,1,2,1,0,2,3,1,2,0,2,0,FALSE,,,
+2023-03-04 18:35:31,Aubrey W,Top Right,2412,42,Yes,0,0,0,0,0,0,Engaged,2,0,0,1,0,0,0,,Engaged,3,No,0,,,,,5537929313105451584,,2412,3,0,0,12,12,10,5,15,10,40,15,55,10,22,0,0,0,0,0,1,2,3,0,0,2,1,3,0,0,0,FALSE,,,
+2023-03-04 18:36:17,Josh M,Top Left,4089,42,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,1,0,,Engaged,0,No,0,,"Slow and ineffective, can improve",3,3,5537929768817733794,,4089,3,0,0,0,0,0,7,7,10,20,0,20,10,10,0,0,0,0,0,2,0,1,0,1,0,2,1,0,1,0,FALSE,,3,3
+2023-03-04 18:36:25,cast iorn O.,Middle Right,5941,42,Yes,0,0,0,0,0,0,Engaged,0,0,0,0,0,3,20,4,Parked,3,No,0,,no arms sheer controll,5,5,5537929854524013361,,5941,3,0,0,12,12,0,6,6,2,23,15,38,0,12,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,20,1,4,5,5
+2023-03-04 18:37:04,Zack H,Bottom Left,1318,42,No,0,0,0,1,0,0,Not Docked,4,0,0,0,0,0,0,,Engaged,0,Yes,0,,Very efficient top cone scorer. Always took from double substation.,5,4,5537930146953342549,,1318,0,0,6,0,6,20,0,20,10,36,0,36,10,10,0,1,1,0,0,0,4,4,0,0,4,1,5,0,0,0,FALSE,,5,4
+2023-03-04 18:43:27,Aubrey W,Top Right,4173,43,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,1,10,,Engaged,0,No,0,,,,,5537934063102645855,,4173,3,0,0,0,0,0,2,2,10,15,0,15,10,10,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,10,FALSE,,,
+2023-03-04 18:44:22,Owen B,Middle Right,5588,43,Yes,0,0,0,0,0,0,Engaged,0,0,0,1,0,0,10,3,Engaged,0,No,0,,Robots arm fell off and was swinging around. Barely scored.,2,3,5537934624523514699,,5588,3,0,0,12,12,0,5,5,10,30,0,30,10,22,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,10,FALSE,3,2,3
+2023-03-04 18:44:44,Josh M,Top Left,4512,43,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,135,3,Parked,0,No,0,,"Robot arm didn’t move, so most of the match was spent playing defense and pushing pieces",2,3,5537934848813736176,,4512,3,0,0,0,0,0,0,0,2,5,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,1,3,2,3
+2023-03-04 18:49:48,Aubrey W,Top Right,2928,44,No,0,0,0,0,0,0,Engaged,0,0,0,0,0,0,30,3,Engaged,0,Yes,0,Yellow Card,,,,5537937883103115362,,2928,0,0,0,12,12,0,0,0,10,22,0,22,10,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,1,3,,
+2023-03-04 18:49:49,Judah M,Bottom Left,3268,44,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,3,Docked,0,No,0,,Defense bot,1,3,5537937894525960468,,3268,0,0,0,0,0,0,0,0,6,6,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,3
+2023-03-04 18:51:01,Josh M,Top Left,4980,44,Yes,0,1,0,0,0,0,Not Docked,0,1,0,0,0,0,0,,Docked,0,No,24,,Slow and top heavy. Also got a cube stuck in the intake mechanism and deflated it?,3,3,5537938618816383429,,4980,3,4,0,0,4,3,0,3,6,16,0,16,6,6,1,0,0,1,0,0,1,0,1,0,2,0,0,2,0,0,FALSE,,3,3
+2023-03-04 18:51:05,spartobots,Middle Right,2976,44,No,0,0,0,0,1,0,Engaged,0,0,0,3,1,0,5,2,Engaged,0,No,24,,,3,3,5537938654524133916,,2976,0,0,4,12,16,0,18,18,10,44,0,44,10,22,0,1,0,1,0,4,0,3,1,0,0,5,3,2,0,5,FALSE,2,3,3
+2023-03-04 18:57:03,Aubrey W,Top Right,2903,45,No,0,0,0,1,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,1,No,0,,Wire coming off,,,5537942233102394564,,2903,0,0,6,0,6,0,0,0,10,16,5,21,10,10,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,FALSE,,,
+2023-03-04 18:58:05,Owen B,Middle Right,3681,45,No,0,0,0,0,0,0,Docked,0,0,0,0,0,0,25,4,Engaged,0,No,0,,failed to use arm,1,3,5537942854521661392,,3681,0,0,0,8,8,0,0,0,10,18,0,18,10,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,1,4,1,3
+2023-03-04 18:58:34,Josh Mead,Top Left,4681,45,Yes,0,0,1,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,No,0,,Robot seems very confused. Arm didn’t work and part of the bumper came off. I couldn’t tell if it was a penalty or a yellow card or what but someone was waving a flag really fast at it,2,2,5537943148815852419,,4681,3,3,0,0,3,0,0,0,10,16,0,16,10,10,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,FALSE,,2,2
+2023-03-04 19:06:27,Aubrey W,Top Right,4089,46,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,No,0,,Ton of stuff going down and falling off,,,5537947873106785639,,4089,3,0,0,0,0,0,0,0,10,13,0,13,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 19:07:17,Josh M,Top Left,2910,46,Yes,1,0,0,1,1,0,Not Docked,3,2,0,1,0,0,0,,Engaged,0,Yes,0,,"Undoubtedly the best bot here. Even with 2 bots trying to body block it, it was still able to score a ton",5,5,5537948378815801005,,2910,3,6,10,0,16,21,5,26,10,55,0,55,10,10,1,2,2,1,0,1,5,4,2,0,6,3,6,3,0,0,FALSE,,5,5
+2023-03-04 19:07:48,Owen B,Middle Right,2097,45,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,15,,battery died,,,5537948684524774476,,2097,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-04 19:13:38,Josh M,Top Left,5941,47,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,2,120,4,Engaged,0,No,0,,Simple chassis bot. Good driving and it got in the way when it should have. Also helped collect pieces,4,4,5537952188814683357,,5941,3,0,0,0,0,0,4,4,10,17,0,17,10,10,0,0,0,0,0,2,0,0,0,2,0,2,0,0,2,120,1,4,4,4
+2023-03-04 19:14:41,Aubrey w,Top Right,4512,47,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,1,0,,Docked,0,No,0,,,,,5537952813106139866,,4512,3,0,0,0,0,2,2,4,6,13,0,13,6,6,0,0,0,0,0,1,1,0,0,2,1,1,0,0,2,0,FALSE,,,
+2023-03-04 19:15:27,owen,Middle Right,4173,46,Yes,0,0,0,0,0,1,Not Docked,0,0,3,0,0,1,0,,Docked,0,No,0,,,,2,5537953274527041705,,4173,3,0,3,0,3,6,2,8,6,20,0,20,6,6,0,1,0,0,1,1,3,0,0,4,3,2,0,0,5,0,FALSE,,,2
+2023-03-04 19:20:27,Josh M,Top Left,2930,48,Yes,1,0,0,0,0,0,Engaged,5,0,0,0,0,0,0,,Parked,3,Yes,0,,"Very good. Only scored cones, but was fast at it. Sorta stopped working after it got slammed into a wall but still finished strong",4,5,5537956278813164848,,2930,3,6,0,12,18,25,0,25,2,48,15,63,0,12,1,0,1,0,0,0,5,5,0,0,6,0,6,0,0,0,FALSE,,4,5
+2023-03-04 19:20:58,owen b,Middle Right,2928,47,Yes,0,0,0,1,0,0,Not Docked,0,0,0,0,0,2,25,4,Parked,4,Yes,0,,"ha lost to us, were good tho",4,3,5537956584525113710,,2928,3,0,6,0,6,0,4,4,2,15,20,35,0,0,0,1,1,0,0,2,0,0,0,2,0,3,1,0,2,25,1,4,4,3
+2023-03-04 19:28:23,Josh M,Top Left,2903,49,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,20,,"Mostly did nothing. Nothing in auto, drove 4 feet, stopped, waited like 40 seconds, moved another 4 feet, then stopped and never moved again",1,1,5537961038816637541,,2903,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 19:29:37,owen,Middle Right,4980,48,Yes,0,0,0,0,1,0,Not Docked,0,1,2,0,0,0,5,,Parked,3,No,0,,,,,5537961774523841937,,4980,3,0,4,0,4,7,0,7,2,16,15,31,0,0,0,1,0,1,0,0,3,0,1,2,3,1,0,2,2,5,FALSE,,,
+2023-03-04 19:30:00,Val d,Bottom Left,2522,30,Yes,0,0,1,0,0,0,Not Docked,0,1,0,1,1,0,0,,Engaged,0,Yes,0,,"It might be inefficient to have this robot pick stuff up from the substations 
+It did well at placing things on the grid and grabbing stuff from the ground",4,4,5537962005918897492,,2522,3,3,0,0,3,3,8,11,10,27,0,27,10,10,1,0,0,0,1,2,1,1,2,0,2,2,1,2,1,0,FALSE,,4,4
+2023-03-04 19:33:01,Zack H,Bottom Left,4915,43,No,0,0,0,0,0,1,Not Docked,0,0,0,2,0,2,0,,Engaged,0,Yes,0,,This team was super cool wow what a great team!!!,3,4,5537963810718900567,,4915,0,0,3,0,3,0,14,14,10,27,0,27,10,10,0,1,0,0,1,4,0,2,0,2,0,5,2,0,3,0,FALSE,,3,4
+2023-03-04 19:42:21,Josh M,Top Left,6350,50,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,Robot didn’t move at all,1,1,5537969418815715673,,6350,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,1
+2023-03-04 19:43:47,owen,Middle Right,3268,49,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,1,0,10,3,Engaged,0,No,0,,+yellow for other,3,4,5537970264529461825,,3268,3,0,0,0,0,0,3,3,10,16,0,16,10,10,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,10,FALSE,3,3,4
+2023-03-04 19:54:34,Everett W,Top Right,8248,51,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,2,10,2,Docked,0,Yes,0,,"The charge station was jammed, couldn’t have engaged it.",3,2,5537976733422375337,,8248,0,0,0,0,0,0,4,4,6,10,0,10,6,6,0,0,0,0,0,2,0,0,0,2,0,2,0,0,2,10,FALSE,2,3,2
+2023-03-04 19:55:41,Alexa D,Bottom Left,488,51,Yes,0,0,0,0,0,0,Engaged,0,0,0,0,0,3,50,4,Parked,0,Yes,0,,"Could only reach bottom and only grabbed cubes, was fast and driven very well so was able to defend multiple robots at once. Switched to defense after scoring all available cubes",3,4,5537977406872008213,,488,3,0,0,12,12,0,6,6,2,23,0,23,0,12,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,50,1,4,3,4
+2023-03-04 19:56:30,Zack H,Middle Right,2976,51,Yes,1,0,0,0,0,0,Not Docked,0,0,0,0,0,0,90,3,Docked,0,No,10,,"Auto placed a high cone and went for a cube pickup, but missed. It'll likely get fixed soon and get a high cone+high cube auto in later matches. At the beginning of tele-op, it collided with the double substation wall and lost a belt on its intake, so it played defense for the rest of the match. The charge station was broken and got stuck at and angle so engaging was impossible, but likely would have happened if it was working.",1,4,5537977904814324079,,2976,3,6,0,0,6,0,0,0,6,15,0,15,6,6,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,90,1,3,1,4
+2023-03-04 19:57:21,Will H,Middle Left,4681,51,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,30,3,Engaged,0,No,10,,Got caught on an allied robot for almost 30 seconds,1,3,5537978418323853773,,4681,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,1,3,1,3
+2023-03-04 19:57:42,Will H,Middle Left,4681,51,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,30,3,Engaged,0,No,10,,Got caught on an allied robot for almost 30 seconds,1,3,5537978624522404090,,4681,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,1,3,1,3
+2023-03-04 20:03:54,Everett W,Top Right,3681,52,No,0,0,0,0,0,0,Not Docked,1,0,0,1,1,0,0,,Parked,0,Yes,0,,"Not bad for a mechanum drive, but not great at know long when to stop trying to pick up a cone",4,3,5537982343427747136,,3681,0,0,0,0,0,5,8,13,2,15,0,15,0,0,0,0,0,0,0,2,1,2,1,0,1,2,2,1,0,0,FALSE,,4,3
+2023-03-04 20:04:03,Will H,Middle Left,3049,52,No,0,0,0,0,0,0,Not Docked,1,0,0,0,0,0,0,,Not Parked,0,Yes,0,,Robot whole on just stopped working after 15 seconds,1,1,5537982434521811656,,3049,0,0,0,0,0,5,0,5,0,5,0,5,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,FALSE,,1,1
+2023-03-04 20:04:29,Alexa D,Bottom Left,4131,52,Yes,0,0,0,0,0,0,Not Docked,1,0,1,2,1,1,5,3,Engaged,0,Yes,3,,"Good variety of methods to score, got prices on top middle and low, fast driving but didn’t dodge obstacles and might have earned penalties touching too many cubes, could not pick up off ground",4,3,5537982696877943931,,4131,3,0,0,0,0,7,15,22,10,35,0,35,10,10,0,0,0,0,0,4,2,3,1,2,2,4,3,1,2,5,FALSE,3,4,3
+2023-03-04 20:17:11,Val d,Top Left,1899,51,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,Yes,0,,"Two of the robots got interlocked with each other
+So maybe see if you can weight this one less",3,5,5537990311819152438,,1899,3,0,0,0,0,0,0,0,10,13,0,13,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,5
+2023-03-04 20:17:12,Val d,Top Left,4911,52,Yes,0,0,1,0,0,0,Engaged,0,3,0,0,1,1,15,3,Engaged,0,Yes,10,,,3,4,5537990321814345188,,4911,3,3,0,12,15,9,5,14,10,42,0,42,10,22,1,0,0,0,1,2,3,0,4,1,4,2,0,4,2,15,1,3,3,4
+2023-03-04 20:17:22,Alexa D,Bottom Left,2522,53,Yes,0,0,0,0,0,0,Engaged,2,1,0,0,1,1,0,,Engaged,0,Yes,0,,"Fast good at maneuvering and picking up and placing prices at most levels, sometimes stalled",4,4,5537990426877474469,,2522,3,0,0,12,12,13,5,18,10,43,0,43,10,22,0,0,0,0,0,2,3,2,2,1,3,2,2,2,1,0,FALSE,,4,4
+2023-03-04 20:17:59,Val d,Top Left,5941,53,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,Yes,0,,The autonomous works the teleopt didn't,2,,5537990791819332217,,5941,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,2,
+2023-03-04 20:20:34,Will H,Middle Left,4089,53,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,2,3,0,,Engaged,0,Yes,0,,Arm doesn’t appear to be able to stretch to top nodes,4,4,5537992344526335746,,4089,3,0,0,0,0,0,12,12,10,25,0,25,10,10,0,0,0,0,0,5,0,0,2,3,0,5,0,2,3,0,FALSE,,4,4
+2023-03-04 20:24:32,Everett W,Top Right,1899,54,No,0,0,0,0,1,0,Engaged,0,0,0,1,0,0,0,,Engaged,0,No,0,,Tried for a long time to get a cube and the lost it in a collision :(,3,4,5537994723422868373,,1899,0,0,4,12,16,0,5,5,10,31,0,31,10,22,0,1,0,1,0,1,0,1,0,0,0,2,1,1,0,0,FALSE,,3,4
+2023-03-04 20:24:51,Evan K,Top Left,4173,34,Yes,0,0,0,0,0,1,Not Docked,0,0,1,0,1,2,0,,Engaged,0,No,5,,punted a few game pieces in bottom for start,5,5,5537994910126307291,,4173,3,0,3,0,3,2,7,9,10,25,0,25,10,10,0,1,0,0,1,3,1,0,1,3,1,4,0,1,4,0,FALSE,,5,5
+2023-03-04 20:24:52,Evan K,Top Left,4911,35,No,0,0,1,0,0,0,Engaged,0,1,2,0,0,1,0,,Engaged,0,No,0,,very clean,5,5,5537994920121837862,,4911,0,3,0,12,15,7,2,9,10,34,0,34,10,22,1,0,0,0,1,1,3,0,1,3,4,1,0,1,4,0,FALSE,,5,5
+2023-03-04 20:24:54,Evan K,Top Left,6350,36,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,3,0,,Engaged,0,No,0,,felt like a bruh moment,3,3,5537994940121766775,,6350,0,0,0,0,0,0,6,6,10,16,0,16,10,10,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,0,FALSE,,3,3
+2023-03-04 20:24:59,Evan K,Top Left,2903,38,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,No,5,,struggled,2,2,5537994990124654956,,2903,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,2,2
+2023-03-04 20:24:59,Evan K,Top Left,5588,37,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,0,0,,Engaged,0,No,0,,really struggled,2,2,5537994990124301256,,5588,3,0,0,0,0,0,5,5,10,18,0,18,10,10,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,FALSE,,2,2
+2023-03-04 20:25:03,Evan K,Top Left,4682,39,No,0,0,0,0,1,0,Not Docked,0,0,0,0,0,0,20,4,Engaged,0,No,0,,did not score in tele,3,4,5537995030122280617,,4682,0,0,4,0,4,0,0,0,10,14,0,14,10,10,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,20,1,4,3,4
+2023-03-04 20:25:04,Evan K,Top Left,3826,40,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,15,4,Not Parked,0,No,0,,died/disabled,2,2,5537995040129393675,,3826,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,1,4,2,2
+2023-03-04 20:25:04,Evan K,Bottom Right,2097,41,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Docked,0,No,0,,struggled to get on charge,3,3,5537995040123621148,,2097,0,0,0,0,0,0,0,0,6,6,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,3
+2023-03-04 20:25:04,Evan K,Bottom Right,2980,43,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,No,0,,deactivated for entire match,3,3,5537995040126759705,,2980,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,3
+2023-03-04 20:25:06,Evan K,Bottom Right,9036,44,Yes,0,0,0,0,0,1,Not Docked,0,2,0,0,0,0,0,,Parked,0,No,5,,a tad slow,4,3,5537995060129285653,,9036,3,0,3,0,3,6,0,6,2,14,0,14,0,0,0,1,0,0,1,0,2,0,2,0,2,1,0,2,1,0,FALSE,,4,3
+2023-03-04 20:25:06,Evan K,Bottom Right,4911,47,No,0,0,1,0,0,0,Not Docked,0,2,0,0,2,0,0,,Docked,0,No,0,,fast i think,4,4,5537995060124375442,,4911,0,3,0,0,3,6,6,12,6,21,0,21,6,6,1,0,0,0,1,2,2,0,4,0,3,2,0,4,1,0,FALSE,,4,4
+2023-03-04 20:25:06,Evan K,Bottom Right,4131,48,Yes,1,0,0,0,0,0,Not Docked,1,2,0,1,1,0,0,,Parked,0,No,5,,a standstill happened at mid between 4 bots at around 30 secs left,3,4,5537995060125451139,,4131,3,6,0,0,6,11,8,19,2,30,0,30,0,0,1,0,1,0,0,2,3,2,3,0,4,2,3,3,0,0,FALSE,,3,4
+2023-03-04 20:25:09,Evan K,Bottom Right,2522,49,Yes,0,0,1,0,0,0,Engaged,0,1,1,2,1,0,0,,Engaged,0,No,0,,did a sick spin into bottom cone,5,5,5537995090127350023,,2522,3,3,0,12,15,5,13,18,10,46,0,46,10,22,1,0,0,0,1,3,2,2,2,1,3,3,2,2,2,0,FALSE,,5,5
+2023-03-04 20:25:09,Evan K,Bottom Right,4682,50,No,0,0,0,0,1,0,Engaged,1,0,0,1,0,0,0,,Engaged,0,No,0,Yellow Card,got stuck on another robot for a bit,2,3,5537995090124529643,,4682,0,0,4,12,16,5,5,10,10,36,0,36,10,22,0,1,0,1,0,1,1,2,0,0,1,2,2,1,0,0,FALSE,,2,3
+2023-03-04 20:25:09,Evan K,Bottom Right,7627,51,No,0,0,0,1,0,0,Engaged,2,0,0,1,0,0,0,,Parked,0,No,10,,meh,4,3,5537995090124106282,,7627,0,0,6,12,18,10,5,15,2,35,0,35,0,12,0,1,1,0,0,1,2,3,0,0,2,2,4,0,0,0,FALSE,,4,3
+2023-03-04 20:25:09,Evan K,Bottom Right,2412,52,Yes,0,0,0,0,0,0,Not Docked,1,0,0,1,1,1,0,,Parked,0,No,0,,alright,3,3,5537995090121247397,,2412,3,0,0,0,0,5,10,15,2,20,0,20,0,0,0,0,0,0,0,3,1,2,1,1,1,3,2,1,1,0,FALSE,,3,3
+2023-03-04 20:25:09,Evan K,Bottom Right,2928,53,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,0,0,,Not Parked,0,No,0,,disabled 1/4 into match,2,2,5537995090122465721,,2928,3,0,0,0,0,0,5,5,0,8,0,8,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,FALSE,,2,2
+2023-03-04 20:25:11,Alexa D,Bottom Left,2097,54,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,35,3,Engaged,0,Yes,0,,"No auto, defended really hard by slamming into other robots and pinning them then stopped moving until the end of the game",3,3,5537995116874817215,,2097,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,1,3,3,3
+2023-03-04 20:25:11,Evan K,Bottom Right,8248,54,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,2,0,,Parked,0,No,0,,tried and failed to charge,4,4,5537995110125557695,,8248,3,0,0,0,0,0,9,9,2,14,0,14,0,0,0,0,0,0,0,3,0,1,0,2,0,3,1,0,2,0,FALSE,,4,4
+2023-03-04 20:25:26,Val d,Top Left,1318,54,Yes,0,0,0,0,0,1,Engaged,3,0,0,2,0,0,0,,Parked,0,Yes,0,,,3,3,5537995261814306377,,1318,3,0,3,12,15,15,10,25,2,45,0,45,0,12,0,1,0,0,1,2,3,5,0,0,3,3,5,0,1,0,FALSE,,3,3
+2023-03-04 20:25:35,Will H,Middle Left,4173,54,Yes,0,0,0,0,0,1,Not Docked,0,0,2,0,0,0,0,,Engaged,0,Yes,17,,Claw seemed untrustworthy,2,3,5537995354524493697,,4173,3,0,3,0,3,4,0,4,10,20,0,20,10,10,0,1,0,0,1,0,2,0,0,2,2,1,0,0,3,0,FALSE,,2,3
+2023-03-04 20:33:22,Zack H,Middle Right,3268,84,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,120,3,Parked,0,No,17,,Lifter probably broke,1,2,5538000026251325197,,3268,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,120,1,3,1,2
+2023-03-04 20:33:22,Zack H,Middle Right,2930,53,Yes,1,0,0,0,0,0,Engaged,4,0,0,0,0,0,0,,Engaged,0,Yes,0,,"Excellent cone-focused bot, but it definitely has top cube capabilities as well. Also has an excellent auto. It did have a collision that disabled a team member though. 
+
+(Also really cool bling)",4,4,5538000026253430412,,2930,3,6,0,12,18,20,0,20,10,51,0,51,10,22,1,0,1,0,0,0,4,4,0,0,5,0,5,0,0,0,FALSE,,4,4
+2023-03-04 20:33:22,Zack H,Middle Right,2910,52,Yes,1,0,0,1,0,0,Engaged,4,1,0,0,2,0,0,,Engaged,0,Yes,0,,Jack in the bot moment,5,4,5538000026259614031,,2910,3,6,6,12,24,23,6,29,10,66,0,66,10,22,1,1,2,0,0,2,5,4,3,0,6,3,6,3,0,0,FALSE,,5,4
+2023-03-04 20:43:39,William S,Top Left,5941,1,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,1,30,,Parked,0,No,0,,"Has no arm 
+Yes
+Bad got stuck in a corner",,,5538006195393396065,,5941,3,0,4,0,0,2,2,4,2,9,0,9,0,0,0,1,0,1,0,1,1,0,1,2,1,1,0,2,2,30,1,,4,
+2023-03-04 20:43:39,William S,Top Left,5588,2,Yes,0,0,0,0,0,0,Not Docked,0,0,0,3,0,0,5,,Parked,1,Yes,5,,"Good 
+No
+Not bad",,,5538006195395580219,,5588,3,0,0,0,0,0,15,15,2,20,5,25,0,0,0,0,0,0,0,3,0,3,0,0,0,3,3,0,0,5,FALSE,,,
+2023-03-04 20:43:40,William S,Top Left,4131,7,Yes,1,0,0,0,0,0,Not Docked,2,0,0,1,0,0,0,1,Engaged,0,Yes,5,,"Good good
+4star
+5star",4,5,5538006205393282717,,4131,3,6,0,0,6,10,5,15,10,34,0,34,10,10,1,0,1,0,0,1,2,3,0,0,3,1,4,0,0,0,FALSE,,4,5
+2023-03-04 20:44:05,William S,Top Left,4131,7,Yes,1,0,0,0,0,0,Not Docked,2,0,0,1,0,0,0,,Engaged,0,Yes,5,,"Good good
+4star
+5star",4,5,5538006455393164918,,4131,3,6,0,0,6,10,5,15,10,34,0,34,10,10,1,0,1,0,0,1,2,3,0,0,3,1,4,0,0,0,FALSE,,4,5
+2023-03-04 20:44:05,William S,Top Left,7627,6,Yes,0,0,0,1,0,0,Engaged,0,0,0,0,0,0,0,,Parked,0,No,2,,"Did not do a good job with cones
+1star
+4 star",1,,5538006455398374640,,7627,3,0,6,12,18,0,0,0,2,23,0,23,0,12,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,FALSE,,1,
+2023-03-04 20:44:05,William S,Top Left,4089,10,Yes,1,0,0,0,0,0,Not Docked,0,2,0,0,1,1,0,4,Engaged,0,Yes,4,,"It battery fell out 
+3
+4",3,4,5538006455391358172,,4089,3,6,0,0,6,6,5,11,10,30,0,30,10,10,1,0,1,0,0,2,2,0,3,1,3,2,1,3,1,0,FALSE,,3,4
+2023-03-04 20:44:07,William S,Bottom Right,2903,21,No,0,0,0,0,0,0,Not Docked,0,0,0,1,1,0,0,1,Engaged,0,Yes,0,,"Only cubes
+4
+3",4,3,5538006475395580123,,2903,0,0,0,0,0,0,8,8,10,18,0,18,10,10,0,0,0,0,0,2,0,1,1,0,0,2,1,1,0,0,FALSE,,4,3
+2023-03-04 20:44:07,William S,Bottom Right,,16,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,140,1,Not Parked,0,No,0,,"Arm not working
+1
+2",1,2,5538006475398415209,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140,1,1,1,2
+2023-03-04 20:44:09,William S,Middle Left,9036,30,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,1,2,0,1,Engaged,0,Yes,0,,"Good 
+3
+2",3,2,5538006495394430989,,9036,3,0,0,0,0,0,7,7,10,20,0,20,10,10,0,0,0,0,0,3,0,0,1,2,0,3,0,1,2,0,FALSE,,3,2
+2023-03-04 20:44:09,William S,Middle Left,4682,33,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,100,2,Docked,0,Yes,0,,"Meh
+1
+4",1,4,5538006495392450439,,4682,0,0,0,0,0,0,0,0,6,6,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,1,2,1,4
+2023-03-04 20:44:19,William S,Middle Left,2928,39,Yes,0,0,0,1,0,0,Engaged,0,0,0,0,0,0,0,,Engaged,0,No,0,,"Pretty good
+4
+3",4,3,5538006595392852558,,2928,3,0,6,12,18,0,0,0,10,31,0,31,10,22,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,FALSE,,4,3
+2023-03-04 20:44:19,William S,Middle Left,5941,38,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,2,0,,Not Parked,0,No,0,,"Has no arm
+1
+5",,5,5538006595396636711,,5941,3,0,0,0,0,0,4,4,0,7,0,7,0,0,0,0,0,0,0,2,0,0,0,2,0,2,0,0,2,0,FALSE,,,5
+2023-03-04 20:44:27,William S,Middle Left,2147,44,Yes,0,1,0,0,0,0,Engaged,0,2,0,0,0,0,0,,Parked,0,No,0,,"Pop a cube but a good robot
+3
+5",,,5538006675398063968,,2147,3,4,0,12,16,6,0,6,2,27,0,27,0,12,1,0,0,1,0,0,2,0,2,0,3,0,0,3,0,0,FALSE,,,
+2023-03-04 20:44:27,William S,Middle Left,2928,40,Yes,1,0,0,0,0,0,Not Docked,4,2,0,1,0,0,5,,Engaged,0,Yes,0,,"Good good robot
+5
+5",3,5,5538006675395454223,,2928,3,6,0,0,6,26,5,31,10,50,0,50,10,10,1,0,1,0,0,1,6,5,2,0,7,1,6,2,0,5,FALSE,,3,5
+2023-03-04 20:44:54,William S,Middle Left,1778,48,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,3,10,3,Not Parked,0,Yes,0,,"Stop working mid match
+2
+4",2,5,5538006945398349058,,1778,0,0,0,0,0,0,6,6,0,6,0,6,0,0,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,10,FALSE,3,2,5
+2023-03-04 20:44:54,William S,Middle Left,3826,46,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,40,5,Not Parked,0,Yes,0,,"Battery got disconnected at the middle of the mach
+3
+5",3,4,5538006945395982802,,3826,3,0,0,0,0,0,0,0,0,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,5,3,4
+2023-03-04 20:44:54,William S,Middle Left,4131,45,Yes,1,0,0,0,0,0,Not Docked,2,0,1,0,1,0,0,,Parked,0,Yes,0,,"Good but did stop working at the end
+4
+5",4,,5538006945395266901,,4131,3,6,0,0,6,12,3,15,2,26,0,26,0,0,1,0,1,0,0,1,3,2,1,1,4,1,3,1,1,0,FALSE,,4,
+2023-03-04 20:45:07,William S,Middle Left,5588,47,Yes,0,0,0,0,0,0,Docked,0,0,0,2,0,1,0,,Engaged,0,No,0,,"Slow moving
+4
+2",3,2,5538007075393666920,,5588,3,0,0,8,8,0,12,12,10,33,0,33,10,18,0,0,0,0,0,3,0,2,0,1,0,3,2,0,1,0,FALSE,,3,2
+2023-03-04 22:34:30,Judah m,Top Right,2976,18,Yes,0,0,0,0,0,0,Not Docked,0,0,3,0,0,0,0,1,Parked,0,No,0,,,1,2,5538072702248422752,,2976,3,0,0,0,0,6,0,6,2,11,0,11,0,0,0,0,0,0,0,0,3,0,0,3,3,0,0,0,3,0,FALSE,,1,2
+2023-03-04 22:34:53,Judah M,Bottom Left,488,31,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,2,Engaged,4,Yes,0,,No intake,1,2,5538072932245995384,,488,3,0,0,0,0,0,0,0,10,13,20,33,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,1,2
+2023-03-04 23:11:50,Alexa D,Middle Right,2980,3,No,0,0,0,0,0,0,Not Docked,0,0,0,0,1,2,5,2,Parked,0,Yes,12,,"Very slow, almost fell many times and then did fall at the end",3,2,5538095106876530078,,2980,0,0,0,0,0,0,7,7,2,9,0,9,0,0,0,0,0,0,0,3,0,0,1,2,0,3,0,1,2,5,FALSE,2,3,2
+2023-03-05 9:20:10,Josh M,Bottom Left,4173,139,Yes,0,0,0,0,0,1,Not Docked,0,0,1,0,0,0,0,,Parked,0,No,10,,Robot got in the way of teammates are didn’t seem like it was working very well.,2,2,5538460107582143807,,4173,3,0,3,0,3,2,0,2,2,10,0,10,0,0,0,1,0,0,1,0,1,0,0,1,1,1,0,0,2,0,FALSE,,2,2
+2023-03-05 9:20:41,Judah M,Top Right,4681,139,Yes,0,1,0,0,0,0,Not Docked,0,0,1,0,0,1,0,1,Engaged,1,Yes,0,,Intake looked to break they started to push pieces into place in the end rather then use claw,2,2,5538460413428608565,,4681,3,4,0,0,4,2,2,4,10,21,5,26,10,10,1,0,0,1,0,1,1,0,0,2,2,1,0,1,2,0,FALSE,,2,2
+2023-03-05 9:21:14,Will H,Middle Right,1318,139,No,0,0,0,1,0,0,Engaged,2,0,1,0,0,0,5,3,Engaged,0,Yes,0,,"Primarily cone robot. Robot started off well but started misplacing cones, causing them to fall to the bottom nodes. Also didn’t grip all that securely and had multiple troubles grabbing cones from double substation",2,3,5538460744525729108,,1318,0,0,6,12,18,12,0,12,10,40,0,40,10,22,0,1,1,0,0,0,3,2,0,1,3,1,3,0,1,5,FALSE,3,2,3
+2023-03-05 9:31:03,Judah M,Top Right,2147,148,Yes,0,0,0,0,0,0,Engaged,0,2,0,0,1,0,0,1,Engaged,0,Yes,0,,Great auto,4,3,5538466624529844438,,2147,3,0,0,12,12,6,3,9,10,34,0,34,10,22,0,0,0,0,0,1,2,0,3,0,2,1,0,3,0,0,FALSE,,4,3
+2023-03-05 9:31:26,Josh M,Bottom Left,4915,148,Yes,0,0,1,0,0,0,Not Docked,0,0,0,1,0,2,0,,Engaged,0,Yes,5,,Arm broke at beginning,4,4,5538466860429077125,,4915,3,3,0,0,3,0,9,9,10,25,0,25,10,10,1,0,0,0,1,3,0,1,0,2,1,3,1,0,3,0,FALSE,,4,4
+2023-03-05 9:31:28,Will H,Middle Right,2928,148,Yes,0,0,0,1,0,0,Not Docked,0,0,0,0,0,2,0,,Parked,0,Yes,0,,"Grabber didn’t seem too reliable on either cones or cubes; they attempted to pick up a cone, failed, and then switched to cubes",3,3,5538466884522760349,,2928,3,0,6,0,6,0,4,4,2,15,0,15,0,0,0,1,1,0,0,2,0,0,0,2,0,3,1,0,2,0,FALSE,,3,3
+2023-03-05 9:46:54,Val d,Middle Left,1778,148,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,Yes,0,,Seemed to primarily focus on cubes,3,3,5538476148217160620,,1778,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,3
+2023-03-05 9:46:54,Val d,Middle Left,2928,139,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Parked,0,Yes,10,,"Robot is very top heavy and fell over near the beginning of tele-op
+Before that it only grabbed a cube",3,2,5538476148212293654,,2928,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,2
+2023-03-05 9:48:31,Val d,Middle Left,488,55,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,0,0,,Engaged,0,Yes,0,,Primarily focused on cubes,4,3,5538477118216293416,,488,3,0,0,0,0,2,0,2,10,15,0,15,10,10,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,FALSE,,4,3
+2023-03-05 9:48:31,Val d,Middle Left,488,55,Yes,0,0,0,0,0,0,Not Docked,0,0,1,0,0,0,0,,Engaged,0,Yes,0,,Primarily focused on cubes,4,3,5538477118219341973,,488,3,0,0,0,0,2,0,2,10,15,0,15,10,10,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,FALSE,,4,3
+2023-03-05 9:49:04,Judah M,Top Right,4915,55,No,0,0,1,0,0,0,Engaged,0,0,0,0,1,3,15,3,Parked,3,Yes,0,,L team tbh but good improvising,1,3,5538477444521062235,,4915,0,3,0,12,15,0,9,9,2,26,15,41,0,12,1,0,0,0,1,4,0,0,1,3,1,4,0,1,4,15,1,3,1,3
+2023-03-05 9:49:23,Josh M,Bottom Left,7627,55,Yes,0,0,0,1,0,0,Engaged,3,0,0,0,0,0,0,,Not Parked,0,Yes,5,,,4,3,5538477620424338489,,7627,3,0,6,12,18,15,0,15,0,36,0,36,0,12,0,1,1,0,0,0,3,3,0,0,3,1,4,0,0,0,FALSE,,4,3
+2023-03-05 9:50:50,Will H,Middle Right,4681,55,Yes,0,0,1,0,0,0,Not Docked,0,1,0,0,0,0,15,3,Engaged,0,Yes,17,,"Kinda just…bad? Grabber looked flimsy, failed to pick things up despite spending a lot of time at the double substation",2,3,5538478504425108877,,4681,3,3,0,0,3,3,0,3,10,19,0,19,10,10,1,0,0,0,1,0,1,0,1,0,2,0,0,1,1,15,1,3,2,3
+2023-03-05 9:55:33,Audrey B,Top Left,1778,56,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,3,10,3,Engaged,2,Yes,0,,elevator like thing wasn't working,3,3,5538481334523640339,,1778,0,0,0,0,0,0,6,6,10,16,10,26,10,10,0,0,0,0,0,3,0,0,0,3,0,3,0,0,3,10,FALSE,3,3,3
+2023-03-05 9:56:20,Josh M,Bottom Left,2976,56,Yes,1,0,0,0,0,0,Not Docked,0,0,1,0,0,0,0,,Parked,0,No,0,,Had trouble picking up pieces from substation. Just kinda dropped the pieces on the grid a missed. Also kinda top heavy,3,3,5538481800424273043,,2976,3,6,0,0,6,2,0,2,2,13,0,13,0,0,1,0,1,0,0,0,1,0,0,1,2,0,1,0,1,0,FALSE,,3,3
+2023-03-05 9:56:40,Judah M,Top Right,4980,56,No,0,0,0,0,1,0,Not Docked,0,1,0,0,2,0,5,3,Engaged,0,No,0,,,2,2,5538482004521740742,,4980,0,0,4,0,4,3,6,9,10,23,0,23,10,10,0,1,0,1,0,2,1,0,3,0,1,3,0,4,0,5,FALSE,3,2,2
+2023-03-05 9:56:45,Will H,Middle Right,2903,56,No,0,0,0,0,0,0,Not Docked,0,0,0,0,2,0,5,3,Docked,0,Yes,12,,"Grabber had trouble with low cubes, didn’t work during auto or first 15 seconds of teleop, no swerve drive, had extender but didn’t extend",2,2,5538482054422561914,,2903,0,0,0,0,0,0,6,6,6,12,0,12,6,6,0,0,0,0,0,2,0,0,2,0,0,2,0,2,0,5,FALSE,3,2,2
+2023-03-05 9:58:06,Zack H,Top Left,949,55,Yes,0,1,0,0,0,0,Not Docked,0,0,0,0,0,0,120,2,Engaged,0,No,5,,"Broken grabber, defense was not great",1,2,5538482868016811603,,949,3,4,0,0,4,0,0,0,10,17,0,17,10,10,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,120,1,2,1,2
+2023-03-05 9:58:06,Zack H,Top Right,4682,139,No,0,0,0,0,1,0,Docked,2,0,0,0,0,0,0,,Engaged,0,No,10,,Tried to do a top cone but missed and dropped it on a shelf,3,2,5538482868016822426,,4682,0,0,4,8,12,10,0,10,10,32,0,32,10,18,0,1,0,1,0,0,2,2,0,0,2,1,2,1,0,0,FALSE,,3,2
+2023-03-05 9:58:07,Zack H,Top Left,2930,148,Yes,0,0,0,0,0,0,Engaged,1,0,1,0,0,1,0,,Parked,0,No,0,,Arm seemed to get stuck at top,2,3,5538482878014435122,,2930,3,0,0,12,12,7,2,9,2,26,0,26,0,12,0,0,0,0,0,1,2,1,0,2,2,1,1,0,2,0,FALSE,,2,3
+2023-03-05 10:01:02,Judah M,Top Right,8248,57,Yes,0,0,0,0,0,0,Not Docked,0,0,0,1,0,1,0,1,Parked,0,Yes,0,,Got stuck and couldn’t move most of the game also when fully extended it’s too heavyset,2,2,5538484624529727717,,8248,3,0,0,0,0,0,7,7,2,12,0,12,0,0,0,0,0,0,0,2,0,1,0,1,0,2,1,0,1,0,FALSE,,2,2
+2023-03-05 10:01:46,Audrey B,Top Left,9036,57,Yes,0,0,0,0,0,1,Not Docked,1,1,0,0,0,0,0,,Parked,2,Yes,0,,,3,3,5538485064521823780,,9036,3,0,3,0,3,8,0,8,2,16,10,26,0,0,0,1,0,0,1,0,2,1,1,0,2,1,1,1,1,0,FALSE,,3,3
+2023-03-05 10:02:13,Josh M,Bottom Left,4911,57,Yes,0,0,1,0,0,0,Engaged,0,3,1,0,1,1,0,,Engaged,0,Yes,0,,Fairly good. Only went for middle cones this game. Also not super great with cube accuracy,4,4,5538485330421508255,,4911,3,3,0,12,15,11,5,16,10,44,0,44,10,22,1,0,0,0,1,2,4,0,4,2,5,2,0,4,3,0,FALSE,,4,4
+2023-03-05 10:02:58,Will H,Middle Right,4682,56,No,0,0,0,0,1,0,Not Docked,2,0,0,1,0,0,0,,Engaged,0,Yes,0,,"Has a good cone and cube intake, but pops cubes sometimes. Seemed fairly fast in cycle but had troubles with pickup sometimes. Appeared only able to grab from double substation",3,3,5538485772442546972,,4682,0,0,4,0,4,10,5,15,10,29,0,29,10,10,0,1,0,1,0,1,2,3,0,0,2,2,3,1,0,0,FALSE,,3,3
+2023-03-05 10:09:04,Judah M,Top Right,2522,57,Yes,0,0,1,1,0,0,Not Docked,1,1,1,1,0,0,0,1,Engaged,0,No,0,,Great auto,4,3,5538489444525870418,,2522,3,3,6,0,9,10,5,15,10,37,0,37,10,10,1,1,1,0,1,1,3,2,1,1,4,2,3,1,2,0,FALSE,,4,3
+2023-03-05 10:09:07,Will H,Middle Right,3049,57,No,0,0,0,0,0,0,Not Docked,0,2,0,0,0,0,0,,Parked,0,Yes,0,,"Cone bot - No wrist movement, very hard to score on top",4,3,5538489473152318559,,3049,0,0,0,0,0,6,0,6,2,8,0,8,0,0,0,0,0,0,0,0,2,0,2,0,2,0,0,2,0,0,FALSE,,4,3
+2023-03-05 10:10:45,Will H,Middle Right,3049,57,No,0,0,0,0,0,0,Not Docked,0,2,0,0,0,0,0,,Parked,0,Yes,0,,"Cone bot - No wrist movement, very hard to score on top",4,3,5538490453154077288,,3049,0,0,0,0,0,6,0,6,2,8,0,8,0,0,0,0,0,0,0,0,2,0,2,0,2,0,0,2,0,0,FALSE,,4,3
+2023-03-05 10:10:47,Evan K,Bottom Right,2412,139,Yes,0,0,0,0,1,0,Not Docked,2,0,0,2,1,0,0,,Parked,0,No,0,,"relatively fast, didn't go for triple engage",,,5538490471153884389,,2412,3,0,4,0,4,10,13,23,2,32,0,32,0,0,0,1,0,1,0,3,2,4,1,0,2,4,4,2,0,0,FALSE,,,
+2023-03-05 10:10:47,Evan K,Bottom Right,4131,148,Yes,1,0,0,0,0,0,Not Docked,2,1,0,1,0,0,0,,Engaged,0,No,0,,"slow but deliberate auto, very good at scoring",5,4,5538490471151516587,,4131,3,6,0,0,6,13,5,18,10,37,0,37,10,10,1,0,1,0,0,1,3,3,1,0,4,1,4,1,0,0,FALSE,,5,4
+2023-03-05 10:10:47,Evan K,Bottom Right,6350,55,No,0,0,0,0,0,0,Not Docked,0,0,1,0,0,1,0,,Engaged,0,No,0,,"no auto, put a cone in a spot where a cube already was",2,3,5538490471154720257,,6350,0,0,0,0,0,2,2,4,10,14,0,14,10,10,0,0,0,0,0,1,1,0,0,2,1,1,0,0,2,0,FALSE,,2,3
+2023-03-05 10:10:47,Evan K,Bottom Right,3826,56,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Not Parked,0,No,0,,robot was not on field,,,5538490471155546039,,3826,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,,
+2023-03-05 10:10:47,Evan K,Bottom Right,2147,57,Yes,0,0,1,0,0,0,Engaged,0,3,0,0,1,1,0,,Engaged,0,No,0,,"pretty fast, nice scorer",4,4,5538490471154127202,,2147,3,3,0,12,15,9,5,14,10,42,0,42,10,22,1,0,0,0,1,2,3,0,4,1,4,2,0,4,2,0,FALSE,,4,4
+2023-03-05 10:10:48,Evan K,Bottom Right,7627,57,No,0,0,0,1,0,0,Engaged,1,0,0,0,0,0,20,4,Engaged,0,No,0,,"played defense for the first half, then started scoring a bit",4,3,5538490481151351253,,7627,0,0,6,12,18,5,0,5,10,33,0,33,10,22,0,1,1,0,0,0,1,1,0,0,1,1,2,0,0,20,1,4,4,3
+2023-03-05 10:11:01,Josh M,Bottom Left,2928,58,Yes,0,0,0,1,0,0,Engaged,0,0,0,1,1,0,0,,Docked,0,Yes,10,,Slow and top heavy,3,2,5538490610421755597,,2928,3,0,6,12,18,0,8,8,6,35,0,35,6,18,0,1,1,0,0,2,0,1,1,0,0,3,2,1,0,0,FALSE,,3,2
+2023-03-05 10:11:22,Audrey B,Top Left,4915,58,Yes,0,0,0,0,0,0,Not Docked,0,0,0,0,0,4,0,,Parked,2,No,10,,stopped at a point after collisoon,3,4,5538490814521811721,,4915,3,0,0,0,0,0,8,8,2,13,10,23,0,0,0,0,0,0,0,4,0,0,0,4,0,4,0,0,4,0,FALSE,,3,4
+2023-03-05 10:16:42,Audrey B,Top Left,2910,59,Yes,0,0,0,0,1,1,Engaged,6,0,1,1,0,0,0,,Not Parked,3,Yes,0,,,4,5,5538494024523353114,,2910,3,0,7,12,19,32,5,37,0,59,15,74,0,12,0,2,0,1,1,1,7,7,0,1,7,3,7,1,2,0,FALSE,,4,5
+2023-03-05 10:25:18,Audrey B,Top Left,4682,60,No,0,0,0,0,1,0,Engaged,3,0,0,0,0,0,0,,Engaged,1,No,12,,wobbly,3,3,5538499184529283966,,4682,0,0,4,12,16,15,0,15,10,41,5,46,10,22,0,1,0,1,0,0,3,3,0,0,3,1,3,1,0,0,FALSE,,3,3
+2023-03-05 10:30:36,Audrey B,Top Left,3681,61,No,0,0,0,0,0,0,Not Docked,1,0,0,0,0,0,0,,Docked,2,Yes,0,,,2,2,5538502354527015724,,3681,0,0,0,0,0,5,0,5,6,11,10,21,6,6,0,0,0,0,0,0,1,1,0,0,1,0,1,0,0,0,FALSE,,2,2
+2023-03-05 10:46:23,Evan K,Bottom Left,4131,63,Yes,1,0,0,0,0,0,Not Docked,3,0,0,0,0,0,0,,Engaged,0,No,0,,direct and agile - able to drive and adjust to score. occasionally struggles with aligning to score. GOT A TRIPLE ENGAGE WITH US!!!,5,5,5538511830251672363,,4131,3,6,0,0,6,15,0,15,10,34,0,34,10,10,1,0,1,0,0,0,3,3,0,0,4,0,4,0,0,0,FALSE,,5,5
+2023-03-05 10:54:44,Val d,Middle Left,2980,57,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Engaged,0,Yes,0,,Primarily focused on cubes,3,4,5538516845817436359,,2980,0,0,0,0,0,0,0,0,10,10,0,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,3,4
+2023-03-05 10:54:44,Val d,Middle Left,3268,58,No,0,0,0,0,0,0,Not Docked,0,0,0,0,0,0,0,,Docked,0,Yes,0,,,4,3,5538516845819783646,,3268,0,0,0,0,0,0,0,0,6,6,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,FALSE,,4,3
+2023-03-06 16:21:41,Felix M,Bottom Right,1899,30,No,0,0,0,0,0,0,Not Docked,0,0,0,1,1,0,5,2,Engaged,0,Yes,0,,,3,4,5539577014917262749,,1899,0,0,0,0,0,0,8,8,10,18,0,18,10,10,0,0,0,0,0,2,0,1,1,0,0,2,1,1,0,5,FALSE,2,3,4
+2023-03-06 16:21:41,Felix m,Bottom Right,4682,29,No,0,0,0,0,1,0,Not Docked,0,0,0,0,0,0,10,1,Engaged,0,No,0,,,2,3,5539577014918489834,,4682,0,0,4,0,4,0,0,0,10,14,0,14,10,10,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,10,FALSE,1,2,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,#N/A,#N/A,0,0,0,#N/A,#N/A,0,#N/A,0,#N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,FALSE,,,

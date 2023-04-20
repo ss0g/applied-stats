@@ -25,6 +25,10 @@ dotenv::load_dot_env()
 
 frc_events_api_token <- Sys.getenv()["FRC_TOKEN"]
 tba_api_token <- Sys.getenv()["TBA_TOKEN"]
+
+wasno <- read.csv("./Copy of 4915 Scouting 2023 - Glacier Peak State - Data.csv") # glacier peak
+waahs <- read.csv("./Copy of 4915 Scouting 2023 - April 4, 7 33 PM - Auburn Data.csv") # auburn
+pncmp <- read.csv("./Copy of 4915 Scouting 2023 - April 12, 1 20 PM - Data.csv") # districts
 ```
 
 \tableofcontents
@@ -184,13 +188,24 @@ After analyzing individual variables, I will create two models:
 
 \subsection{Data collection and sources}
 
-My data will come from three main sources:
+My data comes from three main sources:
 \begin{enumerate}
     \item Evan Kuykendall's 2023 scouting data from Glacier Peak, Auburn, and the Pacific Northwest District
     Championship
     \item Jake Benjamin's 2022 scouting data from Auburn and the Pacific Northwest District Championship
     \item The Blue Alliance
 \end{enumerate}
+
+The scouting datasets contain information about each robot in every match that was scouted. An example of something
+that would be included in the data for 2022 would be number of pieces scored in the UPPER HUB while an example of
+something that would be included in the data for 2023 would be number of pieces scored in HYBRID NODES. The Blue
+Alliance only has more general data, such as match results (win/loss). However, it also contains information about who
+was on what alliance for a specific match. This will be useful for gathering data about alliance members to use in the
+logistic regression model. 
+
+```{r sampling, include=F}
+
+```
 
 \section{Findings}
 
