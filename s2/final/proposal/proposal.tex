@@ -38,34 +38,33 @@ what methods to use to measure success.
 \section{Data sources}
 
 I plan to use Evan Kuykendall's 2023 scouting data (not publicly available to my knowledge) and Jake Benjamin's 2022
-scouting data (also not publicly available to my knowledge). I also plan to use data from The Blue Alliance,
+scouting data (also not publicly available to my knowledge). I also plan to possibly use data from The Blue Alliance,
 Statbotics, and the FRC Events API.\@ 
 
 \section{Research methods}
 
 I plan to take a random sample of 30 teams from the Pacific Northwest district for each year that I analyze. I will use
 teams from the Pacific Northwest for a more in-depth analysis because the data that I have access to is much more
-in-depth and easy to use for this region. I will, however, also do an analysis of 60 randomly selected teams globally
-to see if there is any difference in what makes them successful. This will also allow me to use country as a variable
-to predict success.
+in-depth and easy to use for this region. 
 
 \section{Predictive models and inference tests}
 
-I plan to do use the same process to analyze both RAPID REACT and CHARGED UP for the Pacific Northwest and for the
-entire world.\@ This process includes 3 main steps:
+I plan to do use the same process to analyze both RAPID REACT and CHARGED UP for the Pacific Northwest. This process
+includes 3 main steps:
 \begin{enumerate}
-    \item Create a multiple linear regression model to predict a team's OPR (Offensive Power Rating) for the season.
+    \item Run ANOVA tests and/or $t$-tests to determine whether various robot features have a significant effect on a
+    robot's success.
+    \item Create a multiple linear regression model to predict a team's win rate for the season.
     \item Create a multiple logistic regression model to predict the probability of a specific team winning in any 
     given match.
-    \item Run ANOVA tests to determine whether various robot features have a significant effect on a robot's success.
 \end{enumerate}
 
 \section{Expected challenges}
 
 I am expecting that there will be a couple of teams in the Pacific Northwest that will not have been included in the
-scouting data because they were not at the events where the data was gathered. Another challenge is that data from The
-Blue Alliance and the FRC Events API is only about the entire alliance, not specific teams. Every match in every FRC
-game is a 3 vs. 3, which will make it more difficult to analyze specific teams, but will also let me use data about
-alliance members and opponents to predict whether a team will win a match or not. 
+scouting data because they were not at the events where the data was gathered. This has the potential to make it more
+difficult to analyze specific teams that are not at the events where the data was gathered. To avoid this, I will only
+select my sample from teams that were at events where the data was gathered. This should not introduce too much bias
+because the main factor that influences which events teams go to is geographic location. 
 
 \end{document}
