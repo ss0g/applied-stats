@@ -271,6 +271,7 @@ auto_cs_points_2023 <- \(end_of_auto_status) switch(end_of_auto_status, "Not Doc
 
 all_data_2022 <- data.frame(
     team_number = all_data_2022_raw$Team.Number..ex..4915.,
+    event = all_data_2022_raw$event,
     match_number = all_data_2022_raw$Match..,
     taxied = ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.. == "Yes", T, F),
     auto_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored,
@@ -293,6 +294,7 @@ all_data_2022 <- data.frame(
 
 all_data_2023 <- data.frame(
     team_number = all_data_2023_raw$Team.Number.you.re.scouting,
+    event = all_data_2023_raw$event,
     match_number = all_data_2023_raw$Match..,
     mobility = ifelse(all_data_2023_raw$Mobility. == "Yes", T, F),
     end_of_auto_status = all_data_2023_raw$End.of.Auto.Status,
