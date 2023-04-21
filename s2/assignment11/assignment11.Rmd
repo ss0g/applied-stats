@@ -168,7 +168,7 @@ ggplot(titanic, aes(Pclass)) +
     labs(
         x = "Passenger Class",
         y = "Proportion",
-        title = "Proportion of Survivors by Sex"
+        title = "Proportion of Survivors by Passenger Class"
     )
 ```
 
@@ -403,7 +403,7 @@ P(\text{Survived}) = 6.7255 - 0.0153(\text{Age}) - 4.5726(\text{Male}) - 2.1160(
 \end{split}
 \]
 
-I chose this model because it had the highest AIC of all the models I tested.
+I chose this model because it had the lowest AIC of all the models I tested.
 
 ```{r q13p2, echo=T}
 create_predict_multiple_logreg_function <- function(model) {
