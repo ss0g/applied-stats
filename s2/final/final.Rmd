@@ -255,6 +255,12 @@ all_data_2023_raw <- bind_rows(wasno_2023, waahs_2023, pncmp_2023)
 all_data_2022_raw <- all_data_2022_raw %>% replace(is.na(.), 0)
 all_data_2023_raw <- all_data_2023_raw %>% replace(is.na(.), 0)
 
+all_data_2022_raw <- all_data_2022_raw[all_data_2022_raw$Match.. > 0]
+all_data_2023_raw <- all_data_2023_raw[all_data_2023_raw$Match.. > 0]
+
+rownames(all_data_2022_raw) <- NULL
+rownames(all_data_2023_raw) <- NULL
+
 yn_to_tf <- \(x) switch(x, "Yes" = T, "No" = F, NULL)
 replace_if_null <- \(x, replace_with) ifelse(is.null(x), replace_with, x)
 
@@ -266,7 +272,7 @@ auto_cs_points_2023 <- \(end_of_auto_status) switch(end_of_auto_status, "Not Doc
 all_data_2022 <- data.frame(
     team_number = all_data_2022_raw$Team.Number..ex..4915.,
     match_number = all_data_2022_raw$Match..,
-    taxied = ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.., T, F),
+    taxied = ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.. == "Yes", T, F),
     auto_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored,
     auto_high_goals = all_data_2022_raw$X..of.High.Goals.Scored,
     teleop_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored.2,
@@ -276,13 +282,13 @@ all_data_2022 <- data.frame(
     total_auto_points = (
         all_data_2022_raw$X..of.Low.Goals.Scored * 2 +
         all_data_2022_raw$X..of.High.Goals.Scored * 4 +
-        ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.., 2, 0)
+        ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.. == "Yes", 2, 0)
     ),
     total_teleop_points = (
         all_data_2022_raw$X..of.Low.Goals.Scored.2 +
         all_data_2022_raw$X..of.High.Goals.Scored.2 * 2
     ),
-    total_endgame_points = lapply(all_data_2022_raw$Climb.Level, endgame_points_2022)
+    total_endgame_points = unlist(lapply(all_data_2022_raw$Climb.Level, endgame_points_2022))
 )
 
 all_data_2023 <- data.frame(
@@ -321,11 +327,28 @@ all_data_2023 <- data.frame(
         all_data_2023_raw$Middle.Cones.2 * 3 +
         all_data_2023_raw$Top.Cones.2 * 5
     ),
-    total_endgame_points = lapply(all_data_2023_raw$Endgame.Status, endgame_points_2023)
+    total_endgame_points = unlist(lapply(all_data_2023_raw$Endgame.Status, endgame_points_2023))
 )
 
-get_team_data_2022 <- function(team_number) {
-    #
+all_data_2022 <- all_data_2022[match_number > 0,]
+all_data_2023 <- all_data_2023[match_number > 0,]
+
+rownames(all_data_2022) <- NULL
+rownames(all_data_2023) <- NULL
+
+write.csv(all_data_2022, "all_data_2022.csv")
+write.csv(all_data_2023, "all_data_2023.csv")
+
+get_team_data <- function(team_number, year) {
+    if (year == 2022) {
+        result <- all_data_2022[all_data_2022$team_number == team_number,]
+        rownames(result) <- NULL
+        return(result)
+    } else if (year == 2023) {
+        result <- all_data_2023[all_data_2023$team_number == team_number,]
+        rownames(result) <- NULL
+        return(result)
+    }
 }
 ```
 
