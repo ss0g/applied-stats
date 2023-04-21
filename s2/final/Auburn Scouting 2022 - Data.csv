@@ -1,0 +1,400 @@
+Submission Date,"Name, First/last initial",Team Number (ex: 4915),Assigned Position,Match #,Did it taxi (move in auto)?,# of Low Goals Scored,# of High Goals Scored,# of High Goals Scored 2,# of Low Goals Scored 2,Approximate Time Spent Defending (Seconds),Did the Robot Climb?,Climb Level,# of Points Lost to Penalties by Your Team's Alliance,Were Serious Penalties Issued because of your robots actions?,Comments on Robot/Team/Match Conditions,How would you rate their performance overall?,How Would you rate their driving?,,,Team,Auto Bonus,Auto Points,Tele Points,Engame Points,Total Points,Defense Time,<=10 Defending,Stars,Low Auto,High Auto,Low Tele,High Tele
+2022-03-26 14:39:24,Jake B,949,Middle Left,1,Yes,1,,,3,10,No,,,,Seemed to lack purpose,1,,,,949,2,2,3,0,7,10,FALSE,1,2,0,3,0
+2022-03-26 14:39:53,Carter A,8051,Bottom Right,1,No,,,,3,30,No,,,,Intake got hooked on another team and broke off,2,,,,8051,0,0,3,0,3,30,1,2,0,0,3,0
+2022-03-26 14:46:54,Jake B,1258,Middle Left,2,No,,,,,5,No,,,,"Intake was poor, shooter didn't work",1,,,,1258,0,0,0,0,0,5,FALSE,1,0,0,,0
+2022-03-26 14:47:30,Carter,3786,Bottom Right,2,Yes,,1,7,,,No,,,,Balls seemed to get a bit stuck sometimes,3,,,,3786,2,4,14,0,20,0,FALSE,3,0,4,,14
+2022-03-26 14:54:46,Jake B,3876,Middle Left,3,Yes,1,,,,,Yes,1,,,"Inaccurate shooter, good climb",1,,,,3876,2,2,0,4,8,0,FALSE,1,2,0,,0
+2022-03-26 14:55:07,Carter A,4915,Bottom Right,3,Yes,,1,1,,,Yes,2,,,Intake broke,3,,,,4915,2,4,2,6,14,0,FALSE,3,0,4,,2
+2022-03-26 15:01:33,Jake B,5295,Middle Left,,Yes,,,,,,No,,,,"Balls could literally fall out of their robot, except when they wanted them too",1,,,,5295,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-26 15:01:33,Carter,4450,Bottom Right,4,Yes,,1,2,,,Yes,2,,,balls fell out of intake,2,,,,4450,2,4,4,6,16,0,FALSE,2,0,4,,4
+2022-03-26 15:12:38,Carter A,2097,Bottom Right,5,No,,,,,,,,,,Robot did 3 circles in auto and then nothing else for the rest of the math,1,,,,2097,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 15:12:59,troy e,8896,Top Left,5,,,,,,150,No,,,,,2,,,,8896,0,0,0,0,0,150,1,2,0,0,,0
+2022-03-26 15:14:28,Jake B,8302,Middle Left,5,No,,,,,5,No,,,,Didn't shoot or do much of anything,1,,,,8302,0,0,0,0,0,5,FALSE,1,0,0,,0
+2022-03-26 15:21:36,Jake B,3219,Middle Left,6,Yes,1,0,0,1,,Yes,1,,,,2,,,,3219,2,2,1,4,9,0,FALSE,2,2,0,1,0
+2022-03-26 15:22:33,Carter A,2046,Bottom Right,6,Yes,,1,14,,,Yes,4,,,missed several shots,5,,,,2046,2,4,28,15,49,0,FALSE,5,0,4,,28
+2022-03-26 15:28:22,Carter A,3876,Bottom Right,7,No,,,,,90,No,,,,Seems like the conveyor broke they never shot any balls,1,,,,3876,0,0,0,0,0,90,1,1,0,0,,0
+2022-03-26 15:28:40,Jake B,8051,Middle Left,7,No,,,,6,,No,,,,"Got disabled for a bit. Impressively quick intake, good low shooter.  Mediocre driving",3,,,,8051,0,0,6,0,6,0,FALSE,3,0,0,6,0
+2022-03-26 15:35:46,Carter A,2906,Bottom Right,8,No,0,0,0,0,0,No,,,,Not in match,1,,,,2906,0,0,0,0,0,0,FALSE,1,0,0,0,0
+2022-03-26 15:36:49,Jake B,1258,Middle Left,8,No,,,,1,,No,,,,"Almost climbed, ineffective shooter",1,,,,1258,0,0,1,0,1,0,FALSE,1,0,0,1,0
+2022-03-26 15:43:50,Carter A,5937,Bottom Right,9,Yes,,1,,1,,No,1,,,"Shot 4 balls and all bounced out, tried to low climb but still on ground",1,,,,5937,2,4,1,4,11,0,FALSE,1,0,4,1,0
+2022-03-26 15:43:52,Jake B,3588,Middle Left,9,No,,,,1,10,No,,,,No forward Intake had to push balls to human player,1,,,,3588,0,0,1,0,1,10,FALSE,1,0,0,1,0
+2022-03-26 15:49:31,Carter A,3393,Bottom Right,10,Yes,1,,,5,,No,,,,,3,,,,3393,2,2,5,0,9,0,FALSE,3,2,0,5,0
+2022-03-26 15:49:48,Jake B,3786,Middle Left,10,Yes,,1,6,0,,Yes,2,,,Good accuracy,4,,,,3786,2,4,12,6,24,0,FALSE,4,0,4,0,12
+2022-03-26 15:54:48,Nicholas Y,2907,Bottom Right,11,No,,,,,,No,,8,,No robot? But why,,,,,2907,0,0,0,0,0,0,FALSE,,0,0,,0
+2022-03-26 15:55:17,troy e,8386,Middle Left,11,No,0,0,0,0,0,No,,0,,,1,,,,8386,0,0,0,0,0,0,FALSE,1,0,0,0,0
+2022-03-26 15:56:09,Audrey b,8303,Top Right,11,No,,,,,,,,,,Neither team had a third robot and this was one of the once cut out,,,,,8303,0,0,0,0,0,0,FALSE,,0,0,,0
+2022-03-26 15:56:12,Jake B,2046,Top Left,11,Yes,,2,13,,,Yes,4,,,,5,,,,2046,2,8,26,15,51,0,FALSE,5,0,8,,26
+2022-03-26 15:56:30,William S,488,Bottom Left,11,Yes,,2,11,,5,Yes,4,0,,Fast climber,5,,,,488,2,8,22,15,47,5,FALSE,5,0,8,,22
+2022-03-26 16:04:00,Carly H,2976,Top Left,12,Yes,0,,4,,15,Yes,2,,,,3,,,,2976,2,0,8,6,16,15,FALSE,3,0,0,,8
+2022-03-26 16:04:53,troy e,4450,Middle Left,12,Yes,0,1,0,0,0,Yes,2,,,,1,,,,4450,2,4,0,6,12,0,FALSE,1,0,4,0,0
+2022-03-26 16:05:01,William S,949,Bottom Left,12,Yes,1,,0,4,,No,,0,,Long time to reold,1,,,,949,2,2,4,0,8,0,FALSE,1,2,0,4,0
+2022-03-26 16:05:07,Audrey b,4131,Top Right,12,No,,1,,13,,No,1,,,"Never missed a shot, climber didn't hold after being the robot up",4,,,,4131,0,4,13,4,21,0,FALSE,4,0,4,13,0
+2022-03-26 16:10:30,William S,3049,Bottom Left,13,Yes,0,0,8,,0,Yes,2,0,,Not bad,3,,,,3049,2,0,16,6,24,0,FALSE,3,0,0,,16
+2022-03-26 16:10:56,Carly H,4918,Top Left,13,Yes,2,6,,,10,No,1,,,,4,,,,4918,2,28,0,4,34,10,FALSE,4,4,24,,0
+2022-03-26 16:11:26,Audrey b,2097,Top Right,13,Yes,,,,,,No,,,,Had a really slow movement and aimed too far away from the goal,1,,,,2097,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-26 16:12:15,troy e,8303,Middle Left,13,Yes,0,0,0,0,0,No,,,,,,,,,8303,2,0,0,0,2,0,FALSE,,0,0,0,0
+2022-03-26 16:13:50,Joseph T,5683,Top Right,2,No,,,,5,,No,,,,It was consistent and well aimed,4,,,,5683,0,0,5,0,5,0,FALSE,4,0,0,5,0
+2022-03-26 16:13:50,Joseph T,2046,Top Right,1,Yes,,3,6,,,No,,8,,Very good shooter and amazing auto,5,,,,2046,2,12,12,0,26,0,FALSE,5,0,12,,12
+2022-03-26 16:13:50,Joseph T,4450,Top Right,8,Yes,,1,,,,Yes,2,,,The robot moved very slowly and missed all shots,2,,,,4450,2,4,0,6,12,0,FALSE,2,0,4,,0
+2022-03-26 16:13:50,Joseph T,5683,Top Right,9,Yes,1,0,,8,,No,,,,"Consistent, the robot worked normally",4,,,,5683,2,2,8,0,12,0,FALSE,4,2,0,8,0
+2022-03-26 16:13:50,Joseph T,8303,Top Right,10,Yes,,,,,30,No,,0,,"The robot had nothing on it, so it tried to defend a lot",1,,,,8303,2,0,0,0,2,30,1,1,0,0,,0
+2022-03-26 16:13:50,Joseph T,488,Top Right,7,Yes,,1,,8,,Yes,4,4,,"Very good low goal shooter, lads accurate high goal. Robot quickly got to fourth rung",5,,,,488,2,4,8,15,29,0,FALSE,5,0,4,8,0
+2022-03-26 16:13:50,Joseph Tappen,3219,Top Right,3,Yes,1,,,3,,Yes,1,,,The robot was decently accurate,3,,,,3219,2,2,3,4,11,0,FALSE,3,2,0,3,0
+2022-03-26 16:13:50,Joseph T,2907,Top Right,6,No,,,,,,No,,,,"The robot must have been broken, it did not move at all",1,,,,2907,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 16:13:50,Joseph T,4131,Top Right,4,No,,1,2,,,Yes,2,,,Missed most of its shots,3,,,,4131,0,4,4,6,14,0,FALSE,3,0,4,,4
+2022-03-26 16:13:50,Joseph T,5937,Top Right,5,Yes,,,2,,,Yes,2,,,The robot rocked around a lot while driving also missed a lot of shots,3,,,,5937,2,0,4,6,12,0,FALSE,3,0,0,,4
+2022-03-26 16:17:10,troy e,1258,Middle Left,14,No,0,0,1,0,0,No,,,,,2,,,,1258,0,0,2,0,2,0,FALSE,2,0,0,0,2
+2022-03-26 16:17:31,Carly H,360,Top Left,14,Yes,0,8,,,20,Yes,2,,,,4,,,,360,2,32,0,6,40,20,FALSE,4,0,32,,0
+2022-03-26 16:17:53,William s,3786,Bottom Left,14,Yes,0,1,,9,5,No,,0,,100% Accuracy on the low shooter,3,,,,3786,2,4,9,0,15,5,FALSE,3,0,4,9,0
+2022-03-26 16:18:42,Audrey b,5295,Top Right,14,Yes,,,,,50,No,,,,Spent the entire time fighting with another robot and trying to collect ammo,1,,,,5295,2,0,0,0,2,50,1,1,0,0,,0
+2022-03-26 16:21:12,Nicholas Y,6350,Bottom Right,13,Yes,,1,2,,,Yes,4,,,,,,,,6350,2,4,4,15,25,0,FALSE,,0,4,,4
+2022-03-26 16:21:12,Nicholas Y,4915,Bottom Right,12,Yes,,,11,,,No,,,,,5,,,,4915,2,0,22,0,24,0,FALSE,5,0,0,,22
+2022-03-26 16:21:12,Nicholas Y,5937,Bottom Right,14,Yes,,,,1,90,No,1,,,Almost got to the first rung,3,,,,5937,2,0,1,4,7,90,1,3,0,0,1,0
+2022-03-26 16:26:21,Carly H,8302,Top Left,15,No,,,,,45,Yes,1,,,,2,,,,8302,0,0,0,4,4,45,1,2,0,0,,0
+2022-03-26 16:27:01,William S,3393,Bottom Left,15,Yes,1,,,7,0,No,,0,,Not bad,3,,,,3393,2,2,7,0,11,0,FALSE,3,2,0,7,0
+2022-03-26 16:27:30,Audrey b,8896,Top Right,15,No,,,,,,No,,,,"It stopped moving about 15 sec into manual driving, came back to life again about 35 sec later then died again",,,,,8896,0,0,0,0,0,0,FALSE,,0,0,,0
+2022-03-26 16:28:03,Nicholas Y,8051,Bottom Right,15,No,1,,,8,,No,,,,Ok low bot but a bad intake,,,,,8051,0,2,8,0,10,0,FALSE,,2,0,8,0
+2022-03-26 16:29:03,Evan K,948,Middle Right,14,Yes,3,0,0,9,0,Yes,2,0,,"Bot did well, pretty much the only shooter on their team",3,,,,948,2,6,9,6,23,0,FALSE,3,6,0,9,0
+2022-03-26 16:29:03,Evan K,3588,Middle Right,13,No,0,0,0,1,25,No,,0,,"Bot only got one point, seemed to be lacking",1,,,,3588,0,0,1,0,1,25,FALSE,1,0,0,1,0
+2022-03-26 16:29:03,Evan K,2906,Middle Right,12,No,0,0,0,0,25,No,,0,,"Climber was taped down by refs, bot looked clueless",1,,,,2906,0,0,0,0,0,25,FALSE,1,0,0,0,0
+2022-03-26 16:29:03,Evan K,2927,Middle Right,11,No,0,0,0,0,120,No,,8,,"Lacked robot, wooden circle that was on top fell off :( Did subpar at defense",1,,,,2927,0,0,0,0,0,120,1,1,0,0,0,0
+2022-03-26 16:29:03,Evan K,5683,Middle Right,15,Yes,1,0,0,6,0,No,,0,,"Whole match was low shooters, bot did well",3,,,,5683,2,2,6,0,10,0,FALSE,3,2,0,6,0
+2022-03-26 16:37:23,Judah M,5295,Top Left,10,Yes,,,,,,No,,,,Worked at start missed all shots and broke mid game,1,,,,5295,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-26 16:37:23,Judah M,6350,Top Left,6,Yes,,1,3,,,Yes,4,,,Okish could be better could be worse,3,,,,6350,2,4,6,15,27,0,FALSE,3,0,4,,6
+2022-03-26 16:37:23,Judah M,948,Top Left,7,Yes,2,,,9,,No,,,,Great intake and good driving,3,,,,948,2,4,9,0,15,0,FALSE,3,4,0,9,0
+2022-03-26 16:37:23,Judah M,4131,Top Left,9,No,,1,2,,20,Yes,2,,,Poor driving,2,,,,4131,0,4,4,6,14,20,FALSE,2,0,4,,4
+2022-03-26 16:37:23,Judah M,8386,Top Left,1,No,,,,,,No,,,,Looked like it broke mid game and didn't shoot or move in general,1,,,,8386,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 16:37:23,Judah M,2907,Top Left,2,Yes,1,,,,,No,,,,Broke in autonomous faze,1,,,,2907,2,2,0,0,4,0,FALSE,1,2,0,,0
+2022-03-26 16:37:23,Judah M,2976,Top Left,4,Yes,,2,6,,,Yes,2,,,All to top and was very good,4,,,,2976,2,8,12,6,28,0,FALSE,4,0,8,,12
+2022-03-26 16:37:23,Judah M,3049,Top Left,8,Yes,,2,6,,,Yes,2,,,Very good just a little slow,4,,,,3049,2,8,12,6,28,0,FALSE,4,0,8,,12
+2022-03-26 16:37:23,Judah M,3393,Top Left,3,Yes,,,,6,,No,,,,Struggled to shoot two at one time in accurate,2,,,,3393,2,0,6,0,8,0,FALSE,2,0,0,6,0
+2022-03-26 16:44:28,troy e,8303,Middle Left,16,Yes,0,0,0,0,30,No,,,,,1,,,,8303,2,0,0,0,2,30,1,1,0,0,0,0
+2022-03-26 16:45:17,Carly H,3876,Top Left,16,Yes,,3,,,25,Yes,1,,,,3,,,,3876,2,12,0,4,18,25,FALSE,3,0,12,,0
+2022-03-26 16:46:01,William S,4450,Bottom Left,16,Yes,,1,2,,0,No,,4,,Move slow,3,,,,4450,2,4,4,0,10,0,FALSE,3,0,4,,4
+2022-03-26 16:46:46,Nicholas Y,4918,Bottom Right,16,Yes,,,,2,15,Yes,2,,,,,,,,4918,2,0,2,6,10,15,FALSE,,0,0,2,0
+2022-03-26 16:47:14,Audreyb,6350,Top Right,16,No,,,2,,,Yes,4,,,Most ammo they shot went in and out of the top goal,2,,,,6350,0,0,4,15,19,0,FALSE,2,0,0,,4
+2022-03-26 16:54:39,Carly H,3786,Top Left,17,Yes,,,5,,15,No,,,,,3,,,,3786,2,0,10,0,12,15,FALSE,3,0,0,,10
+2022-03-26 16:54:52,troy e,2046,Middle Left,17,Yes,,1,0,0,0,No,,0,,,1,,,,2046,2,4,0,0,6,0,FALSE,1,0,4,0,0
+2022-03-26 16:55:03,Nicholas Y,5937,Bottom Right,17,Yes,,1,2,0,85,No,,0,,,,,,,5937,2,4,4,0,10,85,1,,0,4,0,4
+2022-03-26 16:55:16,William S,2976,Bottom Left,17,,,3,4,,0,Yes,3,,,Good climber,4,,,,2976,0,12,8,10,30,0,FALSE,4,0,12,,8
+2022-03-26 17:01:10,troy e,360,Middle Left,18,Yes,,4,8,0,0,Yes,2,0,,,4,,,,360,2,16,16,6,40,0,FALSE,4,0,16,0,16
+2022-03-26 17:01:11,Carly H,3588,Top Left,17,No,,,1,2,10,No,,,,,2,,,,3588,0,0,4,0,4,10,FALSE,2,0,0,2,2
+2022-03-26 17:01:44,Nicholas Y,8896,,18,No,,,,,120,No,,12,,Flat and not so good,1,,,,8896,0,0,0,0,0,120,1,1,0,0,,0
+2022-03-26 17:01:46,Audrey b,1258,Top Right,18,No,,,,,20,No,,12,,"Spent the entire time wandering and gaurding, ran out of time to climb",,,,,1258,0,0,0,0,0,20,FALSE,,0,0,,0
+2022-03-26 17:01:49,William S,3219,Bottom Left,18,Yes,,1,0,0,75,Yes,1,0,,Shoter works intake does not,2,,,,3219,2,4,0,4,10,75,1,2,0,4,0,0
+2022-03-26 17:08:42,troy e,2097,Middle Left,19,Yes,0,0,0,0,0,No,,,,,,,,,2097,2,0,0,0,2,0,FALSE,,0,0,0,0
+2022-03-26 17:08:51,Carly H,488,Top Left,19,Yes,0,0,,,30,Yes,2,8,,,2,,,,488,2,0,0,6,8,30,1,2,0,0,,0
+2022-03-26 17:09:02,Nicholas Y,3393,Bottom Right,19,Yes,,,,9,,No,,8,,,4,,,,3393,2,0,9,0,11,0,FALSE,4,0,0,9,0
+2022-03-26 17:09:16,Audrey b,4915,Top Right,19,Yes,,1,7,,5,No,,8,,Didn't have a climber this round,4,,,,4915,2,4,14,0,20,5,FALSE,4,0,4,,14
+2022-03-26 17:09:27,William S,8051,Bottom Left,19,No,,,,1,0,No,,0,,Was not working right,1,,,,8051,0,0,1,0,1,0,FALSE,1,0,0,1,0
+2022-03-26 17:15:41,troy e,4131,Middle Left,20,Yes,1,0,0,13,,No,,,,,3,,,,4131,2,2,13,0,17,0,FALSE,3,2,0,13,0
+2022-03-26 17:15:43,Carly H,8302,Top Left,20,Yes,,,0,0,60,No,,,,,2,,,,8302,2,0,0,0,2,60,1,2,0,0,0,0
+2022-03-26 17:16:09,Felix M,949,Bottom Left,9,Yes,1,,,6,,Yes,2,,,"Trouble picking up balls, not reliable at shooting",3,,,,949,2,2,6,6,16,0,FALSE,3,2,0,6,0
+2022-03-26 17:16:09,Felix M,3588,Bottom Left,3,No,,,,2,,No,,,,"Very slow, too heavy",2,,,,3588,0,0,2,0,2,0,FALSE,2,0,0,2,0
+2022-03-26 17:16:09,Felix M,8386,Bottom Left,6,No,,,,,20,No,,,,Doesn't have a shooter,1,,,,8386,0,0,0,0,0,20,FALSE,1,0,0,,0
+2022-03-26 17:16:09,Felix M,2097,Bottom Left,8,No,,,,,,No,,,,Stayed still the entire match,1,,,,2097,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 17:16:09,Felix M,948,Bottom Left,1,Yes,2,,,12,,No,,,,"Very smooth and good at driving, Didn't attempt and high shots",3,,,,948,2,4,12,0,18,0,FALSE,3,4,0,12,0
+2022-03-26 17:16:09,Felix M,360,Bottom Left,4,Yes,,2,14,,,Yes,2,,,Very accurate turret,4,,,,360,2,8,28,6,44,0,FALSE,4,0,8,,28
+2022-03-26 17:16:09,Felix M,4918,Bottom Left,2,Yes,,1,,1,,Yes,2,,,"Trouble picking up balls and not very accurate shooting, slowly falls down once it's on the climber",2,,,,4918,2,4,1,6,13,0,FALSE,2,0,4,1,0
+2022-03-26 17:16:09,Felix M,2906,Bottom Left,5,No,,,,,,No,,,,Couldn't even pick up a ball,1,,,,2906,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 17:16:09,Felix M,2927,Bottom Left,7,No,,,,,20,No,,,,"Doesn't have a shooter, only use as defense, very speed",1,,,,2927,0,0,0,0,0,20,FALSE,1,0,0,,0
+2022-03-26 17:16:10,Felix M,4918,Bottom Left,10,Yes,,,,1,5,Yes,2,,,"Doesn't look very responsive, didn't go after balls, kinda stayed still",2,,,,4918,2,0,1,6,9,5,FALSE,2,0,0,1,0
+2022-03-26 17:16:10,Nicholas Y,2906,Bottom Right,20,No,,,,,,No,,,,,,,,,2906,0,0,0,0,0,0,FALSE,,0,0,,0
+2022-03-26 17:16:15,Audrey b,3049,Top Right,20,Yes,,,1,,,Yes,2,,,Got stuck on the hanger halfway through but got off and went back to shooting,3,,,,3049,2,0,2,6,10,0,FALSE,3,0,0,,2
+2022-03-26 17:16:21,William S,5683,Bottom Left,20,Yes,,,,6,,No,,0,,Not bad,3,,,,5683,2,0,6,0,8,0,FALSE,3,0,0,6,0
+2022-03-26 17:17:16,Evan K,2907,Middle Right,16,No,0,0,0,0,0,No,,0,,Was not in the match,1,,,,2907,0,0,0,0,0,0,FALSE,1,0,0,0,0
+2022-03-26 17:17:16,Evan K,8386,Middle Right,17,No,0,0,0,0,10,No,,0,,"Only had drive, looked like a headless chicken",1,,,,8386,0,0,0,0,0,10,FALSE,1,0,0,0,0
+2022-03-26 17:17:16,Evan K,949,Middle Right,18,Yes,1,0,0,6,0,Yes,2,12,,Did very well compared to rest of team,4,,,,949,2,2,6,6,16,0,FALSE,4,2,0,6,0
+2022-03-26 17:17:16,Evan K,948,Middle Right,20,Yes,1,0,0,5,0,Yes,2,0,,"Good bot, got most if not all low shots",4,,,,948,2,2,5,6,15,0,FALSE,4,2,0,5,0
+2022-03-26 17:17:16,Evan K,5295,Middle Right,19,Yes,0,0,0,0,0,No,,8,,"Got a ball stuck in the intake, missed all shots",1,,,,5295,2,0,0,0,2,0,FALSE,1,0,0,0,0
+2022-03-26 17:23:33,Jake B,5937,Bottom Left,21,Yes,,1,1,,,No,,,,,2,,,,5937,2,4,2,0,8,0,FALSE,2,0,4,,2
+2022-03-26 17:23:34,Roland,2976,Middle Left,21,Yes,,0,,,30,Yes,2,0,,,,,,,2976,2,0,0,6,8,30,1,,0,0,,0
+2022-03-26 17:28:51,Jake B,6350,Bottom Left,22,Yes,,1,5,,,Yes,4,,,Shooter alright accuracy,4,,,,6350,2,4,10,15,31,0,FALSE,4,0,4,,10
+2022-03-26 17:29:27,Roland,949,Middle Left,22,Yes,1,,,7,0,Yes,2,0,,,,,,,949,2,2,7,6,17,0,FALSE,,2,0,7,0
+2022-03-26 17:35:49,Jake B,3786,Bottom Left,23,Yes,,,11,,,Yes,2,,,"Great shooter, probably susceptible to good defense",5,,,,3786,2,0,22,6,30,0,FALSE,5,0,0,,22
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+2022-03-26 17:42:29,Jake Benjamin,3393,Bottom Left,24,Yes,1,,,9,,No,,,,Solid low shooter,4,,,,3393,2,2,9,0,13,0,FALSE,4,2,0,9,0
+2022-03-26 17:43:10,Roland,2907,Middle Left,24,Yes,1,,,,,No,,0,,Could not move for most of the match,2,,,,2907,2,2,0,0,4,0,FALSE,2,2,0,,0
+2022-03-26 17:49:05,Jake B,2927,Bottom Left,25,No,,,,,60,No,,,,Good for a defense bot,3,,,,2927,0,0,0,0,0,60,1,3,0,0,,0
+2022-03-26 17:49:14,Roland,3588,Middle Left,25,No,,,,,10,No,,0,,,2,,,,3588,0,0,0,0,0,10,FALSE,2,0,0,,0
+2022-03-26 17:51:20,Gavin M,4915,Top Left,25,Yes,,1,14,,,No,,,,We are the greatest ever,4,,,,4915,2,4,28,0,34,0,FALSE,4,0,4,,28
+2022-03-26 17:51:20,Gavin M,1258,Top Left,21,Yes,,,,,120,No,,,,"Has shooter and climber, used neither
+Excellent defense",4,,,,1258,2,0,0,0,2,120,1,4,0,0,,0
+2022-03-26 17:51:20,Gavin M,488,Top Left,23,Yes,0,1,2,7,5,Yes,4,,,"High capacity shooter, can shoot low and higj",4,,,,488,2,4,11,15,32,5,FALSE,4,0,4,7,4
+2022-03-26 17:51:20,Gavin M,4131,Top Left,24,,1,,,12,,No,1,,,"Climber failed, sometimes balls bump into each other when shooting
+Swerve drive",3,,,,4131,0,2,12,4,18,0,FALSE,3,2,0,12,0
+2022-03-26 17:51:20,Gavin M,5295,Top Left,22,Yes,,,,,40,No,,,,Shooter broke? Intake does not work well and is very inconsistent,2,,,,5295,2,0,0,0,2,40,1,2,0,0,,0
+2022-03-26 17:54:36,Jake Benjamin,3219,Bottom Left,26,Yes,0,1,1,,,Yes,1,,,,2,,,,3219,2,4,2,4,12,0,FALSE,2,0,4,,2
+2022-03-26 17:54:51,Gavin M,4450,Top Left,26,Yes,,,4,,,No,,,,"Moves very slowly, often overdoes turns",2,,,,4450,2,0,8,0,10,0,FALSE,2,0,0,,8
+2022-03-26 17:55:30,Roland,3786,Middle Left,26,Yes,,,7,,,Yes,2,0,,,3,,,,3786,2,0,14,6,22,0,FALSE,3,0,0,,14
+2022-03-26 18:02:26,Jake Benjamin,8896,Bottom Left,27,No,,,,,,No,,,,Wasnt there,1,,,,8896,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 18:04:52,Gavin M,6350,Top Left,27,Yes,,1,4,,,Yes,3,,,"Can go high bar, just messed it up",3,,,,6350,2,4,8,10,24,0,FALSE,3,0,4,,8
+2022-03-26 18:06:09,Roland,3876,Middle Left,27,Yes,,,,,,No,,0,,,2,,,,3876,2,0,0,0,2,0,FALSE,2,0,0,,0
+2022-03-26 18:11:09,Gavin M,8051,Top Left,28,No,,,,7,,No,,,,"Top-heavy, got disabled",2,,,,8051,0,0,7,0,7,0,FALSE,2,0,0,7,0
+2022-03-26 18:11:10,Jake B,4915,Bottom Left,28,Yes,0,1,11,,,No,,,,Stopped moving at end of match great shooter,4,,,,4915,2,4,22,0,28,0,FALSE,4,0,4,,22
+2022-03-26 18:11:33,Roland k,5683,Middle Left,28,Yes,,,,3,,No,,4,,,2,,,,5683,2,0,3,0,5,0,FALSE,2,0,0,3,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+2022-03-26 18:17:00,Gavin M,2907,Top Left,29,Yes,,,,,,No,,,,"Did nothing but push around balls, then got disabled",1,,,,2907,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-26 18:17:21,Jake B,3588,Bottom Left,29,Yes,,,,1,,No,,,,Stopped moving at one point,,,,,3588,2,0,1,0,3,0,FALSE,,0,0,1,0
+2022-03-26 18:17:59,Roland k,2046,Middle Left,29,Yes,,3,14,,,No,,0,,,5,,,,2046,2,12,28,0,42,0,FALSE,5,0,12,,28
+2022-03-26 18:23:57,Gavin M,8302,Top Left,30,No,,,,1,,No,,,,Very inconsistent shooter and manual loader,1,,,,8302,0,0,1,0,1,0,FALSE,1,0,0,1,0
+2022-03-26 18:24:03,Jake B,8303,Bottom Left,30,Yes,,,,,45,No,,,,No mechanisms,3,,,,8303,2,0,0,0,2,45,1,3,0,0,,0
+2022-03-26 18:24:44,Felix M,948,Bottom Right,26,Yes,2,,,2,,No,,,,After 20 seconds the robot stopped working and didn't move,2,,,,948,2,4,2,0,8,0,FALSE,2,4,0,2,0
+2022-03-26 18:24:44,Felix M,2097,Bottom Right,29,No,,,,,,No,,,,"Very bad intake, couldn't pick up 1 ball the entire match",1,,,,2097,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 18:24:44,Felix M,4131,Bottom Right,27,No,,,,,,No,,,,"Problems with the robot, Never moved",1,,,,4131,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 18:24:44,Felix M,360,Bottom Right,24,Yes,,3,10,,,Yes,2,,,"Shooting is crazy!! Very very accurate and has a turret, can shoot from anywhere",5,,,,360,2,12,20,6,40,0,FALSE,5,0,12,,20
+2022-03-26 18:24:44,Felix M,3049,Bottom Right,28,Yes,,2,5,,,Yes,2,,,"Average Robot, Climber And we quick and smooth",3,,,,3049,2,8,10,6,26,0,FALSE,3,0,8,,10
+2022-03-26 18:24:44,Felix M,2046,Bottom Right,21,Yes,,2,11,,,Yes,2,,,"Very fast and very responsive, picks up balls quickly and shoots fast. Very quick at climbing",5,,,,2046,2,8,22,6,38,0,FALSE,5,0,8,,22
+2022-03-26 18:24:44,Felix M,948,Bottom Right,23,Yes,2,,,7,,Yes,2,,,"Swerve drive, Very quick but could tip over",3,,,,948,2,4,7,6,19,0,FALSE,3,4,0,7,0
+2022-03-26 18:24:44,Felix M,2976,Bottom Right,30,Yes,,,,,,Yes,2,,,"Trouble picking up balls, didn't try to pick up balls, just kinda went around the field blindly",2,,,,2976,2,0,0,6,8,0,FALSE,2,0,0,,0
+2022-03-26 18:24:44,Felix M,8386,Bottom Right,25,No,,,,,20,No,,,,"Doesn't have a shooter or climber, only defend",1,,,,8386,0,0,0,0,0,20,FALSE,1,0,0,,0
+2022-03-26 18:24:44,Felix M,4918,Bottom Right,22,Yes,,2,,4,,No,,,,Intake isn't efficient,2,,,,4918,2,8,4,0,14,0,FALSE,2,0,8,4,0
+2022-03-26 18:25:22,Roland,1258,Middle Left,30,Yes,,,,,,No,,8,,,3,,,,1258,2,0,0,0,2,0,FALSE,3,0,0,,0
+2022-03-26 18:34:03,Joseph T,3049,Middle Right,24,Yes,,1,4,,,Yes,2,,,Pretty accurate high shooter,3,,,,3049,2,4,8,6,20,0,FALSE,3,0,4,,8
+2022-03-26 18:34:03,Joseph T,2906,Middle Right,25,No,,,,,,No,,,,The robot drove around and did nothing,1,,,,2906,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 18:34:03,Joseph T,2927,Middle Right,28,No,,,,,105,No,,4,,The robot just defended the whole time,1,,,,2927,0,0,0,0,0,105,1,1,0,0,,0
+2022-03-26 18:34:03,Joseph T,3219,Middle Right,21,Yes,,,,,120,Yes,1,8,,The robot spent all the time attempting to defend,,,,,3219,2,0,0,4,6,120,1,,0,0,,0
+2022-03-26 18:34:03,Joseph T,2097,Middle Right,22,Yes,,,2,,,No,,,,The intake was damaged and the shooter was unreliable,2,,,,2097,2,0,4,0,6,0,FALSE,2,0,0,,4
+2022-03-26 18:34:03,Joseph T,5937,Middle Right,27,Yes,,,,1,,No,,,,"Robot did not shoot much, it is very tippy when driving",2,,,,5937,2,0,1,0,3,0,FALSE,2,0,0,1,0
+2022-03-26 18:34:03,Joseph T,3393,Middle Right,30,Yes,1,,,2,,No,,,,The robot shot some but it was slow,2,,,,3393,2,2,2,0,6,0,FALSE,2,2,0,2,0
+2022-03-26 18:34:03,Joseph T,2906,Middle Right,29,No,,,,,2,No,,,,The robot just drove around during the match; the climber was broken too,2,,,,2906,0,0,0,0,0,2,FALSE,2,0,0,,0
+2022-03-26 18:34:03,Joseph T,3876,Middle Right,23,Yes,1,,,1,,Yes,1,,,The belts and intake seemed to malfunction,2,,,,3876,2,2,1,4,9,0,FALSE,2,2,0,1,0
+2022-03-26 18:34:03,Joseph T,488,Middle Right,26,Yes,,,,,,Yes,4,,,Shooter is very inaccurate but the bot is a very good fast climber,3,,,,488,2,0,0,15,17,0,FALSE,3,0,0,,0
+2022-03-26 18:36:21,Zack H,6350,Middle Right,1,Yes,0,1,3,,,Yes,4,8,,"Shots bounced out a lot. Climber gets to 4th rung but moves very slowly, took about 32 seconds",3,,,,6350,2,4,6,15,27,0,FALSE,3,0,4,,6
+2022-03-26 18:36:21,Zack H,8386,Top Right,30,No,,,0,0,10,No,,8,,Went into hangar zone of other alliance during endgame,1,,,,8386,0,0,0,0,0,10,FALSE,1,0,0,0,0
+2022-03-26 18:36:21,Zack H,4915,Middle Right,6,Yes,0,1,5,1,15,Yes,2,,,Robot kept accidentally picking up red balls (*cough* MITCHELL),3,,,,4915,2,4,11,6,23,15,FALSE,3,0,4,1,10
+2022-03-26 18:36:21,Zack H,5295,Top Right,28,Yes,0,0,,,,No,,4,,Kept missing shots. Tried to climb but couldn't get off of the ground.,1,,,,5295,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-26 18:36:21,Zack H,949,Top Right,29,Yes,1,,,11,,Yes,2,0,,Efficient low goal lifting arm.,3,,,,949,2,2,11,6,21,0,FALSE,3,2,0,11,0
+2022-03-26 18:36:21,Zack H,8303,Middle Right,5,Yes,0,0,0,0,90,No,,,,Decent defense due to dense deadweight,1,,,,8303,2,0,0,0,2,90,1,1,0,0,0,0
+2022-03-26 18:36:21,Zack H,360,Middle Right,7,Yes,,2,12,0,0,No,,,,"Extremely accurate, long range rotating turret shooter. Didn't miss a single shot. The robot has a climber but was blocked off between an ally and an enemy defense bot.",4,,,,360,2,8,24,0,34,0,FALSE,4,0,8,0,24
+2022-03-26 18:36:21,Zack H,4918,Top Right,26,Yes,,,,2,,Yes,2,0,,Seemed to have a lot of trouble picking up cargo,2,,,,4918,2,0,2,6,10,0,FALSE,2,0,0,2,0
+2022-03-26 18:36:21,Zack H,2976,Middle Right,8,Yes,,4,8,,,Yes,2,,,"Shooter missed about every other shot, but was made up for by great maneuverability. Climber seems like it could've gotten higher, but I think it ran out of time.",4,,,,2976,2,16,16,6,40,0,FALSE,4,0,16,,16
+2022-03-26 18:36:21,Zack H,360,Top Right,27,Yes,0,4,7,,,Yes,2,0,,,4,,,,360,2,16,14,6,38,0,FALSE,4,0,16,,14
+2022-03-26 18:36:21,Zack H,8896,Middle Right,10,No,,,0,0,5,No,,,,"Defense bot. For most of the match it was just driving in circles, making me think there was a drive train error.",1,,,,8896,0,0,0,0,0,5,FALSE,1,0,0,0,0
+2022-03-26 18:36:21,Zack H,8302,Middle Right,9,No,,,0,0,5,No,,0,,The robot mostly stayed still for almost the entire match.,1,,,,8302,0,0,0,0,0,5,FALSE,1,0,0,0,0
+2022-03-26 18:36:21,Zack H,2927,Middle Right,2,No,0,0,0,0,25,No,,0,,Robot was defense-only. Blocked another robot for a while from climbing,1,,,,2927,0,0,0,0,0,25,FALSE,1,0,0,0,0
+2022-03-26 18:36:21,Zack H,3049,Middle Right,3,Yes,,2,2,,,No,,0,,Shooter missed a lot. The climber extended but didn't actually climb.,1,,,,3049,2,8,4,0,14,0,FALSE,1,0,8,,4
+2022-03-26 18:36:21,Zack H,488,Middle Right,4,Yes,,2,,5,10,Yes,4,4,,"Excellent all-round robot. Got stuck for a while with a red ball, but managed to get it out.",4,,,,488,2,8,5,15,30,10,FALSE,4,0,8,5,0
+2022-03-26 19:06:22,troy e,3786,Top Right,31,Yes,,1,5,,,Yes,2,,,,,,,,3786,2,4,10,6,22,0,FALSE,,0,4,,10
+2022-03-26 19:06:24,Carly h,4915,Middle Right,31,Yes,0,2,8,0,5,No,,,,,5,,,,4915,2,8,16,0,26,5,FALSE,5,0,8,0,16
+2022-03-26 19:06:35,Carter A,4131,Bottom Left,31,No,1,,,15,,No,,,,,4,,,,4131,0,2,15,0,17,0,FALSE,4,2,0,15,0
+2022-03-26 19:06:52,William S,3219,Middle Left,31,Yes,,1,0,11,,No,,0,,Constantly getting goals,4,,,,3219,2,4,11,0,17,0,FALSE,4,0,4,11,0
+2022-03-26 19:07:25,Audrey b,8896,Top Left,31,No,0,0,0,0,45,No,,4,,"Flat and cannot do anything but drive around, block and spin",1,,,,8896,0,0,0,0,0,45,1,1,0,0,0,0
+2022-03-26 19:08:40,Camden G,488,Bottom Right,31,Yes,,2,,10,,Yes,4,,,,5,,,,488,2,8,10,15,35,0,FALSE,5,0,8,10,0
+2022-03-26 19:12:33,Camden G,2097,Bottom Right,32,Yes,,,,,,No,,,,Their bumper fell off,1,,,,2097,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-26 19:13:04,Carly,5295,Middle Right,32,Yes,0,0,0,0,45,Yes,1,,,,3,,,,5295,2,0,0,4,6,45,1,3,0,0,0,0
+2022-03-26 19:13:10,troy e,2046,Top Right,32,Yes,,4,9,,,Yes,4,,,,,,,,2046,2,16,18,15,51,0,FALSE,,0,16,,18
+2022-03-26 19:14:01,Joyce M,949,Top Left,32,Yes,1,0,0,0,35,No,,8,,"Spent a lot of time defending, only launched one low ball and was not very helpful.",1,,,,949,2,2,0,0,4,35,1,1,2,0,0,0
+2022-03-26 19:21:48,troy e,8386,Top Right,33,No,0,0,0,0,120,No,,,,,,,,,8386,0,0,0,0,0,120,1,,0,0,0,0
+2022-03-26 19:23:52,Carly h,4918,Middle Right,33,Yes,0,0,,4,,Yes,2,,,,3,,,,4918,2,0,4,6,12,0,FALSE,3,0,0,4,0
+2022-03-26 19:24:30,Joyce M,5937,Top Left,33,Yes,0,0,0,0,20,No,,0,,Drove over another robot.,2,,,,5937,2,0,0,0,2,20,FALSE,2,0,0,0,0
+2022-03-26 19:28:58,troy e,2927,Top Right,34,No,0,0,0,0,0,No,,,,robot did not move,,,,,2927,0,0,0,0,0,0,FALSE,,0,0,0,0
+2022-03-26 19:30:16,Carly h,4450,Middle Right,34,Yes,0,0,,1,30,No,,,,,2,,,,4450,2,0,1,0,3,30,1,2,0,0,1,0
+2022-03-26 19:30:43,Camden G,8302,Bottom Right,34,No,,,,1,45,No,,,,They can only intake balls from player stations,2,,,,8302,0,0,1,0,1,45,1,2,0,0,1,0
+2022-03-26 19:30:49,Joyce M,5683,Top Left,34,Yes,0,1,0,3,,No,,4,,Only shot low goals,3,,,,5683,2,4,3,0,9,0,FALSE,3,0,4,3,0
+2022-03-26 19:34:45,troy e,8303,Top Right,35,Yes,0,0,0,0,120,No,,,,,,,,,8303,2,0,0,0,2,120,1,,0,0,0,0
+2022-03-26 19:36:43,Carly h,2976,Middle Right,35,Yes,0,0,,1,,Yes,2,,,,3,,,,2976,2,0,1,6,9,0,FALSE,3,0,0,1,0
+2022-03-26 19:38:22,Camden G,6350,Bottom Right,35,Yes,,1,5,,,Yes,2,,,Their launcher has too much spin and it kept bouncing out of the high goal,4,,,,6350,2,4,10,6,22,0,FALSE,4,0,4,,10
+2022-03-26 19:39:41,Camden G,3588,Bottom Right,33,No,0,,,1,,,,,,"The game was 4-13, but they won.",2,,,,3588,0,0,1,0,1,0,FALSE,2,0,0,1,0
+2022-03-26 19:44:29,Carly h,4918,Middle Right,36,Yes,0,0,2,,,Yes,2,,,,2,,,,4918,2,0,4,6,12,0,FALSE,2,0,0,,4
+2022-03-26 19:45:12,troy e,2046,Top Right,36,Yes,,4,8,,,Yes,4,,,,5,,,,2046,2,16,16,15,49,0,FALSE,5,0,16,,16
+2022-03-26 19:45:14,Joyce M,8896,Top Left,36,No,0,0,0,0,40,No,,0,,"Only blocked, not very useful.",1,,,,8896,0,0,0,0,0,40,1,1,0,0,0,0
+2022-03-26 19:45:16,Camden G,949,Bottom Right,36,Yes,1,,,,90,No,,,,I think their intake broke,4,,,,949,2,2,0,0,4,90,1,4,2,0,,0
+2022-03-26 19:45:46,Joseph T,1258,Bottom Left,35,Yes,,,,1,,No,,4,,"Very slow shooting and cycling, low goal shooter but missed many shots. Climber could not hold robot weight",2,,,,1258,2,0,1,0,3,0,FALSE,2,0,0,1,0
+2022-03-26 19:45:46,Joseph T,2906,Bottom Left,33,No,,,,,,No,,,,The robot did nothing except move around a little bit,1,,,,2906,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 19:45:46,Joseph T,4915,Bottom Left,36,Yes,,1,11,,,No,,,,Pretty good but could not climb,4,,,,4915,2,4,22,0,28,0,FALSE,4,0,4,,22
+2022-03-26 19:45:46,Joseph T,3393,Bottom Left,34,Yes,,,,7,,No,,,,"Ok low goal shooter, kind of slow",3,,,,3393,2,0,7,0,9,0,FALSE,3,0,0,7,0
+2022-03-26 19:45:46,Joseph T,360,Bottom Left,32,Yes,,4,11,,,No,,,,"The robot shot a lot and was very accurate, very good autonomous",5,,,,360,2,16,22,0,40,0,FALSE,5,0,16,,22
+2022-03-26 19:49:35,Joyce m,2927,Top Left,37,No,0,0,0,0,0,No,,0,,"Was not in match, having repairs done.",1,,,,2927,0,0,0,0,0,0,FALSE,1,0,0,0,0
+2022-03-26 19:51:21,Carly h,2097,Middle Right,37,Yes,,,0,3,,No,,,,,2,,,,2097,2,0,3,0,5,0,FALSE,2,0,0,3,0
+2022-03-26 19:51:34,troy e,2907,Top Right,37,,,,0,0,,No,,,,,2,,,,2907,0,0,0,0,0,0,FALSE,2,0,0,0,0
+2022-03-26 19:51:36,Camden G,3219,Bottom Right,37,Yes,1,,2,,,Yes,1,,,They missed a lot,4,,,,3219,2,2,4,4,12,0,FALSE,4,2,0,,4
+2022-03-26 19:58:04,Carly h,8386,Middle Right,38,Yes,0,0,,,,,,,,,,,,,8386,2,0,0,0,2,0,FALSE,,0,0,,0
+2022-03-26 19:58:25,troy e,1258,Top Right,38,Yes,,,0,0,120,No,,,,,,,,,1258,2,0,0,0,2,120,1,,0,0,0,0
+2022-03-26 19:58:57,Joyce M,488,Top Left,38,Yes,0,2,0,3,0,Yes,4,0,,Very good autonomous and climbing. Only aimed for lower goal.,4,,,,488,2,8,3,15,28,0,FALSE,4,0,8,3,0
+2022-03-26 19:59:02,Camden G,3049,Bottom Right,38,Yes,0,2,3,,,Yes,2,,,,5,,,,3049,2,8,6,6,22,0,FALSE,5,0,8,,6
+2022-03-26 20:04:20,Camden G,3588,Bottom Right,39,No,,,1,2,,,,,,Robot Lost connectivity,3,,,,3588,0,0,4,0,4,0,FALSE,3,0,0,2,2
+2022-03-26 20:05:23,Carly h,4450,Middle Right,39,Yes,0,0,,,,No,,,,,2,,,,4450,2,0,0,0,2,0,FALSE,2,0,0,,0
+2022-03-26 20:05:29,troy e,948,Top Right,39,Yes,2,,,11,,No,,,,,3,,,,948,2,4,11,0,17,0,FALSE,3,4,0,11,0
+2022-03-26 20:07:52,Joyce M,8303,Top Left,39,Yes,0,0,0,0,25,No,,0,,"Not useful, just got under other robots.",1,,,,8303,2,0,0,0,2,25,FALSE,1,0,0,0,0
+2022-03-26 20:11:48,troy e,2976,Top Right,40,No,0,0,0,0,0,No,,,,,,,,,2976,0,0,0,0,0,0,FALSE,,0,0,0,0
+2022-03-26 20:11:49,Carly h,5683,Middle Right,40,Yes,1,,,,,,,,,,,,,,5683,2,2,0,0,4,0,FALSE,,2,0,,0
+2022-03-26 20:13:30,Camden G,3876,Bottom Right,40,Yes,,,,,70,Yes,1,,,Their shooter broke.,3,,,,3876,2,0,0,4,6,70,1,3,0,0,,0
+2022-03-26 20:14:14,Joyce M,3393,Top Left,40,Yes,0,0,0,0,30,No,,4,,Had some launcher issues,2,,,,3393,2,0,0,0,2,30,1,2,0,0,0,0
+2022-03-26 20:20:58,Jake,3049,Middle Left,41,Yes,,1,4,,,Yes,2,,,"Good shooter, only ever shot 1",4,,,,3049,2,4,8,6,20,0,FALSE,4,0,4,,8
+2022-03-26 20:23:10,Joyce M,360,Middle Right,41,Yes,0,4,10,0,0,Yes,2,8,,Overall very good.,5,,,,360,2,16,20,6,44,0,FALSE,5,0,16,0,20
+2022-03-26 20:28:36,Jake B,4915,Middle Left,42,Yes,,1,13,,,No,1,,,Greatest thing I ever saw,5,,,,4915,2,4,26,4,36,0,FALSE,5,0,4,,26
+2022-03-26 20:28:43,Joyce M,4131,Middle Right,42,No,0,0,0,10,0,No,,0,,N/A,4,,,,4131,0,0,10,0,10,0,FALSE,4,0,0,10,0
+2022-03-26 20:35:25,Jake B,2976,Middle Left,43,Yes,,,,,,Yes,3,,,,3,,,,2976,2,0,0,10,12,0,FALSE,3,0,0,,0
+2022-03-26 20:36:00,Audrey b,3786,Bottom Right,43,Yes,0,,8,,,Yes,2,4,,Good at shooting,4,,,,3786,2,0,16,6,24,0,FALSE,4,0,0,,16
+2022-03-26 20:43:33,Jake B,2906,Middle Left,44,No,,0,,,40,No,,,,Shooter not functioning,1,,,,2906,0,0,0,0,0,40,1,1,0,0,,0
+2022-03-26 20:45:01,Audrey b,1258,Bottom Right,44,Yes,,1,0,,,Yes,4,8,,Not great at aiming,3,,,,1258,2,4,0,15,21,0,FALSE,3,0,4,,0
+2022-03-26 20:46:39,Audrey b,8303,Bottom Right,42,No,,,,,10,No,,,,Flat robot,,,,,8303,0,0,0,0,0,10,FALSE,,0,0,,0
+2022-03-26 20:46:39,William S,948,Middle Left,33,Yes,,,,10,,Yes,2,0,,Do will,3,,,,948,2,0,10,6,18,0,FALSE,3,0,0,10,0
+2022-03-26 20:46:39,Audrey b,8302,Bottom Right,41,Yes,,,,,,No,,,,Did literally nothing,,,,,8302,2,0,0,0,2,0,FALSE,,0,0,,0
+2022-03-26 20:46:39,William S,5295,Middle Left,39,Yes,,,2,,,Yes,2,0,,Not bad,2,,,,5295,2,0,4,6,12,0,FALSE,2,0,0,,4
+2022-03-26 20:46:39,William S,4131,Middle Left,37,Yes,1,,,10,,No,,,,Mostly hits all their shots,3,,,,4131,2,2,10,0,14,0,FALSE,3,2,0,10,0
+2022-03-26 20:46:39,William S,360,Middle Left,36,Yes,,5,4,3,,Yes,2,,,Great shooter and a decent climber,5,,,,360,2,20,11,6,39,0,FALSE,5,0,20,3,8
+2022-03-26 20:46:39,William S,3786,Middle Left,40,Yes,,,7,,5,No,,0,,Good shooter,4,,,,3786,2,0,14,0,16,5,FALSE,4,0,0,,14
+2022-03-26 20:46:39,Joyce M,3393,Middle Right,44,Yes,0,0,0,0,10,No,,8,,Didn't shoot all match. Just drove around.,1,,,,3393,2,0,0,0,2,10,FALSE,1,0,0,0,0
+2022-03-26 20:46:39,Joyce M,8896,Middle Right,43,No,0,0,0,0,55,No,,4,,Flat.,1,,,,8896,0,0,0,0,0,55,1,1,0,0,0,0
+2022-03-26 20:46:39,William s,5937,Middle Left,38,Yes,,1,2,,65,No,,,,Mmh,1,,,,5937,2,4,4,0,10,65,1,1,0,4,,4
+2022-03-26 20:46:39,William S,2907,Middle Left,33,No,,,,,,No,,0,,Useless,1,,,,2907,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 20:46:39,William S,8051,Middle Left,35,No,,,,2,,No,,,,After half when it stop working,1,,,,8051,0,0,2,0,2,0,FALSE,1,0,0,2,0
+2022-03-26 20:47:28,Evan K,8302,Bottom Left,37,No,0,0,0,2,0,No,,0,,"No intake (needs human to get ball), has a weird climbing method that did not work",2,,,,8302,0,0,2,0,2,0,FALSE,2,0,0,2,0
+2022-03-26 20:47:29,Evan K,2097,Bottom Left,43,No,0,0,0,0,0,No,,4,,"Slow, attempted to climb",1,,,,2097,0,0,0,0,0,0,FALSE,1,0,0,0,0
+2022-03-26 20:47:29,Evan K,8386,Bottom Left,42,No,0,0,0,0,120,No,,0,,"Very fast, no shooter",1,,,,8386,0,0,0,0,0,120,1,1,0,0,0,0
+2022-03-26 20:47:29,Evan K,2906,Bottom Left,40,No,0,0,0,0,0,No,,0,,"The orange light wasn't on, the robot was unable to shoot (and climb I think)",2,,,,2906,0,0,0,0,0,0,FALSE,2,0,0,0,0
+2022-03-26 20:47:29,Evan K,8051,Bottom Left,39,No,0,0,0,0,0,No,,,Red Card,Was not in the match,,,,,8051,0,0,0,0,0,0,FALSE,,0,0,0,0
+2022-03-26 20:47:29,Evan K,3876,Bottom Left,44,Yes,0,0,0,0,45,No,,0,,"Attempted to climb, did not shoot",1,,,,3876,2,0,0,0,2,45,1,1,0,0,0,0
+2022-03-26 20:47:29,Evan K,5937,Bottom Left,41,Yes,0,1,0,0,70,No,,8,,Played defense because bear metal was on their team,2,,,,5937,2,4,0,0,6,70,1,2,0,4,0,0
+2022-03-26 20:47:29,Evan K,6350,Bottom Left,38,Yes,0,1,7,0,0,No,,0,,"Has traversal potential but didn't climb (broken maybe?), missed shots",3,,,,6350,2,4,14,0,20,0,FALSE,3,0,4,0,14
+2022-03-26 21:03:08,Clare W,4450,Top Left,42,Yes,,,3,,,No,,,,Moved pretty slowly,3,,,,4450,2,0,6,0,8,0,FALSE,3,0,0,,6
+2022-03-26 21:03:08,Clare W,5295,Top Left,44,Yes,,,,,,No,,,,Struggled to intake a ball and missed twice.,2,,,,5295,2,0,0,0,2,0,FALSE,2,0,0,,0
+2022-03-26 21:03:08,Clare W,2927,Top Left,43,No,,,,,,No,,,,"The robot wasn't there, but they sent a representative so they didn't get a red card.",1,,,,2927,0,0,0,0,0,0,FALSE,1,0,0,,0
+2022-03-26 21:03:08,Clare W,2046,Top Left,41,Yes,,2,6,,,Yes,4,,,"Not super consistent on shooting high, but could shoot from anywhere. Climbed really fast.",5,,,,2046,2,8,12,15,37,0,FALSE,5,0,8,,12
+2022-03-27 9:34:43,Carly h,8051,Top Right,45,Yes,2,,,6,,No,,,,,2,3,,,8051,2,4,6,0,12,0,FALSE,2,4,0,6,0
+2022-03-27 9:35:13,Jake B,2907,Middle Left,45,Yes,,,,,,No,,,,Didn't do anything,1,1,,,2907,2,0,0,0,2,0,FALSE,1,0,0,,0
+2022-03-27 9:35:14,Nicholas Y,3219,Bottom Right,45,Yes,0,1,3,,,Yes,1,8,,,3,1,,,3219,2,4,6,4,16,0,FALSE,3,0,4,,6
+2022-03-27 9:35:15,troy e,488,Bottom Left,45,,,,4,,,Yes,4,,,,,4,,,488,0,0,8,15,23,0,FALSE,,0,0,,8
+2022-03-27 9:35:47,Clare W,5683,Top Left,45,Yes,2,,,2,,No,,,,My auto data might be wrong I'm not sure I got the right numbers,3,3,,,5683,2,4,2,0,8,0,FALSE,3,4,0,2,0
+2022-03-27 9:35:49,Camden G,949,Middle Right,45,Yes,1,,0,6,25,Yes,2,,,,4,4,,,949,2,2,6,6,16,25,FALSE,4,2,0,6,0
+2022-03-27 9:41:32,troy e,948,Bottom Left,46,Yes,2,,,11,,Yes,2,,,,3,4,,,948,2,4,11,6,23,0,FALSE,3,4,0,11,0
+2022-03-27 9:41:34,Carly h,8302,Top Right,46,No,,,,,,Yes,1,,,,3,3,,,8302,0,0,0,4,4,0,FALSE,3,0,0,,0
+2022-03-27 9:41:46,Jake B,4915,Middle Left,46,Yes,,1,9,0,,No,,,,,5,5,,,4915,2,4,18,0,24,0,FALSE,5,0,4,0,18
+2022-03-27 9:42:09,Camden G,2046,Middle Right,46,Yes,,2,13,,,Yes,4,,,,5,5,,,2046,2,8,26,15,51,0,FALSE,5,0,8,,26
+2022-03-27 9:43:45,Nicholas Y,360,Bottom Right,46,Yes,0,4,11,,,No,,,,,4,4,,,360,2,16,22,0,40,0,FALSE,4,0,16,,22
+2022-03-27 9:48:47,troy e,4131,Bottom Left,47,,1,,,10,,No,,,,,3,3,,,4131,0,2,10,0,12,0,FALSE,3,2,0,10,0
+2022-03-27 9:48:48,Carly,1258,Top Right,47,No,,,1,,,No,,,,,1,2,,,1258,0,0,2,0,2,0,FALSE,1,0,0,,2
+2022-03-27 9:49:02,Nicholas Y,5295,Bottom Right,47,Yes,,,5,,,No,,,,,3,3,,,5295,2,0,10,0,12,0,FALSE,3,0,0,,10
+2022-03-27 9:49:45,Judah M,2097,Middle Left,47,Yes,,,2,,,No,,0,,Their ability to move the shoot separately from the rest of the robot is very lacking,1,1,,,2097,2,0,4,0,6,0,FALSE,1,0,0,,4
+2022-03-27 9:54:55,Carly h,4450,Top Right,48,Yes,,,2,,,Yes,2,,,,4,3,,,4450,2,0,4,6,12,0,FALSE,4,0,0,,4
+2022-03-27 9:54:56,Gavin M,3219,Middle Right,48,Yes,,1,4,,,Yes,1,,,,3,3,,,3219,2,4,8,4,18,0,FALSE,3,0,4,,8
+2022-03-27 9:55:24,Nicholas Y,5683,,48,Yes,1,,,10,,No,,,,,3,2,,,5683,2,2,10,0,14,0,FALSE,3,2,0,10,0
+2022-03-27 9:55:28,troy e,3876,Bottom Left,48,Yes,,,,2,10,No,,,,,2,3,,,3876,2,0,2,0,4,10,FALSE,2,0,0,2,0
+2022-03-27 9:55:33,Judah M,5938,Middle Left,48,Yes,,,5,,0,No,,0,,Very jolty leads to a lot of penalty's if gets on top of other robots,2,1,,,5938,2,0,10,0,12,0,FALSE,2,0,0,,10
+2022-03-27 10:01:07,Clare W,8303,Top Left,46,Yes,,,,,25,No,,,,Pretty good defense.,2,3,,,8303,2,0,0,0,2,25,FALSE,2,0,0,,0
+2022-03-27 10:05:15,Carly h,2907,Top Right,49,Yes,,,0,0,0,No,,,,,1,1,,,2907,2,0,0,0,2,0,FALSE,1,0,0,0,0
+2022-03-27 10:05:23,troy e,3049,Bottom Left,49,Yes,,,5,,,No,,,,,2,2,,,3049,2,0,10,0,12,0,FALSE,2,0,0,,10
+2022-03-27 10:05:24,Camden G,8051,Middle Right,49,Yes,1,,0,7,,No,,,,,4,3,,,8051,2,2,7,0,11,0,FALSE,4,2,0,7,0
+2022-03-27 10:05:39,Clare W,2906,Top Left,49,No,,,,,15,No,,,,,2,1,,,2906,0,0,0,0,0,15,FALSE,2,0,0,,0
+2022-03-27 10:05:53,Nicholas Y,3786,Bottom Right,49,Yes,,,16,,,Yes,2,4,,,5,4,,,3786,2,0,32,6,40,0,FALSE,5,0,0,,32
+2022-03-27 10:10:35,troy e,2927,Bottom Left,50,No,,,,,120,No,,,,,2,3,,,2927,0,0,0,0,0,120,1,2,0,0,,0
+2022-03-27 10:11:19,Carly h,2976,Top Right,50,Yes,0,1,5,0,0,Yes,2,,,,4,4,,,2976,2,4,10,6,22,0,FALSE,4,0,4,0,10
+2022-03-27 10:11:49,Camden G,488,Middle Right,50,Yes,1,0,,8,,Yes,2,,,,5,4,,,488,2,2,8,6,18,0,FALSE,5,2,0,8,0
+2022-03-27 10:13:21,Nicholas Y,3588,Bottom Right,50,No,,,,,110,No,,4,,Slow ish but good at defense,3,4,,,3588,0,0,0,0,0,110,1,3,0,0,,0
+2022-03-27 10:19:32,troy e,8896,Bottom Left,51,No,0,0,,,110,No,,,,,1,3,,,8896,0,0,0,0,0,110,1,1,0,0,,0
+2022-03-27 10:20:40,Carly h,4915,Top Right,51,Yes,,1,15,,,Yes,2,,,,5,5,,,4915,2,4,30,6,42,0,FALSE,5,0,4,,30
+2022-03-27 10:20:55,Camden G,3876,Middle Right,51,Yes,1,,0,2,,Yes,1,,,Another team on the alliance lost ite bumpers.,3,3,,,3876,2,2,2,4,10,0,FALSE,3,2,0,2,0
+2022-03-27 10:21:09,Nicholas Y,2097,Bottom Right,51,Yes,,,1,,55,No,,,,Bumper fell off,3,2,,,2097,2,0,2,0,4,55,1,3,0,0,,2
+2022-03-27 10:25:39,Clare W,4918,Top Left,50,Yes,,,,,5,Yes,2,,,"They were being defended a lot, so it was hard for them to shoot.",3,3,,,4918,2,0,0,6,8,5,FALSE,3,0,0,,0
+2022-03-27 10:26:34,Camden G,8303,Middle Right,52,Yes,,,,,90,No,,,,Defense bot. :(,3,3,,,8303,2,0,0,0,2,90,1,3,0,0,,0
+2022-03-27 10:28:16,Carly h,2907,Top Right,52,Yes,0,0,0,0,0,No,,,,,1,1,,,2907,2,0,0,0,2,0,FALSE,1,0,0,0,0
+2022-03-27 10:28:38,troy e,2906,Bottom Left,52,No,,,,,,No,,,,,2,2,,,2906,0,0,0,0,0,0,FALSE,2,0,0,,0
+2022-03-27 10:29:27,Nicholas Y,949,Bottom Right,52,Yes,1,,,8,,Yes,2,,,Bad aim,3,4,,,949,2,2,8,6,18,0,FALSE,3,2,0,8,0
+2022-03-27 10:34:58,Carly h,488,Top Right,53,Yes,1,,0,2,0,Yes,2,,,,3,3,,,488,2,2,2,6,12,0,FALSE,3,2,0,2,0
+2022-03-27 10:35:14,troy e,2046,Bottom Left,53,Yes,,4,13,1,,Yes,4,,,,5,5,,,2046,2,16,27,15,60,0,FALSE,5,0,16,1,26
+2022-03-27 10:35:23,Camden G,3393,Middle Right,53,Yes,1,,0,0,60,No,,,,I think their intake wasn't working,4,5,,,3393,2,2,0,0,4,60,1,4,2,0,0,0
+2022-03-27 10:35:51,Nicholas Y,3049,Bottom Right,53,Yes,,,2,,35,Yes,2,8,,,4,3,,,3049,2,0,4,6,12,35,1,4,0,0,,4
+2022-03-27 10:42:16,Carly h,3919,Top Right,54,Yes,,1,3,,,Yes,1,,,,4,3,,,3919,2,4,6,4,16,0,FALSE,4,0,4,,6
+2022-03-27 10:42:24,troy e,5295,Bottom Left,54,Yes,,,2,,,No,,,,,2,2,,,5295,2,0,4,0,6,0,FALSE,2,0,0,,4
+2022-03-27 10:42:52,Nicholas,2976,Bottom Right,53,Yes,,,,1,,Yes,2,,,Just got one in the lower then climbed 30 seconds to early,2,4,,,2976,2,0,1,6,9,0,FALSE,2,0,0,1,0
+2022-03-27 10:47:54,troy e,3588,Bottom Left,55,No,,,0,0,0,No,,,,bot didn't do anything,1,1,,,3588,0,0,0,0,0,0,FALSE,1,0,0,0,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0
+,,,,,,,,,,,,,,,,,,,,,0,0,0,0,0,0,FALSE,,0,0,,0

@@ -26,9 +26,14 @@ dotenv::load_dot_env()
 frc_events_api_token <- Sys.getenv()["FRC_TOKEN"]
 tba_api_token <- Sys.getenv()["TBA_TOKEN"]
 
-wasno <- read.csv("./Copy of 4915 Scouting 2023 - Glacier Peak State - Data.csv") # glacier peak
-waahs <- read.csv("./Copy of 4915 Scouting 2023 - April 4, 7 33 PM - Auburn Data.csv") # auburn
-pncmp <- read.csv("./Copy of 4915 Scouting 2023 - April 12, 1 20 PM - Data.csv") # districts
+sample_size <- 30
+
+waahs_2022 <- read.csv("./Auburn Scouting 2022 - Data.csv") # auburn
+pncmp_2022 <- read.csv("./Public Copy of Cheney District Scouting 4915 2022 - Data.csv") # districts
+
+wasno_2023 <- read.csv("./Copy of 4915 Scouting 2023 - Glacier Peak State - Data.csv") # glacier peak
+waahs_2023 <- read.csv("./Copy of 4915 Scouting 2023 - April 4, 7 33 PM - Auburn Data.csv") # auburn
+pncmp_2023 <- read.csv("./Copy of 4915 Scouting 2023 - April 12, 1 20 PM - Data.csv") # districts
 ```
 
 \tableofcontents
@@ -204,7 +209,124 @@ was on what alliance for a specific match. This will be useful for gathering dat
 logistic regression model. 
 
 ```{r sampling, include=F}
+union3 <- \(x, y, z) union(x, union(y, z))
 
+all_teams_2022 <- na.omit(union(
+    unique(waahs_2022$Team.Number..ex..4915.),
+    unique(pncmp_2022$Team.Number..ex..4915.)
+))
+
+all_teams_2023 <- na.omit(union3(
+    unique(wasno_2023$Team.Number.you.re.scouting),
+    unique(waahs_2023$Team.Number.you.re.scouting),
+    unique(pncmp_2023$Team.Number.you.re.scouting)
+))
+
+select_sample_2022 <- function() {
+    set.seed(3)
+    teams <- sample(all_teams_2022, sample_size)
+    return(teams)
+}
+
+select_sample_2023 <- function() {
+    set.seed(13)
+    teams <- sample(all_teams_2023, sample_size)
+    return(teams)
+}
+
+teams_2022 <- select_sample_2022()
+teams_2023 <- select_sample_2023()
+
+print(teams_2022)
+print(teams_2023)
+```
+
+```{r organization, include=F}
+waahs_2022$event <- "waahs"
+pncmp_2022$event <- "pncmp"
+
+wasno_2023$event <- "wasno"
+waahs_2023$event <- "waahs"
+pncmp_2023$event <- "pncmp"
+
+all_data_2022_raw <- bind_rows(waahs_2022, pncmp_2022)
+all_data_2023_raw <- bind_rows(wasno_2023, waahs_2023, pncmp_2023)
+
+all_data_2022_raw <- all_data_2022_raw %>% replace(is.na(.), 0)
+all_data_2023_raw <- all_data_2023_raw %>% replace(is.na(.), 0)
+
+yn_to_tf <- \(x) switch(x, "Yes" = T, "No" = F, NULL)
+replace_if_null <- \(x, replace_with) ifelse(is.null(x), replace_with, x)
+
+endgame_points_2022 <- \(climb_level) switch(climb_level, 4, 6, 10, 15) %>% replace_if_null(0)
+endgame_points_2023 <- \(endgame_status) switch(endgame_status, "Not Parked" = 0, "Parked" = 2, "Docked" = 6, "Engaged" = 10) %>% replace_if_null(0) # nolint
+
+auto_cs_points_2023 <- \(end_of_auto_status) switch(end_of_auto_status, "Not Docked" = 0, "Docked" = 8, "Engaged" = 12) %>% replace_if_null(0) # nolint
+
+all_data_2022 <- data.frame(
+    team_number = all_data_2022_raw$Team.Number..ex..4915.,
+    match_number = all_data_2022_raw$Match..,
+    taxied = ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.., T, F),
+    auto_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored,
+    auto_high_goals = all_data_2022_raw$X..of.High.Goals.Scored,
+    teleop_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored.2,
+    teleop_high_goals = all_data_2022_raw$X..of.High.Goals.Scored.2,
+    climbed = all_data_2022_raw$Did.the.Robot.Climb.,
+    climb_level = all_data_2022_raw$Climb.Level,
+    total_auto_points = (
+        all_data_2022_raw$X..of.Low.Goals.Scored * 2 +
+        all_data_2022_raw$X..of.High.Goals.Scored * 4 +
+        ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.., 2, 0)
+    ),
+    total_teleop_points = (
+        all_data_2022_raw$X..of.Low.Goals.Scored.2 +
+        all_data_2022_raw$X..of.High.Goals.Scored.2 * 2
+    ),
+    total_endgame_points = lapply(all_data_2022_raw$Climb.Level, endgame_points_2022)
+)
+
+all_data_2023 <- data.frame(
+    team_number = all_data_2023_raw$Team.Number.you.re.scouting,
+    match_number = all_data_2023_raw$Match..,
+    mobility = ifelse(all_data_2023_raw$Mobility. == "Yes", T, F),
+    end_of_auto_status = all_data_2023_raw$End.of.Auto.Status,
+    auto_hybrid_cubes = all_data_2023_raw$Bottom.Cubes,
+    auto_mid_cubes = all_data_2023_raw$Middle.Cubes,
+    auto_high_cubes = all_data_2023_raw$Top.Cubes,
+    auto_hybrid_cones = all_data_2023_raw$Bottom.Cones,
+    auto_mid_cones = all_data_2023_raw$Middle.Cones,
+    auto_high_cones = all_data_2023_raw$Top.Cones,
+    teleop_hybrid_cubes = all_data_2023_raw$Bottom.Cubes.2,
+    teleop_mid_cubes = all_data_2023_raw$Middle.Cubes.2,
+    teleop_high_cubes = all_data_2023_raw$Top.Cubes.2,
+    teleop_hybrid_cones = all_data_2023_raw$Bottom.Cones.2,
+    teleop_mid_cones = all_data_2023_raw$Middle.Cones.2,
+    teleop_high_cones = all_data_2023_raw$Top.Cones.2,
+    endgame_status = all_data_2023_raw$Endgame.Status,
+    total_auto_points = (
+        ifelse(all_data_2023_raw$Mobility. == "Yes", 3, 0) +
+        all_data_2023_raw$Bottom.Cubes * 3 +
+        all_data_2023_raw$Middle.Cubes * 4 +
+        all_data_2023_raw$Top.Cubes * 6 +
+        all_data_2023_raw$Bottom.Cones * 3 +
+        all_data_2023_raw$Middle.Cones * 4 +
+        all_data_2023_raw$Top.Cones * 6 +
+        unlist(lapply(all_data_2023_raw$End.of.Auto.Status, auto_cs_points_2023))
+    ),
+    total_teleop_points = (
+        all_data_2023_raw$Bottom.Cubes.2 * 2 +
+        all_data_2023_raw$Middle.Cubes.2 * 3 +
+        all_data_2023_raw$Top.Cubes.2 * 5 +
+        all_data_2023_raw$Bottom.Cones.2 * 2 +
+        all_data_2023_raw$Middle.Cones.2 * 3 +
+        all_data_2023_raw$Top.Cones.2 * 5
+    ),
+    total_endgame_points = lapply(all_data_2023_raw$Endgame.Status, endgame_points_2023)
+)
+
+get_team_data_2022 <- function(team_number) {
+    #
+}
 ```
 
 \section{Findings}
