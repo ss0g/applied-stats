@@ -255,8 +255,8 @@ all_data_2023_raw <- bind_rows(wasno_2023, waahs_2023, pncmp_2023)
 all_data_2022_raw <- all_data_2022_raw %>% replace(is.na(.), 0)
 all_data_2023_raw <- all_data_2023_raw %>% replace(is.na(.), 0)
 
-all_data_2022_raw <- all_data_2022_raw[all_data_2022_raw$Match.. > 0]
-all_data_2023_raw <- all_data_2023_raw[all_data_2023_raw$Match.. > 0]
+all_data_2022_raw <- all_data_2022_raw[all_data_2022_raw$Match.. > 0,]
+all_data_2023_raw <- all_data_2023_raw[all_data_2023_raw$Match.. > 0,]
 
 rownames(all_data_2022_raw) <- NULL
 rownames(all_data_2023_raw) <- NULL
@@ -330,8 +330,8 @@ all_data_2023 <- data.frame(
     total_endgame_points = unlist(lapply(all_data_2023_raw$Endgame.Status, endgame_points_2023))
 )
 
-all_data_2022 <- all_data_2022[match_number > 0,]
-all_data_2023 <- all_data_2023[match_number > 0,]
+all_data_2022 <- all_data_2022[all_data_2022$match_number > 0,]
+all_data_2023 <- all_data_2023[all_data_2023$match_number > 0,]
 
 rownames(all_data_2022) <- NULL
 rownames(all_data_2023) <- NULL
