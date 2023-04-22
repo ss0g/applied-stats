@@ -269,6 +269,34 @@ endgame_points_2023 <- \(endgame_status) switch(endgame_status, "Not Parked" = 0
 
 auto_cs_points_2023 <- \(end_of_auto_status) switch(end_of_auto_status, "Not Docked" = 0, "Docked" = 8, "Engaged" = 12) %>% replace_if_null(0) # nolint
 
+calculate_mean_link_contributions <- function() { # nolint: object_length_linter.
+    grand_mean_links_per_match <- mean(all_data_2023_raw$Number.of.Links.your.Alliance.Scored)
+    result <- list()
+    for (team in all_teams_2023) {
+        relevant <- all_data_2023_raw[all_data_2023_raw$Team.Number.you.re.scouting == team,]
+        team_mean_links_per_match <- mean(relevant$Number.of.Links.your.Alliance.Scored)
+        mean_link_delta <- team_mean_links_per_match - grand_mean_links_per_match
+        result <- sprintf("c(result, `%d` = %f)", team, mean_link_delta) %>% parse(text=(.)) %>% eval()
+    }
+    return(result)
+}
+
+get_teams_in_match <- function(event, year, match_number) {
+    if (year == 2022) {
+        return(
+            all_data_2022_raw[
+                all_data_2022_raw$event == event & all_data_2022_raw$Match.. == match_number
+            ]$Team.Number..ex..4915. %>% unique()
+        )
+    } else if (year == 2023) {
+        return(
+            all_data_2023_raw[
+                all_data_2022_raw$event == event & all_data_2022_raw$Match.. == match_number
+            ]$Team.Number.you.re.scouting %>% unique()
+        )
+    }
+}
+
 all_data_2022 <- data.frame(
     team_number = all_data_2022_raw$Team.Number..ex..4915.,
     event = all_data_2022_raw$event,
