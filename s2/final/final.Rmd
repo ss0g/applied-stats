@@ -20,11 +20,16 @@ setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\final")
 library(tidyverse)
 library(ggplot2)
 library(pivottabler)
+library(httr)
+library(jsonlite)
+library(sets)
 
 dotenv::load_dot_env()
 
-frc_events_api_token <- Sys.getenv()["FRC_TOKEN"]
-tba_api_token <- Sys.getenv()["TBA_TOKEN"]
+frc_events_api_token <- Sys.getenv("FRC_TOKEN")
+tba_api_token <- Sys.getenv("TBA_TOKEN")
+
+tba_base_url <- "https://thebluealliance.com/api/v3/"
 
 sample_size <- 30
 
@@ -45,11 +50,11 @@ pncmp_2023 <- read.csv("./Copy of 4915 Scouting 2023 - April 12, 1 20 PM - Data.
 \section{Introduction}
 
 FIRST Robotics Competition is a robotics competition in which teams of high schoolers build robots to compete in a game
-that is different every year. FIRST is the organization that runs these competitions, and the acronym FIRST stands for
-"For the Inspiration and Recognition of Science and Technology." Each year, FIRST reveals a new game in which alliances
+that is different every year.. FIRST is the organization that runs these competitions, and the acronym FIRST stands for
+"For the Inspiration and Recognition of Science and Technology." Each year., FIRST reveals a new game in which alliances
 of 3 industrial-size robots compete against each other on a field to complete various tasks. Teams have limited time
 after "Kickoff" (the game reveal) to design, build, wire, and program their robot to perform the tasks required for the
-game. For example, in this year's game, CHARGED UP, robots must travel across the field to the Substation Area to pick
+game. For example, in this year.'s game, CHARGED UP, robots must travel across the field to the Substation Area to pick
 up one game piece (a cube or a cone) at a time and then travel back to their alliance's Grid and deposit the pieces
 onto Nodes. 
 
@@ -65,7 +70,8 @@ on a team's success.
 
 \subsection{Analysis of individual variables}
 
-I plan to analyze whether several variables have a significant influence on a team's success. \textbf{TODO: ADD MORE HERE (HOW IS SUCCESS MEASURED?)}
+I plan to analyze whether several variables have a significant influence on a team's success. Only qualification
+matches will be analyzed because the alliances are random and the data only covers scouting matches. \textbf{TODO: ADD MORE HERE (HOW IS SUCCESS MEASURED?)}
 <!-- TODO -->
 
 \subsubsection{Drivetrain}
@@ -157,6 +163,7 @@ deviation to predict win rate and perform a $t$-test for slope to see if the rel
 It is easy to see why a team's budget can affect its success. A higher budget can allow for a more complex robot with
 more expensive features such as a swerve drive.
 <!-- TODO: add more content here -->
+<!-- FIXME: maybe change to school budget -->
 
 To analyze the effect of budget on a robot's success, I will create a model using budget to predict win rate and
 perform a $t$-test for slope to see if the relationship is significant. 
@@ -252,56 +259,31 @@ pncmp_2023$event <- "pncmp"
 all_data_2022_raw <- bind_rows(waahs_2022, pncmp_2022)
 all_data_2023_raw <- bind_rows(wasno_2023, waahs_2023, pncmp_2023)
 
-all_data_2022_raw <- all_data_2022_raw %>% replace(is.na(.), 0)
-all_data_2023_raw <- all_data_2023_raw %>% replace(is.na(.), 0)
+all_data_2022_raw <- all_data_2022_raw |> replace(is.na(all_data_2022_raw), 0)
+all_data_2023_raw <- all_data_2023_raw |> replace(is.na(all_data_2023_raw), 0)
 
-all_data_2022_raw <- all_data_2022_raw[all_data_2022_raw$Match.. > 0,]
-all_data_2023_raw <- all_data_2023_raw[all_data_2023_raw$Match.. > 0,]
+all_data_2022_raw <- all_data_2022_raw[all_data_2022_raw$Match.. > 0,] # nolint
+all_data_2023_raw <- all_data_2023_raw[all_data_2023_raw$Match.. > 0,] # nolint
+
+all_data_2022_raw <- all_data_2022_raw[!duplicated(all_data_2022_raw[c("Match..", "Team.Number..ex..4915."),]),] # nolint
+all_data_2023_raw <- all_data_2023_raw[!duplicated(all_data_2023_raw[c("Match..", "Team.Number.you.re.scouting"),]),] # nolint
 
 rownames(all_data_2022_raw) <- NULL
 rownames(all_data_2023_raw) <- NULL
 
-yn_to_tf <- \(x) switch(x, "Yes" = T, "No" = F, NULL)
+yn_to_tf <- \(x) switch(x, "Yes" = T, "No" = F, NULL) # nolint
 replace_if_null <- \(x, replace_with) ifelse(is.null(x), replace_with, x)
 
-endgame_points_2022 <- \(climb_level) switch(climb_level, 4, 6, 10, 15) %>% replace_if_null(0)
-endgame_points_2023 <- \(endgame_status) switch(endgame_status, "Not Parked" = 0, "Parked" = 2, "Docked" = 6, "Engaged" = 10) %>% replace_if_null(0) # nolint
+endgame_points_2022 <- \(climb_level) switch(climb_level, 4, 6, 10, 15) |> replace_if_null(0)
+endgame_points_2023 <- \(endgame_status) switch(endgame_status, "Not Parked" = 0, "Parked" = 2, "Docked" = 6, "Engaged" = 10) |> replace_if_null(0) # nolint
 
-auto_cs_points_2023 <- \(end_of_auto_status) switch(end_of_auto_status, "Not Docked" = 0, "Docked" = 8, "Engaged" = 12) %>% replace_if_null(0) # nolint
-
-calculate_mean_link_contributions <- function() { # nolint: object_length_linter.
-    grand_mean_links_per_match <- mean(all_data_2023_raw$Number.of.Links.your.Alliance.Scored)
-    result <- list()
-    for (team in all_teams_2023) {
-        relevant <- all_data_2023_raw[all_data_2023_raw$Team.Number.you.re.scouting == team,]
-        team_mean_links_per_match <- mean(relevant$Number.of.Links.your.Alliance.Scored)
-        mean_link_delta <- team_mean_links_per_match - grand_mean_links_per_match
-        result <- sprintf("c(result, `%d` = %f)", team, mean_link_delta) %>% parse(text=(.)) %>% eval()
-    }
-    return(result)
-}
-
-get_teams_in_match <- function(event, year, match_number) {
-    if (year == 2022) {
-        return(
-            all_data_2022_raw[
-                all_data_2022_raw$event == event & all_data_2022_raw$Match.. == match_number
-            ]$Team.Number..ex..4915. %>% unique()
-        )
-    } else if (year == 2023) {
-        return(
-            all_data_2023_raw[
-                all_data_2022_raw$event == event & all_data_2022_raw$Match.. == match_number
-            ]$Team.Number.you.re.scouting %>% unique()
-        )
-    }
-}
+auto_cs_points_2023 <- \(end_of_auto_status) switch(end_of_auto_status, "Not Docked" = 0, "Docked" = 8, "Engaged" = 12) |> replace_if_null(0) # nolint
 
 all_data_2022 <- data.frame(
     team_number = all_data_2022_raw$Team.Number..ex..4915.,
     event = all_data_2022_raw$event,
     match_number = all_data_2022_raw$Match..,
-    taxied = ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.. == "Yes", T, F),
+    taxied = ifelse(all_data_2022_raw$Did.it.taxi..move.in.auto.. == "Yes", T, F), # nolint
     auto_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored,
     auto_high_goals = all_data_2022_raw$X..of.High.Goals.Scored,
     teleop_low_goals = all_data_2022_raw$X..of.Low.Goals.Scored.2,
@@ -324,7 +306,7 @@ all_data_2023 <- data.frame(
     team_number = all_data_2023_raw$Team.Number.you.re.scouting,
     event = all_data_2023_raw$event,
     match_number = all_data_2023_raw$Match..,
-    mobility = ifelse(all_data_2023_raw$Mobility. == "Yes", T, F),
+    mobility = ifelse(all_data_2023_raw$Mobility. == "Yes", T, F), # nolint
     end_of_auto_status = all_data_2023_raw$End.of.Auto.Status,
     auto_hybrid_cubes = all_data_2023_raw$Bottom.Cubes,
     auto_mid_cubes = all_data_2023_raw$Middle.Cubes,
@@ -360,8 +342,8 @@ all_data_2023 <- data.frame(
     total_endgame_points = unlist(lapply(all_data_2023_raw$Endgame.Status, endgame_points_2023))
 )
 
-all_data_2022 <- all_data_2022[all_data_2022$match_number > 0,]
-all_data_2023 <- all_data_2023[all_data_2023$match_number > 0,]
+all_data_2022 <- all_data_2022[all_data_2022$match_number > 0 & !is.na(all_data_2022$match_number),] # nolint
+all_data_2023 <- all_data_2023[all_data_2023$match_number > 0 & !is.na(all_data_2023$match_number),] # nolint
 
 rownames(all_data_2022) <- NULL
 rownames(all_data_2023) <- NULL
@@ -369,17 +351,122 @@ rownames(all_data_2023) <- NULL
 write.csv(all_data_2022, "all_data_2022.csv")
 write.csv(all_data_2023, "all_data_2023.csv")
 
-get_team_data <- function(team_number, year) {
-    if (year == 2022) {
-        result <- all_data_2022[all_data_2022$team_number == team_number,]
+get_match_key <- \(event, year., match_number) paste0(year., event, "_qm", match_number) # nolint
+
+get_match_data_from_tba <- function(event, year., match_number) { # nolint
+    match_key <- get_match_key(event, year., match_number)
+    req_url <- paste0(tba_base_url, "match/", match_key)
+    req_res_raw <- GET(req_url, add_headers("X-TBA-Auth-Key" = tba_api_token))
+    req_res <- content(req_res_raw, as = "text")
+    result <- fromJSON(req_res)
+    return(result)
+}
+
+parse_team_key <- \(team_key) as.integer(substring(team_key, 4))
+
+get_teams_on_alliance_in_match <- function(event, year., match_number, alliance = c("red", "blue")) { # nolint
+    match_data <- get_match_data_from_tba(event, year., match_number)
+    alliances <- match_data$alliances
+    alliance <- alliances[[alliance]]
+    team_keys <- alliance$team_keys
+    result <- as.vector(sapply(team_keys, parse_team_key), mode = "numeric")
+    return(result)
+}
+
+get_teams_on_alliance_in_match_from_data <- function(match_data, alliance = c("red", "blue")) { # nolint
+    alliances <- match_data$alliances
+    alliance <- alliances[[alliance]]
+    team_keys <- alliance$team_keys
+    result <- as.vector(sapply(team_keys, parse_team_key), mode = "numeric")
+    return(result)
+}
+
+get_team_data <- function(team_number, year.) { # nolint
+    if (year. == 2022) {
+        result <- all_data_2022[all_data_2022$team_number == team_number,] # nolint
         rownames(result) <- NULL
         return(result)
-    } else if (year == 2023) {
-        result <- all_data_2023[all_data_2023$team_number == team_number,]
+    } else if (year. == 2023) {
+        result <- all_data_2023[all_data_2023$team_number == team_number,] # nolint
         rownames(result) <- NULL
         return(result)
     }
 }
+
+is_qual <- \(match_data) match_data$comp_level == "qm"
+
+get_teams_at_event <- function(event) { # nolint
+    event_teams_json_raw <- GET(paste0(tba_base_url, "event/", event, "/teams"), add_headers("X-TBA-Auth-Key" = tba_api_token)) # nolint
+    event_teams_json <- content(event_teams_json_raw, as = "text")
+    event_teams <- fromJSON(event_teams_json)
+    event_team_numbers <- event_teams$team_number |> unlist()
+    return(event_team_numbers)
+}
+
+number_of_links <- \(match_data, alliance = c("red", "blue")) as.data.frame(match_data$score_breakdown[[alliance]]$links) |> nrow() # nolint
+
+all_events_pnw_2023 <- { # nolint
+    { # nolint
+        paste0(tba_base_url, "/district/2023pnw/events") |>
+        GET(add_headers("X-TBA-Auth-Key" = tba_api_token)) |>
+        content(as = "text") |>
+        fromJSON()
+    }$key # nolint
+}
+
+selected_events_2023 <- c("2023wasno", "2023waahs", "2023pncmp")
+
+get_matches_at_event <- function(event_key) {
+    matches_at_event <- {
+        paste0(tba_base_url, "event/", event_key, "/matches") |>
+        GET(add_headers("X-TBA-Auth-Key" = tba_api_token)) |>
+        content(as = "text") |>
+        fromJSON() |>
+        filter(comp_level == "qm") # nolint
+    }
+    return(matches_at_event)
+}
+
+all_matches_pnw_2023 <- lapply(all_events_pnw_2023, get_matches_at_event) |> bind_rows()
+
+team_in_match <- \(team, match_data) team %in% lapply(unlist(c(match_data$alliances$red$team_keys, match_data$alliances$blue$team_keys)), parse_team_key) # nolint
+match_has_team <- \(match_data, team) team_in_match(team, match_data)
+
+get_team_matches_2023 <- function(team) { # works
+    result <- list()
+    for (i in seq_len(nrow(all_matches_pnw_2023))) {
+        if (team_in_match(team, as.list(all_matches_pnw_2023[i,]))) { # nolint
+            result <- bind_rows(result, as.list(all_matches_pnw_2023[i,])) # nolint
+        }
+    }
+    return(result)
+}
+
+get_team_alliance <- function(team, match_data) {
+    if (team %in% unlist(lapply(match_data$alliances$red$team_keys, parse_team_key))) {
+        return("red")
+    } else if (team %in% unlist(lapply(match_data$alliances$blue$team_keys, parse_team_key))) {
+        return("blue")
+    }
+}
+
+grand_mean_links <- mean(c(all_matches_pnw_2023$score_breakdown$red$links |> lapply(as.data.frame) |> lapply(nrow) |> unlist() |> mean(), all_matches_pnw_2023$score_breakdown$blue$links |> lapply(as.data.frame) |> lapply(nrow) |> unlist() |> mean())) # nolint
+
+get_team_mean_links <- function(team) {
+    team_matches_2023 <- get_team_matches_2023(team)
+    link_counts <- c()
+    for (i in seq_len(nrow(team_matches_2023))) {
+        match_data <- as.list(team_matches_2023[i,]) # nolint
+        alliance <- get_team_alliance(team, match_data)
+        link_counts <- c(link_counts, number_of_links(match_data, alliance))
+    }
+    result <- mean(link_counts)
+    return(result)
+}
+
+get_team_mean_link_contribution <- \(team) (grand_mean_links / 3) + get_team_mean_links(team) - grand_mean_links # nolint
+
+calculate_est_team_link_contribution <- \(match_data, team) (get_team_mean_link_contribution(team) / sum(unlist(lapply(get_teams_on_alliance_in_match_from_data(match_data, get_team_alliance(team, match_data)), get_team_mean_link_contribution)))) * number_of_links(match_data, get_team_alliance(team, match_data)) # nolint
 ```
 
 \section{Findings}
