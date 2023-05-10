@@ -1,0 +1,75 @@
+---
+title: "Analysis of the Various Factors Influencing the Success of FRC Teams"
+author: "Troy Edwards"
+date: "2023--06--16"
+documentclass: article
+output:
+    pdf_document:
+        number_sections: True
+header_includes:
+    \usepackage{amsmath}
+    \allowdisplaybreaks
+fontsize: 12pt
+geometry:
+    margin=1in
+---
+
+```{r setup, include=F}
+setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\final")
+
+library(tidyverse)
+library(ggplot2)
+library(pivottabler)
+library(httr)
+library(jsonlite)
+library(sets)
+
+dotenv::load_dot_env()
+
+frc_events_api_token <- Sys.getenv("FRC_TOKEN")
+tba_api_token <- Sys.getenv("TBA_TOKEN")
+
+tba_base_url <- "https://thebluealliance.com/api/v3/"
+
+sample_size <- 30
+
+waahs_2022 <- read.csv("./Auburn Scouting 2022 - Data.csv") # auburn
+pncmp_2022 <- read.csv("./Public Copy of Cheney District Scouting 4915 2022 - Data.csv") # districts
+
+wasno_2023 <- read.csv("./Copy of 4915 Scouting 2023 - Glacier Peak State - Data.csv") # glacier peak
+waahs_2023 <- read.csv("./Copy of 4915 Scouting 2023 - April 4, 7 33 PM - Auburn Data.csv") # auburn
+pncmp_2023 <- read.csv("./Copy of 4915 Scouting 2023 - April 12, 1 20 PM - Data.csv") # districts
+```
+
+\section{Introduction}
+
+FIRST Robotics Competition is a robotics competition in which teams of high schoolers build robots to compete in a game
+that is different every year.. FIRST is the organization that runs these competitions, and the acronym FIRST stands for
+"For the Inspiration and Recognition of Science and Technology." Each year, FIRST reveals a new game in which alliances
+of 3 industrial-size robots compete against each other on a field to complete various tasks. Teams have limited time
+after "Kickoff" (the game reveal) to design, build, wire, and program their robot to perform the tasks required for the
+game. For example, in this year.'s game, CHARGED UP, robots must travel across the field to the Substation Area to pick
+up one game piece (a cube or a cone) at a time and then travel back to their alliance's Grid and deposit the pieces
+onto Nodes. 
+
+There are many factors that could have an effect on a team's success. These include general things about the team, such
+as the team's age, its budget, and its size, and also things about their robot in a specific season, such as drivetrain
+type and scoring capability. The goal of this research is to determine which of these factors have the greatest effect
+on a team's success. 
+
+\section{Literature Review}
+
+<!-- There is not much work that has already been done on this topic. I managed to find 2 papers: ``An Analysis of the
+Success of FRC Robotics Teams'' by Max Tepermeister and ``An Overview and Analysis of Statistics used to Rate FIRST
+Robotics Teams'' by William Gardner. The first one is not a paper that I would consider ``scholarly'' because it is a
+high-schooler's final project for AP Statistics, but the second one appears formal and well-organized. However,
+Gardner's paper is not fully on-topic, as it analyzes metrics used to rate FRC teams. The information presented is
+still relevant, just not directly applicable. Tepermeister's objective was similar to mine. Tepermeister mainly
+analyzed the effects of the age, size, and budget of a team on its success. Tepermeister found that none of these
+factors have a significant effect on success.  -->
+
+There is not much work that has been done on this topic. The most relevant paper that I could find was "An analysis of
+the Success of FRC Robotics Teams" by Max Tepermeister. Tepermeister found that team age had a small amount of
+correlation with success, while team budget and team size had no correlation with success. However, Tepermeister used
+OPR (offensive power rating) rather than win rate to measure a team's success, which means that his results could be
+different from mine. 

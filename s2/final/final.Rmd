@@ -2,6 +2,7 @@
 title: "Analysis of the Various Factors Influencing the Success of FRC Teams"
 author: "Troy Edwards"
 date: "2023--06--16"
+documentclass: article
 output:
     pdf_document:
         number_sections: True
@@ -9,7 +10,6 @@ header_includes:
     \usepackage{amsmath}
     \allowdisplaybreaks
 fontsize: 12pt
-documentclass: article
 geometry:
     margin=1in
 ---
@@ -51,7 +51,7 @@ pncmp_2023 <- read.csv("./Copy of 4915 Scouting 2023 - April 12, 1 20 PM - Data.
 
 FIRST Robotics Competition is a robotics competition in which teams of high schoolers build robots to compete in a game
 that is different every year.. FIRST is the organization that runs these competitions, and the acronym FIRST stands for
-"For the Inspiration and Recognition of Science and Technology." Each year., FIRST reveals a new game in which alliances
+"For the Inspiration and Recognition of Science and Technology." Each year, FIRST reveals a new game in which alliances
 of 3 industrial-size robots compete against each other on a field to complete various tasks. Teams have limited time
 after "Kickoff" (the game reveal) to design, build, wire, and program their robot to perform the tasks required for the
 game. For example, in this year.'s game, CHARGED UP, robots must travel across the field to the Substation Area to pick
@@ -63,8 +63,22 @@ as the team's age, its budget, and its size, and also things about their robot i
 type and scoring capability. The goal of this research is to determine which of these factors have the greatest effect
 on a team's success. 
 
-<!-- TODO -->
-\textbf{TODO: ADD MORE CONTENT HERE} 
+\section{Literature Review}
+
+<!-- There is not much work that has already been done on this topic. I managed to find 2 papers: ``An Analysis of the
+Success of FRC Robotics Teams'' by Max Tepermeister and ``An Overview and Analysis of Statistics used to Rate FIRST
+Robotics Teams'' by William Gardner. The first one is not a paper that I would consider ``scholarly'' because it is a
+high-schooler's final project for AP Statistics, but the second one appears formal and well-organized. However,
+Gardner's paper is not fully on-topic, as it analyzes metrics used to rate FRC teams. The information presented is
+still relevant, just not directly applicable. Tepermeister's objective was similar to mine. Tepermeister mainly
+analyzed the effects of the age, size, and budget of a team on its success. Tepermeister found that none of these
+factors have a significant effect on success.  -->
+
+There is not much work that has been done on this topic. The most relevant paper that I could find was "An analysis of
+the Success of FRC Robotics Teams" by Max Tepermeister. Tepermeister found that team age had a small amount of
+correlation with success, while team budget and team size had no correlation with success. However, Tepermeister used
+OPR (offensive power rating) rather than win rate to measure a team's success, which means that his results could be
+different from mine. 
 
 \section{Method}
 
@@ -158,32 +172,20 @@ deviation to predict win rate and perform a $t$-test for slope to see if the rel
 
 <!-- TODO: need to add more robot-related factors here for the RAPID REACT and CHARGED UP sections -->
 
-\subsubsection{Team budget}
+\subsubsection{School budget}
 
-It is easy to see why a team's budget can affect its success. A higher budget can allow for a more complex robot with
-more expensive features such as a swerve drive.
+A school's budget can have a huge influence on a team's budget, which can in turn influence the team's success by
+allowing them to use more complex tools, purchase higher-end parts, and go to more events. 
 <!-- TODO: add more content here -->
 <!-- FIXME: maybe change to school budget -->
 
-To analyze the effect of budget on a robot's success, I will create a model using budget to predict win rate and
-perform a $t$-test for slope to see if the relationship is significant. 
-
-\subsubsection{Team size}
-
-A team's size can also have a huge effect on its success. A larger team means that more work can get done, which means
-that the robot can be more complex and advanced. This will likely be correlated with some of the other variables, so it
-may not be included in the final model to avoid multicollinearity. 
-<!-- TODO: decide if this will be in final model -->
-
-To analyze the effect of a team's size on its success, I will create a model using team size to predict win rate and
+To analyze the effect of budget on a robot's success, I will create a model using school budget to predict win rate and
 perform a $t$-test for slope to see if the relationship is significant. 
 
 \subsubsection{Team age}
 An older team will likely have more advanced techniques and manufacturing processes at its disposal, while a younger
 team will typically not have these things. Team number is a good proxy to team age because the team numbers are
-assigned sequentially. This variable will also likely be correlated with many of the other variables, so it may not be
-included in the final model.
-<!-- TODO: decide if this will be in final model -->
+assigned sequentially. 
 
 To analyze the effect of a team's age on its success, I will create a model using team age to predict win rate and
 perform a $t$-test for slope to see if the relationship is significant.
@@ -353,6 +355,10 @@ write.csv(all_data_2023, "all_data_2023.csv")
 
 get_match_key <- \(event, year., match_number) paste0(year., event, "_qm", match_number) # nolint
 
+# This function retrieves the match data from The Blue Alliance for a given
+# event, year, and match number. It is used to retrieve match data for the
+# matches that are being processed.
+
 get_match_data_from_tba <- function(event, year., match_number) { # nolint
     match_key <- get_match_key(event, year., match_number)
     req_url <- paste0(tba_base_url, "match/", match_key)
@@ -362,7 +368,22 @@ get_match_data_from_tba <- function(event, year., match_number) { # nolint
     return(result)
 }
 
+# This code parses a team key from the TBA API.
+# This is used in the TBA API to refer to a specific team.
+# The team key is a string of the format "frcXXXX" where XXXX is the team number.
+# This code parses the team number, which is an integer, from the team key.
+# This code is used in the TBA API to refer to a specific team.
+
 parse_team_key <- \(team_key) as.integer(substring(team_key, 4))
+
+# Gets a list of the team numbers on an alliance in a given match.
+# Args:
+#   event: The event code for the event the match is in.
+#   year.: The year of the event the match is in.
+#   match_number: The number of the match.
+#   alliance: The alliance to get the team numbers for.
+# Returns:
+#   A list of the team numbers on the given alliance in the given match.
 
 get_teams_on_alliance_in_match <- function(event, year., match_number, alliance = c("red", "blue")) { # nolint
     match_data <- get_match_data_from_tba(event, year., match_number)
@@ -380,6 +401,8 @@ get_teams_on_alliance_in_match_from_data <- function(match_data, alliance = c("r
     result <- as.vector(sapply(team_keys, parse_team_key), mode = "numeric")
     return(result)
 }
+
+# This function returns the data for a given team in a given year.
 
 get_team_data <- function(team_number, year.) { # nolint
     if (year. == 2022) {
