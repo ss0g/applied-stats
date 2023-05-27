@@ -15,7 +15,11 @@ geometry:
 ---
 
 ```{r setup, include=F}
-setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\final")
+if (.Platform$OS.type == "unix") {
+    setwd("/home/ss0g/school/applied-stats/s2/final")
+} else {
+    setwd("C:\\Users\\tntje\\work\\school\\applied-stats\\s2\\final")
+}
 
 library(tidyverse)
 library(ggplot2)
@@ -248,6 +252,11 @@ teams_2023 <- select_sample_2023()
 
 print(teams_2022)
 print(teams_2023)
+
+teams_df_2022 <- data.frame("team" = teams_2022, "year" = rep(2022, 30))
+teams_df_2023 <- data.frame("team" = teams_2023, "year" = rep(2023, 30))
+
+pt_teams <- bind_rows(teams_df_2022, teams_df_2023)
 ```
 
 ```{r organization, include=F}
@@ -368,6 +377,8 @@ get_match_data_from_tba <- function(event, year., match_number) { # nolint
     return(result)
 }
 
+test_match_data_2023 <- get_match_data_from_tba("waahs", 2023, 20)
+
 # This code parses a team key from the TBA API.
 # This is used in the TBA API to refer to a specific team.
 # The team key is a string of the format "frcXXXX" where XXXX is the team number.
@@ -473,6 +484,8 @@ get_team_alliance <- function(team, match_data) {
     }
 }
 
+get_winning_alliance <- \(match_data) match_data$winning_alliance
+
 grand_mean_links <- mean(c(all_matches_pnw_2023$score_breakdown$red$links |> lapply(as.data.frame) |> lapply(nrow) |> unlist() |> mean(), all_matches_pnw_2023$score_breakdown$blue$links |> lapply(as.data.frame) |> lapply(nrow) |> unlist() |> mean())) # nolint
 
 get_team_mean_links <- function(team) {
@@ -490,9 +503,27 @@ get_team_mean_links <- function(team) {
 get_team_mean_link_contribution <- \(team) (grand_mean_links / 3) + get_team_mean_links(team) - grand_mean_links # nolint
 
 calculate_est_team_link_contribution <- \(match_data, team) (get_team_mean_link_contribution(team) / sum(unlist(lapply(get_teams_on_alliance_in_match_from_data(match_data, get_team_alliance(team, match_data)), get_team_mean_link_contribution)))) * number_of_links(match_data, get_team_alliance(team, match_data)) # nolint
+
+team_won_match <- \(team, match_data) get_team_alliance(team, match_data) == get_winning_alliance(match_data)
+
+check_win <- \(dfrow, yr) team_won_match(dfrow$team_number, get_match_data_from_tba(dfrow$event, yr, dfrow$match_number)) # nolint
+
+all_data_2022$won_match <- apply(all_data_2022, 1, check_win, 2022)
+all_data_2023$won_match <- apply(all_data_2023, 1, check_win, 2023)
+```
+
+```{r include=F}
+pt_teams |> write.csv("qdata_immutable.csv")
+if (!file.exists("qdata.csv")) {
+    file.copy("qdata_immutable.csv", "qdata.csv")
+}
 ```
 
 \section{Findings}
+
+```{r tests, include=F}
+
+```
 
 \section{Analysis}
 
