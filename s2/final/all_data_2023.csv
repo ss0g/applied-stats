@@ -1,508 +1,508 @@
-"","team_number","event","match_number","mobility","end_of_auto_status","auto_hybrid_cubes","auto_mid_cubes","auto_high_cubes","auto_hybrid_cones","auto_mid_cones","auto_high_cones","teleop_hybrid_cubes","teleop_mid_cubes","teleop_high_cubes","teleop_hybrid_cones","teleop_mid_cones","teleop_high_cones","endgame_status","total_auto_points","total_teleop_points","total_endgame_points"
-"1",4089,"wasno",1,TRUE,"Engaged",0,0,0,1,0,0,0,0,0,0,0,0,"Engaged",18,0,10
-"2",2910,"wasno",1,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,4,"Docked",21,20,6
-"3",3268,"wasno",1,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"4",3049,"wasno",2,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",0,0,6
-"5",1899,"wasno",2,FALSE,"Not Docked",0,0,0,0,0,0,4,0,0,1,0,0,"Docked",0,10,6
-"6",1778,"wasno",3,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,1,0,"Engaged",7,3,10
-"7",2097,"wasno",4,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"8",2930,"wasno",4,TRUE,"Engaged",0,0,0,0,0,1,0,1,1,0,2,1,"Engaged",21,19,10
-"9",2522,"wasno",5,TRUE,"Docked",0,0,0,0,0,0,0,0,1,3,0,0,"Engaged",11,11,10
-"10",4173,"wasno",5,TRUE,"Not Docked",1,0,0,0,0,0,1,1,0,0,0,0,"Engaged",6,5,10
-"11",4512,"wasno",6,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"12",2147,"wasno",6,TRUE,"Engaged",0,0,0,0,1,0,0,1,0,0,2,0,"Engaged",19,9,10
-"13",2928,"wasno",6,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,2,"Docked",9,10,6
-"14",4980,"wasno",7,TRUE,"Docked",0,1,0,0,0,0,0,0,0,0,0,0,"Not Parked",15,0,0
-"15",4915,"wasno",7,FALSE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Engaged",0,10,10
-"16",1318,"wasno",8,TRUE,"Engaged",0,0,1,0,0,0,1,1,0,0,0,0,"Engaged",21,5,10
-"17",3049,"wasno",8,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,2,"Parked",6,10,2
-"18",9036,"wasno",9,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"19",4681,"wasno",9,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Engaged",7,0,10
-"20",4911,"wasno",10,TRUE,"Engaged",0,0,0,1,0,0,0,0,0,0,2,0,"Engaged",18,6,10
-"21",3681,"wasno",10,FALSE,"Not Docked",0,0,0,0,0,0,0,0,1,1,0,0,"Not Parked",0,7,0
-"22",2147,"wasno",11,TRUE,"Engaged",0,0,0,0,1,0,1,0,0,3,1,0,"Parked",19,11,2
-"23",2903,"wasno",11,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"24",488,"wasno",12,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"25",2976,"wasno",13,TRUE,"Not Docked",0,0,0,1,0,0,0,1,0,0,0,1,"Docked",6,8,6
-"26",3681,"wasno",13,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"27",4512,"wasno",14,TRUE,"Not Docked",0,0,0,0,0,0,3,0,1,0,0,0,"Not Parked",3,11,0
-"28",2928,"wasno",14,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"29",3826,"wasno",15,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Engaged",3,4,10
-"30",2522,"wasno",14,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,1,2,"Engaged",3,18,10
-"31",3268,"wasno",16,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Not Parked",0,2,0
-"32",4915,"wasno",16,FALSE,"Not Docked",0,0,0,0,0,0,0,1,0,0,0,0,"Engaged",0,3,10
-"33",4173,"wasno",17,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"34",949,"wasno",17,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,1,1,0,"Parked",7,5,2
-"35",2980,"wasno",18,TRUE,"Not Docked",0,0,0,0,0,1,1,0,0,2,0,0,"Parked",9,6,2
-"36",7627,"wasno",18,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,0,"Engaged",21,0,10
-"37",4911,"wasno",19,FALSE,"Engaged",0,0,0,0,0,0,0,0,0,3,0,0,"Engaged",12,6,10
-"38",4682,"wasno",19,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"39",1318,"wasno",20,FALSE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,4,"Engaged",18,20,10
-"40",3826,"wasno",2,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,2,0,0,"Docked",3,6,6
-"41",2980,"wasno",3,FALSE,"Not Docked",0,0,0,0,0,0,2,0,1,0,0,0,"Not Parked",0,9,0
-"42",4681,"wasno",4,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Parked",3,2,2
-"43",3826,"wasno",7,TRUE,"Not Docked",0,0,0,0,0,0,4,0,0,1,0,0,"Parked",3,10,2
-"44",2097,"wasno",9,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"45",3681,"wasno",10,FALSE,"Not Docked",0,0,0,0,0,0,0,1,0,1,0,0,"Not Parked",0,5,0
-"46",8248,"wasno",21,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"47",2147,"wasno",22,FALSE,"Engaged",0,0,0,0,0,0,1,1,0,0,1,0,"Engaged",12,8,10
-"48",2910,"wasno",24,TRUE,"Not Docked",0,4,0,0,0,9,0,0,0,0,0,0,"Engaged",73,0,10
-"49",5941,"wasno",23,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,2,0,0,"Engaged",3,8,10
-"50",4980,"wasno",24,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,4,0,"Docked",3,12,6
-"51",2522,"wasno",25,TRUE,"Not Docked",1,0,0,1,0,0,0,1,1,1,2,0,"Engaged",9,16,10
-"52",5588,"wasno",26,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"53",9036,"wasno",28,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"54",3268,"wasno",26,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",0,2,2
-"55",4131,"wasno",29,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,1,0,2,"Docked",9,17,6
-"56",4682,"wasno",12,FALSE,"Not Docked",0,0,0,0,0,0,2,1,0,0,0,0,"Engaged",0,7,10
-"57",8248,"wasno",14,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10
-"58",2903,"wasno",16,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"59",4980,"wasno",18,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Not Parked",7,0,0
-"60",9036,"wasno",20,FALSE,"Not Docked",1,0,0,0,0,0,0,1,0,0,0,0,"Docked",3,3,6
-"61",4089,"wasno",22,FALSE,"Not Docked",0,0,0,1,0,0,1,0,0,0,0,0,"Parked",3,2,2
-"62",2903,"wasno",24,FALSE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Not Parked",0,10,0
-"63",2147,"wasno",26,TRUE,"Engaged",0,0,0,1,0,0,2,1,0,0,1,0,"Engaged",18,10,10
-"64",5941,"wasno",28,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,4,0,0,"Engaged",3,8,10
-"65",4915,"wasno",27,FALSE,"Engaged",0,0,0,1,0,0,2,0,1,0,0,0,"Engaged",15,9,10
-"66",4512,"wasno",25,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"67",2097,"wasno",28,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"68",9036,"wasno",30,TRUE,"Not Docked",0,0,0,0,0,0,1,1,0,0,0,0,"Engaged",3,5,10
-"69",8248,"wasno",31,FALSE,"Not Docked",0,0,0,1,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"70",4911,"wasno",31,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,3,0,0,"Engaged",15,8,10
-"71",3681,"wasno",32,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"72",5588,"wasno",32,TRUE,"Not Docked",0,0,0,0,0,0,0,1,2,0,0,0,"Engaged",3,13,10
-"73",1318,"wasno",32,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,5,"Engaged",21,25,10
-"74",2910,"wasno",33,TRUE,"Not Docked",0,0,1,0,0,1,0,0,0,0,1,5,"Engaged",15,28,10
-"75",949,"wasno",33,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Not Parked",3,4,0
-"76",4681,"wasno",34,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,1,0,"Parked",7,3,2
-"77",2976,"wasno",34,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"78",1899,"wasno",35,TRUE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Engaged",3,10,10
-"79",488,"wasno",35,TRUE,"Not Docked",0,0,1,0,0,0,4,0,0,0,0,0,"Engaged",9,8,10
-"80",4131,"wasno",36,TRUE,"Not Docked",0,0,0,0,0,1,0,0,2,0,0,3,"Not Parked",9,25,0
-"81",3268,"wasno",35,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Engaged",0,2,10
-"82",9036,"wasno",37,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,2,0,"Parked",0,6,2
-"83",2930,"wasno",37,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,1,"Engaged",9,10,10
-"84",949,"wasno",38,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"85",3049,"wasno",38,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,0,0,0,"Parked",9,3,2
-"86",2910,"wasno",24,TRUE,"Engaged",0,0,1,0,0,1,0,1,0,0,4,3,"Docked",27,30,6
-"87",3049,"wasno",38,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,0,0,0,"Parked",9,3,2
-"88",4681,"wasno",39,TRUE,"Not Docked",0,0,0,1,0,0,1,0,0,1,0,0,"Parked",6,4,2
-"89",4911,"wasno",40,FALSE,"Docked",0,0,0,1,0,0,0,0,0,1,3,0,"Engaged",11,11,10
-"90",4911,"wasno",40,TRUE,"Not Docked",0,0,0,1,0,0,0,0,0,1,3,0,"Engaged",6,11,10
-"91",2910,"wasno",41,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,2,5,"Engaged",21,31,10
-"92",5941,"wasno",41,TRUE,"Engaged",0,0,0,0,0,0,0,0,2,0,0,0,"Not Parked",15,10,0
-"93",2412,"wasno",42,TRUE,"Engaged",0,0,0,0,0,0,0,0,1,0,0,2,"Engaged",15,15,10
-"94",5941,"wasno",42,TRUE,"Engaged",0,0,0,0,0,0,3,0,0,0,0,0,"Parked",15,6,2
-"95",4173,"wasno",43,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"96",4512,"wasno",43,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"97",3268,"wasno",44,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",0,0,6
-"98",2976,"wasno",44,FALSE,"Engaged",0,1,0,0,0,0,0,1,3,0,0,0,"Engaged",16,18,10
-"99",3681,"wasno",45,FALSE,"Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",8,0,10
-"100",4089,"wasno",46,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"101",2097,"wasno",45,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"102",4512,"wasno",47,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Docked",3,4,6
-"103",2930,"wasno",48,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,5,"Parked",21,25,2
-"104",2903,"wasno",49,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"105",2522,"wasno",30,TRUE,"Not Docked",0,0,0,1,0,0,0,1,1,0,1,0,"Engaged",6,11,10
-"106",6350,"wasno",50,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"107",8248,"wasno",51,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Docked",0,4,6
-"108",2976,"wasno",51,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Docked",9,0,6
-"109",4681,"wasno",51,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",0,0,10
-"110",3049,"wasno",52,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,1,"Not Parked",0,5,0
-"111",1899,"wasno",51,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"112",2522,"wasno",53,TRUE,"Engaged",0,0,0,0,0,0,1,1,0,0,1,2,"Engaged",15,18,10
-"113",4089,"wasno",53,TRUE,"Not Docked",0,0,0,0,0,0,3,2,0,0,0,0,"Engaged",3,12,10
-"114",4173,"wasno",34,TRUE,"Not Docked",1,0,0,0,0,0,2,1,0,1,0,0,"Engaged",6,9,10
-"115",6350,"wasno",36,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",0,6,10
-"116",5588,"wasno",37,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Engaged",3,5,10
-"117",3826,"wasno",40,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"118",2980,"wasno",43,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"119",4911,"wasno",47,FALSE,"Not Docked",0,0,0,1,0,0,0,2,0,0,2,0,"Docked",3,12,6
-"120",2522,"wasno",49,TRUE,"Engaged",0,0,0,1,0,0,0,1,2,1,1,0,"Engaged",18,18,10
-"121",7627,"wasno",51,FALSE,"Engaged",0,0,1,0,0,0,0,0,1,0,0,2,"Parked",18,15,2
-"122",2928,"wasno",53,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Not Parked",3,5,0
-"123",8248,"wasno",54,TRUE,"Not Docked",0,0,0,0,0,0,2,0,1,0,0,0,"Parked",3,9,2
-"124",4173,"wasno",54,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,2,0,0,"Engaged",6,4,10
-"125",2930,"wasno",53,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,4,"Engaged",21,20,10
-"126",5941,"wasno",1,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Parked",3,4,2
-"127",4131,"wasno",7,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,2,"Engaged",9,15,10
-"128",7627,"wasno",6,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,0,"Parked",21,0,2
-"129",2903,"wasno",21,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,0,0,"Engaged",0,8,10
-"130",9036,"wasno",30,TRUE,"Not Docked",0,0,0,0,0,0,2,1,0,0,0,0,"Engaged",3,7,10
-"131",2928,"wasno",39,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,0,"Engaged",21,0,10
-"132",2147,"wasno",44,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,2,0,"Parked",19,6,2
-"133",1778,"wasno",48,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Not Parked",0,6,0
-"134",4131,"wasno",45,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,1,0,2,"Parked",9,15,2
-"135",2976,"wasno",18,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,3,0,0,"Parked",3,6,2
-"136",2980,"wasno",3,FALSE,"Not Docked",0,0,0,0,0,0,2,1,0,0,0,0,"Parked",0,7,2
-"137",4681,"wasno",139,TRUE,"Not Docked",0,0,0,0,1,0,1,0,0,1,0,0,"Engaged",7,4,10
-"138",2147,"wasno",148,TRUE,"Engaged",0,0,0,0,0,0,0,1,0,0,2,0,"Engaged",15,9,10
-"139",2928,"wasno",148,TRUE,"Not Docked",0,0,1,0,0,0,2,0,0,0,0,0,"Parked",9,4,2
-"140",2928,"wasno",139,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"141",488,"wasno",55,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Engaged",3,2,10
-"142",7627,"wasno",55,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,3,"Not Parked",21,15,0
-"143",1778,"wasno",56,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",0,6,10
-"144",4980,"wasno",56,FALSE,"Not Docked",0,1,0,0,0,0,0,2,0,0,1,0,"Engaged",4,9,10
-"145",949,"wasno",55,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Engaged",7,0,10
-"146",2930,"wasno",148,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,1,0,1,"Parked",15,9,2
-"147",9036,"wasno",57,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,1,1,"Parked",6,8,2
-"148",4682,"wasno",56,FALSE,"Not Docked",0,1,0,0,0,0,0,0,1,0,0,2,"Engaged",4,15,10
-"149",3049,"wasno",57,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,2,0,"Parked",0,6,2
-"150",2412,"wasno",139,TRUE,"Not Docked",0,1,0,0,0,0,0,1,2,0,0,2,"Parked",7,23,2
-"151",6350,"wasno",55,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Engaged",0,4,10
-"152",2147,"wasno",57,TRUE,"Engaged",0,0,0,1,0,0,1,1,0,0,3,0,"Engaged",18,14,10
-"153",2928,"wasno",58,TRUE,"Engaged",0,0,1,0,0,0,0,1,1,0,0,0,"Docked",21,8,6
-"154",2910,"wasno",59,TRUE,"Engaged",1,1,0,0,0,0,0,0,1,1,0,6,"Not Parked",22,37,0
-"155",3681,"wasno",61,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,1,"Docked",0,5,6
-"156",2980,"wasno",57,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",0,0,10
-"157",1899,"wasno",30,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,0,0,"Engaged",0,8,10
-"158",8302,"waahs",48,TRUE,"Not Docked",1,0,0,0,0,0,2,0,0,0,0,0,"Engaged",6,4,10
-"159",6076,"waahs",48,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",3,6,10
-"160",3588,"waahs",47,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,1,1,1,"Engaged",6,10,10
-"161",4918,"waahs",47,TRUE,"Not Docked",0,1,0,0,0,0,0,0,1,2,0,0,"Engaged",7,9,10
-"162",8896,"waahs",45,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"163",5683,"waahs",46,FALSE,"Not Docked",0,0,0,0,0,0,0,1,0,0,0,0,"Engaged",0,3,10
-"164",2906,"waahs",46,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",0,6,10
-"165",5295,"waahs",45,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,1,1,2,"Engaged",6,15,10
-"166",8302,"waahs",44,TRUE,"Not Docked",1,0,0,0,0,0,2,0,0,0,0,0,"Engaged",6,4,10
-"167",4915,"waahs",43,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,1,0,"Engaged",0,11,10
-"168",3070,"waahs",43,FALSE,"Engaged",0,0,0,0,0,1,0,0,2,0,0,1,"Engaged",18,15,10
-"169",4918,"waahs",31,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,2,0,"Engaged",6,6,10
-"170",2929,"waahs",41,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"171",4131,"waahs",39,TRUE,"Not Docked",1,0,1,0,0,0,1,0,1,0,0,2,"Engaged",12,17,10
-"172",2557,"waahs",37,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Parked",6,0,2
-"173",3070,"waahs",34,FALSE,"Not Docked",0,0,0,1,0,0,0,1,1,0,0,2,"Engaged",3,18,10
-"174",8386,"waahs",33,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"175",4915,"waahs",31,FALSE,"Engaged",0,0,1,0,0,0,1,0,0,0,4,0,"Parked",18,14,2
-"176",3588,"waahs",35,TRUE,"Not Docked",0,0,0,0,0,0,0,1,0,1,1,1,"Engaged",3,13,10
-"177",2046,"waahs",34,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,2,2,3,"Engaged",9,30,10
-"178",2906,"waahs",32,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"179",8303,"waahs",35,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",6,0,2
-"180",2557,"waahs",33,FALSE,"Not Docked",0,0,0,1,0,0,0,0,1,0,0,0,"Not Parked",3,5,0
-"181",3786,"waahs",26,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"182",3219,"waahs",28,TRUE,"Engaged",0,1,0,0,0,0,0,0,0,1,0,0,"Not Parked",19,2,0
-"183",7627,"waahs",24,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,3,"Parked",3,15,2
-"184",2906,"waahs",23,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"185",2907,"waahs",21,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"186",3070,"waahs",20,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,1,2,0,"Engaged",0,8,10
-"187",8896,"waahs",17,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"188",3393,"waahs",32,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10
-"189",8032,"waahs",30,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,3,0,"Not Parked",3,9,0
-"190",8896,"waahs",28,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Docked",3,2,6
-"191",2980,"waahs",25,FALSE,"Not Docked",0,1,0,0,0,0,0,0,0,1,2,0,"Engaged",4,8,10
-"192",3393,"waahs",23,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",3,6,10
-"193",4180,"waahs",30,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Parked",0,4,2
-"194",2907,"waahs",30,TRUE,"Engaged",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",15,4,10
-"195",3588,"waahs",29,TRUE,"Not Docked",0,0,0,0,0,0,1,0,3,0,1,0,"Docked",3,20,6
-"196",8302,"waahs",29,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"197",4131,"waahs",28,TRUE,"Not Docked",0,1,1,0,0,0,0,0,0,0,0,4,"Engaged",13,20,10
-"198",4469,"waahs",28,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,3,"Docked",21,15,6
-"199",2046,"waahs",27,TRUE,"Engaged",0,0,1,0,0,1,1,0,2,0,1,5,"Engaged",27,40,10
-"200",4579,"waahs",27,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Docked",3,4,6
-"201",8302,"waahs",26,TRUE,"Not Docked",0,0,0,0,0,0,1,2,0,0,0,0,"Engaged",3,8,10
-"202",3588,"waahs",26,TRUE,"Not Docked",0,0,0,1,0,0,0,0,0,1,2,0,"Engaged",6,8,10
-"203",3268,"waahs",25,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",0,0,10
-"204",4131,"waahs",24,FALSE,"Docked",0,1,0,0,0,1,0,0,1,0,1,3,"Parked",18,23,2
-"205",8386,"waahs",24,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Docked",0,2,6
-"206",5295,"waahs",24,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,0,"Not Parked",6,0,0
-"207",2046,"waahs",23,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,1,1,2,"Engaged",15,23,10
-"208",3663,"waahs",23,FALSE,"Engaged",0,0,1,0,0,0,3,0,0,0,1,3,"Engaged",18,24,10
-"209",4180,"waahs",19,FALSE,"Not Docked",0,0,1,0,0,0,1,1,0,0,0,0,"Not Parked",6,5,0
-"210",5827,"waahs",20,FALSE,"Not Docked",0,1,0,0,0,0,3,0,0,0,0,0,"Engaged",4,6,10
-"211",2980,"waahs",21,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"212",3393,"waahs",14,TRUE,"Not Docked",1,0,0,0,0,0,2,0,0,0,0,0,"Engaged",6,4,10
-"213",1318,"waahs",12,FALSE,"Engaged",0,0,0,0,0,1,0,0,1,0,0,4,"Not Parked",18,25,0
-"214",1318,"waahs",22,TRUE,"Engaged",0,0,0,0,0,0,0,0,2,0,1,3,"Engaged",15,28,10
-"215",5683,"waahs",22,FALSE,"Not Docked",0,0,0,0,0,0,2,0,2,0,0,0,"Not Parked",0,14,0
-"216",8386,"waahs",21,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10
-"217",4469,"waahs",21,TRUE,"Engaged",0,0,0,0,0,0,0,0,1,0,0,4,"Parked",15,25,2
-"218",8896,"waahs",17,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"219",3070,"waahs",20,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,1,0,"Engaged",0,3,10
-"220",3070,"waahs",16,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,2,0,0,"Engaged",6,4,10
-"221",2980,"waahs",15,FALSE,"Engaged",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",12,0,10
-"222",6076,"waahs",12,TRUE,"Not Docked",0,0,0,0,0,0,0,1,2,0,0,0,"Engaged",3,13,10
-"223",7627,"waahs",20,TRUE,"Engaged",0,0,1,0,0,0,2,0,2,2,0,4,"Engaged",21,38,10
-"224",1318,"waahs",19,TRUE,"Docked",0,0,0,0,0,0,0,0,1,0,0,3,"Parked",11,20,2
-"225",4469,"waahs",17,FALSE,"Engaged",0,0,1,0,0,0,2,0,0,0,0,2,"Engaged",18,14,10
-"226",2557,"waahs",18,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Docked",3,4,6
-"227",3393,"waahs",18,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"228",3219,"waahs",17,TRUE,"Not Docked",0,0,0,1,0,0,2,0,0,0,2,0,"Not Parked",6,10,0
-"229",6076,"waahs",16,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",0,4,10
-"230",2906,"waahs",16,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"231",2046,"waahs",14,TRUE,"Not Docked",0,0,1,0,0,1,1,0,0,0,2,3,"Engaged",15,23,10
-"232",2980,"waahs",15,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",15,2,10
-"233",4180,"waahs",15,FALSE,"Not Docked",0,0,1,0,0,0,1,0,0,0,0,0,"Parked",6,2,2
-"234",4131,"waahs",14,TRUE,"Engaged",0,1,1,0,0,0,1,1,1,1,1,1,"Engaged",25,20,10
-"235",4918,"waahs",13,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,2,0,"Docked",9,6,6
-"236",3786,"waahs",13,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"237",5295,"waahs",12,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,2,"Not Parked",6,10,0
-"238",5295,"waahs",12,FALSE,"Not Docked",0,0,1,0,0,0,0,0,1,1,0,2,"Not Parked",6,17,0
-"239",4579,"waahs",11,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,1,0,0,"Engaged",3,6,10
-"240",4131,"waahs",11,TRUE,"Docked",0,0,1,0,0,0,0,0,0,2,0,0,"Docked",17,4,6
-"241",5827,"waahs",11,TRUE,"Not Docked",0,0,1,0,0,0,1,0,1,0,0,0,"Docked",9,7,6
-"242",5683,"waahs",11,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,0,0,"Docked",0,8,6
-"243",3268,"waahs",6,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"244",8051,"waahs",8,FALSE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"245",4131,"waahs",4,TRUE,"Docked",1,0,1,0,0,0,0,0,0,0,0,3,"Docked",20,15,6
-"246",4918,"waahs",10,TRUE,"Engaged",0,0,1,0,0,0,0,1,0,1,1,0,"Engaged",21,8,10
-"247",2046,"waahs",6,TRUE,"Not Docked",0,0,0,0,0,1,1,1,1,1,0,3,"Engaged",9,27,10
-"248",8302,"waahs",2,TRUE,"Not Docked",1,0,0,0,0,0,1,0,0,1,0,0,"Parked",6,4,2
-"249",4915,"waahs",4,TRUE,"Not Docked",0,0,0,0,0,0,0,1,0,1,0,1,"Docked",3,10,6
-"250",5295,"waahs",1,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,1,"Docked",9,8,6
-"251",2980,"waahs",10,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,2,0,0,"Engaged",6,4,10
-"252",2907,"waahs",9,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",15,2,10
-"253",2557,"waahs",9,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"254",5683,"waahs",8,TRUE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,1,"Engaged",3,15,10
-"255",8386,"waahs",8,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0
-"256",4579,"waahs",7,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Docked",3,2,6
-"257",5295,"waahs",7,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,2,"Docked",6,10,6
-"258",8896,"waahs",6,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"259",1318,"waahs",6,TRUE,"Not Docked",0,0,0,0,0,0,0,1,1,2,0,3,"Parked",3,27,2
-"260",3393,"waahs",5,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",3,0,6
-"261",8051,"waahs",5,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,1,0,0,"Docked",9,2,6
-"262",4918,"waahs",4,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,0,"Docked",9,3,6
-"263",8386,"waahs",4,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"264",2046,"waahs",3,TRUE,"Not Docked",0,0,1,0,0,1,0,0,2,2,2,2,"Engaged",15,30,10
-"265",4180,"waahs",1,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Engaged",3,5,10
-"266",1318,"waahs",3,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,1,0,4,"Engaged",9,22,10
-"267",8896,"waahs",2,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",3,4,10
-"268",2929,"waahs",2,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Not Parked",3,2,0
-"269",2929,"waahs",2,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,1,0,0,"Not Parked",3,8,0
-"270",4180,"waahs",1,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10
-"271",4469,"waahs",1,TRUE,"Engaged",0,0,1,0,0,0,0,0,1,0,0,3,"Engaged",21,20,10
-"272",1318,"waahs",45,TRUE,"Engaged",0,0,0,0,0,1,0,0,2,2,1,2,"Not Parked",21,27,0
-"273",4579,"waahs",47,TRUE,"Not Docked",0,0,0,0,0,0,4,0,0,0,0,0,"Parked",3,8,2
-"274",2046,"waahs",46,TRUE,"Not Docked",0,0,1,0,0,1,2,0,1,1,1,3,"Parked",15,29,2
-"275",7627,"waahs",37,TRUE,"Engaged",0,0,1,0,0,0,2,0,0,0,0,3,"Engaged",21,19,10
-"276",4579,"waahs",36,TRUE,"Not Docked",0,0,0,0,0,0,1,1,0,0,0,0,"Docked",3,5,6
-"277",6076,"waahs",33,FALSE,"Not Docked",0,0,0,0,0,0,1,0,1,0,0,1,"Engaged",0,12,10
-"278",5827,"waahs",32,TRUE,"Not Docked",0,0,1,0,0,0,1,0,2,0,0,0,"Engaged",9,12,10
-"279",3663,"waahs",35,TRUE,"Engaged",0,0,1,0,0,0,5,1,0,0,0,2,"Engaged",21,23,10
-"280",3588,"waahs",40,TRUE,"Not Docked",0,0,0,0,0,0,0,1,0,1,1,0,"Parked",3,8,2
-"281",3393,"waahs",38,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10
-"282",8303,"waahs",46,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2
-"283",5827,"waahs",45,TRUE,"Engaged",0,0,1,0,0,0,3,0,0,0,0,0,"Parked",21,6,2
-"284",3268,"waahs",42,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",0,4,10
-"285",8032,"waahs",40,TRUE,"Engaged",0,0,0,0,0,0,0,0,0,1,1,0,"Engaged",15,5,10
-"286",2046,"waahs",41,TRUE,"Engaged",0,0,1,0,0,1,0,0,2,1,0,5,"Engaged",27,37,10
-"287",3268,"waahs",46,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Engaged",3,5,10
-"288",2980,"waahs",48,TRUE,"Not Docked",1,0,0,0,0,0,3,0,0,1,0,0,"Parked",6,8,2
-"289",2929,"waahs",44,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2
-"290",8051,"waahs",43,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,2,"Engaged",9,13,10
-"291",3786,"waahs",31,TRUE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Engaged",6,2,10
-"292",3070,"waahs",39,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,1,"Docked",21,5,6
-"293",4915,"waahs",37,FALSE,"Not Docked",0,0,0,0,0,0,0,2,0,0,3,0,"Engaged",0,15,10
-"294",8303,"waahs",40,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10
-"295",2929,"waahs",32,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10
-"296",5683,"waahs",49,TRUE,"Not Docked",0,0,0,1,0,0,4,0,0,0,0,0,"Engaged",6,8,10
-"297",8896,"waahs",49,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",3,0,6
-"298",3219,"waahs",50,TRUE,"Not Docked",0,0,0,1,0,0,4,0,0,1,0,0,"Not Parked",6,10,0
-"299",2929,"waahs",50,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Not Parked",0,2,0
-"300",3588,"waahs",51,TRUE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Engaged",3,10,10
-"301",8896,"waahs",52,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2
-"302",2980,"waahs",52,FALSE,"Not Docked",0,1,0,0,0,0,3,0,0,0,0,0,"Parked",4,6,2
-"303",3393,"waahs",53,TRUE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Docked",6,2,6
-"304",3588,"waahs",54,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,2,2,0,"Parked",3,10,2
-"305",5295,"waahs",54,FALSE,"Not Docked",0,0,1,0,0,0,0,1,1,0,0,0,"Engaged",6,8,10
-"306",8303,"waahs",55,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"307",4469,"waahs",51,FALSE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,4,"Parked",18,20,2
-"308",8302,"waahs",53,TRUE,"Not Docked",1,0,0,0,0,0,4,0,0,0,0,0,"Parked",6,8,2
-"309",2907,"waahs",56,TRUE,"Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",11,0,10
-"310",8386,"waahs",57,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"311",3219,"waahs",57,TRUE,"Docked",0,0,0,1,0,0,6,0,0,0,0,0,"Engaged",14,12,10
-"312",3070,"waahs",50,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,1,0,1,"Engaged",3,12,10
-"313",2906,"waahs",55,FALSE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10
-"314",5683,"waahs",56,TRUE,"Not Docked",0,0,0,0,0,0,2,0,2,0,0,0,"Engaged",3,14,10
-"315",7627,"waahs",56,TRUE,"Docked",0,0,1,0,0,0,0,0,0,1,0,4,"Not Parked",17,22,0
-"316",4579,"waahs",57,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,1,0,0,"Engaged",3,8,10
-"317",6076,"waahs",58,FALSE,"Not Docked",0,1,0,0,0,0,0,0,2,1,0,0,"Engaged",4,12,10
-"318",5827,"waahs",51,TRUE,"Not Docked",0,0,1,0,0,0,5,0,0,0,0,0,"Docked",9,10,6
-"319",3070,"waahs",58,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,1,"Engaged",9,5,10
-"320",5295,"waahs",59,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,3,0,"Docked",6,9,6
-"321",8302,"waahs",59,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Not Parked",3,4,0
-"322",5827,"waahs",58,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10
-"323",3588,"waahs",60,TRUE,"Not Docked",0,0,0,0,1,0,0,2,0,0,2,0,"Parked",7,12,2
-"324",3786,"waahs",60,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"325",4915,"pncmp",66,TRUE,"Not Docked",0,0,0,0,0,0,5,0,1,0,0,0,"Engaged",3,15,10
-"326",4469,"pncmp",53,TRUE,"Not Docked",0,0,1,0,0,1,0,1,0,0,0,0,"Parked",15,3,2
-"327",6831,"pncmp",64,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,1,1,1,"Engaged",9,13,10
-"328",2930,"pncmp",64,TRUE,"Not Docked",1,0,1,0,0,1,0,0,1,1,0,4,"Parked",18,27,2
-"329",8532,"pncmp",63,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,0,0,2,"Parked",9,13,2
-"330",3636,"pncmp",63,FALSE,"Engaged",0,0,0,0,0,0,0,0,0,0,0,1,"Parked",12,5,2
-"331",3711,"pncmp",62,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,1,"Engaged",6,8,10
-"332",4061,"pncmp",62,TRUE,"Not Docked",0,0,1,0,0,0,0,0,1,0,1,3,"Docked",9,23,6
-"333",7034,"pncmp",61,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"334",1983,"pncmp",61,TRUE,"Not Docked",0,0,1,0,0,0,1,0,1,4,0,0,"Engaged",9,15,10
-"335",5827,"pncmp",59,FALSE,"Not Docked",0,0,1,0,0,0,1,1,0,0,2,0,"Docked",6,11,6
-"336",4918,"pncmp",60,TRUE,"Not Docked",0,1,0,0,0,0,0,0,0,0,2,0,"Engaged",7,6,10
-"337",1425,"pncmp",60,TRUE,"Not Docked",0,0,0,0,0,2,0,1,1,2,2,0,"Engaged",15,18,10
-"338",7461,"pncmp",59,TRUE,"Not Docked",0,1,1,0,0,1,1,1,0,0,2,2,"Engaged",19,21,10
-"339",360,"pncmp",59,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"340",2147,"pncmp",58,TRUE,"Engaged",0,0,0,0,0,1,3,1,1,0,2,2,"Engaged",21,30,10
-"341",2930,"pncmp",58,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,1,2,3,"Engaged",0,31,10
-"342",6831,"pncmp",57,TRUE,"Not Docked",0,0,1,0,0,0,1,1,0,1,2,0,"Engaged",9,13,10
-"343",2980,"pncmp",57,TRUE,"Docked",0,0,0,0,1,0,1,0,0,0,0,0,"Engaged",15,2,10
-"344",2046,"pncmp",57,TRUE,"Not Docked",1,1,0,0,0,1,2,0,1,0,1,1,"Engaged",16,17,10
-"345",2471,"pncmp",56,TRUE,"Engaged",0,0,0,0,0,0,0,2,2,0,0,0,"Engaged",15,16,10
-"346",948,"pncmp",56,TRUE,"Engaged",0,0,1,0,0,0,5,2,0,0,0,0,"Engaged",21,16,10
-"347",5827,"pncmp",47,TRUE,"Engaged",0,0,1,0,0,0,2,0,1,0,0,0,"Engaged",21,9,10
-"348",1899,"pncmp",54,TRUE,"Not Docked",0,0,0,0,0,1,0,1,1,0,2,2,"Parked",9,24,2
-"349",3663,"pncmp",52,TRUE,"Engaged",0,0,1,0,0,0,4,0,0,0,2,1,"Engaged",21,19,10
-"350",360,"pncmp",50,TRUE,"Not Docked",0,0,0,0,0,1,2,1,1,0,2,1,"Engaged",9,23,10
-"351",492,"pncmp",53,TRUE,"Not Docked",0,0,1,0,0,0,0,2,1,0,2,1,"Engaged",9,22,10
-"352",3711,"pncmp",54,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,1,0,2,"Engaged",6,12,10
-"353",2522,"pncmp",55,TRUE,"Engaged",0,0,1,0,0,0,4,0,0,0,0,0,"Engaged",21,8,10
-"354",1425,"pncmp",55,TRUE,"Not Docked",0,0,0,1,0,1,0,0,0,3,0,2,"Engaged",12,16,10
-"355",4915,"pncmp",55,TRUE,"Not Docked",0,0,1,0,0,0,0,2,0,1,3,0,"Engaged",9,17,10
-"356",3674,"pncmp",54,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,1,2,"Engaged",9,18,10
-"357",2412,"pncmp",53,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,3,2,"Engaged",9,19,10
-"358",2811,"pncmp",53,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,0,1,"Not Parked",19,5,0
-"359",5827,"pncmp",52,TRUE,"Not Docked",0,1,0,0,0,0,3,0,0,0,0,0,"Engaged",7,6,10
-"360",4682,"pncmp",51,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,1,1,"Not Parked",9,8,0
-"361",4061,"pncmp",51,TRUE,"Not Docked",0,1,0,0,0,0,0,0,1,0,2,2,"Engaged",7,21,10
-"362",2980,"pncmp",49,TRUE,"Docked",1,0,0,0,0,0,3,2,3,0,0,0,"Engaged",14,27,10
-"363",948,"pncmp",50,TRUE,"Engaged",0,0,1,0,0,0,3,1,2,0,0,0,"Engaged",21,19,10
-"364",2521,"pncmp",46,TRUE,"Engaged",0,0,0,0,0,1,1,2,0,0,3,1,"Engaged",21,22,10
-"365",4682,"pncmp",42,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,2,1,"Parked",21,11,2
-"366",3218,"pncmp",44,TRUE,"Not Docked",2,0,0,0,0,1,2,0,1,0,0,3,"Engaged",15,24,10
-"367",4915,"pncmp",50,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,2,2,0,"Engaged",21,10,10
-"368",3636,"pncmp",50,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Parked",7,0,2
-"369",6443,"pncmp",49,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,3,1,"Parked",21,14,2
-"370",1778,"pncmp",49,TRUE,"Docked",1,0,0,0,0,0,4,2,3,0,0,0,"Engaged",14,29,10
-"371",4469,"pncmp",48,TRUE,"Not Docked",0,0,0,0,0,1,2,0,2,0,0,1,"Parked",9,19,2
-"372",5920,"pncmp",48,TRUE,"Not Docked",0,0,1,0,0,0,8,0,0,0,0,0,"Parked",9,16,2
-"373",1318,"pncmp",47,TRUE,"Engaged",0,0,0,0,0,1,1,0,1,0,1,1,"Parked",21,15,2
-"374",4125,"pncmp",47,FALSE,"Not Docked",1,0,0,0,0,0,5,0,0,0,0,0,"Engaged",3,10,10
-"375",3663,"pncmp",43,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,0,"Parked",9,4,2
-"376",4131,"pncmp",46,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,3,"Engaged",9,19,10
-"377",2522,"pncmp",42,TRUE,"Not Docked",0,0,0,1,0,0,0,1,1,0,1,2,"Engaged",6,21,10
-"378",4918,"pncmp",39,TRUE,"Engaged",0,1,0,0,0,0,1,0,0,2,0,1,"Engaged",19,11,10
-"379",7627,"pncmp",38,FALSE,"Engaged",0,0,1,0,0,0,0,1,0,0,2,2,"Engaged",18,19,10
-"380",1294,"pncmp",32,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Not Parked",6,0,0
-"381",2521,"pncmp",36,TRUE,"Not Docked",0,0,0,0,0,1,0,2,1,1,1,1,"Engaged",9,21,10
-"382",4125,"pncmp",34,FALSE,"Not Docked",1,0,0,0,0,0,6,0,0,1,0,0,"Parked",3,14,2
-"383",488,"pncmp",47,TRUE,"Not Docked",0,0,0,0,0,1,6,0,1,0,0,0,"Engaged",9,17,10
-"384",7034,"pncmp",46,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,1,3,1,"Engaged",9,16,10
-"385",5468,"pncmp",45,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,1,1,0,"Engaged",9,8,10
-"386",2471,"pncmp",45,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,3,1,"Engaged",21,14,10
-"387",9036,"pncmp",44,TRUE,"Not Docked",1,0,0,0,0,0,3,0,0,0,0,0,"Engaged",6,6,10
-"388",2990,"pncmp",43,TRUE,"Engaged",0,0,1,0,0,0,0,0,1,0,2,1,"Docked",21,16,6
-"389",4911,"pncmp",43,TRUE,"Not Docked",0,0,0,1,0,1,0,0,1,0,2,2,"Engaged",12,21,10
-"390",4682,"pncmp",37,TRUE,"Engaged",0,0,1,0,0,0,0,1,1,0,3,1,"Engaged",21,22,10
-"391",1899,"pncmp",38,TRUE,"Engaged",0,0,0,0,0,1,0,1,1,0,1,1,"Engaged",21,16,10
-"392",2811,"pncmp",36,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,1,2,1,"Engaged",9,16,10
-"393",3711,"pncmp",34,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,2,"Engaged",21,10,10
-"394",2412,"pncmp",32,TRUE,"Not Docked",0,0,1,0,0,0,0,3,1,0,0,1,"Engaged",9,19,10
-"395",4682,"pncmp",27,TRUE,"Not Docked",0,0,1,0,0,0,0,1,1,0,2,2,"Engaged",9,24,10
-"396",4469,"pncmp",31,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,1,"Not Parked",9,10,0
-"397",7461,"pncmp",42,TRUE,"Not Docked",0,0,1,0,0,1,0,0,0,0,1,3,"Parked",15,18,2
-"398",948,"pncmp",42,TRUE,"Not Docked",0,0,1,0,0,0,4,0,0,0,0,0,"Engaged",9,8,10
-"399",7034,"pncmp",40,TRUE,"Engaged",0,0,0,0,0,1,0,0,1,2,0,2,"Engaged",21,19,10
-"400",4061,"pncmp",38,TRUE,"Not Docked",0,1,0,0,0,0,1,0,0,0,2,2,"Engaged",7,18,10
-"401",1425,"pncmp",41,FALSE,"Not Docked",0,0,0,0,0,1,1,1,1,0,0,2,"Engaged",6,20,10
-"402",5827,"pncmp",41,TRUE,"Not Docked",0,0,1,0,0,0,4,0,0,0,0,0,"Parked",9,8,2
-"403",2930,"pncmp",40,TRUE,"Not Docked",1,0,0,0,0,1,2,1,1,1,2,1,"Engaged",12,25,10
-"404",753,"pncmp",40,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",6,0,2
-"405",5468,"pncmp",39,TRUE,"Not Docked",0,1,0,0,0,0,0,0,1,0,3,0,"Engaged",7,14,10
-"406",955,"pncmp",38,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,1,0,1,"Parked",15,15,2
-"407",3218,"pncmp",38,TRUE,"Not Docked",0,0,0,0,0,1,2,1,2,0,1,1,"Engaged",9,25,10
-"408",2412,"pncmp",37,TRUE,"Engaged",1,0,0,0,0,0,0,1,0,0,2,3,"Engaged",18,24,10
-"409",2990,"pncmp",36,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,4,"Engaged",21,20,10
-"410",1983,"pncmp",34,TRUE,"Not Docked",0,0,1,0,0,0,3,0,0,2,0,0,"Parked",9,10,2
-"411",3674,"pncmp",35,TRUE,"Not Docked",0,0,0,0,0,1,0,2,0,0,0,1,"Parked",9,11,2
-"412",1778,"pncmp",29,TRUE,"Not Docked",1,0,1,0,0,0,9,0,0,0,0,0,"Engaged",12,18,10
-"413",2471,"pncmp",28,TRUE,"Engaged",1,0,0,0,0,0,6,0,0,0,0,0,"Docked",18,12,6
-"414",3636,"pncmp",36,TRUE,"Not Docked",0,0,0,0,0,1,2,1,1,1,3,1,"Engaged",9,28,10
-"415",1778,"pncmp",36,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"416",6831,"pncmp",33,TRUE,"Not Docked",0,1,1,0,0,0,2,0,0,1,2,0,"Engaged",13,12,10
-"417",2522,"pncmp",35,TRUE,"Not Docked",0,0,0,0,0,1,6,0,0,2,0,0,"Engaged",9,16,10
-"418",9036,"pncmp",34,TRUE,"Not Docked",1,0,0,0,0,0,3,1,0,0,0,0,"Engaged",6,9,10
-"419",1318,"pncmp",33,TRUE,"Not Docked",0,0,0,0,0,1,0,1,2,0,1,3,"Parked",9,31,2
-"420",2557,"pncmp",32,TRUE,"Not Docked",0,0,0,0,0,1,0,0,2,0,0,3,"Docked",9,25,6
-"421",1294,"pncmp",32,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Not Parked",6,0,0
-"422",488,"pncmp",31,TRUE,"Not Docked",0,0,0,0,0,1,1,0,0,0,0,0,"Not Parked",9,2,0
-"423",7034,"pncmp",30,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,4,"Engaged",3,25,10
-"424",5827,"pncmp",30,TRUE,"Not Docked",0,0,1,0,0,0,2,0,0,0,0,0,"Engaged",9,4,10
-"425",4488,"pncmp",29,TRUE,"Not Docked",0,0,0,0,0,0,4,0,0,0,0,0,"Engaged",3,8,10
-"426",8532,"pncmp",28,TRUE,"Not Docked",0,0,1,0,0,0,0,0,2,0,0,2,"Docked",9,20,6
-"427",2521,"pncmp",29,TRUE,"Engaged",0,0,0,0,0,0,0,2,0,0,1,2,"Parked",15,19,2
-"428",9036,"pncmp",28,TRUE,"Not Docked",0,1,0,0,0,0,2,1,0,0,0,0,"Engaged",7,7,10
-"429",4061,"pncmp",28,TRUE,"Not Docked",0,1,0,0,0,0,0,1,0,1,0,4,"Docked",7,25,6
-"430",6443,"pncmp",27,TRUE,"Engaged",0,0,0,0,0,1,0,1,0,1,2,0,"Engaged",21,11,10
-"431",3218,"pncmp",26,TRUE,"Not Docked",1,0,1,0,0,1,1,0,0,0,2,1,"Parked",18,13,2
-"432",1294,"pncmp",24,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Not Parked",6,0,0
-"433",753,"pncmp",23,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,1,"Engaged",6,9,10
-"434",9036,"pncmp",104,TRUE,"Not Docked",0,0,0,0,1,0,0,1,0,0,0,1,"Engaged",7,8,10
-"435",2046,"pncmp",104,TRUE,"Not Docked",0,1,0,0,0,1,0,1,3,0,1,3,"Parked",13,36,2
-"436",2811,"pncmp",104,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,3,2,"Engaged",19,19,10
-"437",4915,"pncmp",25,TRUE,"Not Docked",0,0,0,1,0,0,0,1,1,0,0,0,"Parked",6,8,2
-"438",1425,"pncmp",19,TRUE,"Not Docked",0,0,0,1,0,1,0,1,0,0,0,2,"Parked",12,13,2
-"439",948,"pncmp",22,TRUE,"Engaged",0,0,0,0,0,0,2,0,1,0,0,0,"Engaged",15,9,10
-"440",4918,"pncmp",23,TRUE,"Docked",0,1,0,0,0,0,0,2,0,0,2,0,"Engaged",15,12,10
-"441",488,"pncmp",19,TRUE,"Not Docked",0,0,0,0,0,1,2,0,1,0,0,2,"Not Parked",9,19,0
-"442",3070,"pncmp",14,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,1,1,1,"Engaged",9,13,10
-"443",3674,"pncmp",15,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,2,"Not Parked",9,15,0
-"444",1778,"pncmp",13,FALSE,"Not Docked",0,0,0,0,0,0,6,1,0,0,0,0,"Engaged",0,15,10
-"445",2521,"pncmp",24,TRUE,"Not Docked",0,0,1,0,0,1,1,1,1,0,0,4,"Engaged",15,30,10
-"446",2930,"pncmp",23,TRUE,"Engaged",0,0,1,0,0,1,1,1,0,3,2,2,"Parked",27,27,2
-"447",1425,"pncmp",26,TRUE,"Not Docked",0,0,0,0,0,2,1,0,0,1,2,3,"Engaged",15,25,10
-"448",7034,"pncmp",25,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,1,0,1,"Parked",9,7,2
-"449",2557,"pncmp",25,FALSE,"Not Docked",0,0,0,0,0,1,0,0,2,0,0,0,"Engaged",6,10,10
-"450",5827,"pncmp",24,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,0,"Engaged",9,0,10
-"451",4469,"pncmp",23,TRUE,"Not Docked",0,0,1,0,0,1,0,0,0,0,1,2,"Engaged",15,13,10
-"452",753,"pncmp",23,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,1,"Engaged",6,9,10
-"453",2046,"pncmp",22,TRUE,"Not Docked",1,0,0,0,0,1,1,1,2,0,0,4,"Parked",12,35,2
-"454",9036,"pncmp",21,TRUE,"Not Docked",0,0,0,1,0,0,0,1,0,1,0,0,"Engaged",6,5,10
-"455",4488,"pncmp",21,FALSE,"Not Docked",1,0,0,0,0,0,4,0,0,0,0,2,"Engaged",3,18,10
-"456",2990,"pncmp",21,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,1,0,2,"Engaged",21,12,10
-"457",1983,"pncmp",2,TRUE,"Engaged",0,0,1,0,0,0,0,0,1,0,1,0,"Engaged",21,8,10
-"458",3711,"pncmp",20,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,3,"Engaged",21,15,10
-"459",2046,"pncmp",16,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0
-"460",4061,"pncmp",18,TRUE,"Not Docked",0,1,0,0,0,0,1,0,0,1,1,2,"Not Parked",7,17,0
-"461",7461,"pncmp",20,TRUE,"Not Docked",0,0,0,0,0,1,1,1,0,1,2,1,"Parked",9,18,2
-"462",2910,"pncmp",20,TRUE,"Not Docked",0,0,0,0,0,1,1,1,1,0,2,2,"Engaged",9,26,10
-"463",4918,"pncmp",17,TRUE,"Engaged",0,1,0,0,0,0,1,0,1,1,2,0,"Engaged",19,15,10
-"464",2412,"pncmp",19,TRUE,"Engaged",0,0,1,0,0,0,0,1,0,0,2,2,"Engaged",21,19,10
-"465",1318,"pncmp",19,TRUE,"Not Docked",0,0,0,0,0,1,0,1,1,0,2,2,"Engaged",9,24,10
-"466",3218,"pncmp",18,TRUE,"Not Docked",0,0,0,0,0,1,3,0,0,0,0,2,"Docked",9,16,6
-"467",360,"pncmp",17,TRUE,"Not Docked",1,0,0,0,0,1,0,1,1,0,1,0,"Parked",12,11,2
-"468",4125,"pncmp",17,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10
-"469",5920,"pncmp",16,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10
-"470",1425,"pncmp",12,TRUE,"Not Docked",0,0,0,0,0,2,0,1,0,0,3,2,"Engaged",15,22,10
-"471",488,"pncmp",13,TRUE,"Not Docked",0,0,0,0,0,1,5,0,1,0,1,2,"Engaged",9,28,10
-"472",5827,"pncmp",11,TRUE,"Not Docked",1,0,0,0,0,0,4,0,2,0,0,0,"Engaged",6,18,10
-"473",1983,"pncmp",10,TRUE,"Engaged",0,0,1,0,0,0,4,0,0,0,0,0,"Parked",21,8,2
-"474",948,"pncmp",7,FALSE,"Engaged",0,0,1,0,0,0,3,3,2,0,0,0,"Docked",18,25,6
-"475",753,"pncmp",15,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,3,"Docked",9,15,6
-"476",7627,"pncmp",14,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,2,2,"Docked",21,16,6
-"477",8532,"pncmp",14,TRUE,"Not Docked",0,0,1,0,0,0,1,1,0,0,1,1,"Parked",9,13,2
-"478",1318,"pncmp",12,TRUE,"Not Docked",0,0,1,0,0,1,1,0,0,0,3,2,"Engaged",15,21,10
-"479",2811,"pncmp",13,TRUE,"Engaged",0,0,0,0,0,1,0,1,1,0,2,0,"Engaged",21,14,10
-"480",2910,"pncmp",13,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,1,3,"Engaged",9,23,10
-"481",4131,"pncmp",12,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,2,2,"Engaged",9,16,10
-"482",5468,"pncmp",11,TRUE,"Engaged",0,0,0,0,0,1,3,0,0,0,0,0,"Engaged",21,6,10
-"483",3636,"pncmp",11,TRUE,"Not Docked",0,0,0,0,0,1,0,1,1,1,3,2,"Parked",9,29,2
-"484",7461,"pncmp",10,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,3,"Engaged",9,20,10
-"485",5920,"pncmp",8,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",3,0,6
-"486",955,"pncmp",10,TRUE,"Not Docked",0,0,1,0,0,1,0,2,0,1,2,2,"Engaged",15,24,10
-"487",3663,"pncmp",7,TRUE,"Not Docked",0,0,0,0,0,1,1,1,0,0,2,2,"Parked",9,21,2
-"488",6831,"pncmp",10,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,1,"Engaged",9,5,10
-"489",3070,"pncmp",9,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,2,"Engaged",3,14,10
-"490",3711,"pncmp",9,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,2,"Engaged",3,10,10
-"491",4125,"pncmp",8,FALSE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2
-"492",1425,"pncmp",7,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,3,0,2,"Engaged",9,16,10
-"493",4469,"pncmp",7,FALSE,"Engaged",0,0,1,0,0,0,1,0,1,1,0,1,"Parked",18,14,2
-"494",7461,"pncmp",5,TRUE,"Not Docked",0,0,0,0,0,1,0,0,3,2,1,1,"Engaged",9,27,10
-"495",1318,"pncmp",6,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,0,2,1,"Docked",15,19,6
-"496",1318,"pncmp",6,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,2,2,1,"Not Parked",15,23,0
-"497",4911,"pncmp",5,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,1,0,"Engaged",3,3,10
-"498",753,"pncmp",5,TRUE,"Not Docked",0,0,1,0,0,0,0,0,1,1,0,2,"Engaged",9,17,10
-"499",955,"pncmp",4,TRUE,"Not Docked",0,0,1,0,0,1,0,1,0,0,0,3,"Engaged",15,18,10
-"500",2811,"pncmp",4,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,0,1,"Docked",19,5,6
-"501",2471,"pncmp",2,FALSE,"Not Docked",0,0,0,1,0,0,0,0,0,0,0,0,"Parked",3,0,2
-"502",4488,"pncmp",3,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2
-"503",3636,"pncmp",2,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,5,"Parked",9,25,2
-"504",5827,"pncmp",1,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,0,0,0,"Engaged",9,3,10
-"505",2910,"pncmp",1,TRUE,"Not Docked",1,0,0,0,0,1,1,0,0,1,2,2,"Engaged",12,20,10
-"506",2811,"pncmp",60,FALSE,"Not Docked",0,0,1,0,0,0,0,2,0,0,2,2,"Engaged",6,22,10
-"507",2147,"pncmp",58,TRUE,"Engaged",0,0,0,0,0,1,2,1,1,0,3,1,"Engaged",21,26,10
+"","team_number","event","match_number","mobility","end_of_auto_status","auto_hybrid_cubes","auto_mid_cubes","auto_high_cubes","auto_hybrid_cones","auto_mid_cones","auto_high_cones","teleop_hybrid_cubes","teleop_mid_cubes","teleop_high_cubes","teleop_hybrid_cones","teleop_mid_cones","teleop_high_cones","endgame_status","total_auto_points","total_teleop_points","total_endgame_points","won_match"
+"1",4089,"wasno",1,TRUE,"Engaged",0,0,0,1,0,0,0,0,0,0,0,0,"Engaged",18,0,10,FALSE
+"2",2910,"wasno",1,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,4,"Docked",21,20,6,TRUE
+"3",3268,"wasno",1,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"4",3049,"wasno",2,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",0,0,6,FALSE
+"5",1899,"wasno",2,FALSE,"Not Docked",0,0,0,0,0,0,4,0,0,1,0,0,"Docked",0,10,6,TRUE
+"6",1778,"wasno",3,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,1,0,"Engaged",7,3,10,FALSE
+"7",2097,"wasno",4,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"8",2930,"wasno",4,TRUE,"Engaged",0,0,0,0,0,1,0,1,1,0,2,1,"Engaged",21,19,10,TRUE
+"9",2522,"wasno",5,TRUE,"Docked",0,0,0,0,0,0,0,0,1,3,0,0,"Engaged",11,11,10,FALSE
+"10",4173,"wasno",5,TRUE,"Not Docked",1,0,0,0,0,0,1,1,0,0,0,0,"Engaged",6,5,10,FALSE
+"11",4512,"wasno",6,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"12",2147,"wasno",6,TRUE,"Engaged",0,0,0,0,1,0,0,1,0,0,2,0,"Engaged",19,9,10,TRUE
+"13",2928,"wasno",6,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,2,"Docked",9,10,6,FALSE
+"14",4980,"wasno",7,TRUE,"Docked",0,1,0,0,0,0,0,0,0,0,0,0,"Not Parked",15,0,0,FALSE
+"15",4915,"wasno",7,FALSE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Engaged",0,10,10,TRUE
+"16",1318,"wasno",8,TRUE,"Engaged",0,0,1,0,0,0,1,1,0,0,0,0,"Engaged",21,5,10,FALSE
+"17",3049,"wasno",8,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,2,"Parked",6,10,2,TRUE
+"18",9036,"wasno",9,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,FALSE
+"19",4681,"wasno",9,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Engaged",7,0,10,TRUE
+"20",4911,"wasno",10,TRUE,"Engaged",0,0,0,1,0,0,0,0,0,0,2,0,"Engaged",18,6,10,TRUE
+"21",3681,"wasno",10,FALSE,"Not Docked",0,0,0,0,0,0,0,0,1,1,0,0,"Not Parked",0,7,0,FALSE
+"22",2147,"wasno",11,TRUE,"Engaged",0,0,0,0,1,0,1,0,0,3,1,0,"Parked",19,11,2,TRUE
+"23",2903,"wasno",11,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"24",488,"wasno",12,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"25",2976,"wasno",13,TRUE,"Not Docked",0,0,0,1,0,0,0,1,0,0,0,1,"Docked",6,8,6,TRUE
+"26",3681,"wasno",13,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"27",4512,"wasno",14,TRUE,"Not Docked",0,0,0,0,0,0,3,0,1,0,0,0,"Not Parked",3,11,0,FALSE
+"28",2928,"wasno",14,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"29",3826,"wasno",15,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Engaged",3,4,10,FALSE
+"30",2522,"wasno",14,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,1,2,"Engaged",3,18,10,TRUE
+"31",3268,"wasno",16,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Not Parked",0,2,0,FALSE
+"32",4915,"wasno",16,FALSE,"Not Docked",0,0,0,0,0,0,0,1,0,0,0,0,"Engaged",0,3,10,TRUE
+"33",4173,"wasno",17,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,TRUE
+"34",949,"wasno",17,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,1,1,0,"Parked",7,5,2,TRUE
+"35",2980,"wasno",18,TRUE,"Not Docked",0,0,0,0,0,1,1,0,0,2,0,0,"Parked",9,6,2,FALSE
+"36",7627,"wasno",18,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,0,"Engaged",21,0,10,TRUE
+"37",4911,"wasno",19,FALSE,"Engaged",0,0,0,0,0,0,0,0,0,3,0,0,"Engaged",12,6,10,TRUE
+"38",4682,"wasno",19,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"39",1318,"wasno",20,FALSE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,4,"Engaged",18,20,10,TRUE
+"40",3826,"wasno",2,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,2,0,0,"Docked",3,6,6,FALSE
+"41",2980,"wasno",3,FALSE,"Not Docked",0,0,0,0,0,0,2,0,1,0,0,0,"Not Parked",0,9,0,TRUE
+"42",4681,"wasno",4,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Parked",3,2,2,FALSE
+"43",3826,"wasno",7,TRUE,"Not Docked",0,0,0,0,0,0,4,0,0,1,0,0,"Parked",3,10,2,TRUE
+"44",2097,"wasno",9,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"45",3681,"wasno",10,FALSE,"Not Docked",0,0,0,0,0,0,0,1,0,1,0,0,"Not Parked",0,5,0,FALSE
+"46",8248,"wasno",21,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,TRUE
+"47",2147,"wasno",22,FALSE,"Engaged",0,0,0,0,0,0,1,1,0,0,1,0,"Engaged",12,8,10,TRUE
+"48",2910,"wasno",24,TRUE,"Not Docked",0,4,0,0,0,9,0,0,0,0,0,0,"Engaged",73,0,10,TRUE
+"49",5941,"wasno",23,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,2,0,0,"Engaged",3,8,10,TRUE
+"50",4980,"wasno",24,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,4,0,"Docked",3,12,6,FALSE
+"51",2522,"wasno",25,TRUE,"Not Docked",1,0,0,1,0,0,0,1,1,1,2,0,"Engaged",9,16,10,FALSE
+"52",5588,"wasno",26,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"53",9036,"wasno",28,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"54",3268,"wasno",26,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",0,2,2,FALSE
+"55",4131,"wasno",29,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,1,0,2,"Docked",9,17,6,FALSE
+"56",4682,"wasno",12,FALSE,"Not Docked",0,0,0,0,0,0,2,1,0,0,0,0,"Engaged",0,7,10,FALSE
+"57",8248,"wasno",14,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10,TRUE
+"58",2903,"wasno",16,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"59",4980,"wasno",18,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Not Parked",7,0,0,TRUE
+"60",9036,"wasno",20,FALSE,"Not Docked",1,0,0,0,0,0,0,1,0,0,0,0,"Docked",3,3,6,FALSE
+"61",4089,"wasno",22,FALSE,"Not Docked",0,0,0,1,0,0,1,0,0,0,0,0,"Parked",3,2,2,FALSE
+"62",2903,"wasno",24,FALSE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Not Parked",0,10,0,TRUE
+"63",2147,"wasno",26,TRUE,"Engaged",0,0,0,1,0,0,2,1,0,0,1,0,"Engaged",18,10,10,TRUE
+"64",5941,"wasno",28,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,4,0,0,"Engaged",3,8,10,TRUE
+"65",4915,"wasno",27,FALSE,"Engaged",0,0,0,1,0,0,2,0,1,0,0,0,"Engaged",15,9,10,TRUE
+"66",4512,"wasno",25,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,FALSE
+"67",2097,"wasno",28,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,FALSE
+"68",9036,"wasno",30,TRUE,"Not Docked",0,0,0,0,0,0,1,1,0,0,0,0,"Engaged",3,5,10,TRUE
+"69",8248,"wasno",31,FALSE,"Not Docked",0,0,0,1,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,FALSE
+"70",4911,"wasno",31,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,3,0,0,"Engaged",15,8,10,TRUE
+"71",3681,"wasno",32,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"72",5588,"wasno",32,TRUE,"Not Docked",0,0,0,0,0,0,0,1,2,0,0,0,"Engaged",3,13,10,TRUE
+"73",1318,"wasno",32,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,5,"Engaged",21,25,10,TRUE
+"74",2910,"wasno",33,TRUE,"Not Docked",0,0,1,0,0,1,0,0,0,0,1,5,"Engaged",15,28,10,TRUE
+"75",949,"wasno",33,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Not Parked",3,4,0,FALSE
+"76",4681,"wasno",34,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,1,0,"Parked",7,3,2,FALSE
+"77",2976,"wasno",34,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,TRUE
+"78",1899,"wasno",35,TRUE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Engaged",3,10,10,FALSE
+"79",488,"wasno",35,TRUE,"Not Docked",0,0,1,0,0,0,4,0,0,0,0,0,"Engaged",9,8,10,TRUE
+"80",4131,"wasno",36,TRUE,"Not Docked",0,0,0,0,0,1,0,0,2,0,0,3,"Not Parked",9,25,0,TRUE
+"81",3268,"wasno",35,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Engaged",0,2,10,TRUE
+"82",9036,"wasno",37,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,2,0,"Parked",0,6,2,TRUE
+"83",2930,"wasno",37,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,1,"Engaged",9,10,10,TRUE
+"84",949,"wasno",38,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"85",3049,"wasno",38,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,0,0,0,"Parked",9,3,2,FALSE
+"86",2910,"wasno",24,TRUE,"Engaged",0,0,1,0,0,1,0,1,0,0,4,3,"Docked",27,30,6,TRUE
+"87",3049,"wasno",38,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,0,0,0,"Parked",9,3,2,FALSE
+"88",4681,"wasno",39,TRUE,"Not Docked",0,0,0,1,0,0,1,0,0,1,0,0,"Parked",6,4,2,TRUE
+"89",4911,"wasno",40,FALSE,"Docked",0,0,0,1,0,0,0,0,0,1,3,0,"Engaged",11,11,10,FALSE
+"90",4911,"wasno",40,TRUE,"Not Docked",0,0,0,1,0,0,0,0,0,1,3,0,"Engaged",6,11,10,FALSE
+"91",2910,"wasno",41,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,2,5,"Engaged",21,31,10,TRUE
+"92",5941,"wasno",41,TRUE,"Engaged",0,0,0,0,0,0,0,0,2,0,0,0,"Not Parked",15,10,0,FALSE
+"93",2412,"wasno",42,TRUE,"Engaged",0,0,0,0,0,0,0,0,1,0,0,2,"Engaged",15,15,10,FALSE
+"94",5941,"wasno",42,TRUE,"Engaged",0,0,0,0,0,0,3,0,0,0,0,0,"Parked",15,6,2,FALSE
+"95",4173,"wasno",43,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,FALSE
+"96",4512,"wasno",43,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,TRUE
+"97",3268,"wasno",44,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",0,0,6,FALSE
+"98",2976,"wasno",44,FALSE,"Engaged",0,1,0,0,0,0,0,1,3,0,0,0,"Engaged",16,18,10,TRUE
+"99",3681,"wasno",45,FALSE,"Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",8,0,10,FALSE
+"100",4089,"wasno",46,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"101",2097,"wasno",45,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"102",4512,"wasno",47,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Docked",3,4,6,TRUE
+"103",2930,"wasno",48,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,5,"Parked",21,25,2,FALSE
+"104",2903,"wasno",49,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,FALSE
+"105",2522,"wasno",30,TRUE,"Not Docked",0,0,0,1,0,0,0,1,1,0,1,0,"Engaged",6,11,10,TRUE
+"106",6350,"wasno",50,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"107",8248,"wasno",51,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Docked",0,4,6,TRUE
+"108",2976,"wasno",51,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Docked",9,0,6,TRUE
+"109",4681,"wasno",51,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",0,0,10,FALSE
+"110",3049,"wasno",52,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,1,"Not Parked",0,5,0,FALSE
+"111",1899,"wasno",51,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"112",2522,"wasno",53,TRUE,"Engaged",0,0,0,0,0,0,1,1,0,0,1,2,"Engaged",15,18,10,FALSE
+"113",4089,"wasno",53,TRUE,"Not Docked",0,0,0,0,0,0,3,2,0,0,0,0,"Engaged",3,12,10,FALSE
+"114",4173,"wasno",34,TRUE,"Not Docked",1,0,0,0,0,0,2,1,0,1,0,0,"Engaged",6,9,10,TRUE
+"115",6350,"wasno",36,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",0,6,10,FALSE
+"116",5588,"wasno",37,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Engaged",3,5,10,FALSE
+"117",3826,"wasno",40,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,TRUE
+"118",2980,"wasno",43,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"119",4911,"wasno",47,FALSE,"Not Docked",0,0,0,1,0,0,0,2,0,0,2,0,"Docked",3,12,6,TRUE
+"120",2522,"wasno",49,TRUE,"Engaged",0,0,0,1,0,0,0,1,2,1,1,0,"Engaged",18,18,10,TRUE
+"121",7627,"wasno",51,FALSE,"Engaged",0,0,1,0,0,0,0,0,1,0,0,2,"Parked",18,15,2,TRUE
+"122",2928,"wasno",53,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Not Parked",3,5,0,TRUE
+"123",8248,"wasno",54,TRUE,"Not Docked",0,0,0,0,0,0,2,0,1,0,0,0,"Parked",3,9,2,FALSE
+"124",4173,"wasno",54,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,2,0,0,"Engaged",6,4,10,TRUE
+"125",2930,"wasno",53,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,4,"Engaged",21,20,10,TRUE
+"126",5941,"wasno",1,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Parked",3,4,2,TRUE
+"127",4131,"wasno",7,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,2,"Engaged",9,15,10,FALSE
+"128",7627,"wasno",6,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,0,"Parked",21,0,2,FALSE
+"129",2903,"wasno",21,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,0,0,"Engaged",0,8,10,FALSE
+"130",9036,"wasno",30,TRUE,"Not Docked",0,0,0,0,0,0,2,1,0,0,0,0,"Engaged",3,7,10,TRUE
+"131",2928,"wasno",39,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,0,"Engaged",21,0,10,FALSE
+"132",2147,"wasno",44,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,2,0,"Parked",19,6,2,FALSE
+"133",1778,"wasno",48,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Not Parked",0,6,0,FALSE
+"134",4131,"wasno",45,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,1,0,2,"Parked",9,15,2,TRUE
+"135",2976,"wasno",18,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,3,0,0,"Parked",3,6,2,FALSE
+"136",2980,"wasno",3,FALSE,"Not Docked",0,0,0,0,0,0,2,1,0,0,0,0,"Parked",0,7,2,TRUE
+"137",4681,"wasno",139,TRUE,"Not Docked",0,0,0,0,1,0,1,0,0,1,0,0,"Engaged",7,4,10,FALSE
+"138",2147,"wasno",148,TRUE,"Engaged",0,0,0,0,0,0,0,1,0,0,2,0,"Engaged",15,9,10,FALSE
+"139",2928,"wasno",148,TRUE,"Not Docked",0,0,1,0,0,0,2,0,0,0,0,0,"Parked",9,4,2,FALSE
+"140",2928,"wasno",139,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"141",488,"wasno",55,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Engaged",3,2,10,TRUE
+"142",7627,"wasno",55,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,3,"Not Parked",21,15,0,TRUE
+"143",1778,"wasno",56,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",0,6,10,TRUE
+"144",4980,"wasno",56,FALSE,"Not Docked",0,1,0,0,0,0,0,2,0,0,1,0,"Engaged",4,9,10,FALSE
+"145",949,"wasno",55,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Engaged",7,0,10,TRUE
+"146",2930,"wasno",148,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,1,0,1,"Parked",15,9,2,FALSE
+"147",9036,"wasno",57,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,1,1,"Parked",6,8,2,TRUE
+"148",4682,"wasno",56,FALSE,"Not Docked",0,1,0,0,0,0,0,0,1,0,0,2,"Engaged",4,15,10,FALSE
+"149",3049,"wasno",57,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,2,0,"Parked",0,6,2,FALSE
+"150",2412,"wasno",139,TRUE,"Not Docked",0,1,0,0,0,0,0,1,2,0,0,2,"Parked",7,23,2,FALSE
+"151",6350,"wasno",55,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Engaged",0,4,10,FALSE
+"152",2147,"wasno",57,TRUE,"Engaged",0,0,0,1,0,0,1,1,0,0,3,0,"Engaged",18,14,10,FALSE
+"153",2928,"wasno",58,TRUE,"Engaged",0,0,1,0,0,0,0,1,1,0,0,0,"Docked",21,8,6,FALSE
+"154",2910,"wasno",59,TRUE,"Engaged",1,1,0,0,0,0,0,0,1,1,0,6,"Not Parked",22,37,0,TRUE
+"155",3681,"wasno",61,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,1,"Docked",0,5,6,TRUE
+"156",2980,"wasno",57,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",0,0,10,TRUE
+"157",1899,"wasno",30,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,0,0,"Engaged",0,8,10,FALSE
+"158",8302,"waahs",48,TRUE,"Not Docked",1,0,0,0,0,0,2,0,0,0,0,0,"Engaged",6,4,10,TRUE
+"159",6076,"waahs",48,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",3,6,10,FALSE
+"160",3588,"waahs",47,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,1,1,1,"Engaged",6,10,10,TRUE
+"161",4918,"waahs",47,TRUE,"Not Docked",0,1,0,0,0,0,0,0,1,2,0,0,"Engaged",7,9,10,FALSE
+"162",8896,"waahs",45,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,TRUE
+"163",5683,"waahs",46,FALSE,"Not Docked",0,0,0,0,0,0,0,1,0,0,0,0,"Engaged",0,3,10,TRUE
+"164",2906,"waahs",46,FALSE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",0,6,10,FALSE
+"165",5295,"waahs",45,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,1,1,2,"Engaged",6,15,10,TRUE
+"166",8302,"waahs",44,TRUE,"Not Docked",1,0,0,0,0,0,2,0,0,0,0,0,"Engaged",6,4,10,FALSE
+"167",4915,"waahs",43,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,1,0,"Engaged",0,11,10,TRUE
+"168",3070,"waahs",43,FALSE,"Engaged",0,0,0,0,0,1,0,0,2,0,0,1,"Engaged",18,15,10,FALSE
+"169",4918,"waahs",31,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,2,0,"Engaged",6,6,10,FALSE
+"170",2929,"waahs",41,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"171",4131,"waahs",39,TRUE,"Not Docked",1,0,1,0,0,0,1,0,1,0,0,2,"Engaged",12,17,10,FALSE
+"172",2557,"waahs",37,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Parked",6,0,2,TRUE
+"173",3070,"waahs",34,FALSE,"Not Docked",0,0,0,1,0,0,0,1,1,0,0,2,"Engaged",3,18,10,TRUE
+"174",8386,"waahs",33,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"175",4915,"waahs",31,FALSE,"Engaged",0,0,1,0,0,0,1,0,0,0,4,0,"Parked",18,14,2,FALSE
+"176",3588,"waahs",35,TRUE,"Not Docked",0,0,0,0,0,0,0,1,0,1,1,1,"Engaged",3,13,10,FALSE
+"177",2046,"waahs",34,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,2,2,3,"Engaged",9,30,10,TRUE
+"178",2906,"waahs",32,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"179",8303,"waahs",35,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",6,0,2,TRUE
+"180",2557,"waahs",33,FALSE,"Not Docked",0,0,0,1,0,0,0,0,1,0,0,0,"Not Parked",3,5,0,TRUE
+"181",3786,"waahs",26,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"182",3219,"waahs",28,TRUE,"Engaged",0,1,0,0,0,0,0,0,0,1,0,0,"Not Parked",19,2,0,TRUE
+"183",7627,"waahs",24,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,3,"Parked",3,15,2,TRUE
+"184",2906,"waahs",23,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"185",2907,"waahs",21,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,FALSE
+"186",3070,"waahs",20,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,1,2,0,"Engaged",0,8,10,FALSE
+"187",8896,"waahs",17,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"188",3393,"waahs",32,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10,TRUE
+"189",8032,"waahs",30,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,3,0,"Not Parked",3,9,0,FALSE
+"190",8896,"waahs",28,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Docked",3,2,6,FALSE
+"191",2980,"waahs",25,FALSE,"Not Docked",0,1,0,0,0,0,0,0,0,1,2,0,"Engaged",4,8,10,FALSE
+"192",3393,"waahs",23,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,0,0,0,"Engaged",3,6,10,FALSE
+"193",4180,"waahs",30,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Parked",0,4,2,TRUE
+"194",2907,"waahs",30,TRUE,"Engaged",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",15,4,10,FALSE
+"195",3588,"waahs",29,TRUE,"Not Docked",0,0,0,0,0,0,1,0,3,0,1,0,"Docked",3,20,6,FALSE
+"196",8302,"waahs",29,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,TRUE
+"197",4131,"waahs",28,TRUE,"Not Docked",0,1,1,0,0,0,0,0,0,0,0,4,"Engaged",13,20,10,TRUE
+"198",4469,"waahs",28,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,3,"Docked",21,15,6,FALSE
+"199",2046,"waahs",27,TRUE,"Engaged",0,0,1,0,0,1,1,0,2,0,1,5,"Engaged",27,40,10,TRUE
+"200",4579,"waahs",27,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Docked",3,4,6,FALSE
+"201",8302,"waahs",26,TRUE,"Not Docked",0,0,0,0,0,0,1,2,0,0,0,0,"Engaged",3,8,10,TRUE
+"202",3588,"waahs",26,TRUE,"Not Docked",0,0,0,1,0,0,0,0,0,1,2,0,"Engaged",6,8,10,TRUE
+"203",3268,"waahs",25,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",0,0,10,TRUE
+"204",4131,"waahs",24,FALSE,"Docked",0,1,0,0,0,1,0,0,1,0,1,3,"Parked",18,23,2,FALSE
+"205",8386,"waahs",24,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Docked",0,2,6,TRUE
+"206",5295,"waahs",24,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,0,"Not Parked",6,0,0,FALSE
+"207",2046,"waahs",23,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,1,1,2,"Engaged",15,23,10,TRUE
+"208",3663,"waahs",23,FALSE,"Engaged",0,0,1,0,0,0,3,0,0,0,1,3,"Engaged",18,24,10,TRUE
+"209",4180,"waahs",19,FALSE,"Not Docked",0,0,1,0,0,0,1,1,0,0,0,0,"Not Parked",6,5,0,FALSE
+"210",5827,"waahs",20,FALSE,"Not Docked",0,1,0,0,0,0,3,0,0,0,0,0,"Engaged",4,6,10,FALSE
+"211",2980,"waahs",21,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,TRUE
+"212",3393,"waahs",14,TRUE,"Not Docked",1,0,0,0,0,0,2,0,0,0,0,0,"Engaged",6,4,10,FALSE
+"213",1318,"waahs",12,FALSE,"Engaged",0,0,0,0,0,1,0,0,1,0,0,4,"Not Parked",18,25,0,TRUE
+"214",1318,"waahs",22,TRUE,"Engaged",0,0,0,0,0,0,0,0,2,0,1,3,"Engaged",15,28,10,TRUE
+"215",5683,"waahs",22,FALSE,"Not Docked",0,0,0,0,0,0,2,0,2,0,0,0,"Not Parked",0,14,0,FALSE
+"216",8386,"waahs",21,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10,TRUE
+"217",4469,"waahs",21,TRUE,"Engaged",0,0,0,0,0,0,0,0,1,0,0,4,"Parked",15,25,2,TRUE
+"218",8896,"waahs",17,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,FALSE
+"219",3070,"waahs",20,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,1,0,"Engaged",0,3,10,FALSE
+"220",3070,"waahs",16,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,2,0,0,"Engaged",6,4,10,TRUE
+"221",2980,"waahs",15,FALSE,"Engaged",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",12,0,10,TRUE
+"222",6076,"waahs",12,TRUE,"Not Docked",0,0,0,0,0,0,0,1,2,0,0,0,"Engaged",3,13,10,TRUE
+"223",7627,"waahs",20,TRUE,"Engaged",0,0,1,0,0,0,2,0,2,2,0,4,"Engaged",21,38,10,TRUE
+"224",1318,"waahs",19,TRUE,"Docked",0,0,0,0,0,0,0,0,1,0,0,3,"Parked",11,20,2,TRUE
+"225",4469,"waahs",17,FALSE,"Engaged",0,0,1,0,0,0,2,0,0,0,0,2,"Engaged",18,14,10,TRUE
+"226",2557,"waahs",18,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,0,"Docked",3,4,6,FALSE
+"227",3393,"waahs",18,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,FALSE
+"228",3219,"waahs",17,TRUE,"Not Docked",0,0,0,1,0,0,2,0,0,0,2,0,"Not Parked",6,10,0,TRUE
+"229",6076,"waahs",16,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",0,4,10,FALSE
+"230",2906,"waahs",16,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,FALSE
+"231",2046,"waahs",14,TRUE,"Not Docked",0,0,1,0,0,1,1,0,0,0,2,3,"Engaged",15,23,10,TRUE
+"232",2980,"waahs",15,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",15,2,10,TRUE
+"233",4180,"waahs",15,FALSE,"Not Docked",0,0,1,0,0,0,1,0,0,0,0,0,"Parked",6,2,2,FALSE
+"234",4131,"waahs",14,TRUE,"Engaged",0,1,1,0,0,0,1,1,1,1,1,1,"Engaged",25,20,10,TRUE
+"235",4918,"waahs",13,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,2,0,"Docked",9,6,6,FALSE
+"236",3786,"waahs",13,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,TRUE
+"237",5295,"waahs",12,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,2,"Not Parked",6,10,0,FALSE
+"238",5295,"waahs",12,FALSE,"Not Docked",0,0,1,0,0,0,0,0,1,1,0,2,"Not Parked",6,17,0,FALSE
+"239",4579,"waahs",11,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,1,0,0,"Engaged",3,6,10,FALSE
+"240",4131,"waahs",11,TRUE,"Docked",0,0,1,0,0,0,0,0,0,2,0,0,"Docked",17,4,6,TRUE
+"241",5827,"waahs",11,TRUE,"Not Docked",0,0,1,0,0,0,1,0,1,0,0,0,"Docked",9,7,6,FALSE
+"242",5683,"waahs",11,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,0,0,0,"Docked",0,8,6,TRUE
+"243",3268,"waahs",6,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,FALSE
+"244",8051,"waahs",8,FALSE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,TRUE
+"245",4131,"waahs",4,TRUE,"Docked",1,0,1,0,0,0,0,0,0,0,0,3,"Docked",20,15,6,TRUE
+"246",4918,"waahs",10,TRUE,"Engaged",0,0,1,0,0,0,0,1,0,1,1,0,"Engaged",21,8,10,TRUE
+"247",2046,"waahs",6,TRUE,"Not Docked",0,0,0,0,0,1,1,1,1,1,0,3,"Engaged",9,27,10,FALSE
+"248",8302,"waahs",2,TRUE,"Not Docked",1,0,0,0,0,0,1,0,0,1,0,0,"Parked",6,4,2,FALSE
+"249",4915,"waahs",4,TRUE,"Not Docked",0,0,0,0,0,0,0,1,0,1,0,1,"Docked",3,10,6,TRUE
+"250",5295,"waahs",1,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,1,"Docked",9,8,6,FALSE
+"251",2980,"waahs",10,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,2,0,0,"Engaged",6,4,10,TRUE
+"252",2907,"waahs",9,TRUE,"Engaged",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",15,2,10,TRUE
+"253",2557,"waahs",9,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"254",5683,"waahs",8,TRUE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,1,"Engaged",3,15,10,FALSE
+"255",8386,"waahs",8,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",3,0,0,FALSE
+"256",4579,"waahs",7,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Docked",3,2,6,FALSE
+"257",5295,"waahs",7,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,2,"Docked",6,10,6,TRUE
+"258",8896,"waahs",6,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"259",1318,"waahs",6,TRUE,"Not Docked",0,0,0,0,0,0,0,1,1,2,0,3,"Parked",3,27,2,TRUE
+"260",3393,"waahs",5,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",3,0,6,FALSE
+"261",8051,"waahs",5,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,1,0,0,"Docked",9,2,6,FALSE
+"262",4918,"waahs",4,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,0,"Docked",9,3,6,TRUE
+"263",8386,"waahs",4,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"264",2046,"waahs",3,TRUE,"Not Docked",0,0,1,0,0,1,0,0,2,2,2,2,"Engaged",15,30,10,TRUE
+"265",4180,"waahs",1,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Engaged",3,5,10,FALSE
+"266",1318,"waahs",3,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,1,0,4,"Engaged",9,22,10,TRUE
+"267",8896,"waahs",2,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",3,4,10,FALSE
+"268",2929,"waahs",2,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,1,0,0,"Not Parked",3,2,0,TRUE
+"269",2929,"waahs",2,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,1,0,0,"Not Parked",3,8,0,TRUE
+"270",4180,"waahs",1,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10,FALSE
+"271",4469,"waahs",1,TRUE,"Engaged",0,0,1,0,0,0,0,0,1,0,0,3,"Engaged",21,20,10,TRUE
+"272",1318,"waahs",45,TRUE,"Engaged",0,0,0,0,0,1,0,0,2,2,1,2,"Not Parked",21,27,0,TRUE
+"273",4579,"waahs",47,TRUE,"Not Docked",0,0,0,0,0,0,4,0,0,0,0,0,"Parked",3,8,2,FALSE
+"274",2046,"waahs",46,TRUE,"Not Docked",0,0,1,0,0,1,2,0,1,1,1,3,"Parked",15,29,2,TRUE
+"275",7627,"waahs",37,TRUE,"Engaged",0,0,1,0,0,0,2,0,0,0,0,3,"Engaged",21,19,10,TRUE
+"276",4579,"waahs",36,TRUE,"Not Docked",0,0,0,0,0,0,1,1,0,0,0,0,"Docked",3,5,6,FALSE
+"277",6076,"waahs",33,FALSE,"Not Docked",0,0,0,0,0,0,1,0,1,0,0,1,"Engaged",0,12,10,TRUE
+"278",5827,"waahs",32,TRUE,"Not Docked",0,0,1,0,0,0,1,0,2,0,0,0,"Engaged",9,12,10,TRUE
+"279",3663,"waahs",35,TRUE,"Engaged",0,0,1,0,0,0,5,1,0,0,0,2,"Engaged",21,23,10,TRUE
+"280",3588,"waahs",40,TRUE,"Not Docked",0,0,0,0,0,0,0,1,0,1,1,0,"Parked",3,8,2,TRUE
+"281",3393,"waahs",38,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10,TRUE
+"282",8303,"waahs",46,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2,FALSE
+"283",5827,"waahs",45,TRUE,"Engaged",0,0,1,0,0,0,3,0,0,0,0,0,"Parked",21,6,2,FALSE
+"284",3268,"waahs",42,FALSE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Engaged",0,4,10,TRUE
+"285",8032,"waahs",40,TRUE,"Engaged",0,0,0,0,0,0,0,0,0,1,1,0,"Engaged",15,5,10,TRUE
+"286",2046,"waahs",41,TRUE,"Engaged",0,0,1,0,0,1,0,0,2,1,0,5,"Engaged",27,37,10,FALSE
+"287",3268,"waahs",46,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,0,"Engaged",3,5,10,FALSE
+"288",2980,"waahs",48,TRUE,"Not Docked",1,0,0,0,0,0,3,0,0,1,0,0,"Parked",6,8,2,TRUE
+"289",2929,"waahs",44,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2,FALSE
+"290",8051,"waahs",43,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,2,"Engaged",9,13,10,TRUE
+"291",3786,"waahs",31,TRUE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Engaged",6,2,10,FALSE
+"292",3070,"waahs",39,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,0,1,"Docked",21,5,6,TRUE
+"293",4915,"waahs",37,FALSE,"Not Docked",0,0,0,0,0,0,0,2,0,0,3,0,"Engaged",0,15,10,FALSE
+"294",8303,"waahs",40,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10,TRUE
+"295",2929,"waahs",32,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10,FALSE
+"296",5683,"waahs",49,TRUE,"Not Docked",0,0,0,1,0,0,4,0,0,0,0,0,"Engaged",6,8,10,FALSE
+"297",8896,"waahs",49,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",3,0,6,TRUE
+"298",3219,"waahs",50,TRUE,"Not Docked",0,0,0,1,0,0,4,0,0,1,0,0,"Not Parked",6,10,0,TRUE
+"299",2929,"waahs",50,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Not Parked",0,2,0,FALSE
+"300",3588,"waahs",51,TRUE,"Not Docked",0,0,0,0,0,0,0,0,2,0,0,0,"Engaged",3,10,10,TRUE
+"301",8896,"waahs",52,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2,TRUE
+"302",2980,"waahs",52,FALSE,"Not Docked",0,1,0,0,0,0,3,0,0,0,0,0,"Parked",4,6,2,FALSE
+"303",3393,"waahs",53,TRUE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Docked",6,2,6,FALSE
+"304",3588,"waahs",54,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,2,2,0,"Parked",3,10,2,FALSE
+"305",5295,"waahs",54,FALSE,"Not Docked",0,0,1,0,0,0,0,1,1,0,0,0,"Engaged",6,8,10,TRUE
+"306",8303,"waahs",55,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"307",4469,"waahs",51,FALSE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,4,"Parked",18,20,2,TRUE
+"308",8302,"waahs",53,TRUE,"Not Docked",1,0,0,0,0,0,4,0,0,0,0,0,"Parked",6,8,2,FALSE
+"309",2907,"waahs",56,TRUE,"Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",11,0,10,TRUE
+"310",8386,"waahs",57,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"311",3219,"waahs",57,TRUE,"Docked",0,0,0,1,0,0,6,0,0,0,0,0,"Engaged",14,12,10,FALSE
+"312",3070,"waahs",50,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,1,0,1,"Engaged",3,12,10,TRUE
+"313",2906,"waahs",55,FALSE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Engaged",3,2,10,TRUE
+"314",5683,"waahs",56,TRUE,"Not Docked",0,0,0,0,0,0,2,0,2,0,0,0,"Engaged",3,14,10,FALSE
+"315",7627,"waahs",56,TRUE,"Docked",0,0,1,0,0,0,0,0,0,1,0,4,"Not Parked",17,22,0,FALSE
+"316",4579,"waahs",57,TRUE,"Not Docked",0,0,0,0,0,0,3,0,0,1,0,0,"Engaged",3,8,10,FALSE
+"317",6076,"waahs",58,FALSE,"Not Docked",0,1,0,0,0,0,0,0,2,1,0,0,"Engaged",4,12,10,TRUE
+"318",5827,"waahs",51,TRUE,"Not Docked",0,0,1,0,0,0,5,0,0,0,0,0,"Docked",9,10,6,FALSE
+"319",3070,"waahs",58,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,1,"Engaged",9,5,10,TRUE
+"320",5295,"waahs",59,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,3,0,"Docked",6,9,6,TRUE
+"321",8302,"waahs",59,TRUE,"Not Docked",0,0,0,0,0,0,2,0,0,0,0,0,"Not Parked",3,4,0,FALSE
+"322",5827,"waahs",58,FALSE,"Not Docked",0,0,0,0,0,0,1,0,0,0,0,0,"Engaged",0,2,10,FALSE
+"323",3588,"waahs",60,TRUE,"Not Docked",0,0,0,0,1,0,0,2,0,0,2,0,"Parked",7,12,2,TRUE
+"324",3786,"waahs",60,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,TRUE
+"325",4915,"pncmp",66,TRUE,"Not Docked",0,0,0,0,0,0,5,0,1,0,0,0,"Engaged",3,15,10,TRUE
+"326",4469,"pncmp",53,TRUE,"Not Docked",0,0,1,0,0,1,0,1,0,0,0,0,"Parked",15,3,2,TRUE
+"327",6831,"pncmp",64,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,1,1,1,"Engaged",9,13,10,TRUE
+"328",2930,"pncmp",64,TRUE,"Not Docked",1,0,1,0,0,1,0,0,1,1,0,4,"Parked",18,27,2,TRUE
+"329",8532,"pncmp",63,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,0,0,2,"Parked",9,13,2,FALSE
+"330",3636,"pncmp",63,FALSE,"Engaged",0,0,0,0,0,0,0,0,0,0,0,1,"Parked",12,5,2,TRUE
+"331",3711,"pncmp",62,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,0,1,1,"Engaged",6,8,10,TRUE
+"332",4061,"pncmp",62,TRUE,"Not Docked",0,0,1,0,0,0,0,0,1,0,1,3,"Docked",9,23,6,FALSE
+"333",7034,"pncmp",61,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"334",1983,"pncmp",61,TRUE,"Not Docked",0,0,1,0,0,0,1,0,1,4,0,0,"Engaged",9,15,10,TRUE
+"335",5827,"pncmp",59,FALSE,"Not Docked",0,0,1,0,0,0,1,1,0,0,2,0,"Docked",6,11,6,FALSE
+"336",4918,"pncmp",60,TRUE,"Not Docked",0,1,0,0,0,0,0,0,0,0,2,0,"Engaged",7,6,10,FALSE
+"337",1425,"pncmp",60,TRUE,"Not Docked",0,0,0,0,0,2,0,1,1,2,2,0,"Engaged",15,18,10,TRUE
+"338",7461,"pncmp",59,TRUE,"Not Docked",0,1,1,0,0,1,1,1,0,0,2,2,"Engaged",19,21,10,FALSE
+"339",360,"pncmp",59,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"340",2147,"pncmp",58,TRUE,"Engaged",0,0,0,0,0,1,3,1,1,0,2,2,"Engaged",21,30,10,FALSE
+"341",2930,"pncmp",58,FALSE,"Not Docked",0,0,0,0,0,0,0,1,1,1,2,3,"Engaged",0,31,10,FALSE
+"342",6831,"pncmp",57,TRUE,"Not Docked",0,0,1,0,0,0,1,1,0,1,2,0,"Engaged",9,13,10,TRUE
+"343",2980,"pncmp",57,TRUE,"Docked",0,0,0,0,1,0,1,0,0,0,0,0,"Engaged",15,2,10,FALSE
+"344",2046,"pncmp",57,TRUE,"Not Docked",1,1,0,0,0,1,2,0,1,0,1,1,"Engaged",16,17,10,TRUE
+"345",2471,"pncmp",56,TRUE,"Engaged",0,0,0,0,0,0,0,2,2,0,0,0,"Engaged",15,16,10,FALSE
+"346",948,"pncmp",56,TRUE,"Engaged",0,0,1,0,0,0,5,2,0,0,0,0,"Engaged",21,16,10,TRUE
+"347",5827,"pncmp",47,TRUE,"Engaged",0,0,1,0,0,0,2,0,1,0,0,0,"Engaged",21,9,10,FALSE
+"348",1899,"pncmp",54,TRUE,"Not Docked",0,0,0,0,0,1,0,1,1,0,2,2,"Parked",9,24,2,TRUE
+"349",3663,"pncmp",52,TRUE,"Engaged",0,0,1,0,0,0,4,0,0,0,2,1,"Engaged",21,19,10,TRUE
+"350",360,"pncmp",50,TRUE,"Not Docked",0,0,0,0,0,1,2,1,1,0,2,1,"Engaged",9,23,10,TRUE
+"351",492,"pncmp",53,TRUE,"Not Docked",0,0,1,0,0,0,0,2,1,0,2,1,"Engaged",9,22,10,FALSE
+"352",3711,"pncmp",54,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,1,0,2,"Engaged",6,12,10,FALSE
+"353",2522,"pncmp",55,TRUE,"Engaged",0,0,1,0,0,0,4,0,0,0,0,0,"Engaged",21,8,10,TRUE
+"354",1425,"pncmp",55,TRUE,"Not Docked",0,0,0,1,0,1,0,0,0,3,0,2,"Engaged",12,16,10,FALSE
+"355",4915,"pncmp",55,TRUE,"Not Docked",0,0,1,0,0,0,0,2,0,1,3,0,"Engaged",9,17,10,FALSE
+"356",3674,"pncmp",54,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,1,2,"Engaged",9,18,10,FALSE
+"357",2412,"pncmp",53,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,3,2,"Engaged",9,19,10,TRUE
+"358",2811,"pncmp",53,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,0,1,"Not Parked",19,5,0,FALSE
+"359",5827,"pncmp",52,TRUE,"Not Docked",0,1,0,0,0,0,3,0,0,0,0,0,"Engaged",7,6,10,FALSE
+"360",4682,"pncmp",51,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,1,1,"Not Parked",9,8,0,TRUE
+"361",4061,"pncmp",51,TRUE,"Not Docked",0,1,0,0,0,0,0,0,1,0,2,2,"Engaged",7,21,10,TRUE
+"362",2980,"pncmp",49,TRUE,"Docked",1,0,0,0,0,0,3,2,3,0,0,0,"Engaged",14,27,10,FALSE
+"363",948,"pncmp",50,TRUE,"Engaged",0,0,1,0,0,0,3,1,2,0,0,0,"Engaged",21,19,10,FALSE
+"364",2521,"pncmp",46,TRUE,"Engaged",0,0,0,0,0,1,1,2,0,0,3,1,"Engaged",21,22,10,TRUE
+"365",4682,"pncmp",42,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,2,1,"Parked",21,11,2,TRUE
+"366",3218,"pncmp",44,TRUE,"Not Docked",2,0,0,0,0,1,2,0,1,0,0,3,"Engaged",15,24,10,TRUE
+"367",4915,"pncmp",50,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,2,2,0,"Engaged",21,10,10,FALSE
+"368",3636,"pncmp",50,TRUE,"Not Docked",0,0,0,0,1,0,0,0,0,0,0,0,"Parked",7,0,2,FALSE
+"369",6443,"pncmp",49,TRUE,"Engaged",0,0,0,0,0,1,0,0,0,0,3,1,"Parked",21,14,2,TRUE
+"370",1778,"pncmp",49,TRUE,"Docked",1,0,0,0,0,0,4,2,3,0,0,0,"Engaged",14,29,10,FALSE
+"371",4469,"pncmp",48,TRUE,"Not Docked",0,0,0,0,0,1,2,0,2,0,0,1,"Parked",9,19,2,FALSE
+"372",5920,"pncmp",48,TRUE,"Not Docked",0,0,1,0,0,0,8,0,0,0,0,0,"Parked",9,16,2,TRUE
+"373",1318,"pncmp",47,TRUE,"Engaged",0,0,0,0,0,1,1,0,1,0,1,1,"Parked",21,15,2,TRUE
+"374",4125,"pncmp",47,FALSE,"Not Docked",1,0,0,0,0,0,5,0,0,0,0,0,"Engaged",3,10,10,FALSE
+"375",3663,"pncmp",43,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,0,"Parked",9,4,2,TRUE
+"376",4131,"pncmp",46,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,3,"Engaged",9,19,10,FALSE
+"377",2522,"pncmp",42,TRUE,"Not Docked",0,0,0,1,0,0,0,1,1,0,1,2,"Engaged",6,21,10,FALSE
+"378",4918,"pncmp",39,TRUE,"Engaged",0,1,0,0,0,0,1,0,0,2,0,1,"Engaged",19,11,10,FALSE
+"379",7627,"pncmp",38,FALSE,"Engaged",0,0,1,0,0,0,0,1,0,0,2,2,"Engaged",18,19,10,FALSE
+"380",1294,"pncmp",32,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Not Parked",6,0,0,FALSE
+"381",2521,"pncmp",36,TRUE,"Not Docked",0,0,0,0,0,1,0,2,1,1,1,1,"Engaged",9,21,10,TRUE
+"382",4125,"pncmp",34,FALSE,"Not Docked",1,0,0,0,0,0,6,0,0,1,0,0,"Parked",3,14,2,FALSE
+"383",488,"pncmp",47,TRUE,"Not Docked",0,0,0,0,0,1,6,0,1,0,0,0,"Engaged",9,17,10,TRUE
+"384",7034,"pncmp",46,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,1,3,1,"Engaged",9,16,10,TRUE
+"385",5468,"pncmp",45,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,1,1,0,"Engaged",9,8,10,FALSE
+"386",2471,"pncmp",45,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,3,1,"Engaged",21,14,10,FALSE
+"387",9036,"pncmp",44,TRUE,"Not Docked",1,0,0,0,0,0,3,0,0,0,0,0,"Engaged",6,6,10,TRUE
+"388",2990,"pncmp",43,TRUE,"Engaged",0,0,1,0,0,0,0,0,1,0,2,1,"Docked",21,16,6,TRUE
+"389",4911,"pncmp",43,TRUE,"Not Docked",0,0,0,1,0,1,0,0,1,0,2,2,"Engaged",12,21,10,TRUE
+"390",4682,"pncmp",37,TRUE,"Engaged",0,0,1,0,0,0,0,1,1,0,3,1,"Engaged",21,22,10,TRUE
+"391",1899,"pncmp",38,TRUE,"Engaged",0,0,0,0,0,1,0,1,1,0,1,1,"Engaged",21,16,10,TRUE
+"392",2811,"pncmp",36,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,1,2,1,"Engaged",9,16,10,FALSE
+"393",3711,"pncmp",34,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,2,"Engaged",21,10,10,TRUE
+"394",2412,"pncmp",32,TRUE,"Not Docked",0,0,1,0,0,0,0,3,1,0,0,1,"Engaged",9,19,10,TRUE
+"395",4682,"pncmp",27,TRUE,"Not Docked",0,0,1,0,0,0,0,1,1,0,2,2,"Engaged",9,24,10,FALSE
+"396",4469,"pncmp",31,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,1,"Not Parked",9,10,0,FALSE
+"397",7461,"pncmp",42,TRUE,"Not Docked",0,0,1,0,0,1,0,0,0,0,1,3,"Parked",15,18,2,FALSE
+"398",948,"pncmp",42,TRUE,"Not Docked",0,0,1,0,0,0,4,0,0,0,0,0,"Engaged",9,8,10,TRUE
+"399",7034,"pncmp",40,TRUE,"Engaged",0,0,0,0,0,1,0,0,1,2,0,2,"Engaged",21,19,10,FALSE
+"400",4061,"pncmp",38,TRUE,"Not Docked",0,1,0,0,0,0,1,0,0,0,2,2,"Engaged",7,18,10,TRUE
+"401",1425,"pncmp",41,FALSE,"Not Docked",0,0,0,0,0,1,1,1,1,0,0,2,"Engaged",6,20,10,FALSE
+"402",5827,"pncmp",41,TRUE,"Not Docked",0,0,1,0,0,0,4,0,0,0,0,0,"Parked",9,8,2,FALSE
+"403",2930,"pncmp",40,TRUE,"Not Docked",1,0,0,0,0,1,2,1,1,1,2,1,"Engaged",12,25,10,TRUE
+"404",753,"pncmp",40,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Parked",6,0,2,FALSE
+"405",5468,"pncmp",39,TRUE,"Not Docked",0,1,0,0,0,0,0,0,1,0,3,0,"Engaged",7,14,10,TRUE
+"406",955,"pncmp",38,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,1,0,1,"Parked",15,15,2,FALSE
+"407",3218,"pncmp",38,TRUE,"Not Docked",0,0,0,0,0,1,2,1,2,0,1,1,"Engaged",9,25,10,TRUE
+"408",2412,"pncmp",37,TRUE,"Engaged",1,0,0,0,0,0,0,1,0,0,2,3,"Engaged",18,24,10,FALSE
+"409",2990,"pncmp",36,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,4,"Engaged",21,20,10,FALSE
+"410",1983,"pncmp",34,TRUE,"Not Docked",0,0,1,0,0,0,3,0,0,2,0,0,"Parked",9,10,2,TRUE
+"411",3674,"pncmp",35,TRUE,"Not Docked",0,0,0,0,0,1,0,2,0,0,0,1,"Parked",9,11,2,TRUE
+"412",1778,"pncmp",29,TRUE,"Not Docked",1,0,1,0,0,0,9,0,0,0,0,0,"Engaged",12,18,10,TRUE
+"413",2471,"pncmp",28,TRUE,"Engaged",1,0,0,0,0,0,6,0,0,0,0,0,"Docked",18,12,6,TRUE
+"414",3636,"pncmp",36,TRUE,"Not Docked",0,0,0,0,0,1,2,1,1,1,3,1,"Engaged",9,28,10,TRUE
+"415",1778,"pncmp",36,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"416",6831,"pncmp",33,TRUE,"Not Docked",0,1,1,0,0,0,2,0,0,1,2,0,"Engaged",13,12,10,FALSE
+"417",2522,"pncmp",35,TRUE,"Not Docked",0,0,0,0,0,1,6,0,0,2,0,0,"Engaged",9,16,10,FALSE
+"418",9036,"pncmp",34,TRUE,"Not Docked",1,0,0,0,0,0,3,1,0,0,0,0,"Engaged",6,9,10,TRUE
+"419",1318,"pncmp",33,TRUE,"Not Docked",0,0,0,0,0,1,0,1,2,0,1,3,"Parked",9,31,2,FALSE
+"420",2557,"pncmp",32,TRUE,"Not Docked",0,0,0,0,0,1,0,0,2,0,0,3,"Docked",9,25,6,FALSE
+"421",1294,"pncmp",32,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Not Parked",6,0,0,FALSE
+"422",488,"pncmp",31,TRUE,"Not Docked",0,0,0,0,0,1,1,0,0,0,0,0,"Not Parked",9,2,0,TRUE
+"423",7034,"pncmp",30,TRUE,"Not Docked",0,0,0,0,0,0,0,0,1,0,0,4,"Engaged",3,25,10,FALSE
+"424",5827,"pncmp",30,TRUE,"Not Docked",0,0,1,0,0,0,2,0,0,0,0,0,"Engaged",9,4,10,FALSE
+"425",4488,"pncmp",29,TRUE,"Not Docked",0,0,0,0,0,0,4,0,0,0,0,0,"Engaged",3,8,10,FALSE
+"426",8532,"pncmp",28,TRUE,"Not Docked",0,0,1,0,0,0,0,0,2,0,0,2,"Docked",9,20,6,TRUE
+"427",2521,"pncmp",29,TRUE,"Engaged",0,0,0,0,0,0,0,2,0,0,1,2,"Parked",15,19,2,TRUE
+"428",9036,"pncmp",28,TRUE,"Not Docked",0,1,0,0,0,0,2,1,0,0,0,0,"Engaged",7,7,10,FALSE
+"429",4061,"pncmp",28,TRUE,"Not Docked",0,1,0,0,0,0,0,1,0,1,0,4,"Docked",7,25,6,TRUE
+"430",6443,"pncmp",27,TRUE,"Engaged",0,0,0,0,0,1,0,1,0,1,2,0,"Engaged",21,11,10,TRUE
+"431",3218,"pncmp",26,TRUE,"Not Docked",1,0,1,0,0,1,1,0,0,0,2,1,"Parked",18,13,2,FALSE
+"432",1294,"pncmp",24,FALSE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,0,"Not Parked",6,0,0,TRUE
+"433",753,"pncmp",23,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,1,"Engaged",6,9,10,TRUE
+"434",9036,"pncmp",104,TRUE,"Not Docked",0,0,0,0,1,0,0,1,0,0,0,1,"Engaged",7,8,10,FALSE
+"435",2046,"pncmp",104,TRUE,"Not Docked",0,1,0,0,0,1,0,1,3,0,1,3,"Parked",13,36,2,FALSE
+"436",2811,"pncmp",104,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,3,2,"Engaged",19,19,10,FALSE
+"437",4915,"pncmp",25,TRUE,"Not Docked",0,0,0,1,0,0,0,1,1,0,0,0,"Parked",6,8,2,FALSE
+"438",1425,"pncmp",19,TRUE,"Not Docked",0,0,0,1,0,1,0,1,0,0,0,2,"Parked",12,13,2,TRUE
+"439",948,"pncmp",22,TRUE,"Engaged",0,0,0,0,0,0,2,0,1,0,0,0,"Engaged",15,9,10,FALSE
+"440",4918,"pncmp",23,TRUE,"Docked",0,1,0,0,0,0,0,2,0,0,2,0,"Engaged",15,12,10,FALSE
+"441",488,"pncmp",19,TRUE,"Not Docked",0,0,0,0,0,1,2,0,1,0,0,2,"Not Parked",9,19,0,FALSE
+"442",3070,"pncmp",14,TRUE,"Not Docked",0,0,0,0,0,1,0,1,0,1,1,1,"Engaged",9,13,10,TRUE
+"443",3674,"pncmp",15,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,2,"Not Parked",9,15,0,TRUE
+"444",1778,"pncmp",13,FALSE,"Not Docked",0,0,0,0,0,0,6,1,0,0,0,0,"Engaged",0,15,10,FALSE
+"445",2521,"pncmp",24,TRUE,"Not Docked",0,0,1,0,0,1,1,1,1,0,0,4,"Engaged",15,30,10,TRUE
+"446",2930,"pncmp",23,TRUE,"Engaged",0,0,1,0,0,1,1,1,0,3,2,2,"Parked",27,27,2,TRUE
+"447",1425,"pncmp",26,TRUE,"Not Docked",0,0,0,0,0,2,1,0,0,1,2,3,"Engaged",15,25,10,TRUE
+"448",7034,"pncmp",25,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,1,0,1,"Parked",9,7,2,TRUE
+"449",2557,"pncmp",25,FALSE,"Not Docked",0,0,0,0,0,1,0,0,2,0,0,0,"Engaged",6,10,10,FALSE
+"450",5827,"pncmp",24,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,0,"Engaged",9,0,10,FALSE
+"451",4469,"pncmp",23,TRUE,"Not Docked",0,0,1,0,0,1,0,0,0,0,1,2,"Engaged",15,13,10,FALSE
+"452",753,"pncmp",23,FALSE,"Not Docked",0,0,1,0,0,0,0,0,0,2,0,1,"Engaged",6,9,10,TRUE
+"453",2046,"pncmp",22,TRUE,"Not Docked",1,0,0,0,0,1,1,1,2,0,0,4,"Parked",12,35,2,FALSE
+"454",9036,"pncmp",21,TRUE,"Not Docked",0,0,0,1,0,0,0,1,0,1,0,0,"Engaged",6,5,10,TRUE
+"455",4488,"pncmp",21,FALSE,"Not Docked",1,0,0,0,0,0,4,0,0,0,0,2,"Engaged",3,18,10,FALSE
+"456",2990,"pncmp",21,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,1,0,2,"Engaged",21,12,10,TRUE
+"457",1983,"pncmp",2,TRUE,"Engaged",0,0,1,0,0,0,0,0,1,0,1,0,"Engaged",21,8,10,TRUE
+"458",3711,"pncmp",20,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,0,3,"Engaged",21,15,10,FALSE
+"459",2046,"pncmp",16,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Not Parked",0,0,0,FALSE
+"460",4061,"pncmp",18,TRUE,"Not Docked",0,1,0,0,0,0,1,0,0,1,1,2,"Not Parked",7,17,0,TRUE
+"461",7461,"pncmp",20,TRUE,"Not Docked",0,0,0,0,0,1,1,1,0,1,2,1,"Parked",9,18,2,TRUE
+"462",2910,"pncmp",20,TRUE,"Not Docked",0,0,0,0,0,1,1,1,1,0,2,2,"Engaged",9,26,10,TRUE
+"463",4918,"pncmp",17,TRUE,"Engaged",0,1,0,0,0,0,1,0,1,1,2,0,"Engaged",19,15,10,TRUE
+"464",2412,"pncmp",19,TRUE,"Engaged",0,0,1,0,0,0,0,1,0,0,2,2,"Engaged",21,19,10,TRUE
+"465",1318,"pncmp",19,TRUE,"Not Docked",0,0,0,0,0,1,0,1,1,0,2,2,"Engaged",9,24,10,TRUE
+"466",3218,"pncmp",18,TRUE,"Not Docked",0,0,0,0,0,1,3,0,0,0,0,2,"Docked",9,16,6,FALSE
+"467",360,"pncmp",17,TRUE,"Not Docked",1,0,0,0,0,1,0,1,1,0,1,0,"Parked",12,11,2,TRUE
+"468",4125,"pncmp",17,FALSE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",3,0,10,FALSE
+"469",5920,"pncmp",16,TRUE,"Not Docked",1,0,0,0,0,0,0,0,0,0,0,0,"Engaged",6,0,10,TRUE
+"470",1425,"pncmp",12,TRUE,"Not Docked",0,0,0,0,0,2,0,1,0,0,3,2,"Engaged",15,22,10,FALSE
+"471",488,"pncmp",13,TRUE,"Not Docked",0,0,0,0,0,1,5,0,1,0,1,2,"Engaged",9,28,10,TRUE
+"472",5827,"pncmp",11,TRUE,"Not Docked",1,0,0,0,0,0,4,0,2,0,0,0,"Engaged",6,18,10,FALSE
+"473",1983,"pncmp",10,TRUE,"Engaged",0,0,1,0,0,0,4,0,0,0,0,0,"Parked",21,8,2,TRUE
+"474",948,"pncmp",7,FALSE,"Engaged",0,0,1,0,0,0,3,3,2,0,0,0,"Docked",18,25,6,TRUE
+"475",753,"pncmp",15,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,3,"Docked",9,15,6,FALSE
+"476",7627,"pncmp",14,TRUE,"Engaged",0,0,1,0,0,0,0,0,0,0,2,2,"Docked",21,16,6,FALSE
+"477",8532,"pncmp",14,TRUE,"Not Docked",0,0,1,0,0,0,1,1,0,0,1,1,"Parked",9,13,2,TRUE
+"478",1318,"pncmp",12,TRUE,"Not Docked",0,0,1,0,0,1,1,0,0,0,3,2,"Engaged",15,21,10,TRUE
+"479",2811,"pncmp",13,TRUE,"Engaged",0,0,0,0,0,1,0,1,1,0,2,0,"Engaged",21,14,10,TRUE
+"480",2910,"pncmp",13,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,1,3,"Engaged",9,23,10,TRUE
+"481",4131,"pncmp",12,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,2,2,"Engaged",9,16,10,FALSE
+"482",5468,"pncmp",11,TRUE,"Engaged",0,0,0,0,0,1,3,0,0,0,0,0,"Engaged",21,6,10,FALSE
+"483",3636,"pncmp",11,TRUE,"Not Docked",0,0,0,0,0,1,0,1,1,1,3,2,"Parked",9,29,2,TRUE
+"484",7461,"pncmp",10,TRUE,"Not Docked",0,0,0,0,0,1,0,0,1,0,0,3,"Engaged",9,20,10,TRUE
+"485",5920,"pncmp",8,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Docked",3,0,6,FALSE
+"486",955,"pncmp",10,TRUE,"Not Docked",0,0,1,0,0,1,0,2,0,1,2,2,"Engaged",15,24,10,TRUE
+"487",3663,"pncmp",7,TRUE,"Not Docked",0,0,0,0,0,1,1,1,0,0,2,2,"Parked",9,21,2,TRUE
+"488",6831,"pncmp",10,TRUE,"Not Docked",0,0,1,0,0,0,0,0,0,0,0,1,"Engaged",9,5,10,FALSE
+"489",3070,"pncmp",9,TRUE,"Not Docked",0,0,0,0,0,0,1,0,0,1,0,2,"Engaged",3,14,10,TRUE
+"490",3711,"pncmp",9,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,2,"Engaged",3,10,10,TRUE
+"491",4125,"pncmp",8,FALSE,"Not Docked",1,0,0,0,0,0,1,0,0,0,0,0,"Parked",3,2,2,TRUE
+"492",1425,"pncmp",7,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,3,0,2,"Engaged",9,16,10,FALSE
+"493",4469,"pncmp",7,FALSE,"Engaged",0,0,1,0,0,0,1,0,1,1,0,1,"Parked",18,14,2,FALSE
+"494",7461,"pncmp",5,TRUE,"Not Docked",0,0,0,0,0,1,0,0,3,2,1,1,"Engaged",9,27,10,TRUE
+"495",1318,"pncmp",6,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,0,2,1,"Docked",15,19,6,TRUE
+"496",1318,"pncmp",6,TRUE,"Not Docked",0,0,1,0,0,1,0,1,1,2,2,1,"Not Parked",15,23,0,TRUE
+"497",4911,"pncmp",5,TRUE,"Not Docked",0,0,0,0,0,0,0,0,0,0,1,0,"Engaged",3,3,10,FALSE
+"498",753,"pncmp",5,TRUE,"Not Docked",0,0,1,0,0,0,0,0,1,1,0,2,"Engaged",9,17,10,FALSE
+"499",955,"pncmp",4,TRUE,"Not Docked",0,0,1,0,0,1,0,1,0,0,0,3,"Engaged",15,18,10,FALSE
+"500",2811,"pncmp",4,TRUE,"Engaged",0,0,0,0,1,0,0,0,0,0,0,1,"Docked",19,5,6,TRUE
+"501",2471,"pncmp",2,FALSE,"Not Docked",0,0,0,1,0,0,0,0,0,0,0,0,"Parked",3,0,2,FALSE
+"502",4488,"pncmp",3,FALSE,"Not Docked",0,0,0,0,0,0,0,0,0,0,0,0,"Parked",0,0,2,FALSE
+"503",3636,"pncmp",2,TRUE,"Not Docked",0,0,0,0,0,1,0,0,0,0,0,5,"Parked",9,25,2,TRUE
+"504",5827,"pncmp",1,TRUE,"Not Docked",0,0,1,0,0,0,0,1,0,0,0,0,"Engaged",9,3,10,TRUE
+"505",2910,"pncmp",1,TRUE,"Not Docked",1,0,0,0,0,1,1,0,0,1,2,2,"Engaged",12,20,10,TRUE
+"506",2811,"pncmp",60,FALSE,"Not Docked",0,0,1,0,0,0,0,2,0,0,2,2,"Engaged",6,22,10,TRUE
+"507",2147,"pncmp",58,TRUE,"Engaged",0,0,0,0,0,1,2,1,1,0,3,1,"Engaged",21,26,10,FALSE

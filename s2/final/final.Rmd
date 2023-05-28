@@ -359,9 +359,6 @@ all_data_2023 <- all_data_2023[all_data_2023$match_number > 0 & !is.na(all_data_
 rownames(all_data_2022) <- NULL
 rownames(all_data_2023) <- NULL
 
-write.csv(all_data_2022, "all_data_2022.csv")
-write.csv(all_data_2023, "all_data_2023.csv")
-
 get_match_key <- \(event, year., match_number) paste0(year., event, "_qm", match_number) # nolint
 
 # This function retrieves the match data from The Blue Alliance for a given
@@ -508,8 +505,31 @@ team_won_match <- \(team, match_data) get_team_alliance(team, match_data) == get
 
 check_win <- \(dfrow, yr) team_won_match(dfrow$team_number, get_match_data_from_tba(dfrow$event, yr, dfrow$match_number)) # nolint
 
-all_data_2022$won_match <- apply(all_data_2022, 1, check_win, 2022)
-all_data_2023$won_match <- apply(all_data_2023, 1, check_win, 2023)
+if (!file.exists("all_data_2022.csv") || !file.exists("all_data_2023.csv"))
+    all_data_2022$won_match <- (function() {
+        result <- c()
+        for (i in seq_len(all_data_2022 |> nrow())) {
+            oldlen <- length(result)
+            result <- c(result, all_data_2022[i,] |> check_win(2022))
+            if (length(result) == oldlen) {
+                result <- c(result, FALSE)
+            }
+        }
+        return(result)
+    })()
+    all_data_2023$won_match <- (function() {
+        result <- c()
+        for (i in seq_len(all_data_2023 |> nrow())) {
+            oldlen <- length(result)
+            result <- c(result, all_data_2023[i,] |> check_win(2023))
+            if (length(result) == oldlen) {
+                result <- c(result, FALSE)
+            }
+        }
+        return(result)
+    })()
+    write.csv(all_data_2022, "all_data_2022.csv")
+    write.csv(all_data_2023, "all_data_2023.csv")
 ```
 
 ```{r include=F}
