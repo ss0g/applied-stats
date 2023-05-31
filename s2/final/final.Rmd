@@ -130,51 +130,16 @@ drivetrain. The main drawback of swerve drive is that it can at times be prohibi
 module typically costing upwards of $300 not even including the motors. This is because they are very complex, with
 lots of gears and custom machined parts. 
 
-To analyze the effect of drivetrain on a team's success, I will perform two inference tests: 
+<!-- To analyze the effect of drivetrain on a team's success, I will perform two inference tests: 
 \begin{enumerate}
     \item A two sample difference of means $t$-test to compare the success of teams using holonomic and non-holonomic
     drivetrains
     \item A one-way ANOVA test to see if the difference in success is any greater if Mecanum and Swerve are not grouped
     together
-\end{enumerate}
+\end{enumerate} -->
 
-\subsubsection{Scoring capability}
-
-A robot's scoring capability can have a very direct effect on its success. If a robot can only score in locations that
-give low amounts of points, such as the LOWER HUB in RAPID REACT or the HYBRID NODES in CHARGED UP. Robots that are
-able to score in locations that give higher amounts of points are obviously going to score more points than robots that
-can't in almost every situation. From what I've seen, robots built by "good" teams tend to have this capability. 
-
-Also, in CHARGED UP, some teams can only score cubes or cones. Many teams can do both, but teams that can only do one
-could potentially be at a disadvantage. 
-
-In the event of a specific robot being a chassis bot (i.e. only a drivetrain, can't score any pieces), the scoring
-capability will be NA.
-
-To analyze the effect of scoring capability I will do a different set of inference tests for RAPID REACT and for
-CHARGED UP:
-\begin{enumerate}
-    \item For RAPID REACT, I will do a 2-sample difference of means $t$-test to compare robots that score low against
-    robots that score high.
-    \item For CHARGED UP, I will do a one-way ANOVA test to see if there is a difference in the success of robots that
-    can only score in the HYBRID NODES, robots that can score in the MIDDLE NODES, and robots that can score in the
-    HIGH NODES. I will also do a 2-sample difference of means $t$-test to compare the success of robots that can only
-    score one type of game piece against that of those that can score both types. 
-\end{enumerate}
-<!-- TODO: possibly reformat above? -->
-
-\subsubsection{Consistency}
-
-A common characteristic of robots that people would consider "good" is consistency. These robots tend to perform very
-consistently throughout an event and throughout the season, with the main source of inconsistency being an improvement
-in the skill of the driver. This will only be analyzed for the Pacific Northwest because the scouting data is the only
-data source detailing the performance of individual robots.
-
-To analyze the effect of consistency on a robot's success, I will calculate the standard deviation of the change in
-score between consecutive matches for all of a robot's matches. Then, I will create a linear model using that standard
-deviation to predict win rate and perform a $t$-test for slope to see if the relationship is significant. 
-
-<!-- TODO: need to add more robot-related factors here for the RAPID REACT and CHARGED UP sections -->
+To analyze the effect of drivetrain on a team's success, I will perform a two sample difference of means $t$-test to
+compare the win rate of teams with holonomic drivetrains to teams without holonomic drivetrains.
 
 \subsubsection{School budget}
 
@@ -183,8 +148,8 @@ allowing them to use more complex tools, purchase higher-end parts, and go to mo
 <!-- TODO: add more content here -->
 <!-- FIXME: maybe change to school budget -->
 
-To analyze the effect of budget on a robot's success, I will create a model using school budget to predict win rate and
-perform a $t$-test for slope to see if the relationship is significant. 
+To analyze the effect of budget on a robot's success, I will create a model using school expenditures per pupil to
+predict win rate and perform a $t$-test for slope to see if the relationship is significant. 
 
 \subsubsection{Team age}
 An older team will likely have more advanced techniques and manufacturing processes at its disposal, while a younger
@@ -196,13 +161,16 @@ perform a $t$-test for slope to see if the relationship is significant.
 
 \subsection{Predictive models}
 
-After analyzing individual variables, I will create two models:
+<!-- After analyzing individual variables, I will create two models:
 \begin{enumerate}
     \item A multiple linear regression model using a combination of the above variables to predict a team's overall win
     rate
     \item A multiple logistic regression model using a combination of the above variables and various metrics from a
     robot's allies and opponents to predict whether a robot will win a specific match
-\end{enumerate}
+\end{enumerate} -->
+
+After analyzing individual variables, I will create a multiple linear regression model using a combination of the above
+variables to predict a team's overall win rate
 
 \subsection{Data collection and sources}
 
@@ -219,7 +187,8 @@ that would be included in the data for 2022 would be number of pieces scored in 
 something that would be included in the data for 2023 would be number of pieces scored in HYBRID NODES. The Blue
 Alliance only has more general data, such as match results (win/loss). However, it also contains information about who
 was on what alliance for a specific match. This will be useful for gathering data about alliance members to use in the
-logistic regression model. 
+logistic regression model. I also have data from the Department of Education for the inference test with school
+expenditures. 
 
 ```{r sampling, include=F}
 union3 <- \(x, y, z) union(x, union(y, z))
@@ -505,31 +474,74 @@ team_won_match <- \(team, match_data) get_team_alliance(team, match_data) == get
 
 check_win <- \(dfrow, yr) team_won_match(dfrow$team_number, get_match_data_from_tba(dfrow$event, yr, dfrow$match_number)) # nolint
 
-if (!file.exists("all_data_2022.csv") || !file.exists("all_data_2023.csv"))
-    all_data_2022$won_match <- (function() {
-        result <- c()
-        for (i in seq_len(all_data_2022 |> nrow())) {
-            oldlen <- length(result)
-            result <- c(result, all_data_2022[i,] |> check_win(2022))
-            if (length(result) == oldlen) {
-                result <- c(result, FALSE)
+# if (!file.exists("all_data_2022.csv") || !file.exists("all_data_2023.csv")) {
+#     all_data_2022$won_match <- (function() {
+#         result <- c()
+#         for (i in seq_len(all_data_2022 |> nrow())) {
+#             oldlen <- length(result)
+#             result <- c(result, all_data_2022[i,] |> check_win(2022))
+#             if (length(result) == oldlen) {
+#                 result <- c(result, FALSE)
+#             }
+#         }
+#         return(result)
+#     })()
+#     all_data_2023$won_match <- (function() {
+#         result <- c()
+#         for (i in seq_len(all_data_2023 |> nrow())) {
+#             oldlen <- length(result)
+#             result <- c(result, all_data_2023[i,] |> check_win(2023))
+#             if (length(result) == oldlen) {
+#                 result <- c(result, FALSE)
+#             }
+#         }
+#         return(result)
+#     })()
+# }
+
+all_data_2022$won_match <- (function() {
+    result <- c()
+    for (i in seq_len(all_data_2022 |> nrow())) {
+        oldlen <- length(result)
+        result <- c(result, all_data_2022[i,] |> check_win(2022))
+        if (length(result) == oldlen) {
+            result <- c(result, FALSE)
+        }
+    }
+    return(result)
+})()
+all_data_2023$won_match <- (function() {
+    result <- c()
+    for (i in seq_len(all_data_2023 |> nrow())) {
+        oldlen <- length(result)
+        result <- c(result, all_data_2023[i,] |> check_win(2023))
+        if (length(result) == oldlen) {
+            result <- c(result, FALSE)
+        }
+    }
+    return(result)
+})()
+
+write.csv(all_data_2022, "all_data_2022.csv")
+write.csv(all_data_2023, "all_data_2023.csv")
+
+calculate_win_rate <- function(team, year) {
+    count <- 0
+    wins <- 0
+    dataset <- if (year == 2022) all_data_2022 else if (year == 2023) all_data_2023 else NA
+    for (i in seq_len(dataset |> nrow())) {
+        if (dataset[i,]$team_number == team) {
+            count <- count + 1
+            if (dataset[i,]$won_match) {
+                wins <- wins + 1
             }
         }
-        return(result)
-    })()
-    all_data_2023$won_match <- (function() {
-        result <- c()
-        for (i in seq_len(all_data_2023 |> nrow())) {
-            oldlen <- length(result)
-            result <- c(result, all_data_2023[i,] |> check_win(2023))
-            if (length(result) == oldlen) {
-                result <- c(result, FALSE)
-            }
-        }
-        return(result)
-    })()
-    write.csv(all_data_2022, "all_data_2022.csv")
-    write.csv(all_data_2023, "all_data_2023.csv")
+    }
+    if (count == 0) {
+        return(NA)
+    }
+    return(wins / count)
+}
 ```
 
 ```{r include=F}
@@ -539,10 +551,33 @@ if (!file.exists("qdata.csv")) {
 }
 ```
 
+```{r include=F}
+team_data <- read.csv("qdata.csv")[2:5]
+colnames(team_data)[3] <- "dt_type"
+colnames(team_data)[4] <- "eps" # school expenditure per student in 2017 from ocrdata.ed.gov
+team_data$win_rate <- (function() {
+    result <- c()
+    for (i in seq_len(team_data |> nrow())) {
+        result <- c(result, calculate_win_rate(team_data[i,]$team, team_data[i,]$year))
+    }
+    return(result)
+})()
+team_data_2022 <- team_data[team_data$year == 2022,] |> data.frame()
+team_data_2023 <- team_data[team_data$year == 2023,] |> data.frame()
+```
+
 \section{Findings}
 
 ```{r tests, include=F}
+dt_ttest <- t.test(win_rate ~ dt_type, data = team_data)
 
+exp_lm <- lm(win_rate ~ eps, data = team_data)
+
+team_age_lm <- lm(win_rate ~ team, data = team_data)
+```
+
+```{r models, include=F}
+wr_lm <- lm(win_rate ~ dt_type + eps + team, data = team_data)
 ```
 
 \section{Analysis}
