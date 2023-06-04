@@ -8,6 +8,7 @@ output:
         number_sections: True
 header_includes:
     \usepackage{amsmath}
+    \usepackage{amssymb}
     \allowdisplaybreaks
 fontsize: 12pt
 geometry:
@@ -15,6 +16,8 @@ geometry:
 ---
 
 ```{r setup, include=F}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+
 if (.Platform$OS.type == "unix") {
     setwd("/home/ss0g/school/applied-stats/s2/final")
 } else {
@@ -568,6 +571,8 @@ team_data_2023 <- team_data[team_data$year == 2023,] |> data.frame()
 
 \section{Findings}
 
+\subsection{Tests}
+
 ```{r tests, include=F}
 dt_ttest <- t.test(win_rate ~ dt_type, data = team_data)
 
@@ -576,9 +581,240 @@ exp_lm <- lm(win_rate ~ eps, data = team_data)
 team_age_lm <- lm(win_rate ~ team, data = team_data)
 ```
 
-```{r models, include=F}
-wr_lm <- lm(win_rate ~ dt_type + eps + team, data = team_data)
+\subsubsection{Win rate vs. drivetrain type}
+
+$$\text{Let } \mu_h = \text{True mean win rate of teams whose robots have holonomic drivetrains}$$
+$$\text{Let } \mu_{nh} = \text{True mean win rate of teams whose robots have non-holonomic drivetrains}$$
+$$H_0: \mu_h = \mu_{nh} $$
+$$H_a: \mu_h \neq \mu_{nh}$$
+$$\alpha = 0.05$$
+$$\text{Two-sample difference in means $t$-test}$$
+
+Random: teams were selected using a simple random sample \newline
+Normal:
+\begin{itemize}
+    \item $n_h = 34 \Rightarrow$ Central limit theorem states that the distribution of sample means is approximately normal \newline
+    \item $n_{nh} = 25 \Rightarrow$ CLT fails, need normal probability plot
+\end{itemize}
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(team_data[team_data$dt_type == "nh",], aes(sample = win_rate)) + # nolint
+    geom_qq() +
+    geom_qq_line() +
+    labs(
+        x = "Theoretical",
+        y = "Sample",
+        title = "Normal Q-Q plot of win rate of teams with non-holonomic drivetrains"
+    )
+
+print(dt_ttest)
 ```
+
+Normal probability plot is approximately linear $\Rightarrow$ win rate of teams with non-holonomic drivetrains is approximately normally distributed
+
+Independent:
+\begin{itemize}
+    \item $n_h = 34 \nless 0.1N_h$, proceeding with caution
+    \item $n_{nh} = 25 \nless 0.1N_{nh}$, proceeding with caution
+\end{itemize}
+
+$$t = 1.4802$$
+$$p = 0.1447 \text{ on } 53.038 \text{ df}$$
+
+Since our $p$-value (0.1447) is greater than $\alpha$ (0.05), we fail to reject our null hypothesis. Therefore, we do not
+have enough evidence to support the alternative hypothesis.
+
+\subsubsection{Win rate vs. school expenditure per pupil}
+
+$$\text{Let } \beta = \text{True mean slope of the relationship between win rate and school expenditure per pupil}$$
+$$H_0: \beta = 0$$
+$$H_a: \beta \neq 0$$
+$$\alpha = 0.05$$
+$$\text{$t$-test for slope}$$
+
+Linear:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data), aes(eps, win_rate)) +
+    geom_point() +
+    labs(
+        x = "School expenditure per pupil ($)",
+        y = "Win rate",
+        title = "Win rate vs. school expenditure per pupil"
+    )
+```
+Scatterplot of the data does not appear linear $\Rightarrow$ proceeding with caution
+
+Normal:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data), aes(sample = resid(exp_lm))) +
+    geom_qq() +
+    geom_qq_line() +
+    labs(
+        x = "Theoretical",
+        y = "Sample",
+        title = "Normal Q-Q plot of residuals of win rate vs. school expenditure per pupil"
+    )
+```
+
+Q-Q plot is approximately linear $\Rightarrow$ residuals are approximately normally distributed
+
+Equal Variance:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data), aes(fitted(exp_lm), resid(exp_lm))) +
+    geom_abline(slope = 0, intercept = 0) +
+    geom_point() +
+    labs(
+        x = "Fitted values",
+        y = "Residuals",
+        title = "Residuals vs. fitted values of win rate vs. school expenditure per pupil"
+    )
+```
+
+Residuals appear to be randomly distributed around 0 $\Rightarrow$ variance is approximately equal
+
+```{r echo=F}
+print(exp_lm)
+```
+
+$$t = -1.189$$
+$$p = 0.241 \text{ on } 44 \text{ df}$$
+
+Since our $p$-value (0.241) is greater than $\alpha$ (0.05), we fail to reject our null hypothesis. Therefore, we do
+not have enough evidence to support the alternative hypothesis.
+
+\subsubsection{Win rate vs. team number}
+
+$$\text{Let } \beta = \text{True mean slope of the relationship between win rate and team number}$$
+$$H_0: \beta = 0$$
+$$H_a: \beta \neq 0$$
+$$\alpha = 0.05$$
+$$\text{$t$-test for slope}$$
+
+Linear:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data), aes(team, win_rate)) +
+    geom_point() +
+    labs(
+        x = "Team number",
+        y = "Win rate",
+        title = "Win rate vs. team number"
+    )
+```
+
+Scatterplot of the data does not appear linear $\Rightarrow$ proceeding with caution
+
+Normal:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data[,c(1, 5)]), aes(sample = resid(team_age_lm))) +
+    geom_qq() +
+    geom_qq_line() +
+    labs(
+        x = "Theoretical",
+        y = "Sample",
+        title = "Normal Q-Q plot of residuals of win rate vs. team number"
+    )
+```
+
+Q-Q plot is approximately linear $\Rightarrow$ residuals are approximately normally distributed
+
+Equal Variance:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data[,c(1, 5)]), aes(fitted(team_age_lm), resid(team_age_lm))) +
+    geom_abline(slope = 0, intercept = 0) +
+    geom_point() +
+    labs(
+        x = "Fitted values",
+        y = "Residuals",
+        title = "Residuals vs. fitted values of win rate vs. team number"
+    )
+```
+
+Residuals appear to be randomly distributed around 0 $\Rightarrow$ variance is approximately equal
+
+```{r echo=F}
+print(summary(team_age_lm))
+```
+
+$$t = -0.145$$
+$$p = 0.886 \text{ on } 56 \text{ df}$$
+
+Since our $p$-value (0.886) is greater than $\alpha$ (0.05), we fail to reject our null hypothesis. Therefore, we do
+not have enough evidence to support the alternative hypothesis.
+
+\subsection{Predictive Model}
+
+```{r model, include=F}
+wr_lm <- lm(win_rate ~ dt_type + eps + team, data = team_data)
+wr_lm2 <- lm(win_rate ~ dt_type + eps, data = team_data)
+wr_lm3 <- lm(win_rate ~ dt_type + team, data = team_data)
+wr_lm4 <- lm(win_rate ~ eps + team, data = team_data)
+wr_lm5 <- lm(win_rate ~ dt_type * eps * team, data = team_data)
+wr_lm6 <- lm(win_rate ~ dt_type + eps + dt_type : eps + dt_type : team + dt_type : eps : team, data = team_data)
+wr_lm7 <- lm(win_rate ~ dt_type + eps + dt_type : team + dt_type : eps : team, data = team_data)
+# wr_lm7 chosen
+```
+
+\subsubsection{The model}
+
+```{r echo=F}
+print(summary(wr_lm7))
+```
+
+$$\hat{y} = 0.8246 + 0.05356 x_1 - 0.0001228 x_3 + 0.00001326 x_2 x_4 - 0.00008224 x_1 x_4 + 0.00000001327 x_2 x_3 x_4 + 0.00000002331 x_1 x_3 x_4$$
+$$\text{where } x_1 = \text{1 if team has a non-holonomic drivetrain, 0 if team has a holonomic drivetrain}$$
+$$x_2 = \text{1 if team has a holonomic drivetrain, 0 if team has a holonomic drivetrain}$$
+$$x_3 = \text{school expenditure per pupil}$$
+$$x_4 = \text{team number}$$
+$$\hat{y} = \text{predicted win rate}$$
+
+\subsubsection{$F$-test for model utility}
+
+$$H_0: \beta_1 = \beta_2 = \beta_3 = 0$$
+$$H_a: \sum_{i=1}^3 \beta_i^2 > 0$$
+$$\alpha = 0.05$$
+$$\text{$F$-test for model utility}$$
+
+Normal:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data), aes(sample = resid(wr_lm7))) +
+    geom_qq() +
+    geom_qq_line() +
+    labs(
+        x = "Theoretical",
+        y = "Sample",
+        title = "Normal Q-Q plot of residuals of win rate vs. predicted win rate"
+    )
+```
+
+Q-Q plot is approximately linear $\Rightarrow$ residuals are approximately normally distributed
+
+Equal Variance:
+
+```{r echo=F, fig.dim=c(6.5, 3.5)}
+ggplot(na.omit(team_data), aes(fitted(wr_lm7), resid(wr_lm7))) +
+    geom_abline(slope = 0, intercept = 0) +
+    geom_point() +
+    labs(
+        x = "Fitted values",
+        y = "Residuals",
+        title = "Residuals vs. fitted values of win rate vs. predicted win rate"
+    )
+```
+
+Residuals appear to be randomly distributed around 0 $\Rightarrow$ variance is approximately equal
+
+$$F = 1.616$$
+$$p = 0.1687 \text{ on } 6 \text{ and } 39 \text{ df}$$
+
+Since our $p$-value (0.1687) is greater than $\alpha$ (0.05), we fail to reject our null hypothesis. Therefore, we do
+not have enough evidence to support the alternative hypothesis.
 
 \section{Analysis}
 
