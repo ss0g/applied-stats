@@ -16,7 +16,7 @@ geometry:
 ---
 
 ```{r setup, include=F}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 if (.Platform$OS.type == "unix") {
     setwd("/home/ss0g/school/applied-stats/s2/final")
@@ -749,6 +749,14 @@ not have enough evidence to support the alternative hypothesis.
 
 \subsection{Predictive Model}
 
+Let
+
+$$\hat{y} = \text{Predicted win rate}$$
+$$x_1 = \text{1 if team has a non-holonomic drivetrain, 0 if team has a holonomic drivetrain}$$
+$$x_2 = 1 - x_1$$
+$$x_3 = \text{School expenditure per pupil}$$
+$$x_4 = \text{Team number}$$
+
 ```{r model, include=F}
 wr_lm <- lm(win_rate ~ dt_type + eps + team, data = team_data)
 wr_lm2 <- lm(win_rate ~ dt_type + eps, data = team_data)
@@ -760,30 +768,57 @@ wr_lm7 <- lm(win_rate ~ dt_type + eps + dt_type : team + dt_type : eps : team, d
 # wr_lm7 chosen
 ```
 
+\begin{tabular}{ | p{3.5in} | c | c | c | }
+\hline
+Model & $r^2$ & $r^2$(adj) & $F$ \\
+\hline
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_3 + \beta_3 x_4$ & 0.1256 & 0.06319 & 2.012 \\
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_3$ & 0.08679 & 0.04432 & 2.043 \\
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_4$ & 0.03889 & 0.003939 & 1.113 \\
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_3 + \beta_2 x_4$ & 0.03499 & -0.009898 & 0.7795 \\
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_3 + \beta_3 x_4 + \beta_4 x_1 x_3 + \beta_5 x_1 x_4 + \beta_6 x_3 x_4 + \beta_7 x_1 x_3 x_4$ & 0.2099 & 0.06437 & 1.442 \\
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_3 + \beta_3 x_1 x_3 + \beta_4 x_2 x_4 + \beta_5 x_1 x_4 + \beta_6 x_2 x_3 x_4 + \beta_7 x_1 x_3 x_4$ & 0.2099 & 0.06437 & 1.442 \\
+\hline
+$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_3 + \beta_3 x_2 x_4 + \beta_4 x_1 x_4 + \beta_5 x_2 x_3 x_4 + \beta_6 x_1 x_3 x_4$ & 0.1991 & 0.0759 & 1.616 \\
+\hline
+\end{tabular}
+
 \subsubsection{The model}
 
 ```{r echo=F}
-print(summary(wr_lm7))
+print(summary(wr_lm6))
 ```
 
-$$\hat{y} = 0.8246 + 0.05356 x_1 - 0.0001228 x_3 + 0.00001326 x_2 x_4 - 0.00008224 x_1 x_4 + 0.00000001327 x_2 x_3 x_4 + 0.00000002331 x_1 x_3 x_4$$
-$$\text{where } x_1 = \text{1 if team has a non-holonomic drivetrain, 0 if team has a holonomic drivetrain}$$
-$$x_2 = \text{1 if team has a holonomic drivetrain, 0 if team has a holonomic drivetrain}$$
-$$x_3 = \text{school expenditure per pupil}$$
-$$x_4 = \text{team number}$$
-$$\hat{y} = \text{predicted win rate}$$
+$$\hat{y} = \beta_0 + \beta_1 x_1 + \beta_2 x_3 + \beta_3 x_1 x_3 + \beta_4 x_2 x_4 + \beta_5 x_1 x_4 + \beta_6 x_2 x_3 x_4 + \beta_7 x_1 x_3 x_4$$
+
+where
+
+$$\beta_0 = 0.6709$$
+$$\beta_1 = 0.4599$$
+$$\beta_2 = -0.00007941$$
+$$\beta_3 = -0.0001023$$
+$$\beta_4 = 0.00003722$$
+$$\beta_5 = -0.0001234$$
+$$\beta_6 = 0.000000006757$$
+$$\beta_7 = 0.00000003287$$
 
 \subsubsection{$F$-test for model utility}
 
-$$H_0: \beta_1 = \beta_2 = \beta_3 = 0$$
-$$H_a: \sum_{i=1}^3 \beta_i^2 > 0$$
+$$H_0: \sum_{i=1}^7 \beta_i^2 = 0$$
+$$H_a: \sum_{i=1}^7 \beta_i^2 > 0$$
 $$\alpha = 0.05$$
 $$\text{$F$-test for model utility}$$
 
 Normal:
 
 ```{r echo=F, fig.dim=c(6.5, 3.5)}
-ggplot(na.omit(team_data), aes(sample = resid(wr_lm7))) +
+ggplot(na.omit(team_data), aes(sample = resid(wr_lm6))) +
     geom_qq() +
     geom_qq_line() +
     labs(
@@ -798,7 +833,7 @@ Q-Q plot is approximately linear $\Rightarrow$ residuals are approximately norma
 Equal Variance:
 
 ```{r echo=F, fig.dim=c(6.5, 3.5)}
-ggplot(na.omit(team_data), aes(fitted(wr_lm7), resid(wr_lm7))) +
+ggplot(na.omit(team_data), aes(fitted(wr_lm6), resid(wr_lm6))) +
     geom_abline(slope = 0, intercept = 0) +
     geom_point() +
     labs(
@@ -810,10 +845,10 @@ ggplot(na.omit(team_data), aes(fitted(wr_lm7), resid(wr_lm7))) +
 
 Residuals appear to be randomly distributed around 0 $\Rightarrow$ variance is approximately equal
 
-$$F = 1.616$$
-$$p = 0.1687 \text{ on } 6 \text{ and } 39 \text{ df}$$
+$$F = 1.442$$
+$$p = 0.2175 \text{ on } 7 \text{ and } 38 \text{ df}$$
 
-Since our $p$-value (0.1687) is greater than $\alpha$ (0.05), we fail to reject our null hypothesis. Therefore, we do
+Since our $p$-value (0.2175) is greater than $\alpha$ (0.05), we fail to reject our null hypothesis. Therefore, we do
 not have enough evidence to support the alternative hypothesis.
 
 \section{Analysis}
